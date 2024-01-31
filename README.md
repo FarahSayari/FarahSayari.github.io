@@ -1,5 +1,5 @@
 # Data Scientist
-Technical Skills: 
+**Technical Skills:**
 - Programming Languages: Python, C, Java
 - Data Science and AI: Python(NumPy, Pandas, scikit-learn)
 - Database: SQL(MySQL, PostgreSQL)
