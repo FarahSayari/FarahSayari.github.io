@@ -1,4 +1,3 @@
-# FarahSayari.github.io
 # Data Scientist
 
 ### Education
