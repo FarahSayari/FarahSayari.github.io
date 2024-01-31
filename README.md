@@ -20,4 +20,3 @@
 - Enhanced the robot's autonomous navigation in dynamic industrial environments.
 
 ### Projects related to Data Science
-Inspecting Electric Vehicle Charging Trends
