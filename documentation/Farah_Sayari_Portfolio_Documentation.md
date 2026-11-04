@@ -4,7 +4,7 @@ Portfolio content reference
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-04 · Africa/Tunis · 9 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-04 · Africa/Tunis · 11 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -19,12 +19,14 @@ This is a content reference rather than a screenshot reproduction. Explanatory n
 | 1 | Home | index.html | Main navigation |
 | 2 | About | about.html | Main navigation |
 | 3 | Resume | resume.html | Main navigation |
-| 4 | Services | services.html | Main navigation |
-| 5 | Portfolio | portfolio.html | Main navigation |
-| 6 | LollyBooks project details | portfolio-details.html | Portfolio detail link |
-| 7 | PulmoTrack project details | pulmotrack-details.html | Portfolio detail link |
-| 8 | Contact | contact.html | Main navigation |
-| 9 | Starter template | starter-page.html | Retained template; absent from the main navigation |
+| 4 | Certifications | certifications.html | Main navigation |
+| 5 | Services | services.html | Main navigation |
+| 6 | Portfolio | portfolio.html | Main navigation |
+| 7 | LollyBooks project details | portfolio-details.html | Portfolio detail link |
+| 8 | PulmoTrack project details | pulmotrack-details.html | Portfolio detail link |
+| 9 | Digital Gallery | digital-gallery.html | Main navigation |
+| 10 | Contact | contact.html | Main navigation |
+| 11 | Starter template | starter-page.html | Retained template; absent from the main navigation |
 
 ### How to update this record
 
@@ -48,12 +50,14 @@ Keep ongoing commentary or planned work in documentation/notes.json. Those notes
 | Biography / contact profile / rotating photos | about.html; assets/img/me11.png, me22.png, me33.png |
 | Resume text / downloadable CV | resume.html; assets/docs/Farah_Sayari_CV2026.pdf |
 | Service titles and descriptions | services.html |
+| Digital drawings / gallery introduction | digital-gallery.html; assets/css/collections.css |
+| Course certificates / credential links | certifications.html; assets/css/collections.css |
 | Project list / filters / thumbnails | portfolio.html; assets/img/portfolio/ and assets/img/masonry-portfolio/ |
 | LollyBooks case study | portfolio-details.html; assets/img/portfolio/lollybooks/library-art.webp |
 | PulmoTrack case study / scientific paper | pulmotrack-details.html; assets/docs/PulmoTrackPaper.pdf; assets/img/portfolio/pulmotrack/paper-preview.png |
 | Contact text / form fields / delivery endpoint | contact.html, including its inline JavaScript |
 | Global header / footer | Repeated in each HTML file; update each affected page |
-| Shared visual styles / page-specific styles | assets/css/main.css; assets/css/resume.css; assets/css/portfolio.css |
+| Shared visual styles / page-specific styles | assets/css/main.css; assets/css/resume.css; assets/css/portfolio.css; assets/css/collections.css |
 | Shared navigation / animations / filtering | assets/js/main.js |
 
 ## Shared header, navigation, and footer
@@ -65,10 +69,12 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | index.html | FARAH | N1 | S1 | F1 | Home |
 | about.html | FARAH | N1 | S1 | F1 | About |
 | resume.html | FARAH | N1 | S1 | F2 | Resume |
+| certifications.html | FARAH | N1 | S1 | F1 | Certifications |
 | services.html | FARAH | N1 | S1 | F1 | Services |
 | portfolio.html | FARAH | N1 | S1 | F2 | Portfolio |
 | portfolio-details.html | FARAH | N1 | S1 | F2 | Portfolio |
 | pulmotrack-details.html | FARAH | N1 | S1 | F2 | Portfolio |
+| digital-gallery.html | FARAH | N1 | S1 | F1 | Digital Gallery |
 | contact.html | FARAH | N1 | S1 | F2 | Contact |
 | starter-page.html | FARAH | N1 | S1 | F3 | (none) |
 
@@ -79,8 +85,10 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | Home | index.html |
 | About | about.html |
 | Resume | resume.html |
+| Certifications | certifications.html |
 | Services | services.html |
 | Portfolio | portfolio.html |
+| Digital Gallery | digital-gallery.html |
 | Contact | contact.html |
 
 ### Header social links S1
@@ -419,7 +427,30 @@ The source has two columns: summary, education, skills, languages, and activitie
 | GitHub | https://github.com/FarahSayari | (empty) |
 | LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 | (empty) |
 
-## 04 · Services
+## 04 · Certifications
+
+| Page attribute | Exact value |
+| --- | --- |
+| Source file | certifications.html |
+| Browser title | Certifications - Farah Sayari |
+| Language | en |
+| Description meta tag | Courses and certifications from my learning journey. |
+| Keywords meta tag | (empty) |
+| Main section IDs | certifications |
+
+### Exact page content
+
+**Certifications**
+
+> Courses and certifications from my learning journey.
+
+**Always learning.**
+
+> A place to share the certificates I earn through courses and continued learning.
+
+> My course certificates are coming soon.
+
+## 05 · Services
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -462,7 +493,7 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 > I like combining logic, data, creativity, and usability to build solutions that are both smart and pleasant to use.
 
-## 05 · Portfolio
+## 06 · Portfolio
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -527,7 +558,7 @@ The default filter is All. Filter membership and every existing detail destinati
 | assets/img/masonry-portfolio/masonry-portfolio-3.jpg | (empty) | presentation |
 | assets/img/portfolio/pulmotrack/pulmotrack.png | PulmoTrack project artwork illustrating CT-based nodule detection, segmentation, and classification | (empty) |
 
-## 06 · LollyBooks project details
+## 07 · LollyBooks project details
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -600,7 +631,7 @@ The default filter is All. Filter membership and every existing detail destinati
 | --- | --- | --- |
 | assets/img/portfolio/lollybooks/library-art.webp | Cozy pink bookshelves with string lights and a My Reading Library neon sign | (empty) |
 
-## 07 · PulmoTrack project details
+## 08 · PulmoTrack project details
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -962,7 +993,30 @@ The project image card contains 2 manually switchable images. Previous/next butt
 | assets/img/portfolio/pulmotrack/09_dso3_training_loss.png | 3D U-Net training and validation loss across 50 epochs | (empty) |
 | assets/img/portfolio/pulmotrack/attention-positive-prediction.png | Five CT slices with reference and predicted masks from a recorded Attention 3D U-Net positive-nodule case; Dice 0.8000, precision 0.8630, recall 0.7456 | (empty) |
 
-## 08 · Contact
+## 09 · Digital Gallery
+
+| Page attribute | Exact value |
+| --- | --- |
+| Source file | digital-gallery.html |
+| Browser title | Digital Gallery - Farah Sayari |
+| Language | en |
+| Description meta tag | A personal collection of my digital drawings, made for the joy of creating. |
+| Keywords meta tag | (empty) |
+| Main section IDs | digital-gallery |
+
+### Exact page content
+
+**Digital Gallery**
+
+> A personal collection of my digital drawings, made for the joy of creating.
+
+**A little art, a little imagination.**
+
+> Digital art is one of my favorite ways to express my creativity. This is a space for the drawings I make for fun.
+
+> My drawings are coming soon.
+
+## 10 · Contact
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1111,7 +1165,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 The browser validates required fields and the email format. On submission the inline script posts FormData to the configured action with Accept: application/json, shows a loading state, and disables the submit button. A successful response resets the form and shows the success message. An invalid form or unsuccessful request shows the corresponding message above. The _gotcha field is the hidden honeypot; the _subject field supplies the notification subject.
 
-## 09 · Starter template
+## 11 · Starter template
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1140,7 +1194,7 @@ The document records the website as it exists. These items are observations for 
 
 | Observation | Pages / current value |
 | --- | --- |
-| Header/footer email destinations | farahsayari.dev@gmail.com: about.html, contact.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html; farah.sayari@esprit.tn: about.html, index.html, services.html |
+| Header/footer email destinations | farahsayari.dev@gmail.com: about.html, certifications.html, contact.html, digital-gallery.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html; farah.sayari@esprit.tn: about.html, certifications.html, digital-gallery.html, index.html, services.html |
 | Project entries without descriptions or links | AI Agent Recruiter, TestPilot |
 | Different project naming | The resume calls its career assistant Aura; the portfolio entry is titled AI Agent Recruiter. This reference does not assume that they are the same project. |
 | Retained starter page | starter-page.html. Current brand: FARAH. Its exact content and links are recorded in its section. |
@@ -1150,24 +1204,25 @@ The document records the website as it exists. These items are observations for 
 
 | Reference | Used by |
 | --- | --- |
-| https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap/css/bootstrap.min.css | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap-icons/bootstrap-icons.css | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/aos/aos.css | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.css | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/css/main.css | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, starter-page.html |
-| assets/vendor/aos/aos.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
-| assets/js/main.js | index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html |
+| https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap/css/bootstrap.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap-icons/bootstrap-icons.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/aos/aos.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/css/main.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, starter-page.html |
+| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/js/main.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/css/resume.css | resume.html |
+| assets/css/collections.css | certifications.html, digital-gallery.html |
 | assets/css/portfolio.css | portfolio.html, portfolio-details.html, pulmotrack-details.html |
 
 ### Favicons
@@ -1180,6 +1235,8 @@ The document records the website as it exists. These items are observations for 
 | about.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | resume.html | icon | assets/img/favicon.png |
 | resume.html | apple-touch-icon | assets/img/apple-touch-icon.png |
+| certifications.html | icon | assets/img/favicon.png |
+| certifications.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | services.html | icon | assets/img/favicon.png |
 | services.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | portfolio.html | icon | assets/img/favicon.png |
@@ -1188,6 +1245,8 @@ The document records the website as it exists. These items are observations for 
 | portfolio-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | pulmotrack-details.html | icon | assets/img/favicon.png |
 | pulmotrack-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
+| digital-gallery.html | icon | assets/img/favicon.png |
+| digital-gallery.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | contact.html | icon | assets/img/favicon.png |
 | contact.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | starter-page.html | icon | assets/img/favicon.png |

@@ -200,7 +200,7 @@ def make_report(pages, date, notes):
     add('p','Website wording is reproduced without rewriting. HTML entities are decoded and layout whitespace is normalized; line wrapping, bullets, and font treatment follow this document. Content follows HTML source order, so a two-column page is read column by column. Hover text and animated alternatives are recorded explicitly.')
     add('p','This is a content reference rather than a screenshot reproduction. Explanatory notes, inventories, and update instructions are separate from the sections marked “Exact page content.” External websites, the map service, and contact delivery were not verified; the contact form was not submitted.')
     add('h2','Pages covered')
-    labels={'index.html':'Home','about.html':'About','resume.html':'Resume','services.html':'Services','portfolio.html':'Portfolio','portfolio-details.html':'LollyBooks project details','pulmotrack-details.html':'PulmoTrack project details','contact.html':'Contact','starter-page.html':'Starter template'}
+    labels={'index.html':'Home','about.html':'About','resume.html':'Resume','certifications.html':'Certifications','digital-gallery.html':'Digital Gallery','services.html':'Services','portfolio.html':'Portfolio','portfolio-details.html':'LollyBooks project details','pulmotrack-details.html':'PulmoTrack project details','contact.html':'Contact','starter-page.html':'Starter template'}
     report.table(['No.','Page','Source file','Entry point'],[[str(i),labels.get(p['file'],p['title']),p['file'],'Portfolio detail link' if p['file'].endswith('-details.html') else 'Retained template; absent from the main navigation' if p['file']=='starter-page.html' else 'Main navigation'] for i,p in enumerate(pages,1)])
     add('h2','How to update this record')
     for text in [
@@ -217,12 +217,14 @@ def make_report(pages, date, notes):
         ['Biography / contact profile / rotating photos','about.html; assets/img/me11.png, me22.png, me33.png'],
         ['Resume text / downloadable CV','resume.html; assets/docs/Farah_Sayari_CV2026.pdf'],
         ['Service titles and descriptions','services.html'],
+        ['Digital drawings / gallery introduction','digital-gallery.html; assets/css/collections.css'],
+        ['Course certificates / credential links','certifications.html; assets/css/collections.css'],
         ['Project list / filters / thumbnails','portfolio.html; assets/img/portfolio/ and assets/img/masonry-portfolio/'],
         ['LollyBooks case study','portfolio-details.html; assets/img/portfolio/lollybooks/library-art.webp'],
         ['PulmoTrack case study / scientific paper','pulmotrack-details.html; assets/docs/PulmoTrackPaper.pdf; assets/img/portfolio/pulmotrack/paper-preview.png'],
         ['Contact text / form fields / delivery endpoint','contact.html, including its inline JavaScript'],
         ['Global header / footer','Repeated in each HTML file; update each affected page'],
-        ['Shared visual styles / page-specific styles','assets/css/main.css; assets/css/resume.css; assets/css/portfolio.css'],
+        ['Shared visual styles / page-specific styles','assets/css/main.css; assets/css/resume.css; assets/css/portfolio.css; assets/css/collections.css'],
         ['Shared navigation / animations / filtering','assets/js/main.js'],
     ])
 

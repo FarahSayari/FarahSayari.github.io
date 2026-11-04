@@ -56,6 +56,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -63,6 +68,11 @@
         [
           "Portfolio",
           "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
           ""
         ],
         [
@@ -171,7 +181,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
@@ -265,6 +275,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -272,6 +287,11 @@
         [
           "Portfolio",
           "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
           ""
         ],
         [
@@ -395,7 +415,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
@@ -720,6 +740,11 @@
           "active"
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -727,6 +752,11 @@
         [
           "Portfolio",
           "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
           ""
         ],
         [
@@ -836,11 +866,177 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
           "text": "Resume\n\nAI & Software Engineer specializing in Data Science, agentic AI, and full-stack development.\n\nDownload CV (PDF)\nSummary\nFarah Sayari\n\nSoftware Engineer specializing in Data Science, with hands-on experience in Machine Learning, Deep Learning, agentic AI, and full-stack development. I build intelligent, data-driven applications and am seeking a full-time opportunity in AI, Data Science, or Software Engineering.\n\nAriana, Tunisia\n+216 28 528 390\nfarahsayari.dev@gmail.com\nGitHub · LinkedIn\nEducation\nEngineering Cycle in Computer Science – Data Science\n\nSep 2023 – Nov 2026\n\nESPRIT – Private Higher School of Engineering and Technology\n\nBachelor’s Degree in Computer Systems Engineering – Embedded Systems & IoT\n\nSep 2020 – Jun 2023\n\nFaculty of Sciences of Bizerte\n\nTechnical Skills\nProgramming\nPython, Java, JavaScript, R, C\nAI & Machine Learning\nScikit-learn, TensorFlow, Keras, PyTorch, MLflow, Deep Learning, NLP, Recommendation Systems\nGenerative AI & Agents\nLLMs, RAG, LangChain, LangGraph, Qdrant, Ollama, Prompt Engineering\nBackend & Frontend\nSpring Boot, FastAPI, Flask, Angular, React, REST APIs\nData Engineering & Analytics\nSQL, PostgreSQL, Hadoop, Talend, Data Warehousing, Power BI, Time Series Analysis\nDevOps & Tools\nGit, Docker, GitHub Actions, Jenkins, Linux, Cypress, Kubernetes\nLanguages\nArabic\nNative\nFrench\nC2\nEnglish\nC1\nActivities & Awards\nIEEE Computational Intelligence Society (CIS) — ESPRIT Chapter, 2025.\nBal des Projets — ESPRIT (2024 & 2025) — Academic projects pre-selected for both editions.\nIEEEXtreme 17.0 & 18.0 — Participant.\nUniversity English Competition (2024) — 3rd Place.\n\nInterests: Reading & Literature, Digital Art & Illustration.\n\nProfessional Experience\nAI & Full-Stack Software Engineer Intern\n\nFeb – Aug 2026\n\nVERMEG · PFE Internship\n\nTestPilot — AI-Assisted Test Automation Platform\n\nDesigned and developed a full-stack test automation platform using Angular, Spring Boot, FastAPI, and PostgreSQL, enabling QA teams to manage, generate, and execute automated tests.\nEngineered a hybrid agentic AI pipeline using Python, LangGraph, and LLMs to transform recorded user interactions into structured test models and executable Cypress scripts.\nDeveloped a Chrome extension (Manifest V3) to capture browser interactions and implemented LLM-assisted script repair with validation and controlled retries.\nIntegrated Cypress test execution, automated reporting, GitHub Actions CI/CD, and Docker to support continuous testing and deployment.\nData Scientist Intern\n\nJul – Aug 2025\n\nEsprit-Tech · Summer Internship\n\nClustering Algorithms for Heterogeneous Student Groups\n\nImplemented and compared multiple clustering algorithms, achieving a 0.72 Silhouette Score, and built an interactive Streamlit dashboard to visualize and evaluate results.\nDeveloped an automated group formation pipeline integrated into the backend, supporting teachers in forming balanced and diverse student teams.\nProjects\nLollyBooks\n\nOct – Present · Ongoing\n\nCo-Founder & Software Engineer\n\nPersonalized Digital Library & AI Reading Companion\n\nCo-designed and developed an interactive digital library featuring customizable bookshelves, reading analytics, and goal tracking.\nIntegrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports.\nPrototyped recommendations based on reading preferences and mood, and designed an LLM-powered reading companion for conversational book discovery.\nAura\n\nOct – Present · Ongoing\n\nAI & Software Engineer\n\nAgentic AI Career Assistant\n\nRedesigning a local, agentic AI assistant to automate job discovery and match job descriptions with personal skills and experience.\nDeveloping an LLM-powered application assistant to generate tailored cover letters, analyze CV compatibility, and recommend targeted resume improvements.\nAdapting RAG, semantic search, and agent orchestration using LangChain, LangGraph, and Qdrant to support personalized job search and application workflows."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n"
+        }
+      ]
+    },
+    {
+      "file": "certifications.html",
+      "title": "Certifications - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Courses and certifications from my learning journey.",
+        "keywords": ""
+      },
+      "sections": [
+        [
+          "section",
+          "certifications"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Certifications"
+        },
+        {
+          "tag": "p",
+          "text": "Courses and certifications from my learning journey."
+        },
+        {
+          "tag": "h3",
+          "text": "Always learning."
+        },
+        {
+          "tag": "p",
+          "text": "A place to share the certificates I earn through courses and continued learning."
+        },
+        {
+          "tag": "p",
+          "text": "My course certificates are coming soon."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Certifications",
+          "certifications.html",
+          "active"
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farah.sayari@esprit.tn"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": []
+      },
+      "links": [],
+      "images": [],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/collections.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Certifications\n\nCourses and certifications from my learning journey.\n\nAlways learning.\n\nA place to share the certificates I earn through courses and continued learning.\n\nMy course certificates are coming soon."
         },
         {
           "region": "footer",
@@ -942,6 +1138,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           "active"
@@ -949,6 +1150,11 @@
         [
           "Portfolio",
           "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
           ""
         ],
         [
@@ -1031,7 +1237,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
@@ -1120,6 +1326,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -1128,6 +1339,11 @@
           "Portfolio",
           "portfolio.html",
           "active"
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
+          ""
         ],
         [
           "Contact",
@@ -1299,7 +1515,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
@@ -1440,6 +1656,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -1448,6 +1669,11 @@
           "Portfolio",
           "portfolio.html",
           "active"
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
+          ""
         ],
         [
           "Contact",
@@ -1542,7 +1768,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
@@ -2197,6 +2423,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -2205,6 +2436,11 @@
           "Portfolio",
           "portfolio.html",
           "active"
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
+          ""
         ],
         [
           "Contact",
@@ -2607,11 +2843,177 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
           "text": "Back to Portfolio\nPulmoTrack — Deep Learning for Pulmonary Nodule Analysis\n\nResearch · Deep Learning · Medical Imaging · Computer Vision\n\nAn academic medical-imaging project using LUNA16 CT scans to study nodule candidate detection, binary classification and exploratory 3D segmentation, presented through an interactive research website.\n\nPrevious image\nNext image\nProject Information\nCategory: Research, DL, Medical Imaging, Computer Vision\nRole: Data Scientist, Project Manager\nMethodology: CRISP-DM\nDataset: LUNA16\nStatus: Completed\nScientific Paper: Available · Team research manuscript\nOpen Live Showcase\n(opens in a new tab)\nView Source on GitHub\n(opens in a new tab)\nTechnologies\n\nResearch: Python, PyTorch, torchvision, NumPy, pandas, SciPy, scikit-learn, SimpleITK.\n\nAnalysis & delivery: Jupyter Notebook, Google Colab, Matplotlib, Plotly, Pillow, Streamlit, Git, GitHub and Streamlit Community Cloud.\n\nProject Summary\n\nJump directly to a section of the project.\n\nProject Information\nTechnologies\nProject Overview\nMy Contributions\nLUNA16 Dataset\nProject Methodology\nExplore the Three DSOs\nDSO1 — Nodule Detection\nData Processing\nModels Applied\nResults & Evaluation\nDSO2 — Nodule Classification\nData Processing\nModels Applied\nResults & Evaluation\nDSO3 — Exploratory 3D Segmentation\nData Processing\nModels Applied\nResults & Evaluation\nDeployment\nResearch Paper\nPaper-reported LUNA16 highlights\nProject Overview\n\nLung cancer is the leading cause of cancer-related death worldwide and is often diagnosed at an advanced stage, when treatment options are more limited. Earlier identification and appropriate follow-up can improve the opportunity for effective treatment.\n\nPulmoTrack explores how deep learning can analyze pulmonary nodules in volumetric CT data. The project connects medical-image preprocessing, three research objectives, model evaluation and a deployed interface that makes the experiments understandable to a portfolio audience.\n\nThe work is an academic research study. Its recorded models evaluate nodule candidates and masks; they do not establish a clinically validated cancer diagnosis system.\n\nScientific context: World Health Organization — Lung cancer.\n\nMy Contributions\nLUNA16 preprocessing. Worked on CT resampling, annotation and candidate inspection, world-to-voxel coordinate conversion, intensity normalization and 3D patch preparation.\nDetection and classification. Developed and studied 3D candidate-screening and binary classification approaches, comparing their saved training histories, confusion matrices and ROC evaluations.\nExploratory segmentation. Investigated 3D U-Net, attention and residual-attention variants, and tiny-nodule oversampling, documenting both promising summaries and difficult positive-only cases.\nResults and documentation. Organized notebook outputs, kept evaluation cohorts and checkpoint results distinct, and contributed to the team research manuscript.\nDeployment. Created a Streamlit research showcase with CT visualizations, model overviews, result interpretation, source resources and access to the research paper.\nLUNA16 Dataset\n\nLUNA16 (Lung Nodule Analysis 2016) is derived from LIDC-IDRI and contains 888 volumetric chest CT scans. It provides CT volumes, candidate locations and nodule annotations for pulmonary nodule research.\n\nThe official reference standard includes nodules at least 3 mm in diameter accepted by at least three of four radiologists. Scans with slice thickness greater than 2.5 mm were excluded. The CT collection is approximately 90 GB in scale; the deployed showcase uses saved outputs rather than distributing the dataset.\n\nThe project prepares different patch collections for different experiments: 64³ voxels for detection/classification and 48³ voxels for the archived segmentation studies.\n\nDataset source and access: LUNA16 official data page.\n\nProject Methodology\n\nPulmoTrack follows the CRISP-DM methodology, from understanding the research problem and preparing LUNA16 CT data to modeling, evaluation, and deployment. This iterative workflow guides the three research objectives and the presentation of their results in the Streamlit showcase.\n\nExplore the Three DSOs\n\nData processing prepares the CT scans for learning; modeling builds and trains networks using that prepared data. Before preparing the task-specific datasets, we resampled CT volumes to 1 × 1 × 1 mm voxel spacing and converted annotation coordinates from millimetres to voxel locations using each scan’s origin and spacing, accounting for medical-image order (x, y, z) and NumPy array order (z, y, x).\n\nThe evaluation tables preserve each saved checkpoint’s recorded cohort. Accuracy is calculated from the original confusion matrix, while ROC-AUC comes from the corresponding recorded output.\n\nDSO1 — Nodule Detection\n\nThis objective screens supplied candidate locations. Each input is a 3D patch around a candidate, and the output is a nodule or non-nodule label.\n\nData Processing\nCandidate matching: Compared candidates with annotated nodule centres from the same scan. A distance below 5 mm defined the strict positive label for the selected dataset; preparation also explored a looser 10 mm label.\nDataset selection: Retained 1,215 positive candidates and randomly sampled 8,000 negatives, producing 9,215 patches. The larger negative collection exposes the model to varied non-nodule appearances.\nPatch extraction: Extracted 64 × 64 × 64 patches around candidates and padded border patches to preserve the expected dimensions.\nNormalization and tensors: Subtracted each patch’s mean and divided by its standard deviation, then created one-channel tensors with shape (1, 64, 64, 64).\nDataset split: Used a seeded random patch split of 6,451 training, 1,843 validation and 921 test examples.\nModels Applied\n\nApplied a U-Net-style 3D encoder classifier with 32 → 64 → 128 → 256 feature channels. Convolution and pooling build 3D features, followed by global average pooling and a linear head that produces two class scores. This model has no segmentation decoder and predicts a patch label, rather than a boundary or bounding box.\n\nTraining used weighted focal loss (γ = 2), Adam with learning rate 0.0001, batch size 16 and 20 recorded epochs. Class weights emphasize less frequent positive examples, while focal loss concentrates learning on difficult cases. The lowest validation loss determined the selected checkpoint.\n\nResults & Evaluation\nCohort\tPatches\tAccuracy\tROC-AUC\nValidation\t1,843\t98.37%\t0.9928\nTest\t921\t97.83%\t0.9961\nDSO1 — Test-set confusion matrix.\nDSO1 — Test-set ROC curve; AUC is rounded in the plot legend.\nDSO1 — Training and validation history.\n\nOn the 921-patch test cohort, the saved model correctly identifies 112 of 121 nodule patches (92.56% sensitivity), with 11 false positives and 9 false negatives. These are candidate-level outcomes; they do not establish false positives per full CT scan.\n\nInterpretation: The test accuracy of 97.83% and ROC-AUC of 0.9961 show strong separation on the recorded candidate cohort. Sensitivity of 92.56% also makes the remaining nine missed nodule patches visible.\n\nDSO2 — Nodule Classification\n\nThe recorded task classifies a 3D candidate patch as a true nodule or false nodule. Although the wider project discusses benign/malignant classification, these implemented evaluations use binary candidate labels.\n\nData Processing\nSeparate patch collection: Prepared this dataset independently of the 9,215 detection examples. The preparation cell filters candidates marked as class 1 and compares their positions with annotation centres using a 6 mm matching threshold.\nPatch extraction and normalization: Extracted 64 × 64 × 64 patches, padded when needed, and applied mean-and-standard-deviation normalization.\nLabels and storage: Saved tensors into separate folders, with label 1 for true nodules and 0 for false nodules.\nDataset and initial split: The notebook reports 1,243 true-nodule and 761 false-nodule patches, totalling 2,004. The initial split contains 1,603 training, 200 validation and 201 test patches.\nModels Applied\nImproved 3D CNN: Three convolution blocks followed by adaptive pooling, a dense layer, dropout and a two-class output; 17 recorded epochs.\nResNet3D Lite: Residual blocks combine transformed features with shortcut connections, followed by global pooling and a classification head; 6 recorded epochs.\nU-Net encoder classifier: Four encoder stages followed by global pooling and a dense two-class head; 30 recorded epochs.\n\nAll three architectures use cross-entropy loss and Adam with an initial learning rate of 0.0001. Dropout regularizes the CNN and U-Net heads. Validation loss guides checkpoint selection, and saved evaluations are kept separate from final-epoch logs.\n\nResults & Evaluation\nStudy / cohort\tPatches\tAccuracy\tROC-AUC\nImproved 3D CNN · validation\t200\t74.50%\t0.8269\nImproved 3D CNN · test\t201\t74.63%\t0.8335\nResNet3D Lite · validation\t401\t72.07%\t0.7678\nU-Net encoder · validation\t200\t74.00%\t0.8116\nDSO2 — Improved 3D CNN training and validation history.\n\nThe Improved 3D CNN test evaluation identifies 107 of 123 true-nodule patches, with 35 false positives and 16 false negatives. Its accuracy and AUC describe binary candidate labels, not malignancy diagnosis.\n\nHow to compare these results. Each model retains its own recorded cohort. The ResNet matrix contains 401 patches despite an earlier 200-patch validation log. Splitting is by patch, and a patient-disjoint benchmark is not established. These studies support analysis of the recorded runs, not a controlled architecture ranking.\n\nInterpretation: The Improved 3D CNN reaches 74.63% test accuracy and ROC-AUC 0.8335 on its 201-patch cohort. Its 35 false positives and 16 false negatives show the remaining classification errors. The differing evaluation cohorts prevent treating these recorded runs as a controlled ranking of the three architectures.\n\nDSO3 — Exploratory 3D Segmentation\n\nThis objective predicts a mask identifying nodule voxels within a 3D CT patch. It is a parallel research exploration, rather than a prerequisite for detection or classification.\n\nData Processing\nVolume preparation: Prepared lung regions, clipped intensities to −1000 to 400 HU and scaled them to the range [0, 1].\nReference masks: Created spherical masks from annotated nodule centres and diameters. These approximate reference regions are not manually traced nodule boundaries.\nPatch extraction: Extracted 48 × 48 × 48 positive CT patches with corresponding mask patches. Negative patches were sampled away from annotated nodules and paired with empty masks.\nAugmentation and normalization: Explored flips, rotations, zoom, noise and intensity shifts, with patch-level min–max normalization in the model loader.\nSplits and tiny nodules: The baseline records 2,036 training and 509 validation patches. Later experiments oversampled selected small-nodule examples to increase their exposure during training.\nModels Applied\n\nThe segmentation flow is CT patch → encoder → bottleneck → decoder → voxel probability map. Decoder upsampling and encoder-to-decoder skip connections help reconstruct spatial detail.\n\n3D U-Net: Baseline encoder–decoder architecture.\nAttention 3D U-Net: Attention gates weight features passed through skip connections.\nResidual Attention 3D U-Net: Residual convolution blocks combined with attention gates.\nTiny-nodule training: Baseline architecture with modified sampling and augmentation.\n\nRecorded training used binary cross-entropy loss and Adam at 0.0001. A sigmoid produces voxel probabilities, and a 0.5 threshold converts them into binary masks.\n\nResults & Evaluation\n\nSegmentation results depend strongly on the selected patches and the handling of empty masks. The table preserves these separate experimental contexts; all values are notebook-reported summaries.\n\nModel study\tEvaluation context\tPatches\tReported score\n3D U-Net\tFive positives · A\t5\tDice 0.2115\n3D U-Net\tFive positives · B\t5\tDice 0.3127\n3D U-Net\tMixed validation loader\t509\tDice 0.9504\nAttention U-Net\tFive positive patches\t5\tDice 0.1599\nAttention U-Net\tTen mixed patches\t10\tDice 0.9800\nResidual attention\tTen positives · initial\t10\tDice 0.1200\nResidual attention\tTen positives · later\t10\tDice 0.0348\nDSO3 — Baseline 3D U-Net training and validation loss.\n\nThe 0.9504 validation Dice comes from a mixed, augmented loader, where smoothing assigns empty prediction/reference pairs a Dice near 1. The attention model’s mixed-patch evaluator similarly assigns perfect scores to empty pairs. Positive-only samples show the remaining difficulty of recovering small nodule regions.\n\nTiny-nodule augmentation retains saved prediction examples and a final validation binary cross-entropy loss of 0.0446. No Dice, precision, recall or F1 evaluation was recorded for that run; a lower loss is not an overlap score.\n\nRecorded Attention 3D U-Net positive-nodule example — Dice 0.8000, precision 0.8630, recall 0.7456. Single case from the ten-patch mixed evaluation.\n\nEvaluation context: The notebook applies random augmentation to images and masks through separate calls, so their spatial transformations are not guaranteed to match; validation also inherits augmentation. Patch splits do not establish patient-disjoint evaluation. Together with the mixed-versus-positive-only score differences, these limitations keep the segmentation findings exploratory.\n\nDeployment\n\nMy PulmoTrack contribution is hosted on Streamlit Community Cloud, with the GitHub repository as its deployment source. The interface preserves the dark navy and teal medical-imaging identity, sidebar navigation and CT-focused visual presentation.\n\nVisitors can explore model architectures, recorded metrics, training histories, original segmentation predictions, pilot Grad-CAM, research resources and the manuscript viewer. The app presents saved evidence; it requires no CT dataset download or live model execution.\n\nDelivery workflow: Research notebooks → exported figures and result summaries → Streamlit interface → GitHub → Streamlit Community Cloud.\n\nThe website is a completed research showcase, rather than a patient-upload or diagnostic inference service. Repository changes can be reflected in the deployed app through Community Cloud’s GitHub integration.\n\nOpen Live Showcase\n(opens in a new tab)\nView Source on GitHub\n(opens in a new tab)\n\nDeployment reference: Streamlit Community Cloud documentation.\n\nResearch Paper\n\nTitle: PulmoTrack: A Deep Learning Solution for Pulmonary Nodule Segmentation, Detection, and Classification on CT and Chest X-ray Scans\n\nDocument: Team research manuscript · May 2025 · 11 pages.\n\nAuthors: Farah Sayari and co-authors.\n\nThe manuscript covers the broader team project, including CT and chest X-ray work. This portfolio page focuses on the LUNA16 CT contribution.\n\nPaper-reported LUNA16 highlights\n\nThe manuscript reports segmentation Dice 0.95, detection sensitivity 92% at 1.5 false positives per scan, and classification AUC 0.91 (pp. 4–5).\n\nView Paper (PDF)\n(opens in a new tab)\nDownload Paper (PDF)"
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n"
+        }
+      ]
+    },
+    {
+      "file": "digital-gallery.html",
+      "title": "Digital Gallery - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "A personal collection of my digital drawings, made for the joy of creating.",
+        "keywords": ""
+      },
+      "sections": [
+        [
+          "section",
+          "digital-gallery"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Digital Gallery"
+        },
+        {
+          "tag": "p",
+          "text": "A personal collection of my digital drawings, made for the joy of creating."
+        },
+        {
+          "tag": "h3",
+          "text": "A little art, a little imagination."
+        },
+        {
+          "tag": "p",
+          "text": "Digital art is one of my favorite ways to express my creativity. This is a space for the drawings I make for fun."
+        },
+        {
+          "tag": "p",
+          "text": "My drawings are coming soon."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
+          "active"
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farah.sayari@esprit.tn"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": []
+      },
+      "links": [],
+      "images": [],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/collections.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Digital Gallery\n\nA personal collection of my digital drawings, made for the joy of creating.\n\nA little art, a little imagination.\n\nDigital art is one of my favorite ways to express my creativity. This is a space for the drawings I make for fun.\n\nMy drawings are coming soon."
         },
         {
           "region": "footer",
@@ -2721,6 +3123,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -2728,6 +3135,11 @@
         [
           "Portfolio",
           "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
           ""
         ],
         [
@@ -2908,7 +3320,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
@@ -2966,6 +3378,11 @@
           ""
         ],
         [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
           "Services",
           "services.html",
           ""
@@ -2973,6 +3390,11 @@
         [
           "Portfolio",
           "portfolio.html",
+          ""
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
           ""
         ],
         [
@@ -3059,7 +3481,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
         },
         {
           "region": "main",
