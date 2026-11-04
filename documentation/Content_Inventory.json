@@ -66,81 +66,13 @@
           ""
         ],
         [
-          "Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 4",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 5",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 4",
-          "#",
-          ""
-        ],
-        [
           "Contact",
           "contact.html",
           ""
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farah.sayari@esprit.tn"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -235,7 +167,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -339,81 +271,13 @@
           ""
         ],
         [
-          "Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 4",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 5",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 4",
-          "#",
-          ""
-        ],
-        [
           "Contact",
           "contact.html",
           ""
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farah.sayari@esprit.tn"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -523,7 +387,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -864,20 +728,7 @@
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farahsayari.dev@gmail.com"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -973,7 +824,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -1089,81 +940,13 @@
           ""
         ],
         [
-          "Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 4",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 5",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 4",
-          "#",
-          ""
-        ],
-        [
           "Contact",
           "contact.html",
           ""
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farah.sayari@esprit.tn"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -1232,7 +1015,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -1337,20 +1120,7 @@
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farahsayari.dev@gmail.com"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -1509,7 +1279,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -1666,20 +1436,7 @@
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farahsayari.dev@gmail.com"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -1761,7 +1518,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -2432,20 +2189,7 @@
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farahsayari.dev@gmail.com"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -2835,7 +2579,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -2965,20 +2709,7 @@
         ]
       ],
       "brand": "FARAH",
-      "header_social": [
-        [
-          "GitHub",
-          "https://github.com/FarahSayari"
-        ],
-        [
-          "Email",
-          "mailto:farahsayari.dev@gmail.com"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
-        ]
-      ],
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Farah Sayari All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -3145,7 +2876,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",
@@ -3213,85 +2944,13 @@
           ""
         ],
         [
-          "Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 1",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 4",
-          "#",
-          ""
-        ],
-        [
-          "Deep Dropdown 5",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 2",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 3",
-          "#",
-          ""
-        ],
-        [
-          "Dropdown 4",
-          "#",
-          ""
-        ],
-        [
           "Contact",
           "contact.html",
           ""
         ]
       ],
-      "brand": "Kelly",
-      "header_social": [
-        [
-          "Icon: bi bi-twitter-x",
-          "#"
-        ],
-        [
-          "Icon: bi bi-facebook",
-          "#"
-        ],
-        [
-          "Icon: bi bi-instagram",
-          "#"
-        ],
-        [
-          "Icon: bi bi-linkedin",
-          "#"
-        ]
-      ],
+      "brand": "FARAH",
+      "header_social": [],
       "footer": {
         "copyright": "© Copyright Kelly All Rights Reserved",
         "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
@@ -3364,7 +3023,7 @@
       "rendered_text": [
         {
           "region": "header",
-          "text": "KELLY\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n   "
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact"
         },
         {
           "region": "main",

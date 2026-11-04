@@ -64,37 +64,15 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | --- | --- | --- | --- | --- | --- |
 | index.html | FARAH | N1 | S1 | F1 | Home |
 | about.html | FARAH | N1 | S1 | F1 | About |
-| resume.html | FARAH | N2 | S2 | F2 | Resume |
+| resume.html | FARAH | N1 | S1 | F2 | Resume |
 | services.html | FARAH | N1 | S1 | F1 | Services |
-| portfolio.html | FARAH | N2 | S2 | F2 | Portfolio |
-| portfolio-details.html | FARAH | N2 | S2 | F2 | Portfolio |
-| pulmotrack-details.html | FARAH | N2 | S2 | F2 | Portfolio |
-| contact.html | FARAH | N2 | S2 | F2 | Contact |
-| starter-page.html | Kelly | N1 | S3 | F3 | (none) |
+| portfolio.html | FARAH | N1 | S1 | F2 | Portfolio |
+| portfolio-details.html | FARAH | N1 | S1 | F2 | Portfolio |
+| pulmotrack-details.html | FARAH | N1 | S1 | F2 | Portfolio |
+| contact.html | FARAH | N1 | S1 | F2 | Contact |
+| starter-page.html | FARAH | N1 | S1 | F3 | (none) |
 
 ### Navigation N1
-
-| Exact label (in source order) | Destination |
-| --- | --- |
-| Home | index.html |
-| About | about.html |
-| Resume | resume.html |
-| Services | services.html |
-| Portfolio | portfolio.html |
-| Dropdown | # |
-| Dropdown 1 | # |
-| Deep Dropdown | # |
-| Deep Dropdown 1 | # |
-| Deep Dropdown 2 | # |
-| Deep Dropdown 3 | # |
-| Deep Dropdown 4 | # |
-| Deep Dropdown 5 | # |
-| Dropdown 2 | # |
-| Dropdown 3 | # |
-| Dropdown 4 | # |
-| Contact | contact.html |
-
-### Navigation N2
 
 | Exact label (in source order) | Destination |
 | --- | --- |
@@ -106,29 +84,6 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | Contact | contact.html |
 
 ### Header social links S1
-
-| Label / icon class | Exact destination |
-| --- | --- |
-| GitHub | https://github.com/FarahSayari |
-| Email | mailto:farah.sayari@esprit.tn |
-| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
-
-### Header social links S2
-
-| Label / icon class | Exact destination |
-| --- | --- |
-| GitHub | https://github.com/FarahSayari |
-| Email | mailto:farahsayari.dev@gmail.com |
-| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
-
-### Header social links S3
-
-| Label / icon class | Exact destination |
-| --- | --- |
-| Icon: bi bi-twitter-x | # |
-| Icon: bi bi-facebook | # |
-| Icon: bi bi-instagram | # |
-| Icon: bi bi-linkedin | # |
 
 ### Footer F1
 
@@ -1195,10 +1150,9 @@ The document records the website as it exists. These items are observations for 
 | Observation | Pages / current value |
 | --- | --- |
 | Header/footer email destinations | farah.sayari@esprit.tn: about.html, index.html, services.html; farahsayari.dev@gmail.com: contact.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html |
-| Placeholder navigation links | index.html, about.html, services.html, starter-page.html. Exact labels and destinations are in the shared navigation inventory. |
 | Project entries without descriptions or links | AI Agent Recruiter, TestPilot |
 | Different project naming | The resume calls its career assistant Aura; the portfolio entry is titled AI Agent Recruiter. This reference does not assume that they are the same project. |
-| Retained starter page | starter-page.html. Current brand: Kelly. Its exact content and links are recorded in its section. |
+| Retained starter page | starter-page.html. Current brand: FARAH. Its exact content and links are recorded in its section. |
 | Residual contact template backend | forms/contact.php remains present. Configured receiving address: contact@example.com. Current HTML form actions: https://formspree.io/f/xgojgjbj |
 
 ### Stylesheet and script references
