@@ -2880,16 +2880,8 @@
           "text": "A personal collection of my digital drawings, made for the joy of creating."
         },
         {
-          "tag": "h3",
-          "text": "A little art, a little imagination."
-        },
-        {
-          "tag": "p",
-          "text": "Digital art is one of my favorite ways to express my creativity. This is a space for the drawings I make for fun."
-        },
-        {
-          "tag": "p",
-          "text": "My drawings are coming soon."
+          "tag": "figcaption",
+          "text": "Spidey Digital drawing"
         }
       ],
       "navigation": [
@@ -2968,8 +2960,20 @@
         ],
         "credit_links": []
       },
-      "links": [],
-      "images": [],
+      "links": [
+        [
+          "Enlarge Spidey digital drawing",
+          "assets/img/gallery/spidey.png",
+          ""
+        ]
+      ],
+      "images": [
+        [
+          "assets/img/gallery/spidey.png",
+          "Spidey digital drawing of a Spider-Man character and a girl above a city skyline, with hearts and sparkles on a purple background",
+          ""
+        ]
+      ],
       "embeds": [],
       "forms": [],
       "dynamic": [],
@@ -3013,7 +3017,7 @@
         },
         {
           "region": "main",
-          "text": "Digital Gallery\n\nA personal collection of my digital drawings, made for the joy of creating.\n\nA little art, a little imagination.\n\nDigital art is one of my favorite ways to express my creativity. This is a space for the drawings I make for fun.\n\nMy drawings are coming soon."
+          "text": "Digital Gallery\n\nA personal collection of my digital drawings, made for the joy of creating.\n\nSpidey\n\nDigital drawing"
         },
         {
           "region": "footer",

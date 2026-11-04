@@ -1010,11 +1010,19 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > A personal collection of my digital drawings, made for the joy of creating.
 
-**A little art, a little imagination.**
+> Spidey Digital drawing
 
-> Digital art is one of my favorite ways to express my creativity. This is a space for the drawings I make for fun.
+### Main-content links and downloads
 
-> My drawings are coming soon.
+| Exact label / accessible label | Exact destination | Download filename |
+| --- | --- | --- |
+| Enlarge Spidey digital drawing | assets/img/gallery/spidey.png | (empty) |
+
+### Main-content images
+
+| Image path | Exact alternate text | Role |
+| --- | --- | --- |
+| assets/img/gallery/spidey.png | Spidey digital drawing of a Spider-Man character and a girl above a city skyline, with hearts and sparkles on a purple background | (empty) |
 
 ## 10 · Contact
 
