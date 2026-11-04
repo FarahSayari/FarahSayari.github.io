@@ -1,0 +1,469 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Farah Sayari — Portfolio Documentation</title><style>
+@page { size: A4; margin: 19mm 17mm 19mm;
+  @top-left { content: "FARAH SAYARI / PORTFOLIO REFERENCE"; font: 8pt Arial; color: #52716d; }
+  @bottom-left { content: "Local source content record"; font: 8pt Arial; color: #63706e; }
+  @bottom-right { content: counter(page); font: 8pt Arial; color: #63706e; }
+}
+* { box-sizing: border-box; }
+body { color:#263634; font:10pt/1.55 Arial, sans-serif; margin:0 auto; max-width:180mm; }
+.cover { padding:35mm 0 18mm; border-bottom:3px solid #34b7a7; }
+.eyebrow { letter-spacing:2px; color:#247569; font-size:10pt; }
+.cover h1 { font-size:34pt; letter-spacing:-1px; margin:12px 0; color:#173e38; }
+.subtitle { font-size:23pt; margin:0 0 18px; }
+.date { color:#53726c; }
+h1.chapter { break-before:page; font-size:23pt; line-height:1.2; color:#173e38; border-bottom:2px solid #34b7a7; padding-bottom:12px; margin:0 0 20px; }
+h2 { font-size:14pt; color:#216c60; margin:24px 0 10px; }
+h3 { font-size:11pt; margin:20px 0 8px; color:#173e38; }
+h1,h2,h3 { break-after:avoid; }
+p { margin:0 0 10px; orphans:3; widows:3; }
+.copy { border-left:2px solid #c4e6df; padding-left:12px; color:#1e2927; }
+.copy-heading { font-size:11pt; font-weight:bold; margin:16px 0 8px; break-after:avoid; }
+.copy-bullet { padding-left:18px; text-indent:-10px; }
+.copy-bullet::before { content:"• "; color:#248477; }
+.code { font:10pt Consolas, monospace; padding:12px; background:#eff7f4; border:1px solid #c4e6df; }
+table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:8.4pt; margin:10px 0 18px; }
+th,td { padding:7px 8px; border:1px solid #d3dfdc; vertical-align:top; overflow-wrap:anywhere; }
+th { background:#e8f5f1; color:#204e45; text-align:left; }
+thead { display:table-header-group; }
+tr { break-inside:avoid; }
+@media screen { body { padding:35px; max-width:1000px; } }
+</style></head><body>
+<div class="cover"><p class="eyebrow">WEBSITE DOCUMENTATION</p><h1>Farah Sayari</h1><p class="subtitle">Portfolio content reference</p><p class="date">04 November 2026 · Africa/Tunis</p></div>
+<p class="p">An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.</p>
+<p class="p">Snapshot: 2026-11-04 · Africa/Tunis · 9 HTML pages. The source files are the authority for this record.</p>
+<h1 class="chapter">Document guide</h1>
+<p class="p">Website wording is reproduced without rewriting. HTML entities are decoded and layout whitespace is normalized; line wrapping, bullets, and font treatment follow this document. Content follows HTML source order, so a two-column page is read column by column. Hover text and animated alternatives are recorded explicitly.</p>
+<p class="p">This is a content reference rather than a screenshot reproduction. Explanatory notes, inventories, and update instructions are separate from the sections marked “Exact page content.” External websites, the map service, and contact delivery were not verified; the contact form was not submitted.</p>
+<h2 class="">Pages covered</h2>
+<table><thead><tr><th>No.</th><th>Page</th><th>Source file</th><th>Entry point</th></tr></thead><tbody><tr><td>1</td><td>Home</td><td>index.html</td><td>Main navigation</td></tr><tr><td>2</td><td>About</td><td>about.html</td><td>Main navigation</td></tr><tr><td>3</td><td>Resume</td><td>resume.html</td><td>Main navigation</td></tr><tr><td>4</td><td>Services</td><td>services.html</td><td>Main navigation</td></tr><tr><td>5</td><td>Portfolio</td><td>portfolio.html</td><td>Main navigation</td></tr><tr><td>6</td><td>LollyBooks project details</td><td>portfolio-details.html</td><td>Portfolio detail link</td></tr><tr><td>7</td><td>PulmoTrack project details</td><td>pulmotrack-details.html</td><td>Portfolio detail link</td></tr><tr><td>8</td><td>Contact</td><td>contact.html</td><td>Main navigation</td></tr><tr><td>9</td><td>Starter template</td><td>starter-page.html</td><td>Retained template; absent from the main navigation</td></tr></tbody></table>
+<h2 class="">How to update this record</h2>
+<p class="p">To update the website and its documentation: edit the relevant HTML, CSS, JavaScript, image, or CV file, then run the regeneration command below from the portfolio folder.</p>
+<p class="code">python documentation/generate.py</p>
+<p class="p">On Windows, you can also double-click documentation/Refresh Documentation.cmd. The script reads the current website and refreshes the PDF, editable Word file, HTML, Markdown, JSON inventory, and source snapshot archive.</p>
+<p class="p">For a documentation-only revision, open the .docx file in Word or LibreOffice and save/export it as PDF. This does not change the website. Regeneration replaces generated outputs, so preserve manual Word edits under a different filename.</p>
+<p class="p">Keep ongoing commentary or planned work in documentation/notes.json. Those notes survive regeneration and are labeled separately from current website content.</p>
+<h2 class="">Where to make common changes</h2>
+<table><thead><tr><th>Change</th><th>Edit these sources</th></tr></thead><tbody><tr><td>Home introduction / animated job titles</td><td>index.html; animation timing in assets/js/main.js</td></tr><tr><td>Biography / contact profile / rotating photos</td><td>about.html; assets/img/me11.png, me22.png, me33.png</td></tr><tr><td>Resume text / downloadable CV</td><td>resume.html; assets/docs/Farah_Sayari_CV2026.pdf</td></tr><tr><td>Service titles and descriptions</td><td>services.html</td></tr><tr><td>Project list / filters / thumbnails</td><td>portfolio.html; assets/img/portfolio/ and assets/img/masonry-portfolio/</td></tr><tr><td>LollyBooks case study</td><td>portfolio-details.html; assets/img/portfolio/lollybooks/library-art.webp</td></tr><tr><td>PulmoTrack case study / scientific paper</td><td>pulmotrack-details.html; assets/docs/PulmoTrackPaper.pdf; assets/img/portfolio/pulmotrack/paper-preview.png</td></tr><tr><td>Contact text / form fields / delivery endpoint</td><td>contact.html, including its inline JavaScript</td></tr><tr><td>Global header / footer</td><td>Repeated in each HTML file; update each affected page</td></tr><tr><td>Shared visual styles / page-specific styles</td><td>assets/css/main.css; assets/css/resume.css; assets/css/portfolio.css</td></tr><tr><td>Shared navigation / animations / filtering</td><td>assets/js/main.js</td></tr></tbody></table>
+<h1 class="chapter">Shared header, navigation, and footer</h1>
+<p class="p">Use the table below with the exact variants that follow. Each page’s visible brand, navigation labels, social destinations, footer text, and active navigation item are included.</p>
+<table><thead><tr><th>Page</th><th>Brand</th><th>Navigation</th><th>Header social</th><th>Footer</th><th>Active item</th></tr></thead><tbody><tr><td>index.html</td><td>FARAH</td><td>N1</td><td>S1</td><td>F1</td><td>Home</td></tr><tr><td>about.html</td><td>FARAH</td><td>N1</td><td>S1</td><td>F1</td><td>About</td></tr><tr><td>resume.html</td><td>FARAH</td><td>N2</td><td>S2</td><td>F2</td><td>Resume</td></tr><tr><td>services.html</td><td>FARAH</td><td>N1</td><td>S1</td><td>F1</td><td>Services</td></tr><tr><td>portfolio.html</td><td>FARAH</td><td>N2</td><td>S2</td><td>F2</td><td>Portfolio</td></tr><tr><td>portfolio-details.html</td><td>FARAH</td><td>N2</td><td>S2</td><td>F2</td><td>Portfolio</td></tr><tr><td>pulmotrack-details.html</td><td>FARAH</td><td>N2</td><td>S2</td><td>F2</td><td>Portfolio</td></tr><tr><td>contact.html</td><td>FARAH</td><td>N2</td><td>S2</td><td>F2</td><td>Contact</td></tr><tr><td>starter-page.html</td><td>Kelly</td><td>N1</td><td>S3</td><td>F3</td><td>(none)</td></tr></tbody></table>
+<h2 class="">Navigation N1</h2>
+<table><thead><tr><th>Exact label (in source order)</th><th>Destination</th></tr></thead><tbody><tr><td>Home</td><td>index.html</td></tr><tr><td>About</td><td>about.html</td></tr><tr><td>Resume</td><td>resume.html</td></tr><tr><td>Services</td><td>services.html</td></tr><tr><td>Portfolio</td><td>portfolio.html</td></tr><tr><td>Dropdown</td><td>#</td></tr><tr><td>Dropdown 1</td><td>#</td></tr><tr><td>Deep Dropdown</td><td>#</td></tr><tr><td>Deep Dropdown 1</td><td>#</td></tr><tr><td>Deep Dropdown 2</td><td>#</td></tr><tr><td>Deep Dropdown 3</td><td>#</td></tr><tr><td>Deep Dropdown 4</td><td>#</td></tr><tr><td>Deep Dropdown 5</td><td>#</td></tr><tr><td>Dropdown 2</td><td>#</td></tr><tr><td>Dropdown 3</td><td>#</td></tr><tr><td>Dropdown 4</td><td>#</td></tr><tr><td>Contact</td><td>contact.html</td></tr></tbody></table>
+<h2 class="">Navigation N2</h2>
+<table><thead><tr><th>Exact label (in source order)</th><th>Destination</th></tr></thead><tbody><tr><td>Home</td><td>index.html</td></tr><tr><td>About</td><td>about.html</td></tr><tr><td>Resume</td><td>resume.html</td></tr><tr><td>Services</td><td>services.html</td></tr><tr><td>Portfolio</td><td>portfolio.html</td></tr><tr><td>Contact</td><td>contact.html</td></tr></tbody></table>
+<h2 class="">Header social links S1</h2>
+<table><thead><tr><th>Label / icon class</th><th>Exact destination</th></tr></thead><tbody><tr><td>GitHub</td><td>https://github.com/FarahSayari</td></tr><tr><td>Email</td><td>mailto:farah.sayari@esprit.tn</td></tr><tr><td>LinkedIn</td><td>https://www.linkedin.com/in/farah-sayari-060745248</td></tr></tbody></table>
+<h2 class="">Header social links S2</h2>
+<table><thead><tr><th>Label / icon class</th><th>Exact destination</th></tr></thead><tbody><tr><td>GitHub</td><td>https://github.com/FarahSayari</td></tr><tr><td>Email</td><td>mailto:farahsayari.dev@gmail.com</td></tr><tr><td>LinkedIn</td><td>https://www.linkedin.com/in/farah-sayari-060745248</td></tr></tbody></table>
+<h2 class="">Header social links S3</h2>
+<table><thead><tr><th>Label / icon class</th><th>Exact destination</th></tr></thead><tbody><tr><td>Icon: bi bi-twitter-x</td><td>#</td></tr><tr><td>Icon: bi bi-facebook</td><td>#</td></tr><tr><td>Icon: bi bi-instagram</td><td>#</td></tr><tr><td>Icon: bi bi-linkedin</td><td>#</td></tr></tbody></table>
+<h2 class="">Footer F1</h2>
+<p class="copy">© Copyright Farah Sayari All Rights Reserved</p>
+<p class="copy">Designed by BootstrapMade Distributed by ThemeWagon</p>
+<table><thead><tr><th>Social label / icon class</th><th>Exact destination</th></tr></thead><tbody><tr><td>GitHub</td><td>https://github.com/FarahSayari</td></tr><tr><td>Email</td><td>mailto:farah.sayari@esprit.tn</td></tr><tr><td>LinkedIn</td><td>https://www.linkedin.com/in/farah-sayari-060745248</td></tr></tbody></table>
+<table><thead><tr><th>Attribution label</th><th>Exact destination</th></tr></thead><tbody><tr><td>BootstrapMade</td><td>https://bootstrapmade.com/</td></tr><tr><td>ThemeWagon</td><td>https://themewagon.com</td></tr></tbody></table>
+<h2 class="">Footer F2</h2>
+<p class="copy">© Copyright Farah Sayari All Rights Reserved</p>
+<p class="copy">Designed by BootstrapMade Distributed by ThemeWagon</p>
+<table><thead><tr><th>Social label / icon class</th><th>Exact destination</th></tr></thead><tbody><tr><td>GitHub</td><td>https://github.com/FarahSayari</td></tr><tr><td>Email</td><td>mailto:farahsayari.dev@gmail.com</td></tr><tr><td>LinkedIn</td><td>https://www.linkedin.com/in/farah-sayari-060745248</td></tr></tbody></table>
+<table><thead><tr><th>Attribution label</th><th>Exact destination</th></tr></thead><tbody><tr><td>BootstrapMade</td><td>https://bootstrapmade.com/</td></tr><tr><td>ThemeWagon</td><td>https://themewagon.com</td></tr></tbody></table>
+<h2 class="">Footer F3</h2>
+<p class="copy">© Copyright Kelly All Rights Reserved</p>
+<p class="copy">Designed by BootstrapMade Distributed by ThemeWagon</p>
+<table><thead><tr><th>Social label / icon class</th><th>Exact destination</th></tr></thead><tbody><tr><td>Icon: bi bi-twitter-x</td><td>(empty)</td></tr><tr><td>Icon: bi bi-facebook</td><td>(empty)</td></tr><tr><td>Icon: bi bi-instagram</td><td>(empty)</td></tr><tr><td>Icon: bi bi-linkedin</td><td>(empty)</td></tr></tbody></table>
+<table><thead><tr><th>Attribution label</th><th>Exact destination</th></tr></thead><tbody><tr><td>BootstrapMade</td><td>https://bootstrapmade.com/</td></tr><tr><td>ThemeWagon</td><td>https://themewagon.com</td></tr></tbody></table>
+<p class="p">An empty destination is shown as “(empty)”; a destination of # is a fragment placeholder. The starter template contains a malformed ThemeWagon anchor in its source. Its browser-parsed label and destination above are recorded as they currently resolve.</p>
+<h2 class="">Shared interactions and appearance</h2>
+<p class="p">The site has a sticky header, a mobile navigation toggle, an initial preloader, a scroll-to-top icon, and animation-on-scroll effects. These elements have no additional visible body copy. The scroll-to-top icon uses href=&quot;#&quot; and is activated after scrolling past 100 pixels in the current shared script.</p>
+<table><thead><tr><th>Style token</th><th>Current value</th></tr></thead><tbody><tr><td>default-font</td><td>&quot;Roboto&quot;,  system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;</td></tr><tr><td>heading-font</td><td>&quot;Raleway&quot;,  sans-serif</td></tr><tr><td>nav-font</td><td>&quot;Poppins&quot;,  sans-serif</td></tr><tr><td>background-color</td><td>#ffffff</td></tr><tr><td>default-color</td><td>#444444</td></tr><tr><td>heading-color</td><td>#222222</td></tr><tr><td>accent-color</td><td>#34b7a7</td></tr></tbody></table>
+<h1 class="chapter">01 · Home</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>index.html</td></tr><tr><td>Browser title</td><td>Farah Sayari Portfolio</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>(empty)</td></tr><tr><td>Keywords meta tag</td><td>(empty)</td></tr><tr><td>Main section IDs</td><td>hero</td></tr></tbody></table>
+<h2 class="">Exact page content</h2>
+<p class="copy-heading">Farah Sayari</p>
+<p class="copy">I&#x27;m a Software Engineer|</p>
+<p class="copy">Welcome to my digital world!</p>
+<p class="copy">About Me</p>
+<p class="copy">View Resume</p>
+<h2 class="">Animated content and alternate states</h2>
+<p class="p">The fixed introduction is “I&#x27;m a”. The animated span cycles through these exact titles; the cursor displays “|”. The first complete title is used in the transcript above.</p>
+<p class="copy">Software Engineer</p>
+<p class="copy">Data Scientist</p>
+<p class="copy">Digital Artist</p>
+<table><thead><tr><th>Animation parameter</th><th>Current value</th></tr></thead><tbody><tr><td>typingSpeed</td><td>110 ms</td></tr><tr><td>deletingSpeed</td><td>70 ms</td></tr><tr><td>pauseAfterTyping</td><td>1400 ms</td></tr><tr><td>pauseAfterDeleting</td><td>300 ms</td></tr></tbody></table>
+<h2 class="">Main-content links and downloads</h2>
+<table><thead><tr><th>Exact label / accessible label</th><th>Exact destination</th><th>Download filename</th></tr></thead><tbody><tr><td>About Me</td><td>about.html</td><td>(empty)</td></tr><tr><td>View Resume</td><td>resume.html</td><td>(empty)</td></tr></tbody></table>
+<h2 class="">Main-content images</h2>
+<table><thead><tr><th>Image path</th><th>Exact alternate text</th><th>Role</th></tr></thead><tbody><tr><td>assets/img/hero-bg.jpg</td><td>Abstract hero background for Farah Sayari</td><td>(empty)</td></tr></tbody></table>
+<h1 class="chapter">02 · About</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>about.html</td></tr><tr><td>Browser title</td><td>About - Farah Sayari</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>(empty)</td></tr><tr><td>Keywords meta tag</td><td>(empty)</td></tr><tr><td>Main section IDs</td><td>about</td></tr></tbody></table>
+<h2 class="">Exact page content</h2>
+<p class="copy-heading">About</p>
+<p class="copy">Get to know me, my background, and the kind of digital solutions I enjoy building.</p>
+<p class="copy-heading">Junior Software Engineer specialized in Data Science</p>
+<p class="copy">Hi, I’m Farah Sayari. I’m a Software Engineer specialized in Data Science, a book lover, and a creative soul with a passion for digital art.</p>
+<p class="copy">I build smart, practical, and user-friendly solutions using AI, Machine Learning, Deep Learning, automation, and full-stack development. Logic helps me build. Imagination helps me create.</p>
+<p class="copy-bullet">Email: farahsayari.dev@gmail.com</p>
+<p class="copy-bullet">Phone: +216 28528390</p>
+<p class="copy-bullet">Linkedin: linkedin.com/in/farah-sayari-060745248</p>
+<p class="copy-bullet">Degree: Software Engineering – Data Science</p>
+<p class="copy-bullet">Github: github.com/FarahSayari</p>
+<p class="copy-bullet">Freelance: Open to opportunities</p>
+<p class="copy">I’m open to junior opportunities in Software Engineering, Data Science, and AI.</p>
+<h2 class="">Animated content and alternate states</h2>
+<p class="p">The 3 profile images alternate in a continuous loop. Current switch interval: 500 ms. Image paths and exact alternate text are in the image inventory below.</p>
+<h2 class="">Main-content links and downloads</h2>
+<table><thead><tr><th>Exact label / accessible label</th><th>Exact destination</th><th>Download filename</th></tr></thead><tbody><tr><td>farahsayari.dev@gmail.com</td><td>mailto:farahsayari.dev@gmail.com</td><td>(empty)</td></tr><tr><td>linkedin.com/in/farah-sayari-060745248</td><td>https://www.linkedin.com/in/farah-sayari-060745248</td><td>(empty)</td></tr><tr><td>github.com/FarahSayari</td><td>https://github.com/FarahSayari</td><td>(empty)</td></tr></tbody></table>
+<h2 class="">Main-content images</h2>
+<table><thead><tr><th>Image path</th><th>Exact alternate text</th><th>Role</th></tr></thead><tbody><tr><td>assets/img/me11.png</td><td>Farah Sayari profile photo 1</td><td>(empty)</td></tr><tr><td>assets/img/me22.png</td><td>Farah Sayari profile photo 2</td><td>(empty)</td></tr><tr><td>assets/img/me33.png</td><td>Farah Sayari profile photo 3</td><td>(empty)</td></tr></tbody></table>
+<h1 class="chapter">03 · Resume</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>resume.html</td></tr><tr><td>Browser title</td><td>Resume - Farah Sayari</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>Explore Farah Sayari&#x27;s resume: AI and software engineering experience, education, technical skills, and projects in Data Science and agentic AI.</td></tr><tr><td>Keywords meta tag</td><td>(absent)</td></tr><tr><td>Main section IDs</td><td>resume</td></tr></tbody></table>
+<p class="p">The source has two columns: summary, education, skills, languages, and activities first; professional experience and projects second. The text below follows that source order. The downloadable CV is a separate PDF and is appended to the final PDF reference unchanged.</p>
+<h2 class="">Exact page content</h2>
+<p class="copy-heading">Resume</p>
+<p class="copy">AI &amp; Software Engineer specializing in Data Science, agentic AI, and full-stack development.</p>
+<p class="copy">Download CV (PDF)</p>
+<p class="copy-heading">Summary</p>
+<p class="copy-heading">Farah Sayari</p>
+<p class="copy">Software Engineer specializing in Data Science, with hands-on experience in Machine Learning, Deep Learning, agentic AI, and full-stack development. I build intelligent, data-driven applications and am seeking a full-time opportunity in AI, Data Science, or Software Engineering.</p>
+<p class="copy-bullet">Ariana, Tunisia</p>
+<p class="copy-bullet">+216 28 528 390</p>
+<p class="copy-bullet">farahsayari.dev@gmail.com</p>
+<p class="copy-bullet">GitHub · LinkedIn</p>
+<p class="copy-heading">Education</p>
+<p class="copy-heading">Engineering Cycle in Computer Science – Data Science</p>
+<p class="copy">Sep 2023 – Nov 2026</p>
+<p class="copy">ESPRIT – Private Higher School of Engineering and Technology</p>
+<p class="copy-heading">Bachelor’s Degree in Computer Systems Engineering – Embedded Systems &amp; IoT</p>
+<p class="copy">Sep 2020 – Jun 2023</p>
+<p class="copy">Faculty of Sciences of Bizerte</p>
+<p class="copy-heading">Technical Skills</p>
+<p class="copy-heading">Programming</p>
+<p class="copy">Python, Java, JavaScript, R, C</p>
+<p class="copy-heading">AI &amp; Machine Learning</p>
+<p class="copy">Scikit-learn, TensorFlow, Keras, PyTorch, MLflow, Deep Learning, NLP, Recommendation Systems</p>
+<p class="copy-heading">Generative AI &amp; Agents</p>
+<p class="copy">LLMs, RAG, LangChain, LangGraph, Qdrant, Ollama, Prompt Engineering</p>
+<p class="copy-heading">Backend &amp; Frontend</p>
+<p class="copy">Spring Boot, FastAPI, Flask, Angular, React, REST APIs</p>
+<p class="copy-heading">Data Engineering &amp; Analytics</p>
+<p class="copy">SQL, PostgreSQL, Hadoop, Talend, Data Warehousing, Power BI, Time Series Analysis</p>
+<p class="copy-heading">DevOps &amp; Tools</p>
+<p class="copy">Git, Docker, GitHub Actions, Jenkins, Linux, Cypress, Kubernetes</p>
+<p class="copy-heading">Languages</p>
+<p class="copy-bullet">Arabic Native</p>
+<p class="copy-bullet">French C2</p>
+<p class="copy-bullet">English C1</p>
+<p class="copy-heading">Activities &amp; Awards</p>
+<p class="copy-bullet">IEEE Computational Intelligence Society (CIS) — ESPRIT Chapter, 2025.</p>
+<p class="copy-bullet">Bal des Projets — ESPRIT (2024 &amp; 2025) — Academic projects pre-selected for both editions.</p>
+<p class="copy-bullet">IEEEXtreme 17.0 &amp; 18.0 — Participant.</p>
+<p class="copy-bullet">University English Competition (2024) — 3rd Place.</p>
+<p class="copy">Interests: Reading &amp; Literature, Digital Art &amp; Illustration.</p>
+<p class="copy-heading">Professional Experience</p>
+<p class="copy-heading">AI &amp; Full-Stack Software Engineer Intern</p>
+<p class="copy">Feb – Aug 2026</p>
+<p class="copy">VERMEG · PFE Internship</p>
+<p class="copy">TestPilot — AI-Assisted Test Automation Platform</p>
+<p class="copy-bullet">Designed and developed a full-stack test automation platform using Angular, Spring Boot, FastAPI, and PostgreSQL, enabling QA teams to manage, generate, and execute automated tests.</p>
+<p class="copy-bullet">Engineered a hybrid agentic AI pipeline using Python, LangGraph, and LLMs to transform recorded user interactions into structured test models and executable Cypress scripts.</p>
+<p class="copy-bullet">Developed a Chrome extension (Manifest V3) to capture browser interactions and implemented LLM-assisted script repair with validation and controlled retries.</p>
+<p class="copy-bullet">Integrated Cypress test execution, automated reporting, GitHub Actions CI/CD, and Docker to support continuous testing and deployment.</p>
+<p class="copy-heading">Data Scientist Intern</p>
+<p class="copy">Jul – Aug 2025</p>
+<p class="copy">Esprit-Tech · Summer Internship</p>
+<p class="copy">Clustering Algorithms for Heterogeneous Student Groups</p>
+<p class="copy-bullet">Implemented and compared multiple clustering algorithms, achieving a 0.72 Silhouette Score, and built an interactive Streamlit dashboard to visualize and evaluate results.</p>
+<p class="copy-bullet">Developed an automated group formation pipeline integrated into the backend, supporting teachers in forming balanced and diverse student teams.</p>
+<p class="copy-heading">Projects</p>
+<p class="copy-heading">LollyBooks</p>
+<p class="copy">Oct – Present · Ongoing</p>
+<p class="copy">Co-Founder &amp; Software Engineer</p>
+<p class="copy">Personalized Digital Library &amp; AI Reading Companion</p>
+<p class="copy-bullet">Co-designed and developed an interactive digital library featuring customizable bookshelves, reading analytics, and goal tracking.</p>
+<p class="copy-bullet">Integrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports.</p>
+<p class="copy-bullet">Prototyped recommendations based on reading preferences and mood, and designed an LLM-powered reading companion for conversational book discovery.</p>
+<p class="copy-heading">Aura</p>
+<p class="copy">Oct – Present · Ongoing</p>
+<p class="copy">AI &amp; Software Engineer</p>
+<p class="copy">Agentic AI Career Assistant</p>
+<p class="copy-bullet">Redesigning a local, agentic AI assistant to automate job discovery and match job descriptions with personal skills and experience.</p>
+<p class="copy-bullet">Developing an LLM-powered application assistant to generate tailored cover letters, analyze CV compatibility, and recommend targeted resume improvements.</p>
+<p class="copy-bullet">Adapting RAG, semantic search, and agent orchestration using LangChain, LangGraph, and Qdrant to support personalized job search and application workflows.</p>
+<h2 class="">Main-content links and downloads</h2>
+<table><thead><tr><th>Exact label / accessible label</th><th>Exact destination</th><th>Download filename</th></tr></thead><tbody><tr><td>Download CV (PDF)</td><td>assets/docs/Farah_Sayari_CV2026.pdf</td><td>Farah_Sayari_CV2026.pdf</td></tr><tr><td>+216 28 528 390</td><td>tel:+21628528390</td><td>(empty)</td></tr><tr><td>farahsayari.dev@gmail.com</td><td>mailto:farahsayari.dev@gmail.com</td><td>(empty)</td></tr><tr><td>GitHub</td><td>https://github.com/FarahSayari</td><td>(empty)</td></tr><tr><td>LinkedIn</td><td>https://www.linkedin.com/in/farah-sayari-060745248</td><td>(empty)</td></tr></tbody></table>
+<h1 class="chapter">04 · Services</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>services.html</td></tr><tr><td>Browser title</td><td>Services - Farah Sayari</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>(empty)</td></tr><tr><td>Keywords meta tag</td><td>(empty)</td></tr><tr><td>Main section IDs</td><td>services</td></tr></tbody></table>
+<h2 class="">Exact page content</h2>
+<p class="copy-heading">Services</p>
+<p class="copy">Here are the areas where I enjoy building, experimenting, and creating digital solutions.</p>
+<p class="copy-heading">Data Science &amp; AI</p>
+<p class="copy">Building intelligent solutions with machine learning, deep learning, data analysis, and AI-powered workflows.</p>
+<p class="copy-heading">Web Development</p>
+<p class="copy">Creating practical and user-friendly web applications using modern frontend and backend technologies.</p>
+<p class="copy-heading">AI Agents &amp; Automation</p>
+<p class="copy">Designing smart agents, RAG pipelines, and automated workflows that help reduce manual tasks and improve decision-making.</p>
+<p class="copy-heading">Test Automation &amp; QA</p>
+<p class="copy">Working on automated testing workflows, test generation, execution, and reporting to improve software reliability.</p>
+<p class="copy-heading">Data Analytics &amp; BI</p>
+<p class="copy">Transforming raw data into clear insights using dashboards, reporting tools, statistics, and business intelligence techniques.</p>
+<p class="copy-heading">Creative Digital Work</p>
+<p class="copy">Exploring digital art, visual design, and friendly UI ideas to make technology feel more human and engaging.</p>
+<p class="copy">I like combining logic, data, creativity, and usability to build solutions that are both smart and pleasant to use.</p>
+<h1 class="chapter">05 · Portfolio</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>portfolio.html</td></tr><tr><td>Browser title</td><td>Portfolio - Farah Sayari</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>Explore Farah Sayari&#x27;s projects in software engineering, Data Science, and AI, starting with LollyBooks.</td></tr><tr><td>Keywords meta tag</td><td>(absent)</td></tr><tr><td>Main section IDs</td><td>portfolio</td></tr></tbody></table>
+<p class="p">The portfolio uses a masonry grid with project labels in hover overlays. The image inventory below records the current thumbnails. Entries with no description or detail links are recorded as placeholders.</p>
+<h2 class="">Exact page content</h2>
+<p class="copy-heading">Portfolio</p>
+<p class="copy">A selection of my work in software engineering, Data Science, and AI.</p>
+<p class="copy-bullet">All</p>
+<p class="copy-bullet">App</p>
+<p class="copy-bullet">Web</p>
+<p class="copy-heading">LollyBooks</p>
+<p class="copy">Personalized Digital Library &amp; AI Reading Companion</p>
+<p class="copy-heading">AI Agent Recruiter</p>
+<p class="copy-heading">TestPilot</p>
+<p class="copy-heading">PulmoTrack</p>
+<p class="copy">AI-Powered Pulmonary Nodule Analysis</p>
+<h2 class="">Project entries and filter membership</h2>
+<table><thead><tr><th>Project</th><th>Description</th><th>Filters</th><th>Detail destination</th></tr></thead><tbody><tr><td>LollyBooks</td><td>Personalized Digital Library &amp; AI Reading Companion</td><td>App, Web</td><td>portfolio-details.html</td></tr><tr><td>AI Agent Recruiter</td><td>(empty)</td><td>App</td><td>(none)</td></tr><tr><td>TestPilot</td><td>(empty)</td><td>App</td><td>(none)</td></tr><tr><td>PulmoTrack</td><td>AI-Powered Pulmonary Nodule Analysis</td><td>Web</td><td>pulmotrack-details.html</td></tr></tbody></table>
+<p class="p">The default filter is All. Filter membership and every existing detail destination are listed in the table above. Project image preview links open the lightbox. Entries without detail links remain unlinked. The filter controls also support Enter and Space in the current inline script.</p>
+<h2 class="">Main-content links and downloads</h2>
+<table><thead><tr><th>Exact label / accessible label</th><th>Exact destination</th><th>Download filename</th></tr></thead><tbody><tr><td>Preview LollyBooks artwork</td><td>assets/img/portfolio/lollybooks/library-art.jpg</td><td>(empty)</td></tr><tr><td>LollyBooks project details</td><td>portfolio-details.html</td><td>(empty)</td></tr><tr><td>PulmoTrack project details</td><td>pulmotrack-details.html</td><td>(empty)</td></tr></tbody></table>
+<h2 class="">Main-content images</h2>
+<table><thead><tr><th>Image path</th><th>Exact alternate text</th><th>Role</th></tr></thead><tbody><tr><td>assets/img/portfolio/lollybooks/library-art.jpg</td><td>Cozy pink bookshelves with string lights and a My Reading Library neon sign</td><td>(empty)</td></tr><tr><td>assets/img/masonry-portfolio/masonry-portfolio-2.jpg</td><td>(empty)</td><td>presentation</td></tr><tr><td>assets/img/masonry-portfolio/masonry-portfolio-3.jpg</td><td>(empty)</td><td>presentation</td></tr><tr><td>assets/img/portfolio/pulmotrack/pulmotrack.png</td><td>PulmoTrack project artwork illustrating CT-based nodule detection, segmentation, and classification</td><td>(empty)</td></tr></tbody></table>
+<h1 class="chapter">06 · LollyBooks project details</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>portfolio-details.html</td></tr><tr><td>Browser title</td><td>LollyBooks - Farah Sayari</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>LollyBooks: a personalized digital library and AI reading companion. Discover Farah Sayari&#x27;s contributions as Co-Founder and Software Engineer.</td></tr><tr><td>Keywords meta tag</td><td>(absent)</td></tr><tr><td>Main section IDs</td><td>portfolio-details</td></tr></tbody></table>
+<h2 class="">Exact page content</h2>
+<p class="copy">Back to Portfolio</p>
+<p class="copy-heading">LollyBooks — Personalized Digital Library &amp; AI Reading Companion</p>
+<p class="copy">A cozy digital space to track your reading journey, discover new books, and build a library that reflects your personality.</p>
+<p class="copy-heading">Project Information</p>
+<p class="copy-bullet">Category: Web Application · Personalization &amp; Recommendation Systems</p>
+<p class="copy-bullet">Project Type: Personal Startup Project</p>
+<p class="copy-bullet">Role: Co-Founder &amp; Software Engineer</p>
+<p class="copy-bullet">Project Date: October 2026 – Present</p>
+<p class="copy-bullet">Status: Active Development (Functional Prototype)</p>
+<p class="copy-bullet">Project URL: Coming Soon</p>
+<p class="copy-heading">Your Library, Your Stories, Your Little World</p>
+<p class="copy">LollyBooks is a personalized digital library designed to make reading tracking more engaging, accessible, and enjoyable.</p>
+<p class="copy">The idea was born from a personal passion for reading and the desire to create a beautiful virtual bookshelf where readers can preserve their reading journey, even without owning physical copies of their books.</p>
+<p class="copy">As a Co-Founder and Software Engineer, I contributed to the product vision, interface design, and development of the initial web application prototype, combining interactive book management, reading analytics, and personalized book discovery.</p>
+<p class="copy-heading">Key Features &amp; Contributions</p>
+<p class="copy-bullet">Interactive Digital Library: Developed customizable virtual bookshelves with multiple display modes, allowing readers to organize their collections visually.</p>
+<p class="copy-bullet">Book Data Integration: Integrated the Open Library REST API for automated metadata retrieval and implemented Goodreads CSV importing to migrate reading histories, ratings, and reviews.</p>
+<p class="copy-bullet">Reading Analytics &amp; Goals: Implemented reading statistics, progress tracking, and personalized reading goals to help users reflect on their reading habits.</p>
+<p class="copy-bullet">Personalized Recommendations: Prototyped a recommendation system based on reading history, ratings, genre preferences, and reading moods.</p>
+<p class="copy-bullet">Reading Companion: Designed a conversational recommendation experience to help readers discover books aligned with their interests and preferences.</p>
+<p class="copy-heading">Project Vision &amp; Future Development</p>
+<p class="copy">LollyBooks is evolving from a functional prototype into a scalable, AI-powered reading platform.</p>
+<p class="copy">The long-term vision includes an LLM-powered reading companion, deeper personalization through reading reviews and preferences, multilingual support, community features, and a production-ready architecture.</p>
+<p class="copy">The goal is to create more than a book-tracking application: a personal reading universe that grows and evolves with every reader.</p>
+<h2 class="">Main-content links and downloads</h2>
+<table><thead><tr><th>Exact label / accessible label</th><th>Exact destination</th><th>Download filename</th></tr></thead><tbody><tr><td>Back to Portfolio</td><td>portfolio.html</td><td>(empty)</td></tr></tbody></table>
+<h2 class="">Main-content images</h2>
+<table><thead><tr><th>Image path</th><th>Exact alternate text</th><th>Role</th></tr></thead><tbody><tr><td>assets/img/portfolio/lollybooks/library-art.webp</td><td>Cozy pink bookshelves with string lights and a My Reading Library neon sign</td><td>(empty)</td></tr></tbody></table>
+<h1 class="chapter">07 · PulmoTrack project details</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>pulmotrack-details.html</td></tr><tr><td>Browser title</td><td>PulmoTrack - Farah Sayari</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>Explore Farah Sayari&#x27;s PulmoTrack LUNA16 CT research: candidate screening, true/false nodule classification, exploratory segmentation, notebook evaluations, and a live Streamlit showcase.</td></tr><tr><td>Keywords meta tag</td><td>(absent)</td></tr><tr><td>Main section IDs</td><td>portfolio-details, research-paper</td></tr></tbody></table>
+<h2 class="">Exact page content</h2>
+<p class="copy">Back to Portfolio</p>
+<p class="copy-heading">PulmoTrack — Deep Learning for Pulmonary Nodule Analysis</p>
+<p class="copy">Research · Deep Learning · Medical Imaging · Computer Vision</p>
+<p class="copy">An academic medical-imaging project using LUNA16 CT scans to study nodule candidate detection, binary classification and exploratory 3D segmentation, presented through an interactive research website.</p>
+<p class="copy">Previous image</p>
+<p class="copy">Next image</p>
+<p class="copy-heading">Project Information</p>
+<p class="copy-bullet">Category: Research, DL, Medical Imaging, Computer Vision</p>
+<p class="copy-bullet">Role: Data Scientist, Project Manager</p>
+<p class="copy-bullet">Methodology: CRISP-DM</p>
+<p class="copy-bullet">Dataset: LUNA16</p>
+<p class="copy-bullet">Status: Completed</p>
+<p class="copy-bullet">Scientific Paper: Available · Team research manuscript</p>
+<p class="copy">Open Live Showcase (opens in a new tab)</p>
+<p class="copy">View Source on GitHub (opens in a new tab)</p>
+<p class="copy-heading">Technologies</p>
+<p class="copy">Research: Python, PyTorch, torchvision, NumPy, pandas, SciPy, scikit-learn, SimpleITK.</p>
+<p class="copy">Analysis &amp; delivery: Jupyter Notebook, Google Colab, Matplotlib, Plotly, Pillow, Streamlit, Git, GitHub and Streamlit Community Cloud.</p>
+<p class="copy-heading">Project Summary</p>
+<p class="copy">Jump directly to a section of the project.</p>
+<p class="copy-bullet">Project Information</p>
+<p class="copy-bullet">Technologies</p>
+<p class="copy-bullet">Project Overview</p>
+<p class="copy-bullet">My Contributions</p>
+<p class="copy-bullet">LUNA16 Dataset</p>
+<p class="copy-bullet">Project Methodology</p>
+<p class="copy-bullet">Explore the Three DSOs DSO1 — Nodule Detection Data Processing Models Applied Results &amp; Evaluation DSO2 — Nodule Classification Data Processing Models Applied Results &amp; Evaluation DSO3 — Exploratory 3D Segmentation Data Processing Models Applied Results &amp; Evaluation</p>
+<p class="copy-bullet">Deployment</p>
+<p class="copy-bullet">Research Paper Paper-reported LUNA16 highlights</p>
+<p class="copy-heading">Project Overview</p>
+<p class="copy">Lung cancer is the leading cause of cancer-related death worldwide and is often diagnosed at an advanced stage, when treatment options are more limited. Earlier identification and appropriate follow-up can improve the opportunity for effective treatment.</p>
+<p class="copy">PulmoTrack explores how deep learning can analyze pulmonary nodules in volumetric CT data. The project connects medical-image preprocessing, three research objectives, model evaluation and a deployed interface that makes the experiments understandable to a portfolio audience.</p>
+<p class="copy">The work is an academic research study. Its recorded models evaluate nodule candidates and masks; they do not establish a clinically validated cancer diagnosis system.</p>
+<p class="copy">Scientific context: World Health Organization — Lung cancer.</p>
+<p class="copy-heading">My Contributions</p>
+<p class="copy-bullet">LUNA16 preprocessing. Worked on CT resampling, annotation and candidate inspection, world-to-voxel coordinate conversion, intensity normalization and 3D patch preparation.</p>
+<p class="copy-bullet">Detection and classification. Developed and studied 3D candidate-screening and binary classification approaches, comparing their saved training histories, confusion matrices and ROC evaluations.</p>
+<p class="copy-bullet">Exploratory segmentation. Investigated 3D U-Net, attention and residual-attention variants, and tiny-nodule oversampling, documenting both promising summaries and difficult positive-only cases.</p>
+<p class="copy-bullet">Results and documentation. Organized notebook outputs, kept evaluation cohorts and checkpoint results distinct, and contributed to the team research manuscript.</p>
+<p class="copy-bullet">Deployment. Created a Streamlit research showcase with CT visualizations, model overviews, result interpretation, source resources and access to the research paper.</p>
+<p class="copy-heading">LUNA16 Dataset</p>
+<p class="copy">LUNA16 (Lung Nodule Analysis 2016) is derived from LIDC-IDRI and contains 888 volumetric chest CT scans. It provides CT volumes, candidate locations and nodule annotations for pulmonary nodule research.</p>
+<p class="copy">The official reference standard includes nodules at least 3 mm in diameter accepted by at least three of four radiologists. Scans with slice thickness greater than 2.5 mm were excluded. The CT collection is approximately 90 GB in scale; the deployed showcase uses saved outputs rather than distributing the dataset.</p>
+<p class="copy">The project prepares different patch collections for different experiments: 64³ voxels for detection/classification and 48³ voxels for the archived segmentation studies.</p>
+<p class="copy">Dataset source and access: LUNA16 official data page.</p>
+<p class="copy-heading">Project Methodology</p>
+<p class="copy">PulmoTrack follows the CRISP-DM methodology, from understanding the research problem and preparing LUNA16 CT data to modeling, evaluation, and deployment. This iterative workflow guides the three research objectives and the presentation of their results in the Streamlit showcase.</p>
+<p class="copy-heading">Explore the Three DSOs</p>
+<p class="copy">Data processing prepares the CT scans for learning; modeling builds and trains networks using that prepared data. Before preparing the task-specific datasets, we resampled CT volumes to 1 × 1 × 1 mm voxel spacing and converted annotation coordinates from millimetres to voxel locations using each scan’s origin and spacing, accounting for medical-image order (x, y, z) and NumPy array order (z, y, x).</p>
+<p class="copy">The evaluation tables preserve each saved checkpoint’s recorded cohort. Accuracy is calculated from the original confusion matrix, while ROC-AUC comes from the corresponding recorded output.</p>
+<p class="copy-heading">DSO1 — Nodule Detection</p>
+<p class="copy">This objective screens supplied candidate locations. Each input is a 3D patch around a candidate, and the output is a nodule or non-nodule label.</p>
+<p class="copy-heading">Data Processing</p>
+<p class="copy-bullet">Candidate matching: Compared candidates with annotated nodule centres from the same scan. A distance below 5 mm defined the strict positive label for the selected dataset; preparation also explored a looser 10 mm label.</p>
+<p class="copy-bullet">Dataset selection: Retained 1,215 positive candidates and randomly sampled 8,000 negatives, producing 9,215 patches. The larger negative collection exposes the model to varied non-nodule appearances.</p>
+<p class="copy-bullet">Patch extraction: Extracted 64 × 64 × 64 patches around candidates and padded border patches to preserve the expected dimensions.</p>
+<p class="copy-bullet">Normalization and tensors: Subtracted each patch’s mean and divided by its standard deviation, then created one-channel tensors with shape (1, 64, 64, 64).</p>
+<p class="copy-bullet">Dataset split: Used a seeded random patch split of 6,451 training, 1,843 validation and 921 test examples.</p>
+<p class="copy-heading">Models Applied</p>
+<p class="copy">Applied a U-Net-style 3D encoder classifier with 32 → 64 → 128 → 256 feature channels. Convolution and pooling build 3D features, followed by global average pooling and a linear head that produces two class scores. This model has no segmentation decoder and predicts a patch label, rather than a boundary or bounding box.</p>
+<p class="copy">Training used weighted focal loss (γ = 2), Adam with learning rate 0.0001, batch size 16 and 20 recorded epochs. Class weights emphasize less frequent positive examples, while focal loss concentrates learning on difficult cases. The lowest validation loss determined the selected checkpoint.</p>
+<p class="copy-heading">Results &amp; Evaluation</p>
+<table><thead><tr><th>Cohort</th><th>Patches</th><th>Accuracy</th><th>ROC-AUC</th></tr></thead><tbody><tr><td>Validation</td><td>1,843</td><td>98.37%</td><td>0.9928</td></tr><tr><td>Test</td><td>921</td><td>97.83%</td><td>0.9961</td></tr></tbody></table>
+<p class="copy">DSO1 — Test-set confusion matrix.</p>
+<p class="copy">DSO1 — Test-set ROC curve; AUC is rounded in the plot legend.</p>
+<p class="copy">DSO1 — Training and validation history.</p>
+<p class="copy">On the 921-patch test cohort, the saved model correctly identifies 112 of 121 nodule patches (92.56% sensitivity), with 11 false positives and 9 false negatives. These are candidate-level outcomes; they do not establish false positives per full CT scan.</p>
+<p class="copy">Interpretation: The test accuracy of 97.83% and ROC-AUC of 0.9961 show strong separation on the recorded candidate cohort. Sensitivity of 92.56% also makes the remaining nine missed nodule patches visible.</p>
+<p class="copy-heading">DSO2 — Nodule Classification</p>
+<p class="copy">The recorded task classifies a 3D candidate patch as a true nodule or false nodule. Although the wider project discusses benign/malignant classification, these implemented evaluations use binary candidate labels.</p>
+<p class="copy-heading">Data Processing</p>
+<p class="copy-bullet">Separate patch collection: Prepared this dataset independently of the 9,215 detection examples. The preparation cell filters candidates marked as class 1 and compares their positions with annotation centres using a 6 mm matching threshold.</p>
+<p class="copy-bullet">Patch extraction and normalization: Extracted 64 × 64 × 64 patches, padded when needed, and applied mean-and-standard-deviation normalization.</p>
+<p class="copy-bullet">Labels and storage: Saved tensors into separate folders, with label 1 for true nodules and 0 for false nodules.</p>
+<p class="copy-bullet">Dataset and initial split: The notebook reports 1,243 true-nodule and 761 false-nodule patches, totalling 2,004. The initial split contains 1,603 training, 200 validation and 201 test patches.</p>
+<p class="copy-heading">Models Applied</p>
+<p class="copy-bullet">Improved 3D CNN: Three convolution blocks followed by adaptive pooling, a dense layer, dropout and a two-class output; 17 recorded epochs.</p>
+<p class="copy-bullet">ResNet3D Lite: Residual blocks combine transformed features with shortcut connections, followed by global pooling and a classification head; 6 recorded epochs.</p>
+<p class="copy-bullet">U-Net encoder classifier: Four encoder stages followed by global pooling and a dense two-class head; 30 recorded epochs.</p>
+<p class="copy">All three architectures use cross-entropy loss and Adam with an initial learning rate of 0.0001. Dropout regularizes the CNN and U-Net heads. Validation loss guides checkpoint selection, and saved evaluations are kept separate from final-epoch logs.</p>
+<p class="copy-heading">Results &amp; Evaluation</p>
+<table><thead><tr><th>Study / cohort</th><th>Patches</th><th>Accuracy</th><th>ROC-AUC</th></tr></thead><tbody><tr><td>Improved 3D CNN · validation</td><td>200</td><td>74.50%</td><td>0.8269</td></tr><tr><td>Improved 3D CNN · test</td><td>201</td><td>74.63%</td><td>0.8335</td></tr><tr><td>ResNet3D Lite · validation</td><td>401</td><td>72.07%</td><td>0.7678</td></tr><tr><td>U-Net encoder · validation</td><td>200</td><td>74.00%</td><td>0.8116</td></tr></tbody></table>
+<p class="copy">DSO2 — Improved 3D CNN training and validation history.</p>
+<p class="copy">The Improved 3D CNN test evaluation identifies 107 of 123 true-nodule patches, with 35 false positives and 16 false negatives. Its accuracy and AUC describe binary candidate labels, not malignancy diagnosis.</p>
+<p class="copy">How to compare these results. Each model retains its own recorded cohort. The ResNet matrix contains 401 patches despite an earlier 200-patch validation log. Splitting is by patch, and a patient-disjoint benchmark is not established. These studies support analysis of the recorded runs, not a controlled architecture ranking.</p>
+<p class="copy">Interpretation: The Improved 3D CNN reaches 74.63% test accuracy and ROC-AUC 0.8335 on its 201-patch cohort. Its 35 false positives and 16 false negatives show the remaining classification errors. The differing evaluation cohorts prevent treating these recorded runs as a controlled ranking of the three architectures.</p>
+<p class="copy-heading">DSO3 — Exploratory 3D Segmentation</p>
+<p class="copy">This objective predicts a mask identifying nodule voxels within a 3D CT patch. It is a parallel research exploration, rather than a prerequisite for detection or classification.</p>
+<p class="copy-heading">Data Processing</p>
+<p class="copy-bullet">Volume preparation: Prepared lung regions, clipped intensities to −1000 to 400 HU and scaled them to the range [0, 1].</p>
+<p class="copy-bullet">Reference masks: Created spherical masks from annotated nodule centres and diameters. These approximate reference regions are not manually traced nodule boundaries.</p>
+<p class="copy-bullet">Patch extraction: Extracted 48 × 48 × 48 positive CT patches with corresponding mask patches. Negative patches were sampled away from annotated nodules and paired with empty masks.</p>
+<p class="copy-bullet">Augmentation and normalization: Explored flips, rotations, zoom, noise and intensity shifts, with patch-level min–max normalization in the model loader.</p>
+<p class="copy-bullet">Splits and tiny nodules: The baseline records 2,036 training and 509 validation patches. Later experiments oversampled selected small-nodule examples to increase their exposure during training.</p>
+<p class="copy-heading">Models Applied</p>
+<p class="copy">The segmentation flow is CT patch → encoder → bottleneck → decoder → voxel probability map. Decoder upsampling and encoder-to-decoder skip connections help reconstruct spatial detail.</p>
+<p class="copy-bullet">3D U-Net: Baseline encoder–decoder architecture.</p>
+<p class="copy-bullet">Attention 3D U-Net: Attention gates weight features passed through skip connections.</p>
+<p class="copy-bullet">Residual Attention 3D U-Net: Residual convolution blocks combined with attention gates.</p>
+<p class="copy-bullet">Tiny-nodule training: Baseline architecture with modified sampling and augmentation.</p>
+<p class="copy">Recorded training used binary cross-entropy loss and Adam at 0.0001. A sigmoid produces voxel probabilities, and a 0.5 threshold converts them into binary masks.</p>
+<p class="copy-heading">Results &amp; Evaluation</p>
+<p class="copy">Segmentation results depend strongly on the selected patches and the handling of empty masks. The table preserves these separate experimental contexts; all values are notebook-reported summaries.</p>
+<table><thead><tr><th>Model study</th><th>Evaluation context</th><th>Patches</th><th>Reported score</th></tr></thead><tbody><tr><td>3D U-Net</td><td>Five positives · A</td><td>5</td><td>Dice 0.2115</td></tr><tr><td>3D U-Net</td><td>Five positives · B</td><td>5</td><td>Dice 0.3127</td></tr><tr><td>3D U-Net</td><td>Mixed validation loader</td><td>509</td><td>Dice 0.9504</td></tr><tr><td>Attention U-Net</td><td>Five positive patches</td><td>5</td><td>Dice 0.1599</td></tr><tr><td>Attention U-Net</td><td>Ten mixed patches</td><td>10</td><td>Dice 0.9800</td></tr><tr><td>Residual attention</td><td>Ten positives · initial</td><td>10</td><td>Dice 0.1200</td></tr><tr><td>Residual attention</td><td>Ten positives · later</td><td>10</td><td>Dice 0.0348</td></tr></tbody></table>
+<p class="copy">DSO3 — Baseline 3D U-Net training and validation loss.</p>
+<p class="copy">The 0.9504 validation Dice comes from a mixed, augmented loader, where smoothing assigns empty prediction/reference pairs a Dice near 1. The attention model’s mixed-patch evaluator similarly assigns perfect scores to empty pairs. Positive-only samples show the remaining difficulty of recovering small nodule regions.</p>
+<p class="copy">Tiny-nodule augmentation retains saved prediction examples and a final validation binary cross-entropy loss of 0.0446. No Dice, precision, recall or F1 evaluation was recorded for that run; a lower loss is not an overlap score.</p>
+<p class="copy">Recorded Attention 3D U-Net positive-nodule example — Dice 0.8000, precision 0.8630, recall 0.7456. Single case from the ten-patch mixed evaluation.</p>
+<p class="copy">Evaluation context: The notebook applies random augmentation to images and masks through separate calls, so their spatial transformations are not guaranteed to match; validation also inherits augmentation. Patch splits do not establish patient-disjoint evaluation. Together with the mixed-versus-positive-only score differences, these limitations keep the segmentation findings exploratory.</p>
+<p class="copy-heading">Deployment</p>
+<p class="copy">My PulmoTrack contribution is hosted on Streamlit Community Cloud, with the GitHub repository as its deployment source. The interface preserves the dark navy and teal medical-imaging identity, sidebar navigation and CT-focused visual presentation.</p>
+<p class="copy">Visitors can explore model architectures, recorded metrics, training histories, original segmentation predictions, pilot Grad-CAM, research resources and the manuscript viewer. The app presents saved evidence; it requires no CT dataset download or live model execution.</p>
+<p class="copy">Delivery workflow: Research notebooks → exported figures and result summaries → Streamlit interface → GitHub → Streamlit Community Cloud.</p>
+<p class="copy">The website is a completed research showcase, rather than a patient-upload or diagnostic inference service. Repository changes can be reflected in the deployed app through Community Cloud’s GitHub integration.</p>
+<p class="copy">Open Live Showcase (opens in a new tab)</p>
+<p class="copy">View Source on GitHub (opens in a new tab)</p>
+<p class="copy">Deployment reference: Streamlit Community Cloud documentation.</p>
+<p class="copy-heading">Research Paper</p>
+<p class="copy">Title: PulmoTrack: A Deep Learning Solution for Pulmonary Nodule Segmentation, Detection, and Classification on CT and Chest X-ray Scans</p>
+<p class="copy">Document: Team research manuscript · May 2025 · 11 pages.</p>
+<p class="copy">Authors: Farah Sayari and co-authors.</p>
+<p class="copy">The manuscript covers the broader team project, including CT and chest X-ray work. This portfolio page focuses on the LUNA16 CT contribution.</p>
+<p class="copy-heading">Paper-reported LUNA16 highlights</p>
+<p class="copy">The manuscript reports segmentation Dice 0.95, detection sensitivity 92% at 1.5 false positives per scan, and classification AUC 0.91 (pp. 4–5).</p>
+<p class="copy">View Paper (PDF) (opens in a new tab)</p>
+<p class="copy">Download Paper (PDF)</p>
+<h2 class="">Animated content and alternate states</h2>
+<p class="p">The project image card contains 2 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select the project artwork or team photo. Automatic rotation is disabled; the project artwork is initially selected.</p>
+<table><thead><tr><th>Slide</th><th>Image path</th></tr></thead><tbody><tr><td>1</td><td>assets/img/portfolio/pulmotrack/pulmotrack.png</td></tr><tr><td>2</td><td>assets/img/portfolio/pulmotrack/team.png</td></tr></tbody></table>
+<h2 class="">Main-content links and downloads</h2>
+<table><thead><tr><th>Exact label / accessible label</th><th>Exact destination</th><th>Download filename</th></tr></thead><tbody><tr><td>Back to Portfolio</td><td>portfolio.html</td><td>(empty)</td></tr><tr><td>Open the live PulmoTrack research showcase (opens in a new tab)</td><td>https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/</td><td>(empty)</td></tr><tr><td>Enlarge the PulmoTrack team photo</td><td>assets/img/portfolio/pulmotrack/team.png</td><td>(empty)</td></tr><tr><td>Open Live Showcase (opens in a new tab)</td><td>https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/</td><td>(empty)</td></tr><tr><td>View Source on GitHub (opens in a new tab)</td><td>https://github.com/FarahSayari/pulmoTrack-farahsayari-contribution</td><td>(empty)</td></tr><tr><td>Project Information</td><td>#project-info-title</td><td>(empty)</td></tr><tr><td>Technologies</td><td>#technologies</td><td>(empty)</td></tr><tr><td>Project Overview</td><td>#project-overview</td><td>(empty)</td></tr><tr><td>My Contributions</td><td>#my-contributions</td><td>(empty)</td></tr><tr><td>LUNA16 Dataset</td><td>#luna16-dataset</td><td>(empty)</td></tr><tr><td>Project Methodology</td><td>#project-methodology</td><td>(empty)</td></tr><tr><td>Explore the Three DSOs</td><td>#research-objectives</td><td>(empty)</td></tr><tr><td>DSO1 — Nodule Detection</td><td>#dso1-title</td><td>(empty)</td></tr><tr><td>Data Processing</td><td>#dso1-data-processing</td><td>(empty)</td></tr><tr><td>Models Applied</td><td>#dso1-models-applied</td><td>(empty)</td></tr><tr><td>Results &amp; Evaluation</td><td>#detection-results-title</td><td>(empty)</td></tr><tr><td>DSO2 — Nodule Classification</td><td>#dso2-title</td><td>(empty)</td></tr><tr><td>Data Processing</td><td>#dso2-data-processing</td><td>(empty)</td></tr><tr><td>Models Applied</td><td>#dso2-models-applied</td><td>(empty)</td></tr><tr><td>Results &amp; Evaluation</td><td>#classification-results-title</td><td>(empty)</td></tr><tr><td>DSO3 — Exploratory 3D Segmentation</td><td>#dso3-title</td><td>(empty)</td></tr><tr><td>Data Processing</td><td>#dso3-data-processing</td><td>(empty)</td></tr><tr><td>Models Applied</td><td>#dso3-models-applied</td><td>(empty)</td></tr><tr><td>Results &amp; Evaluation</td><td>#segmentation-results-title</td><td>(empty)</td></tr><tr><td>Deployment</td><td>#deployment</td><td>(empty)</td></tr><tr><td>Research Paper</td><td>#research-paper-title</td><td>(empty)</td></tr><tr><td>Paper-reported LUNA16 highlights</td><td>#paper-reported-highlights</td><td>(empty)</td></tr><tr><td>World Health Organization — Lung cancer</td><td>https://www.who.int/news-room/fact-sheets/detail/lung-cancer</td><td>(empty)</td></tr><tr><td>LUNA16 official data page</td><td>https://luna16.grand-challenge.org/Data/</td><td>(empty)</td></tr><tr><td>Enlarge the PulmoTrack project methodology diagram</td><td>assets/img/portfolio/pulmotrack/methodology.png</td><td>(empty)</td></tr><tr><td>Enlarge the nodule detection illustration</td><td>assets/img/portfolio/pulmotrack/Nodule%20detection.png</td><td>(empty)</td></tr><tr><td>Enlarge the nodule detection model architecture</td><td>assets/img/portfolio/pulmotrack/arch%20detection.png</td><td>(empty)</td></tr><tr><td>Enlarge detection test-set confusion matrix with 789 true negatives, 11 false positives, 9 false negatives and 112 true positives</td><td>assets/img/portfolio/pulmotrack/02_dso1_test_confusion_matrix.png</td><td>(empty)</td></tr><tr><td>Enlarge detection test-set ROC curve</td><td>assets/img/portfolio/pulmotrack/03_dso1_test_roc_curve.png</td><td>(empty)</td></tr><tr><td>Enlarge detection training and validation loss and accuracy across 20 epochs</td><td>assets/img/portfolio/pulmotrack/07_dso1_training_history.png</td><td>(empty)</td></tr><tr><td>Enlarge the nodule classification illustration</td><td>assets/img/portfolio/pulmotrack/Nodule%20classification.png</td><td>(empty)</td></tr><tr><td>Enlarge the nodule classification model architecture</td><td>assets/img/portfolio/pulmotrack/arch%20classification.png</td><td>(empty)</td></tr><tr><td>Enlarge improved 3D CNN training and validation loss and accuracy across 17 epochs</td><td>assets/img/portfolio/pulmotrack/08_dso2_training_history.png</td><td>(empty)</td></tr><tr><td>Enlarge the exploratory segmentation illustration</td><td>assets/img/portfolio/pulmotrack/Exploratory%20segmentation.png</td><td>(empty)</td></tr><tr><td>Enlarge the nodule segmentation model architecture</td><td>assets/img/portfolio/pulmotrack/arch%20segmentation.png</td><td>(empty)</td></tr><tr><td>Enlarge 3D U-Net training and validation loss across 50 epochs</td><td>assets/img/portfolio/pulmotrack/09_dso3_training_loss.png</td><td>(empty)</td></tr><tr><td>Enlarge the recorded Attention 3D U-Net positive-nodule prediction</td><td>assets/img/portfolio/pulmotrack/attention-positive-prediction.png</td><td>(empty)</td></tr><tr><td>Open Live Showcase (opens in a new tab)</td><td>https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/</td><td>(empty)</td></tr><tr><td>View Source on GitHub (opens in a new tab)</td><td>https://github.com/FarahSayari/pulmoTrack-farahsayari-contribution</td><td>(empty)</td></tr><tr><td>Streamlit Community Cloud documentation</td><td>https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app</td><td>(empty)</td></tr><tr><td>View Paper (PDF) (opens in a new tab)</td><td>assets/docs/PulmoTrackPaper.pdf</td><td>(empty)</td></tr><tr><td>Download Paper (PDF)</td><td>assets/docs/PulmoTrackPaper.pdf</td><td>PulmoTrackPaper.pdf</td></tr></tbody></table>
+<h2 class="">Main-content images</h2>
+<table><thead><tr><th>Image path</th><th>Exact alternate text</th><th>Role</th></tr></thead><tbody><tr><td>assets/img/portfolio/pulmotrack/pulmotrack.png</td><td>PulmoTrack concept artwork illustrating CT-based nodule detection, segmentation, and classification</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/team.png</td><td>PulmoTrack project team standing together</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/methodology.png</td><td>PulmoTrack CRISP-DM workflow: business understanding, data understanding, data preparation, modeling, evaluation, and deployment</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/Nodule%20detection.png</td><td>PulmoTrack nodule detection concept illustration showing candidate nodules highlighted on a CT scan</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/arch%20detection.png</td><td>Nodule detection architecture: CT preprocessing and patch extraction followed by a 3D encoder, bottleneck, global average pooling, and a nodule/non-nodule classification head</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/02_dso1_test_confusion_matrix.png</td><td>Detection test-set confusion matrix with 789 true negatives, 11 false positives, 9 false negatives and 112 true positives</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/03_dso1_test_roc_curve.png</td><td>Detection test-set ROC curve</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/07_dso1_training_history.png</td><td>Detection training and validation loss and accuracy across 20 epochs</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/Nodule%20classification.png</td><td>PulmoTrack classification concept artwork depicting the broader benign/malignant project goal; the recorded evaluations below use true/false nodule labels</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/arch%20classification.png</td><td>Improved 3D CNN concept architecture showing CT preprocessing, patch extraction, convolution blocks, pooling and a classification head; the recorded evaluations use true/false nodule labels</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/08_dso2_training_history.png</td><td>Improved 3D CNN training and validation loss and accuracy across 17 epochs</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/Exploratory%20segmentation.png</td><td>PulmoTrack segmentation concept illustration showing a CT patch, reference mask, predicted mask and 3D U-Net; recorded evaluation contexts are detailed below</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/arch%20segmentation.png</td><td>3D U-Net segmentation architecture: CT preprocessing, patch extraction, encoder, bottleneck, decoder with skip connections, and output nodule masks</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/09_dso3_training_loss.png</td><td>3D U-Net training and validation loss across 50 epochs</td><td>(empty)</td></tr><tr><td>assets/img/portfolio/pulmotrack/attention-positive-prediction.png</td><td>Five CT slices with reference and predicted masks from a recorded Attention 3D U-Net positive-nodule case; Dice 0.8000, precision 0.8630, recall 0.7456</td><td>(empty)</td></tr></tbody></table>
+<h1 class="chapter">08 · Contact</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>contact.html</td></tr><tr><td>Browser title</td><td>Contact - Farah Sayari</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>Contact Farah Sayari for software engineering, data science, AI, and collaboration opportunities.</td></tr><tr><td>Keywords meta tag</td><td>Farah Sayari, contact, software engineer, data science, Tunisia</td></tr><tr><td>Main section IDs</td><td>contact</td></tr></tbody></table>
+<h2 class="">Exact page content</h2>
+<p class="copy-heading">Contact</p>
+<p class="copy">Have an opportunity, project idea, or collaboration in mind? Feel free to reach out.</p>
+<p class="copy-heading">Location</p>
+<p class="copy">Ariana, Tunisia</p>
+<p class="copy-heading">Email</p>
+<p class="copy">farahsayari.dev@gmail.com</p>
+<p class="copy-heading">Phone</p>
+<p class="copy">+216 28528390</p>
+<p class="copy-heading">Social Links</p>
+<p class="copy">GitHub | LinkedIn</p>
+<p class="copy-heading">Send me a message</p>
+<p class="copy">Your Name</p>
+<p class="copy">Your Email</p>
+<p class="copy">Subject</p>
+<p class="copy">Message</p>
+<p class="copy">Send Message</p>
+<p class="copy">You can also email me directly at farahsayari.dev@gmail.com.</p>
+<h2 class="">Main-content links and downloads</h2>
+<table><thead><tr><th>Exact label / accessible label</th><th>Exact destination</th><th>Download filename</th></tr></thead><tbody><tr><td>farahsayari.dev@gmail.com</td><td>mailto:farahsayari.dev@gmail.com</td><td>(empty)</td></tr><tr><td>+216 28528390</td><td>tel:+21628528390</td><td>(empty)</td></tr><tr><td>GitHub</td><td>https://github.com/FarahSayari</td><td>(empty)</td></tr><tr><td>LinkedIn</td><td>https://www.linkedin.com/in/farah-sayari-060745248</td><td>(empty)</td></tr><tr><td>farahsayari.dev@gmail.com</td><td>mailto:farahsayari.dev@gmail.com</td><td>(empty)</td></tr></tbody></table>
+<h2 class="">Embedded content</h2>
+<table><thead><tr><th>Exact title</th><th>Exact embed URL</th></tr></thead><tbody><tr><td>Map of Ariana, Tunisia</td><td>https://www.google.com/maps?q=Ariana%2C%20Tunisia&amp;output=embed</td></tr></tbody></table>
+<h2 class="">Contact form configuration and field copy</h2>
+<table><thead><tr><th>Attribute</th><th>Value</th></tr></thead><tbody><tr><td>Form ID</td><td>contact-form</td></tr><tr><td>Method</td><td>POST</td></tr><tr><td>Action</td><td>https://formspree.io/f/xgojgjbj</td></tr></tbody></table>
+<h3 class="">Your Name</h3>
+<table><thead><tr><th>Field attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>HTML name</td><td>name</td></tr><tr><td>Type</td><td>text</td></tr><tr><td>Placeholder</td><td>Your name</td></tr><tr><td>Default / hidden value</td><td>(empty)</td></tr><tr><td>Required</td><td>yes</td></tr><tr><td>Visibility</td><td>visible</td></tr></tbody></table>
+<h3 class="">Your Email</h3>
+<table><thead><tr><th>Field attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>HTML name</td><td>email</td></tr><tr><td>Type</td><td>email</td></tr><tr><td>Placeholder</td><td>your.email@example.com</td></tr><tr><td>Default / hidden value</td><td>(empty)</td></tr><tr><td>Required</td><td>yes</td></tr><tr><td>Visibility</td><td>visible</td></tr></tbody></table>
+<h3 class="">Subject</h3>
+<table><thead><tr><th>Field attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>HTML name</td><td>subject</td></tr><tr><td>Type</td><td>text</td></tr><tr><td>Placeholder</td><td>Opportunity / Collaboration / Question</td></tr><tr><td>Default / hidden value</td><td>(empty)</td></tr><tr><td>Required</td><td>yes</td></tr><tr><td>Visibility</td><td>visible</td></tr></tbody></table>
+<h3 class="">Message</h3>
+<table><thead><tr><th>Field attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>HTML name</td><td>message</td></tr><tr><td>Type</td><td>textarea</td></tr><tr><td>Placeholder</td><td>Write your message here...</td></tr><tr><td>Default / hidden value</td><td>(empty)</td></tr><tr><td>Required</td><td>yes</td></tr><tr><td>Visibility</td><td>visible</td></tr></tbody></table>
+<h3 class="">_subject</h3>
+<table><thead><tr><th>Field attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>HTML name</td><td>_subject</td></tr><tr><td>Type</td><td>hidden</td></tr><tr><td>Placeholder</td><td>(empty)</td></tr><tr><td>Default / hidden value</td><td>New portfolio message from Farah Sayari website</td></tr><tr><td>Required</td><td>no</td></tr><tr><td>Visibility</td><td>hidden</td></tr></tbody></table>
+<h3 class="">Website</h3>
+<table><thead><tr><th>Field attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>HTML name</td><td>_gotcha</td></tr><tr><td>Type</td><td>text</td></tr><tr><td>Placeholder</td><td>(empty)</td></tr><tr><td>Default / hidden value</td><td>(empty)</td></tr><tr><td>Required</td><td>no</td></tr><tr><td>Visibility</td><td>hidden</td></tr></tbody></table>
+<h3 class="">Conditional interface messages</h3>
+<p class="copy">Loading</p>
+<p class="copy">Your message has been sent. Thank you!</p>
+<p class="copy">Please complete all fields with a valid email address.</p>
+<p class="copy">Message could not be sent. Please email me directly instead.</p>
+<p class="p">The browser validates required fields and the email format. On submission the inline script posts FormData to the configured action with Accept: application/json, shows a loading state, and disables the submit button. A successful response resets the form and shows the success message. An invalid form or unsuccessful request shows the corresponding message above. The _gotcha field is the hidden honeypot; the _subject field supplies the notification subject.</p>
+<h1 class="chapter">09 · Starter template</h1>
+<table><thead><tr><th>Page attribute</th><th>Exact value</th></tr></thead><tbody><tr><td>Source file</td><td>starter-page.html</td></tr><tr><td>Browser title</td><td>Starter Page - Kelly Bootstrap Template</td></tr><tr><td>Language</td><td>en</td></tr><tr><td>Description meta tag</td><td>(empty)</td></tr><tr><td>Keywords meta tag</td><td>(empty)</td></tr><tr><td>Main section IDs</td><td>starter-section</td></tr></tbody></table>
+<p class="p">Retained template file. It is not linked from the main navigation or the current project list. Its template copy is reproduced below as part of the complete file inventory.</p>
+<h2 class="">Exact page content</h2>
+<p class="copy-heading">Starter Section</p>
+<p class="copy">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+<p class="copy">Use this page as a starter for your own custom pages.</p>
+<h1 class="chapter">Source inventory and current content differences</h1>
+<h2 class="">Current differences retained in this record</h2>
+<p class="p">The document records the website as it exists. These items are observations for future editing; the website was not changed while preparing this reference.</p>
+<table><thead><tr><th>Observation</th><th>Pages / current value</th></tr></thead><tbody><tr><td>Header/footer email destinations</td><td>farah.sayari@esprit.tn: about.html, index.html, services.html; farahsayari.dev@gmail.com: contact.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html</td></tr><tr><td>Placeholder navigation links</td><td>index.html, about.html, services.html, starter-page.html. Exact labels and destinations are in the shared navigation inventory.</td></tr><tr><td>Project entries without descriptions or links</td><td>AI Agent Recruiter, TestPilot</td></tr><tr><td>Different project naming</td><td>The resume calls its career assistant Aura; the portfolio entry is titled AI Agent Recruiter. This reference does not assume that they are the same project.</td></tr><tr><td>Retained starter page</td><td>starter-page.html. Current brand: Kelly. Its exact content and links are recorded in its section.</td></tr><tr><td>Residual contact template backend</td><td>forms/contact.php remains present. Configured receiving address: contact@example.com. Current HTML form actions: https://formspree.io/f/xgojgjbj</td></tr></tbody></table>
+<h2 class="">Stylesheet and script references</h2>
+<table><thead><tr><th>Reference</th><th>Used by</th></tr></thead><tbody><tr><td>https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/bootstrap/css/bootstrap.min.css</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/bootstrap-icons/bootstrap-icons.css</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/aos/aos.css</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/swiper/swiper-bundle.min.css</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/glightbox/css/glightbox.min.css</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/css/main.css</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/bootstrap/js/bootstrap.bundle.min.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/php-email-form/validate.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, starter-page.html</td></tr><tr><td>assets/vendor/aos/aos.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/waypoints/noframework.waypoints.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/purecounter/purecounter_vanilla.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/swiper/swiper-bundle.min.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/glightbox/js/glightbox.min.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/imagesloaded/imagesloaded.pkgd.min.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/vendor/isotope-layout/isotope.pkgd.min.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/js/main.js</td><td>index.html, about.html, resume.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, contact.html, starter-page.html</td></tr><tr><td>assets/css/resume.css</td><td>resume.html</td></tr><tr><td>assets/css/portfolio.css</td><td>portfolio.html, portfolio-details.html, pulmotrack-details.html</td></tr></tbody></table>
+<h2 class="">Favicons</h2>
+<table><thead><tr><th>Page</th><th>Link relation</th><th>Path</th></tr></thead><tbody><tr><td>index.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>index.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>about.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>about.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>resume.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>resume.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>services.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>services.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>portfolio.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>portfolio.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>portfolio-details.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>portfolio-details.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>pulmotrack-details.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>pulmotrack-details.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>contact.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>contact.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr><tr><td>starter-page.html</td><td>icon</td><td>assets/img/favicon.png</td></tr><tr><td>starter-page.html</td><td>apple-touch-icon</td><td>assets/img/apple-touch-icon.png</td></tr></tbody></table>
+<h2 class="">Downloadable documents</h2>
+<table><thead><tr><th>Local PDF file</th><th>Referenced by</th></tr></thead><tbody><tr><td>assets/docs/Farah_Sayari_CV2026.pdf</td><td>resume.html</td></tr><tr><td>assets/docs/PulmoTrackPaper.pdf</td><td>pulmotrack-details.html</td></tr></tbody></table>
+<p class="p">Each original linked PDF is preserved in Content_Source_Snapshot.zip. Its unmodified pages are appended to the PDF version of this reference; the Word/HTML/Markdown versions identify the documents rather than rewriting them. View and download labels and requested filenames appear in the page-specific link tables.</p>
+<h2 class="">Source snapshot and verification</h2>
+<p class="p">Content_Source_Snapshot.zip contains the captured HTML files, custom CSS and JavaScript, referenced local images and PDF documents, and the residual form/readme files. Source_Manifest.json records SHA-256 checksums. Content_Inventory.json contains the structured page inventory; Browser_Capture.json preserves the browser-parsed DOM and text. Vendor libraries are identified by reference rather than copied into the source archive.</p>
+<p class="p">The page transcripts are checked against every non-hidden text fragment inside each main element. Source hashes are checked before and after generation to confirm the website files remain unchanged. The generated PDF is checked for text coverage and readable page bounds.</p>
+<h1 class="chapter">Owner notes and future updates</h1>
+<p class="p">These notes are editable in documentation/notes.json. They are not current website copy and are kept separately from the exact page transcripts.</p>
+<p class="p">No owner notes have been added yet.</p>
+</body></html>

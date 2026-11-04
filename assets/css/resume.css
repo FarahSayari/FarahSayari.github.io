@@ -1,0 +1,101 @@
+/* Resume-specific additions preserve the shared Kelly theme. */
+.resume-page .resume-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 12px 28px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background: var(--accent-color);
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+
+.resume-page .resume-download:hover {
+  background: color-mix(in srgb, var(--accent-color), white 18%);
+}
+
+.resume-page a:focus-visible {
+  outline: 2px solid var(--heading-color);
+  outline-offset: 4px;
+}
+
+.resume-page .resume-item h4 {
+  line-height: 1.45;
+  text-transform: none;
+  color: var(--heading-color);
+}
+
+.resume-page .resume-date {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--accent-color), white 90%);
+  font-weight: 600;
+}
+
+.resume-page .resume-item,
+.resume-page .resume-skills {
+  overflow-wrap: anywhere;
+}
+
+.resume-page .resume-item a {
+  color: var(--default-color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 4px;
+}
+
+.resume-page .resume-item a:hover {
+  color: var(--heading-color);
+}
+
+.resume-page .resume-skills > div {
+  padding: 12px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), white 88%);
+}
+
+.resume-page .resume-skills dt {
+  margin-bottom: 5px;
+  color: var(--heading-color);
+}
+
+.resume-page .resume-skills dd {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+.resume-page .resume-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.resume-page .resume-languages li {
+  display: flex;
+  gap: 10px;
+  padding: 8px 14px;
+  border: 1px solid color-mix(in srgb, var(--default-color), white 80%);
+  border-radius: 6px;
+}
+
+.resume-page .resume-activities {
+  padding-left: 20px;
+}
+
+.resume-page .resume-activities li {
+  padding-bottom: 12px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .resume-page [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

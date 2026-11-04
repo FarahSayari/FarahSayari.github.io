@@ -1,0 +1,6 @@
+# Local caches and operating system files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+Desktop.ini

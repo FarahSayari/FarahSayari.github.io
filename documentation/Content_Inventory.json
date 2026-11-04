@@ -1,0 +1,3380 @@
+{
+  "snapshot_date": "2026-11-04",
+  "timezone": "Africa/Tunis",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Farah Sayari Portfolio",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "",
+        "keywords": ""
+      },
+      "sections": [
+        [
+          "section",
+          "hero"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Farah Sayari"
+        },
+        {
+          "tag": "p",
+          "text": "I'm a Software Engineer|"
+        },
+        {
+          "tag": "p",
+          "text": "Welcome to my digital world!"
+        },
+        {
+          "tag": "a",
+          "text": "About Me"
+        },
+        {
+          "tag": "a",
+          "text": "View Resume"
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          "active"
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 5",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farah.sayari@esprit.tn"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farah.sayari@esprit.tn"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "About Me",
+          "about.html",
+          ""
+        ],
+        [
+          "View Resume",
+          "resume.html",
+          ""
+        ]
+      ],
+      "images": [
+        [
+          "assets/img/hero-bg.jpg",
+          "Abstract hero background for Farah Sayari",
+          ""
+        ]
+      ],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [
+        {
+          "type": "typewriter",
+          "values": [
+            "Software Engineer",
+            "Data Scientist",
+            "Digital Artist"
+          ]
+        }
+      ],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Farah Sayari\n\nI'm a\nSoftware Engineer\n|\n\nWelcome to my digital world!\n\nABOUT ME\nVIEW RESUME"
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "about.html",
+      "title": "About - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "",
+        "keywords": ""
+      },
+      "sections": [
+        [
+          "section",
+          "about"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "About"
+        },
+        {
+          "tag": "p",
+          "text": "Get to know me, my background, and the kind of digital solutions I enjoy building."
+        },
+        {
+          "tag": "h2",
+          "text": "Junior Software Engineer specialized in Data Science"
+        },
+        {
+          "tag": "p",
+          "text": "Hi, I’m Farah Sayari. I’m a Software Engineer specialized in Data Science, a book lover, and a creative soul with a passion for digital art."
+        },
+        {
+          "tag": "p",
+          "text": "I build smart, practical, and user-friendly solutions using AI, Machine Learning, Deep Learning, automation, and full-stack development. Logic helps me build. Imagination helps me create."
+        },
+        {
+          "tag": "li",
+          "text": "Email: farahsayari.dev@gmail.com"
+        },
+        {
+          "tag": "li",
+          "text": "Phone: +216 28528390"
+        },
+        {
+          "tag": "li",
+          "text": "Linkedin: linkedin.com/in/farah-sayari-060745248"
+        },
+        {
+          "tag": "li",
+          "text": "Degree: Software Engineering – Data Science"
+        },
+        {
+          "tag": "li",
+          "text": "Github: github.com/FarahSayari"
+        },
+        {
+          "tag": "li",
+          "text": "Freelance: Open to opportunities"
+        },
+        {
+          "tag": "p",
+          "text": "I’m open to junior opportunities in Software Engineering, Data Science, and AI."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          "active"
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 5",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farah.sayari@esprit.tn"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farah.sayari@esprit.tn"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "farahsayari.dev@gmail.com",
+          "mailto:farahsayari.dev@gmail.com",
+          ""
+        ],
+        [
+          "linkedin.com/in/farah-sayari-060745248",
+          "https://www.linkedin.com/in/farah-sayari-060745248",
+          ""
+        ],
+        [
+          "github.com/FarahSayari",
+          "https://github.com/FarahSayari",
+          ""
+        ]
+      ],
+      "images": [
+        [
+          "assets/img/me11.png",
+          "Farah Sayari profile photo 1",
+          ""
+        ],
+        [
+          "assets/img/me22.png",
+          "Farah Sayari profile photo 2",
+          ""
+        ],
+        [
+          "assets/img/me33.png",
+          "Farah Sayari profile photo 3",
+          ""
+        ]
+      ],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [
+        {
+          "type": "photo-loop",
+          "values": [
+            "assets/img/me11.png",
+            "assets/img/me22.png",
+            "assets/img/me33.png"
+          ]
+        }
+      ],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "About\n\nGet to know me, my background, and the kind of digital solutions I enjoy building.\n\nJunior Software Engineer specialized in Data Science\n\nHi, I’m Farah Sayari. I’m a Software Engineer specialized in Data Science, a book lover, and a creative soul with a passion for digital art.\n\nI build smart, practical, and user-friendly solutions using AI, Machine Learning, Deep Learning, automation, and full-stack development. Logic helps me build. Imagination helps me create.\n\nEmail:\nfarahsayari.dev@gmail.com\nPhone:\n+216 28528390\nLinkedin:\nlinkedin.com/in/farah-sayari-060745248\nDegree:\nSoftware Engineering – Data Science\nGithub:\ngithub.com/FarahSayari\nFreelance:\nOpen to opportunities\n\nI’m open to junior opportunities in Software Engineering, Data Science, and AI."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "resume.html",
+      "title": "Resume - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Explore Farah Sayari's resume: AI and software engineering experience, education, technical skills, and projects in Data Science and agentic AI."
+      },
+      "sections": [
+        [
+          "section",
+          "resume"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Resume"
+        },
+        {
+          "tag": "p",
+          "text": "AI & Software Engineer specializing in Data Science, agentic AI, and full-stack development."
+        },
+        {
+          "tag": "a",
+          "text": "Download CV (PDF)"
+        },
+        {
+          "tag": "h3",
+          "text": "Summary"
+        },
+        {
+          "tag": "h4",
+          "text": "Farah Sayari"
+        },
+        {
+          "tag": "p",
+          "text": "Software Engineer specializing in Data Science, with hands-on experience in Machine Learning, Deep Learning, agentic AI, and full-stack development. I build intelligent, data-driven applications and am seeking a full-time opportunity in AI, Data Science, or Software Engineering."
+        },
+        {
+          "tag": "li",
+          "text": "Ariana, Tunisia"
+        },
+        {
+          "tag": "li",
+          "text": "+216 28 528 390"
+        },
+        {
+          "tag": "li",
+          "text": "farahsayari.dev@gmail.com"
+        },
+        {
+          "tag": "li",
+          "text": "GitHub · LinkedIn"
+        },
+        {
+          "tag": "h3",
+          "text": "Education"
+        },
+        {
+          "tag": "h4",
+          "text": "Engineering Cycle in Computer Science – Data Science"
+        },
+        {
+          "tag": "p",
+          "text": "Sep 2023 – Nov 2026"
+        },
+        {
+          "tag": "p",
+          "text": "ESPRIT – Private Higher School of Engineering and Technology"
+        },
+        {
+          "tag": "h4",
+          "text": "Bachelor’s Degree in Computer Systems Engineering – Embedded Systems & IoT"
+        },
+        {
+          "tag": "p",
+          "text": "Sep 2020 – Jun 2023"
+        },
+        {
+          "tag": "p",
+          "text": "Faculty of Sciences of Bizerte"
+        },
+        {
+          "tag": "h3",
+          "text": "Technical Skills"
+        },
+        {
+          "tag": "dt",
+          "text": "Programming"
+        },
+        {
+          "tag": "dd",
+          "text": "Python, Java, JavaScript, R, C"
+        },
+        {
+          "tag": "dt",
+          "text": "AI & Machine Learning"
+        },
+        {
+          "tag": "dd",
+          "text": "Scikit-learn, TensorFlow, Keras, PyTorch, MLflow, Deep Learning, NLP, Recommendation Systems"
+        },
+        {
+          "tag": "dt",
+          "text": "Generative AI & Agents"
+        },
+        {
+          "tag": "dd",
+          "text": "LLMs, RAG, LangChain, LangGraph, Qdrant, Ollama, Prompt Engineering"
+        },
+        {
+          "tag": "dt",
+          "text": "Backend & Frontend"
+        },
+        {
+          "tag": "dd",
+          "text": "Spring Boot, FastAPI, Flask, Angular, React, REST APIs"
+        },
+        {
+          "tag": "dt",
+          "text": "Data Engineering & Analytics"
+        },
+        {
+          "tag": "dd",
+          "text": "SQL, PostgreSQL, Hadoop, Talend, Data Warehousing, Power BI, Time Series Analysis"
+        },
+        {
+          "tag": "dt",
+          "text": "DevOps & Tools"
+        },
+        {
+          "tag": "dd",
+          "text": "Git, Docker, GitHub Actions, Jenkins, Linux, Cypress, Kubernetes"
+        },
+        {
+          "tag": "h3",
+          "text": "Languages"
+        },
+        {
+          "tag": "li",
+          "text": "Arabic Native"
+        },
+        {
+          "tag": "li",
+          "text": "French C2"
+        },
+        {
+          "tag": "li",
+          "text": "English C1"
+        },
+        {
+          "tag": "h3",
+          "text": "Activities & Awards"
+        },
+        {
+          "tag": "li",
+          "text": "IEEE Computational Intelligence Society (CIS) — ESPRIT Chapter, 2025."
+        },
+        {
+          "tag": "li",
+          "text": "Bal des Projets — ESPRIT (2024 & 2025) — Academic projects pre-selected for both editions."
+        },
+        {
+          "tag": "li",
+          "text": "IEEEXtreme 17.0 & 18.0 — Participant."
+        },
+        {
+          "tag": "li",
+          "text": "University English Competition (2024) — 3rd Place."
+        },
+        {
+          "tag": "p",
+          "text": "Interests: Reading & Literature, Digital Art & Illustration."
+        },
+        {
+          "tag": "h3",
+          "text": "Professional Experience"
+        },
+        {
+          "tag": "h4",
+          "text": "AI & Full-Stack Software Engineer Intern"
+        },
+        {
+          "tag": "p",
+          "text": "Feb – Aug 2026"
+        },
+        {
+          "tag": "p",
+          "text": "VERMEG · PFE Internship"
+        },
+        {
+          "tag": "p",
+          "text": "TestPilot — AI-Assisted Test Automation Platform"
+        },
+        {
+          "tag": "li",
+          "text": "Designed and developed a full-stack test automation platform using Angular, Spring Boot, FastAPI, and PostgreSQL, enabling QA teams to manage, generate, and execute automated tests."
+        },
+        {
+          "tag": "li",
+          "text": "Engineered a hybrid agentic AI pipeline using Python, LangGraph, and LLMs to transform recorded user interactions into structured test models and executable Cypress scripts."
+        },
+        {
+          "tag": "li",
+          "text": "Developed a Chrome extension (Manifest V3) to capture browser interactions and implemented LLM-assisted script repair with validation and controlled retries."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated Cypress test execution, automated reporting, GitHub Actions CI/CD, and Docker to support continuous testing and deployment."
+        },
+        {
+          "tag": "h4",
+          "text": "Data Scientist Intern"
+        },
+        {
+          "tag": "p",
+          "text": "Jul – Aug 2025"
+        },
+        {
+          "tag": "p",
+          "text": "Esprit-Tech · Summer Internship"
+        },
+        {
+          "tag": "p",
+          "text": "Clustering Algorithms for Heterogeneous Student Groups"
+        },
+        {
+          "tag": "li",
+          "text": "Implemented and compared multiple clustering algorithms, achieving a 0.72 Silhouette Score, and built an interactive Streamlit dashboard to visualize and evaluate results."
+        },
+        {
+          "tag": "li",
+          "text": "Developed an automated group formation pipeline integrated into the backend, supporting teachers in forming balanced and diverse student teams."
+        },
+        {
+          "tag": "h3",
+          "text": "Projects"
+        },
+        {
+          "tag": "h4",
+          "text": "LollyBooks"
+        },
+        {
+          "tag": "p",
+          "text": "Oct – Present · Ongoing"
+        },
+        {
+          "tag": "p",
+          "text": "Co-Founder & Software Engineer"
+        },
+        {
+          "tag": "p",
+          "text": "Personalized Digital Library & AI Reading Companion"
+        },
+        {
+          "tag": "li",
+          "text": "Co-designed and developed an interactive digital library featuring customizable bookshelves, reading analytics, and goal tracking."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports."
+        },
+        {
+          "tag": "li",
+          "text": "Prototyped recommendations based on reading preferences and mood, and designed an LLM-powered reading companion for conversational book discovery."
+        },
+        {
+          "tag": "h4",
+          "text": "Aura"
+        },
+        {
+          "tag": "p",
+          "text": "Oct – Present · Ongoing"
+        },
+        {
+          "tag": "p",
+          "text": "AI & Software Engineer"
+        },
+        {
+          "tag": "p",
+          "text": "Agentic AI Career Assistant"
+        },
+        {
+          "tag": "li",
+          "text": "Redesigning a local, agentic AI assistant to automate job discovery and match job descriptions with personal skills and experience."
+        },
+        {
+          "tag": "li",
+          "text": "Developing an LLM-powered application assistant to generate tailored cover letters, analyze CV compatibility, and recommend targeted resume improvements."
+        },
+        {
+          "tag": "li",
+          "text": "Adapting RAG, semantic search, and agent orchestration using LangChain, LangGraph, and Qdrant to support personalized job search and application workflows."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          "active"
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farahsayari.dev@gmail.com"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Download CV (PDF)",
+          "assets/docs/Farah_Sayari_CV2026.pdf",
+          "Farah_Sayari_CV2026.pdf"
+        ],
+        [
+          "+216 28 528 390",
+          "tel:+21628528390",
+          ""
+        ],
+        [
+          "farahsayari.dev@gmail.com",
+          "mailto:farahsayari.dev@gmail.com",
+          ""
+        ],
+        [
+          "GitHub",
+          "https://github.com/FarahSayari",
+          ""
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248",
+          ""
+        ]
+      ],
+      "images": [],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/resume.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Resume\n\nAI & Software Engineer specializing in Data Science, agentic AI, and full-stack development.\n\nDownload CV (PDF)\nSummary\nFarah Sayari\n\nSoftware Engineer specializing in Data Science, with hands-on experience in Machine Learning, Deep Learning, agentic AI, and full-stack development. I build intelligent, data-driven applications and am seeking a full-time opportunity in AI, Data Science, or Software Engineering.\n\nAriana, Tunisia\n+216 28 528 390\nfarahsayari.dev@gmail.com\nGitHub · LinkedIn\nEducation\nEngineering Cycle in Computer Science – Data Science\n\nSep 2023 – Nov 2026\n\nESPRIT – Private Higher School of Engineering and Technology\n\nBachelor’s Degree in Computer Systems Engineering – Embedded Systems & IoT\n\nSep 2020 – Jun 2023\n\nFaculty of Sciences of Bizerte\n\nTechnical Skills\nProgramming\nPython, Java, JavaScript, R, C\nAI & Machine Learning\nScikit-learn, TensorFlow, Keras, PyTorch, MLflow, Deep Learning, NLP, Recommendation Systems\nGenerative AI & Agents\nLLMs, RAG, LangChain, LangGraph, Qdrant, Ollama, Prompt Engineering\nBackend & Frontend\nSpring Boot, FastAPI, Flask, Angular, React, REST APIs\nData Engineering & Analytics\nSQL, PostgreSQL, Hadoop, Talend, Data Warehousing, Power BI, Time Series Analysis\nDevOps & Tools\nGit, Docker, GitHub Actions, Jenkins, Linux, Cypress, Kubernetes\nLanguages\nArabic\nNative\nFrench\nC2\nEnglish\nC1\nActivities & Awards\nIEEE Computational Intelligence Society (CIS) — ESPRIT Chapter, 2025.\nBal des Projets — ESPRIT (2024 & 2025) — Academic projects pre-selected for both editions.\nIEEEXtreme 17.0 & 18.0 — Participant.\nUniversity English Competition (2024) — 3rd Place.\n\nInterests: Reading & Literature, Digital Art & Illustration.\n\nProfessional Experience\nAI & Full-Stack Software Engineer Intern\n\nFeb – Aug 2026\n\nVERMEG · PFE Internship\n\nTestPilot — AI-Assisted Test Automation Platform\n\nDesigned and developed a full-stack test automation platform using Angular, Spring Boot, FastAPI, and PostgreSQL, enabling QA teams to manage, generate, and execute automated tests.\nEngineered a hybrid agentic AI pipeline using Python, LangGraph, and LLMs to transform recorded user interactions into structured test models and executable Cypress scripts.\nDeveloped a Chrome extension (Manifest V3) to capture browser interactions and implemented LLM-assisted script repair with validation and controlled retries.\nIntegrated Cypress test execution, automated reporting, GitHub Actions CI/CD, and Docker to support continuous testing and deployment.\nData Scientist Intern\n\nJul – Aug 2025\n\nEsprit-Tech · Summer Internship\n\nClustering Algorithms for Heterogeneous Student Groups\n\nImplemented and compared multiple clustering algorithms, achieving a 0.72 Silhouette Score, and built an interactive Streamlit dashboard to visualize and evaluate results.\nDeveloped an automated group formation pipeline integrated into the backend, supporting teachers in forming balanced and diverse student teams.\nProjects\nLollyBooks\n\nOct – Present · Ongoing\n\nCo-Founder & Software Engineer\n\nPersonalized Digital Library & AI Reading Companion\n\nCo-designed and developed an interactive digital library featuring customizable bookshelves, reading analytics, and goal tracking.\nIntegrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports.\nPrototyped recommendations based on reading preferences and mood, and designed an LLM-powered reading companion for conversational book discovery.\nAura\n\nOct – Present · Ongoing\n\nAI & Software Engineer\n\nAgentic AI Career Assistant\n\nRedesigning a local, agentic AI assistant to automate job discovery and match job descriptions with personal skills and experience.\nDeveloping an LLM-powered application assistant to generate tailored cover letters, analyze CV compatibility, and recommend targeted resume improvements.\nAdapting RAG, semantic search, and agent orchestration using LangChain, LangGraph, and Qdrant to support personalized job search and application workflows."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "services.html",
+      "title": "Services - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "",
+        "keywords": ""
+      },
+      "sections": [
+        [
+          "section",
+          "services"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Services"
+        },
+        {
+          "tag": "p",
+          "text": "Here are the areas where I enjoy building, experimenting, and creating digital solutions."
+        },
+        {
+          "tag": "h3",
+          "text": "Data Science & AI"
+        },
+        {
+          "tag": "p",
+          "text": "Building intelligent solutions with machine learning, deep learning, data analysis, and AI-powered workflows."
+        },
+        {
+          "tag": "h3",
+          "text": "Web Development"
+        },
+        {
+          "tag": "p",
+          "text": "Creating practical and user-friendly web applications using modern frontend and backend technologies."
+        },
+        {
+          "tag": "h3",
+          "text": "AI Agents & Automation"
+        },
+        {
+          "tag": "p",
+          "text": "Designing smart agents, RAG pipelines, and automated workflows that help reduce manual tasks and improve decision-making."
+        },
+        {
+          "tag": "h3",
+          "text": "Test Automation & QA"
+        },
+        {
+          "tag": "p",
+          "text": "Working on automated testing workflows, test generation, execution, and reporting to improve software reliability."
+        },
+        {
+          "tag": "h3",
+          "text": "Data Analytics & BI"
+        },
+        {
+          "tag": "p",
+          "text": "Transforming raw data into clear insights using dashboards, reporting tools, statistics, and business intelligence techniques."
+        },
+        {
+          "tag": "h3",
+          "text": "Creative Digital Work"
+        },
+        {
+          "tag": "p",
+          "text": "Exploring digital art, visual design, and friendly UI ideas to make technology feel more human and engaging."
+        },
+        {
+          "tag": "p",
+          "text": "I like combining logic, data, creativity, and usability to build solutions that are both smart and pleasant to use."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          "active"
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 5",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farah.sayari@esprit.tn"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farah.sayari@esprit.tn"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [],
+      "images": [],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Services\n\nHere are the areas where I enjoy building, experimenting, and creating digital solutions.\n\nData Science & AI\n\nBuilding intelligent solutions with machine learning, deep learning, data analysis, and AI-powered workflows.\n\nWeb Development\n\nCreating practical and user-friendly web applications using modern frontend and backend technologies.\n\nAI Agents & Automation\n\nDesigning smart agents, RAG pipelines, and automated workflows that help reduce manual tasks and improve decision-making.\n\nTest Automation & QA\n\nWorking on automated testing workflows, test generation, execution, and reporting to improve software reliability.\n\nData Analytics & BI\n\nTransforming raw data into clear insights using dashboards, reporting tools, statistics, and business intelligence techniques.\n\nCreative Digital Work\n\nExploring digital art, visual design, and friendly UI ideas to make technology feel more human and engaging.\n\nI like combining logic, data, creativity, and usability to build solutions that are both smart and pleasant to use."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "portfolio.html",
+      "title": "Portfolio - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Explore Farah Sayari's projects in software engineering, Data Science, and AI, starting with LollyBooks."
+      },
+      "sections": [
+        [
+          "section",
+          "portfolio"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Portfolio"
+        },
+        {
+          "tag": "p",
+          "text": "A selection of my work in software engineering, Data Science, and AI."
+        },
+        {
+          "tag": "li",
+          "text": "All"
+        },
+        {
+          "tag": "li",
+          "text": "App"
+        },
+        {
+          "tag": "li",
+          "text": "Web"
+        },
+        {
+          "tag": "h4",
+          "text": "LollyBooks"
+        },
+        {
+          "tag": "p",
+          "text": "Personalized Digital Library & AI Reading Companion"
+        },
+        {
+          "tag": "h4",
+          "text": "AI Agent Recruiter"
+        },
+        {
+          "tag": "h4",
+          "text": "TestPilot"
+        },
+        {
+          "tag": "h4",
+          "text": "PulmoTrack"
+        },
+        {
+          "tag": "p",
+          "text": "AI-Powered Pulmonary Nodule Analysis"
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          "active"
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farahsayari.dev@gmail.com"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Preview LollyBooks artwork",
+          "assets/img/portfolio/lollybooks/library-art.jpg",
+          ""
+        ],
+        [
+          "LollyBooks project details",
+          "portfolio-details.html",
+          ""
+        ],
+        [
+          "PulmoTrack project details",
+          "pulmotrack-details.html",
+          ""
+        ]
+      ],
+      "images": [
+        [
+          "assets/img/portfolio/lollybooks/library-art.jpg",
+          "Cozy pink bookshelves with string lights and a My Reading Library neon sign",
+          ""
+        ],
+        [
+          "assets/img/masonry-portfolio/masonry-portfolio-2.jpg",
+          "",
+          "presentation"
+        ],
+        [
+          "assets/img/masonry-portfolio/masonry-portfolio-3.jpg",
+          "",
+          "presentation"
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/pulmotrack.png",
+          "PulmoTrack project artwork illustrating CT-based nodule detection, segmentation, and classification",
+          ""
+        ]
+      ],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [
+        {
+          "name": "LollyBooks",
+          "description": "Personalized Digital Library & AI Reading Companion",
+          "categories": [
+            "filter-app",
+            "filter-branding"
+          ],
+          "links": [
+            [
+              "Preview LollyBooks artwork",
+              "assets/img/portfolio/lollybooks/library-art.jpg"
+            ],
+            [
+              "LollyBooks project details",
+              "portfolio-details.html"
+            ]
+          ],
+          "image": "assets/img/portfolio/lollybooks/library-art.jpg"
+        },
+        {
+          "name": "AI Agent Recruiter",
+          "description": "",
+          "categories": [
+            "filter-app"
+          ],
+          "links": [],
+          "image": "assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
+        },
+        {
+          "name": "TestPilot",
+          "description": "",
+          "categories": [
+            "filter-app"
+          ],
+          "links": [],
+          "image": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
+        },
+        {
+          "name": "PulmoTrack",
+          "description": "AI-Powered Pulmonary Nodule Analysis",
+          "categories": [
+            "filter-branding"
+          ],
+          "links": [
+            [
+              "PulmoTrack project details",
+              "pulmotrack-details.html"
+            ]
+          ],
+          "image": "assets/img/portfolio/pulmotrack/pulmotrack.png"
+        }
+      ],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/portfolio.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Portfolio\n\nA selection of my work in software engineering, Data Science, and AI.\n\nAll App Web\nLollyBooks\n\nPersonalized Digital Library & AI Reading Companion\n\nAI Agent Recruiter\nTestPilot\nPulmoTrack\n\nAI-Powered Pulmonary Nodule Analysis"
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "portfolio-details.html",
+      "title": "LollyBooks - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "LollyBooks: a personalized digital library and AI reading companion. Discover Farah Sayari's contributions as Co-Founder and Software Engineer."
+      },
+      "sections": [
+        [
+          "section",
+          "portfolio-details"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "a",
+          "text": "Back to Portfolio"
+        },
+        {
+          "tag": "h2",
+          "text": "LollyBooks — Personalized Digital Library & AI Reading Companion"
+        },
+        {
+          "tag": "p",
+          "text": "A cozy digital space to track your reading journey, discover new books, and build a library that reflects your personality."
+        },
+        {
+          "tag": "h3",
+          "text": "Project Information"
+        },
+        {
+          "tag": "li",
+          "text": "Category: Web Application · Personalization & Recommendation Systems"
+        },
+        {
+          "tag": "li",
+          "text": "Project Type: Personal Startup Project"
+        },
+        {
+          "tag": "li",
+          "text": "Role: Co-Founder & Software Engineer"
+        },
+        {
+          "tag": "li",
+          "text": "Project Date: October 2026 – Present"
+        },
+        {
+          "tag": "li",
+          "text": "Status: Active Development (Functional Prototype)"
+        },
+        {
+          "tag": "li",
+          "text": "Project URL: Coming Soon"
+        },
+        {
+          "tag": "h2",
+          "text": "Your Library, Your Stories, Your Little World"
+        },
+        {
+          "tag": "p",
+          "text": "LollyBooks is a personalized digital library designed to make reading tracking more engaging, accessible, and enjoyable."
+        },
+        {
+          "tag": "p",
+          "text": "The idea was born from a personal passion for reading and the desire to create a beautiful virtual bookshelf where readers can preserve their reading journey, even without owning physical copies of their books."
+        },
+        {
+          "tag": "p",
+          "text": "As a Co-Founder and Software Engineer, I contributed to the product vision, interface design, and development of the initial web application prototype, combining interactive book management, reading analytics, and personalized book discovery."
+        },
+        {
+          "tag": "h2",
+          "text": "Key Features & Contributions"
+        },
+        {
+          "tag": "li",
+          "text": "Interactive Digital Library: Developed customizable virtual bookshelves with multiple display modes, allowing readers to organize their collections visually."
+        },
+        {
+          "tag": "li",
+          "text": "Book Data Integration: Integrated the Open Library REST API for automated metadata retrieval and implemented Goodreads CSV importing to migrate reading histories, ratings, and reviews."
+        },
+        {
+          "tag": "li",
+          "text": "Reading Analytics & Goals: Implemented reading statistics, progress tracking, and personalized reading goals to help users reflect on their reading habits."
+        },
+        {
+          "tag": "li",
+          "text": "Personalized Recommendations: Prototyped a recommendation system based on reading history, ratings, genre preferences, and reading moods."
+        },
+        {
+          "tag": "li",
+          "text": "Reading Companion: Designed a conversational recommendation experience to help readers discover books aligned with their interests and preferences."
+        },
+        {
+          "tag": "h2",
+          "text": "Project Vision & Future Development"
+        },
+        {
+          "tag": "p",
+          "text": "LollyBooks is evolving from a functional prototype into a scalable, AI-powered reading platform."
+        },
+        {
+          "tag": "p",
+          "text": "The long-term vision includes an LLM-powered reading companion, deeper personalization through reading reviews and preferences, multilingual support, community features, and a production-ready architecture."
+        },
+        {
+          "tag": "p",
+          "text": "The goal is to create more than a book-tracking application: a personal reading universe that grows and evolves with every reader."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          "active"
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farahsayari.dev@gmail.com"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Back to Portfolio",
+          "portfolio.html",
+          ""
+        ]
+      ],
+      "images": [
+        [
+          "assets/img/portfolio/lollybooks/library-art.webp",
+          "Cozy pink bookshelves with string lights and a My Reading Library neon sign",
+          ""
+        ]
+      ],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/portfolio.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Back to Portfolio\nLollyBooks — Personalized Digital Library & AI Reading Companion\n\nA cozy digital space to track your reading journey, discover new books, and build a library that reflects your personality.\n\nProject Information\nCategory:\nWeb Application · Personalization & Recommendation Systems\nProject Type:\nPersonal Startup Project\nRole:\nCo-Founder & Software Engineer\nProject Date:\nOctober 2026 – Present\nStatus:\nActive Development (Functional Prototype)\nProject URL:\nComing Soon\nYour Library, Your Stories, Your Little World\n\nLollyBooks is a personalized digital library designed to make reading tracking more engaging, accessible, and enjoyable.\n\nThe idea was born from a personal passion for reading and the desire to create a beautiful virtual bookshelf where readers can preserve their reading journey, even without owning physical copies of their books.\n\nAs a Co-Founder and Software Engineer, I contributed to the product vision, interface design, and development of the initial web application prototype, combining interactive book management, reading analytics, and personalized book discovery.\n\nKey Features & Contributions\nInteractive Digital Library: Developed customizable virtual bookshelves with multiple display modes, allowing readers to organize their collections visually.\nBook Data Integration: Integrated the Open Library REST API for automated metadata retrieval and implemented Goodreads CSV importing to migrate reading histories, ratings, and reviews.\nReading Analytics & Goals: Implemented reading statistics, progress tracking, and personalized reading goals to help users reflect on their reading habits.\nPersonalized Recommendations: Prototyped a recommendation system based on reading history, ratings, genre preferences, and reading moods.\nReading Companion: Designed a conversational recommendation experience to help readers discover books aligned with their interests and preferences.\nProject Vision & Future Development\n\nLollyBooks is evolving from a functional prototype into a scalable, AI-powered reading platform.\n\nThe long-term vision includes an LLM-powered reading companion, deeper personalization through reading reviews and preferences, multilingual support, community features, and a production-ready architecture.\n\nThe goal is to create more than a book-tracking application: a personal reading universe that grows and evolves with every reader."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "pulmotrack-details.html",
+      "title": "PulmoTrack - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Explore Farah Sayari's PulmoTrack LUNA16 CT research: candidate screening, true/false nodule classification, exploratory segmentation, notebook evaluations, and a live Streamlit showcase."
+      },
+      "sections": [
+        [
+          "section",
+          "portfolio-details"
+        ],
+        [
+          "section",
+          "research-paper"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "a",
+          "text": "Back to Portfolio"
+        },
+        {
+          "tag": "h2",
+          "text": "PulmoTrack — Deep Learning for Pulmonary Nodule Analysis"
+        },
+        {
+          "tag": "p",
+          "text": "Research · Deep Learning · Medical Imaging · Computer Vision"
+        },
+        {
+          "tag": "p",
+          "text": "An academic medical-imaging project using LUNA16 CT scans to study nodule candidate detection, binary classification and exploratory 3D segmentation, presented through an interactive research website."
+        },
+        {
+          "tag": "button",
+          "text": "Previous image"
+        },
+        {
+          "tag": "button",
+          "text": "Next image"
+        },
+        {
+          "tag": "h3",
+          "text": "Project Information"
+        },
+        {
+          "tag": "li",
+          "text": "Category: Research, DL, Medical Imaging, Computer Vision"
+        },
+        {
+          "tag": "li",
+          "text": "Role: Data Scientist, Project Manager"
+        },
+        {
+          "tag": "li",
+          "text": "Methodology: CRISP-DM"
+        },
+        {
+          "tag": "li",
+          "text": "Dataset: LUNA16"
+        },
+        {
+          "tag": "li",
+          "text": "Status: Completed"
+        },
+        {
+          "tag": "li",
+          "text": "Scientific Paper: Available · Team research manuscript"
+        },
+        {
+          "tag": "a",
+          "text": "Open Live Showcase (opens in a new tab)"
+        },
+        {
+          "tag": "a",
+          "text": "View Source on GitHub (opens in a new tab)"
+        },
+        {
+          "tag": "h2",
+          "text": "Technologies"
+        },
+        {
+          "tag": "p",
+          "text": "Research: Python, PyTorch, torchvision, NumPy, pandas, SciPy, scikit-learn, SimpleITK."
+        },
+        {
+          "tag": "p",
+          "text": "Analysis & delivery: Jupyter Notebook, Google Colab, Matplotlib, Plotly, Pillow, Streamlit, Git, GitHub and Streamlit Community Cloud."
+        },
+        {
+          "tag": "h2",
+          "text": "Project Summary"
+        },
+        {
+          "tag": "p",
+          "text": "Jump directly to a section of the project."
+        },
+        {
+          "tag": "li",
+          "text": "Project Information"
+        },
+        {
+          "tag": "li",
+          "text": "Technologies"
+        },
+        {
+          "tag": "li",
+          "text": "Project Overview"
+        },
+        {
+          "tag": "li",
+          "text": "My Contributions"
+        },
+        {
+          "tag": "li",
+          "text": "LUNA16 Dataset"
+        },
+        {
+          "tag": "li",
+          "text": "Project Methodology"
+        },
+        {
+          "tag": "li",
+          "text": "Explore the Three DSOs DSO1 — Nodule Detection Data Processing Models Applied Results & Evaluation DSO2 — Nodule Classification Data Processing Models Applied Results & Evaluation DSO3 — Exploratory 3D Segmentation Data Processing Models Applied Results & Evaluation"
+        },
+        {
+          "tag": "li",
+          "text": "Deployment"
+        },
+        {
+          "tag": "li",
+          "text": "Research Paper Paper-reported LUNA16 highlights"
+        },
+        {
+          "tag": "h2",
+          "text": "Project Overview"
+        },
+        {
+          "tag": "p",
+          "text": "Lung cancer is the leading cause of cancer-related death worldwide and is often diagnosed at an advanced stage, when treatment options are more limited. Earlier identification and appropriate follow-up can improve the opportunity for effective treatment."
+        },
+        {
+          "tag": "p",
+          "text": "PulmoTrack explores how deep learning can analyze pulmonary nodules in volumetric CT data. The project connects medical-image preprocessing, three research objectives, model evaluation and a deployed interface that makes the experiments understandable to a portfolio audience."
+        },
+        {
+          "tag": "p",
+          "text": "The work is an academic research study. Its recorded models evaluate nodule candidates and masks; they do not establish a clinically validated cancer diagnosis system."
+        },
+        {
+          "tag": "p",
+          "text": "Scientific context: World Health Organization — Lung cancer."
+        },
+        {
+          "tag": "h2",
+          "text": "My Contributions"
+        },
+        {
+          "tag": "li",
+          "text": "LUNA16 preprocessing. Worked on CT resampling, annotation and candidate inspection, world-to-voxel coordinate conversion, intensity normalization and 3D patch preparation."
+        },
+        {
+          "tag": "li",
+          "text": "Detection and classification. Developed and studied 3D candidate-screening and binary classification approaches, comparing their saved training histories, confusion matrices and ROC evaluations."
+        },
+        {
+          "tag": "li",
+          "text": "Exploratory segmentation. Investigated 3D U-Net, attention and residual-attention variants, and tiny-nodule oversampling, documenting both promising summaries and difficult positive-only cases."
+        },
+        {
+          "tag": "li",
+          "text": "Results and documentation. Organized notebook outputs, kept evaluation cohorts and checkpoint results distinct, and contributed to the team research manuscript."
+        },
+        {
+          "tag": "li",
+          "text": "Deployment. Created a Streamlit research showcase with CT visualizations, model overviews, result interpretation, source resources and access to the research paper."
+        },
+        {
+          "tag": "h2",
+          "text": "LUNA16 Dataset"
+        },
+        {
+          "tag": "p",
+          "text": "LUNA16 (Lung Nodule Analysis 2016) is derived from LIDC-IDRI and contains 888 volumetric chest CT scans. It provides CT volumes, candidate locations and nodule annotations for pulmonary nodule research."
+        },
+        {
+          "tag": "p",
+          "text": "The official reference standard includes nodules at least 3 mm in diameter accepted by at least three of four radiologists. Scans with slice thickness greater than 2.5 mm were excluded. The CT collection is approximately 90 GB in scale; the deployed showcase uses saved outputs rather than distributing the dataset."
+        },
+        {
+          "tag": "p",
+          "text": "The project prepares different patch collections for different experiments: 64³ voxels for detection/classification and 48³ voxels for the archived segmentation studies."
+        },
+        {
+          "tag": "p",
+          "text": "Dataset source and access: LUNA16 official data page."
+        },
+        {
+          "tag": "h2",
+          "text": "Project Methodology"
+        },
+        {
+          "tag": "p",
+          "text": "PulmoTrack follows the CRISP-DM methodology, from understanding the research problem and preparing LUNA16 CT data to modeling, evaluation, and deployment. This iterative workflow guides the three research objectives and the presentation of their results in the Streamlit showcase."
+        },
+        {
+          "tag": "h2",
+          "text": "Explore the Three DSOs"
+        },
+        {
+          "tag": "p",
+          "text": "Data processing prepares the CT scans for learning; modeling builds and trains networks using that prepared data. Before preparing the task-specific datasets, we resampled CT volumes to 1 × 1 × 1 mm voxel spacing and converted annotation coordinates from millimetres to voxel locations using each scan’s origin and spacing, accounting for medical-image order (x, y, z) and NumPy array order (z, y, x)."
+        },
+        {
+          "tag": "p",
+          "text": "The evaluation tables preserve each saved checkpoint’s recorded cohort. Accuracy is calculated from the original confusion matrix, while ROC-AUC comes from the corresponding recorded output."
+        },
+        {
+          "tag": "h3",
+          "text": "DSO1 — Nodule Detection"
+        },
+        {
+          "tag": "p",
+          "text": "This objective screens supplied candidate locations. Each input is a 3D patch around a candidate, and the output is a nodule or non-nodule label."
+        },
+        {
+          "tag": "h4",
+          "text": "Data Processing"
+        },
+        {
+          "tag": "li",
+          "text": "Candidate matching: Compared candidates with annotated nodule centres from the same scan. A distance below 5 mm defined the strict positive label for the selected dataset; preparation also explored a looser 10 mm label."
+        },
+        {
+          "tag": "li",
+          "text": "Dataset selection: Retained 1,215 positive candidates and randomly sampled 8,000 negatives, producing 9,215 patches. The larger negative collection exposes the model to varied non-nodule appearances."
+        },
+        {
+          "tag": "li",
+          "text": "Patch extraction: Extracted 64 × 64 × 64 patches around candidates and padded border patches to preserve the expected dimensions."
+        },
+        {
+          "tag": "li",
+          "text": "Normalization and tensors: Subtracted each patch’s mean and divided by its standard deviation, then created one-channel tensors with shape (1, 64, 64, 64)."
+        },
+        {
+          "tag": "li",
+          "text": "Dataset split: Used a seeded random patch split of 6,451 training, 1,843 validation and 921 test examples."
+        },
+        {
+          "tag": "h4",
+          "text": "Models Applied"
+        },
+        {
+          "tag": "p",
+          "text": "Applied a U-Net-style 3D encoder classifier with 32 → 64 → 128 → 256 feature channels. Convolution and pooling build 3D features, followed by global average pooling and a linear head that produces two class scores. This model has no segmentation decoder and predicts a patch label, rather than a boundary or bounding box."
+        },
+        {
+          "tag": "p",
+          "text": "Training used weighted focal loss (γ = 2), Adam with learning rate 0.0001, batch size 16 and 20 recorded epochs. Class weights emphasize less frequent positive examples, while focal loss concentrates learning on difficult cases. The lowest validation loss determined the selected checkpoint."
+        },
+        {
+          "tag": "h4",
+          "text": "Results & Evaluation"
+        },
+        {
+          "tag": "table",
+          "text": "Cohort Patches Accuracy ROC-AUC Validation 1,843 98.37% 0.9928 Test 921 97.83% 0.9961",
+          "headers": [
+            "Cohort",
+            "Patches",
+            "Accuracy",
+            "ROC-AUC"
+          ],
+          "rows": [
+            [
+              "Validation",
+              "1,843",
+              "98.37%",
+              "0.9928"
+            ],
+            [
+              "Test",
+              "921",
+              "97.83%",
+              "0.9961"
+            ]
+          ]
+        },
+        {
+          "tag": "figcaption",
+          "text": "DSO1 — Test-set confusion matrix."
+        },
+        {
+          "tag": "figcaption",
+          "text": "DSO1 — Test-set ROC curve; AUC is rounded in the plot legend."
+        },
+        {
+          "tag": "figcaption",
+          "text": "DSO1 — Training and validation history."
+        },
+        {
+          "tag": "p",
+          "text": "On the 921-patch test cohort, the saved model correctly identifies 112 of 121 nodule patches (92.56% sensitivity), with 11 false positives and 9 false negatives. These are candidate-level outcomes; they do not establish false positives per full CT scan."
+        },
+        {
+          "tag": "p",
+          "text": "Interpretation: The test accuracy of 97.83% and ROC-AUC of 0.9961 show strong separation on the recorded candidate cohort. Sensitivity of 92.56% also makes the remaining nine missed nodule patches visible."
+        },
+        {
+          "tag": "h3",
+          "text": "DSO2 — Nodule Classification"
+        },
+        {
+          "tag": "p",
+          "text": "The recorded task classifies a 3D candidate patch as a true nodule or false nodule. Although the wider project discusses benign/malignant classification, these implemented evaluations use binary candidate labels."
+        },
+        {
+          "tag": "h4",
+          "text": "Data Processing"
+        },
+        {
+          "tag": "li",
+          "text": "Separate patch collection: Prepared this dataset independently of the 9,215 detection examples. The preparation cell filters candidates marked as class 1 and compares their positions with annotation centres using a 6 mm matching threshold."
+        },
+        {
+          "tag": "li",
+          "text": "Patch extraction and normalization: Extracted 64 × 64 × 64 patches, padded when needed, and applied mean-and-standard-deviation normalization."
+        },
+        {
+          "tag": "li",
+          "text": "Labels and storage: Saved tensors into separate folders, with label 1 for true nodules and 0 for false nodules."
+        },
+        {
+          "tag": "li",
+          "text": "Dataset and initial split: The notebook reports 1,243 true-nodule and 761 false-nodule patches, totalling 2,004. The initial split contains 1,603 training, 200 validation and 201 test patches."
+        },
+        {
+          "tag": "h4",
+          "text": "Models Applied"
+        },
+        {
+          "tag": "li",
+          "text": "Improved 3D CNN: Three convolution blocks followed by adaptive pooling, a dense layer, dropout and a two-class output; 17 recorded epochs."
+        },
+        {
+          "tag": "li",
+          "text": "ResNet3D Lite: Residual blocks combine transformed features with shortcut connections, followed by global pooling and a classification head; 6 recorded epochs."
+        },
+        {
+          "tag": "li",
+          "text": "U-Net encoder classifier: Four encoder stages followed by global pooling and a dense two-class head; 30 recorded epochs."
+        },
+        {
+          "tag": "p",
+          "text": "All three architectures use cross-entropy loss and Adam with an initial learning rate of 0.0001. Dropout regularizes the CNN and U-Net heads. Validation loss guides checkpoint selection, and saved evaluations are kept separate from final-epoch logs."
+        },
+        {
+          "tag": "h4",
+          "text": "Results & Evaluation"
+        },
+        {
+          "tag": "table",
+          "text": "Study / cohort Patches Accuracy ROC-AUC Improved 3D CNN · validation 200 74.50% 0.8269 Improved 3D CNN · test 201 74.63% 0.8335 ResNet3D Lite · validation 401 72.07% 0.7678 U-Net encoder · validation 200 74.00% 0.8116",
+          "headers": [
+            "Study / cohort",
+            "Patches",
+            "Accuracy",
+            "ROC-AUC"
+          ],
+          "rows": [
+            [
+              "Improved 3D CNN · validation",
+              "200",
+              "74.50%",
+              "0.8269"
+            ],
+            [
+              "Improved 3D CNN · test",
+              "201",
+              "74.63%",
+              "0.8335"
+            ],
+            [
+              "ResNet3D Lite · validation",
+              "401",
+              "72.07%",
+              "0.7678"
+            ],
+            [
+              "U-Net encoder · validation",
+              "200",
+              "74.00%",
+              "0.8116"
+            ]
+          ]
+        },
+        {
+          "tag": "figcaption",
+          "text": "DSO2 — Improved 3D CNN training and validation history."
+        },
+        {
+          "tag": "p",
+          "text": "The Improved 3D CNN test evaluation identifies 107 of 123 true-nodule patches, with 35 false positives and 16 false negatives. Its accuracy and AUC describe binary candidate labels, not malignancy diagnosis."
+        },
+        {
+          "tag": "p",
+          "text": "How to compare these results. Each model retains its own recorded cohort. The ResNet matrix contains 401 patches despite an earlier 200-patch validation log. Splitting is by patch, and a patient-disjoint benchmark is not established. These studies support analysis of the recorded runs, not a controlled architecture ranking."
+        },
+        {
+          "tag": "p",
+          "text": "Interpretation: The Improved 3D CNN reaches 74.63% test accuracy and ROC-AUC 0.8335 on its 201-patch cohort. Its 35 false positives and 16 false negatives show the remaining classification errors. The differing evaluation cohorts prevent treating these recorded runs as a controlled ranking of the three architectures."
+        },
+        {
+          "tag": "h3",
+          "text": "DSO3 — Exploratory 3D Segmentation"
+        },
+        {
+          "tag": "p",
+          "text": "This objective predicts a mask identifying nodule voxels within a 3D CT patch. It is a parallel research exploration, rather than a prerequisite for detection or classification."
+        },
+        {
+          "tag": "h4",
+          "text": "Data Processing"
+        },
+        {
+          "tag": "li",
+          "text": "Volume preparation: Prepared lung regions, clipped intensities to −1000 to 400 HU and scaled them to the range [0, 1]."
+        },
+        {
+          "tag": "li",
+          "text": "Reference masks: Created spherical masks from annotated nodule centres and diameters. These approximate reference regions are not manually traced nodule boundaries."
+        },
+        {
+          "tag": "li",
+          "text": "Patch extraction: Extracted 48 × 48 × 48 positive CT patches with corresponding mask patches. Negative patches were sampled away from annotated nodules and paired with empty masks."
+        },
+        {
+          "tag": "li",
+          "text": "Augmentation and normalization: Explored flips, rotations, zoom, noise and intensity shifts, with patch-level min–max normalization in the model loader."
+        },
+        {
+          "tag": "li",
+          "text": "Splits and tiny nodules: The baseline records 2,036 training and 509 validation patches. Later experiments oversampled selected small-nodule examples to increase their exposure during training."
+        },
+        {
+          "tag": "h4",
+          "text": "Models Applied"
+        },
+        {
+          "tag": "p",
+          "text": "The segmentation flow is CT patch → encoder → bottleneck → decoder → voxel probability map. Decoder upsampling and encoder-to-decoder skip connections help reconstruct spatial detail."
+        },
+        {
+          "tag": "li",
+          "text": "3D U-Net: Baseline encoder–decoder architecture."
+        },
+        {
+          "tag": "li",
+          "text": "Attention 3D U-Net: Attention gates weight features passed through skip connections."
+        },
+        {
+          "tag": "li",
+          "text": "Residual Attention 3D U-Net: Residual convolution blocks combined with attention gates."
+        },
+        {
+          "tag": "li",
+          "text": "Tiny-nodule training: Baseline architecture with modified sampling and augmentation."
+        },
+        {
+          "tag": "p",
+          "text": "Recorded training used binary cross-entropy loss and Adam at 0.0001. A sigmoid produces voxel probabilities, and a 0.5 threshold converts them into binary masks."
+        },
+        {
+          "tag": "h4",
+          "text": "Results & Evaluation"
+        },
+        {
+          "tag": "p",
+          "text": "Segmentation results depend strongly on the selected patches and the handling of empty masks. The table preserves these separate experimental contexts; all values are notebook-reported summaries."
+        },
+        {
+          "tag": "table",
+          "text": "Model study Evaluation context Patches Reported score 3D U-Net Five positives · A 5 Dice 0.2115 3D U-Net Five positives · B 5 Dice 0.3127 3D U-Net Mixed validation loader 509 Dice 0.9504 Attention U-Net Five positive patches 5 Dice 0.1599 Attention U-Net Ten mixed patches 10 Dice 0.9800 Residual attention Ten positives · initial 10 Dice 0.1200 Residual attention Ten positives · later 10 Dice 0.0348",
+          "headers": [
+            "Model study",
+            "Evaluation context",
+            "Patches",
+            "Reported score"
+          ],
+          "rows": [
+            [
+              "3D U-Net",
+              "Five positives · A",
+              "5",
+              "Dice 0.2115"
+            ],
+            [
+              "3D U-Net",
+              "Five positives · B",
+              "5",
+              "Dice 0.3127"
+            ],
+            [
+              "3D U-Net",
+              "Mixed validation loader",
+              "509",
+              "Dice 0.9504"
+            ],
+            [
+              "Attention U-Net",
+              "Five positive patches",
+              "5",
+              "Dice 0.1599"
+            ],
+            [
+              "Attention U-Net",
+              "Ten mixed patches",
+              "10",
+              "Dice 0.9800"
+            ],
+            [
+              "Residual attention",
+              "Ten positives · initial",
+              "10",
+              "Dice 0.1200"
+            ],
+            [
+              "Residual attention",
+              "Ten positives · later",
+              "10",
+              "Dice 0.0348"
+            ]
+          ]
+        },
+        {
+          "tag": "figcaption",
+          "text": "DSO3 — Baseline 3D U-Net training and validation loss."
+        },
+        {
+          "tag": "p",
+          "text": "The 0.9504 validation Dice comes from a mixed, augmented loader, where smoothing assigns empty prediction/reference pairs a Dice near 1. The attention model’s mixed-patch evaluator similarly assigns perfect scores to empty pairs. Positive-only samples show the remaining difficulty of recovering small nodule regions."
+        },
+        {
+          "tag": "p",
+          "text": "Tiny-nodule augmentation retains saved prediction examples and a final validation binary cross-entropy loss of 0.0446. No Dice, precision, recall or F1 evaluation was recorded for that run; a lower loss is not an overlap score."
+        },
+        {
+          "tag": "figcaption",
+          "text": "Recorded Attention 3D U-Net positive-nodule example — Dice 0.8000, precision 0.8630, recall 0.7456. Single case from the ten-patch mixed evaluation."
+        },
+        {
+          "tag": "p",
+          "text": "Evaluation context: The notebook applies random augmentation to images and masks through separate calls, so their spatial transformations are not guaranteed to match; validation also inherits augmentation. Patch splits do not establish patient-disjoint evaluation. Together with the mixed-versus-positive-only score differences, these limitations keep the segmentation findings exploratory."
+        },
+        {
+          "tag": "h2",
+          "text": "Deployment"
+        },
+        {
+          "tag": "p",
+          "text": "My PulmoTrack contribution is hosted on Streamlit Community Cloud, with the GitHub repository as its deployment source. The interface preserves the dark navy and teal medical-imaging identity, sidebar navigation and CT-focused visual presentation."
+        },
+        {
+          "tag": "p",
+          "text": "Visitors can explore model architectures, recorded metrics, training histories, original segmentation predictions, pilot Grad-CAM, research resources and the manuscript viewer. The app presents saved evidence; it requires no CT dataset download or live model execution."
+        },
+        {
+          "tag": "p",
+          "text": "Delivery workflow: Research notebooks → exported figures and result summaries → Streamlit interface → GitHub → Streamlit Community Cloud."
+        },
+        {
+          "tag": "p",
+          "text": "The website is a completed research showcase, rather than a patient-upload or diagnostic inference service. Repository changes can be reflected in the deployed app through Community Cloud’s GitHub integration."
+        },
+        {
+          "tag": "a",
+          "text": "Open Live Showcase (opens in a new tab)"
+        },
+        {
+          "tag": "a",
+          "text": "View Source on GitHub (opens in a new tab)"
+        },
+        {
+          "tag": "p",
+          "text": "Deployment reference: Streamlit Community Cloud documentation."
+        },
+        {
+          "tag": "h2",
+          "text": "Research Paper"
+        },
+        {
+          "tag": "p",
+          "text": "Title: PulmoTrack: A Deep Learning Solution for Pulmonary Nodule Segmentation, Detection, and Classification on CT and Chest X-ray Scans"
+        },
+        {
+          "tag": "p",
+          "text": "Document: Team research manuscript · May 2025 · 11 pages."
+        },
+        {
+          "tag": "p",
+          "text": "Authors: Farah Sayari and co-authors."
+        },
+        {
+          "tag": "p",
+          "text": "The manuscript covers the broader team project, including CT and chest X-ray work. This portfolio page focuses on the LUNA16 CT contribution."
+        },
+        {
+          "tag": "h3",
+          "text": "Paper-reported LUNA16 highlights"
+        },
+        {
+          "tag": "p",
+          "text": "The manuscript reports segmentation Dice 0.95, detection sensitivity 92% at 1.5 false positives per scan, and classification AUC 0.91 (pp. 4–5)."
+        },
+        {
+          "tag": "a",
+          "text": "View Paper (PDF) (opens in a new tab)"
+        },
+        {
+          "tag": "a",
+          "text": "Download Paper (PDF)"
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          "active"
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farahsayari.dev@gmail.com"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Back to Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Open the live PulmoTrack research showcase (opens in a new tab)",
+          "https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/",
+          ""
+        ],
+        [
+          "Enlarge the PulmoTrack team photo",
+          "assets/img/portfolio/pulmotrack/team.png",
+          ""
+        ],
+        [
+          "Open Live Showcase (opens in a new tab)",
+          "https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/",
+          ""
+        ],
+        [
+          "View Source on GitHub (opens in a new tab)",
+          "https://github.com/FarahSayari/pulmoTrack-farahsayari-contribution",
+          ""
+        ],
+        [
+          "Project Information",
+          "#project-info-title",
+          ""
+        ],
+        [
+          "Technologies",
+          "#technologies",
+          ""
+        ],
+        [
+          "Project Overview",
+          "#project-overview",
+          ""
+        ],
+        [
+          "My Contributions",
+          "#my-contributions",
+          ""
+        ],
+        [
+          "LUNA16 Dataset",
+          "#luna16-dataset",
+          ""
+        ],
+        [
+          "Project Methodology",
+          "#project-methodology",
+          ""
+        ],
+        [
+          "Explore the Three DSOs",
+          "#research-objectives",
+          ""
+        ],
+        [
+          "DSO1 — Nodule Detection",
+          "#dso1-title",
+          ""
+        ],
+        [
+          "Data Processing",
+          "#dso1-data-processing",
+          ""
+        ],
+        [
+          "Models Applied",
+          "#dso1-models-applied",
+          ""
+        ],
+        [
+          "Results & Evaluation",
+          "#detection-results-title",
+          ""
+        ],
+        [
+          "DSO2 — Nodule Classification",
+          "#dso2-title",
+          ""
+        ],
+        [
+          "Data Processing",
+          "#dso2-data-processing",
+          ""
+        ],
+        [
+          "Models Applied",
+          "#dso2-models-applied",
+          ""
+        ],
+        [
+          "Results & Evaluation",
+          "#classification-results-title",
+          ""
+        ],
+        [
+          "DSO3 — Exploratory 3D Segmentation",
+          "#dso3-title",
+          ""
+        ],
+        [
+          "Data Processing",
+          "#dso3-data-processing",
+          ""
+        ],
+        [
+          "Models Applied",
+          "#dso3-models-applied",
+          ""
+        ],
+        [
+          "Results & Evaluation",
+          "#segmentation-results-title",
+          ""
+        ],
+        [
+          "Deployment",
+          "#deployment",
+          ""
+        ],
+        [
+          "Research Paper",
+          "#research-paper-title",
+          ""
+        ],
+        [
+          "Paper-reported LUNA16 highlights",
+          "#paper-reported-highlights",
+          ""
+        ],
+        [
+          "World Health Organization — Lung cancer",
+          "https://www.who.int/news-room/fact-sheets/detail/lung-cancer",
+          ""
+        ],
+        [
+          "LUNA16 official data page",
+          "https://luna16.grand-challenge.org/Data/",
+          ""
+        ],
+        [
+          "Enlarge the PulmoTrack project methodology diagram",
+          "assets/img/portfolio/pulmotrack/methodology.png",
+          ""
+        ],
+        [
+          "Enlarge the nodule detection illustration",
+          "assets/img/portfolio/pulmotrack/Nodule%20detection.png",
+          ""
+        ],
+        [
+          "Enlarge the nodule detection model architecture",
+          "assets/img/portfolio/pulmotrack/arch%20detection.png",
+          ""
+        ],
+        [
+          "Enlarge detection test-set confusion matrix with 789 true negatives, 11 false positives, 9 false negatives and 112 true positives",
+          "assets/img/portfolio/pulmotrack/02_dso1_test_confusion_matrix.png",
+          ""
+        ],
+        [
+          "Enlarge detection test-set ROC curve",
+          "assets/img/portfolio/pulmotrack/03_dso1_test_roc_curve.png",
+          ""
+        ],
+        [
+          "Enlarge detection training and validation loss and accuracy across 20 epochs",
+          "assets/img/portfolio/pulmotrack/07_dso1_training_history.png",
+          ""
+        ],
+        [
+          "Enlarge the nodule classification illustration",
+          "assets/img/portfolio/pulmotrack/Nodule%20classification.png",
+          ""
+        ],
+        [
+          "Enlarge the nodule classification model architecture",
+          "assets/img/portfolio/pulmotrack/arch%20classification.png",
+          ""
+        ],
+        [
+          "Enlarge improved 3D CNN training and validation loss and accuracy across 17 epochs",
+          "assets/img/portfolio/pulmotrack/08_dso2_training_history.png",
+          ""
+        ],
+        [
+          "Enlarge the exploratory segmentation illustration",
+          "assets/img/portfolio/pulmotrack/Exploratory%20segmentation.png",
+          ""
+        ],
+        [
+          "Enlarge the nodule segmentation model architecture",
+          "assets/img/portfolio/pulmotrack/arch%20segmentation.png",
+          ""
+        ],
+        [
+          "Enlarge 3D U-Net training and validation loss across 50 epochs",
+          "assets/img/portfolio/pulmotrack/09_dso3_training_loss.png",
+          ""
+        ],
+        [
+          "Enlarge the recorded Attention 3D U-Net positive-nodule prediction",
+          "assets/img/portfolio/pulmotrack/attention-positive-prediction.png",
+          ""
+        ],
+        [
+          "Open Live Showcase (opens in a new tab)",
+          "https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/",
+          ""
+        ],
+        [
+          "View Source on GitHub (opens in a new tab)",
+          "https://github.com/FarahSayari/pulmoTrack-farahsayari-contribution",
+          ""
+        ],
+        [
+          "Streamlit Community Cloud documentation",
+          "https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app",
+          ""
+        ],
+        [
+          "View Paper (PDF) (opens in a new tab)",
+          "assets/docs/PulmoTrackPaper.pdf",
+          ""
+        ],
+        [
+          "Download Paper (PDF)",
+          "assets/docs/PulmoTrackPaper.pdf",
+          "PulmoTrackPaper.pdf"
+        ]
+      ],
+      "images": [
+        [
+          "assets/img/portfolio/pulmotrack/pulmotrack.png",
+          "PulmoTrack concept artwork illustrating CT-based nodule detection, segmentation, and classification",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/team.png",
+          "PulmoTrack project team standing together",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/methodology.png",
+          "PulmoTrack CRISP-DM workflow: business understanding, data understanding, data preparation, modeling, evaluation, and deployment",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/Nodule%20detection.png",
+          "PulmoTrack nodule detection concept illustration showing candidate nodules highlighted on a CT scan",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/arch%20detection.png",
+          "Nodule detection architecture: CT preprocessing and patch extraction followed by a 3D encoder, bottleneck, global average pooling, and a nodule/non-nodule classification head",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/02_dso1_test_confusion_matrix.png",
+          "Detection test-set confusion matrix with 789 true negatives, 11 false positives, 9 false negatives and 112 true positives",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/03_dso1_test_roc_curve.png",
+          "Detection test-set ROC curve",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/07_dso1_training_history.png",
+          "Detection training and validation loss and accuracy across 20 epochs",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/Nodule%20classification.png",
+          "PulmoTrack classification concept artwork depicting the broader benign/malignant project goal; the recorded evaluations below use true/false nodule labels",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/arch%20classification.png",
+          "Improved 3D CNN concept architecture showing CT preprocessing, patch extraction, convolution blocks, pooling and a classification head; the recorded evaluations use true/false nodule labels",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/08_dso2_training_history.png",
+          "Improved 3D CNN training and validation loss and accuracy across 17 epochs",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/Exploratory%20segmentation.png",
+          "PulmoTrack segmentation concept illustration showing a CT patch, reference mask, predicted mask and 3D U-Net; recorded evaluation contexts are detailed below",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/arch%20segmentation.png",
+          "3D U-Net segmentation architecture: CT preprocessing, patch extraction, encoder, bottleneck, decoder with skip connections, and output nodule masks",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/09_dso3_training_loss.png",
+          "3D U-Net training and validation loss across 50 epochs",
+          ""
+        ],
+        [
+          "assets/img/portfolio/pulmotrack/attention-positive-prediction.png",
+          "Five CT slices with reference and predicted masks from a recorded Attention 3D U-Net positive-nodule case; Dice 0.8000, precision 0.8630, recall 0.7456",
+          ""
+        ]
+      ],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [
+        {
+          "type": "image-carousel",
+          "values": [
+            "assets/img/portfolio/pulmotrack/pulmotrack.png",
+            "assets/img/portfolio/pulmotrack/team.png"
+          ]
+        }
+      ],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/portfolio.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Back to Portfolio\nPulmoTrack — Deep Learning for Pulmonary Nodule Analysis\n\nResearch · Deep Learning · Medical Imaging · Computer Vision\n\nAn academic medical-imaging project using LUNA16 CT scans to study nodule candidate detection, binary classification and exploratory 3D segmentation, presented through an interactive research website.\n\nPrevious image\nNext image\nProject Information\nCategory: Research, DL, Medical Imaging, Computer Vision\nRole: Data Scientist, Project Manager\nMethodology: CRISP-DM\nDataset: LUNA16\nStatus: Completed\nScientific Paper: Available · Team research manuscript\nOpen Live Showcase\n(opens in a new tab)\nView Source on GitHub\n(opens in a new tab)\nTechnologies\n\nResearch: Python, PyTorch, torchvision, NumPy, pandas, SciPy, scikit-learn, SimpleITK.\n\nAnalysis & delivery: Jupyter Notebook, Google Colab, Matplotlib, Plotly, Pillow, Streamlit, Git, GitHub and Streamlit Community Cloud.\n\nProject Summary\n\nJump directly to a section of the project.\n\nProject Information\nTechnologies\nProject Overview\nMy Contributions\nLUNA16 Dataset\nProject Methodology\nExplore the Three DSOs\nDSO1 — Nodule Detection\nData Processing\nModels Applied\nResults & Evaluation\nDSO2 — Nodule Classification\nData Processing\nModels Applied\nResults & Evaluation\nDSO3 — Exploratory 3D Segmentation\nData Processing\nModels Applied\nResults & Evaluation\nDeployment\nResearch Paper\nPaper-reported LUNA16 highlights\nProject Overview\n\nLung cancer is the leading cause of cancer-related death worldwide and is often diagnosed at an advanced stage, when treatment options are more limited. Earlier identification and appropriate follow-up can improve the opportunity for effective treatment.\n\nPulmoTrack explores how deep learning can analyze pulmonary nodules in volumetric CT data. The project connects medical-image preprocessing, three research objectives, model evaluation and a deployed interface that makes the experiments understandable to a portfolio audience.\n\nThe work is an academic research study. Its recorded models evaluate nodule candidates and masks; they do not establish a clinically validated cancer diagnosis system.\n\nScientific context: World Health Organization — Lung cancer.\n\nMy Contributions\nLUNA16 preprocessing. Worked on CT resampling, annotation and candidate inspection, world-to-voxel coordinate conversion, intensity normalization and 3D patch preparation.\nDetection and classification. Developed and studied 3D candidate-screening and binary classification approaches, comparing their saved training histories, confusion matrices and ROC evaluations.\nExploratory segmentation. Investigated 3D U-Net, attention and residual-attention variants, and tiny-nodule oversampling, documenting both promising summaries and difficult positive-only cases.\nResults and documentation. Organized notebook outputs, kept evaluation cohorts and checkpoint results distinct, and contributed to the team research manuscript.\nDeployment. Created a Streamlit research showcase with CT visualizations, model overviews, result interpretation, source resources and access to the research paper.\nLUNA16 Dataset\n\nLUNA16 (Lung Nodule Analysis 2016) is derived from LIDC-IDRI and contains 888 volumetric chest CT scans. It provides CT volumes, candidate locations and nodule annotations for pulmonary nodule research.\n\nThe official reference standard includes nodules at least 3 mm in diameter accepted by at least three of four radiologists. Scans with slice thickness greater than 2.5 mm were excluded. The CT collection is approximately 90 GB in scale; the deployed showcase uses saved outputs rather than distributing the dataset.\n\nThe project prepares different patch collections for different experiments: 64³ voxels for detection/classification and 48³ voxels for the archived segmentation studies.\n\nDataset source and access: LUNA16 official data page.\n\nProject Methodology\n\nPulmoTrack follows the CRISP-DM methodology, from understanding the research problem and preparing LUNA16 CT data to modeling, evaluation, and deployment. This iterative workflow guides the three research objectives and the presentation of their results in the Streamlit showcase.\n\nExplore the Three DSOs\n\nData processing prepares the CT scans for learning; modeling builds and trains networks using that prepared data. Before preparing the task-specific datasets, we resampled CT volumes to 1 × 1 × 1 mm voxel spacing and converted annotation coordinates from millimetres to voxel locations using each scan’s origin and spacing, accounting for medical-image order (x, y, z) and NumPy array order (z, y, x).\n\nThe evaluation tables preserve each saved checkpoint’s recorded cohort. Accuracy is calculated from the original confusion matrix, while ROC-AUC comes from the corresponding recorded output.\n\nDSO1 — Nodule Detection\n\nThis objective screens supplied candidate locations. Each input is a 3D patch around a candidate, and the output is a nodule or non-nodule label.\n\nData Processing\nCandidate matching: Compared candidates with annotated nodule centres from the same scan. A distance below 5 mm defined the strict positive label for the selected dataset; preparation also explored a looser 10 mm label.\nDataset selection: Retained 1,215 positive candidates and randomly sampled 8,000 negatives, producing 9,215 patches. The larger negative collection exposes the model to varied non-nodule appearances.\nPatch extraction: Extracted 64 × 64 × 64 patches around candidates and padded border patches to preserve the expected dimensions.\nNormalization and tensors: Subtracted each patch’s mean and divided by its standard deviation, then created one-channel tensors with shape (1, 64, 64, 64).\nDataset split: Used a seeded random patch split of 6,451 training, 1,843 validation and 921 test examples.\nModels Applied\n\nApplied a U-Net-style 3D encoder classifier with 32 → 64 → 128 → 256 feature channels. Convolution and pooling build 3D features, followed by global average pooling and a linear head that produces two class scores. This model has no segmentation decoder and predicts a patch label, rather than a boundary or bounding box.\n\nTraining used weighted focal loss (γ = 2), Adam with learning rate 0.0001, batch size 16 and 20 recorded epochs. Class weights emphasize less frequent positive examples, while focal loss concentrates learning on difficult cases. The lowest validation loss determined the selected checkpoint.\n\nResults & Evaluation\nCohort\tPatches\tAccuracy\tROC-AUC\nValidation\t1,843\t98.37%\t0.9928\nTest\t921\t97.83%\t0.9961\nDSO1 — Test-set confusion matrix.\nDSO1 — Test-set ROC curve; AUC is rounded in the plot legend.\nDSO1 — Training and validation history.\n\nOn the 921-patch test cohort, the saved model correctly identifies 112 of 121 nodule patches (92.56% sensitivity), with 11 false positives and 9 false negatives. These are candidate-level outcomes; they do not establish false positives per full CT scan.\n\nInterpretation: The test accuracy of 97.83% and ROC-AUC of 0.9961 show strong separation on the recorded candidate cohort. Sensitivity of 92.56% also makes the remaining nine missed nodule patches visible.\n\nDSO2 — Nodule Classification\n\nThe recorded task classifies a 3D candidate patch as a true nodule or false nodule. Although the wider project discusses benign/malignant classification, these implemented evaluations use binary candidate labels.\n\nData Processing\nSeparate patch collection: Prepared this dataset independently of the 9,215 detection examples. The preparation cell filters candidates marked as class 1 and compares their positions with annotation centres using a 6 mm matching threshold.\nPatch extraction and normalization: Extracted 64 × 64 × 64 patches, padded when needed, and applied mean-and-standard-deviation normalization.\nLabels and storage: Saved tensors into separate folders, with label 1 for true nodules and 0 for false nodules.\nDataset and initial split: The notebook reports 1,243 true-nodule and 761 false-nodule patches, totalling 2,004. The initial split contains 1,603 training, 200 validation and 201 test patches.\nModels Applied\nImproved 3D CNN: Three convolution blocks followed by adaptive pooling, a dense layer, dropout and a two-class output; 17 recorded epochs.\nResNet3D Lite: Residual blocks combine transformed features with shortcut connections, followed by global pooling and a classification head; 6 recorded epochs.\nU-Net encoder classifier: Four encoder stages followed by global pooling and a dense two-class head; 30 recorded epochs.\n\nAll three architectures use cross-entropy loss and Adam with an initial learning rate of 0.0001. Dropout regularizes the CNN and U-Net heads. Validation loss guides checkpoint selection, and saved evaluations are kept separate from final-epoch logs.\n\nResults & Evaluation\nStudy / cohort\tPatches\tAccuracy\tROC-AUC\nImproved 3D CNN · validation\t200\t74.50%\t0.8269\nImproved 3D CNN · test\t201\t74.63%\t0.8335\nResNet3D Lite · validation\t401\t72.07%\t0.7678\nU-Net encoder · validation\t200\t74.00%\t0.8116\nDSO2 — Improved 3D CNN training and validation history.\n\nThe Improved 3D CNN test evaluation identifies 107 of 123 true-nodule patches, with 35 false positives and 16 false negatives. Its accuracy and AUC describe binary candidate labels, not malignancy diagnosis.\n\nHow to compare these results. Each model retains its own recorded cohort. The ResNet matrix contains 401 patches despite an earlier 200-patch validation log. Splitting is by patch, and a patient-disjoint benchmark is not established. These studies support analysis of the recorded runs, not a controlled architecture ranking.\n\nInterpretation: The Improved 3D CNN reaches 74.63% test accuracy and ROC-AUC 0.8335 on its 201-patch cohort. Its 35 false positives and 16 false negatives show the remaining classification errors. The differing evaluation cohorts prevent treating these recorded runs as a controlled ranking of the three architectures.\n\nDSO3 — Exploratory 3D Segmentation\n\nThis objective predicts a mask identifying nodule voxels within a 3D CT patch. It is a parallel research exploration, rather than a prerequisite for detection or classification.\n\nData Processing\nVolume preparation: Prepared lung regions, clipped intensities to −1000 to 400 HU and scaled them to the range [0, 1].\nReference masks: Created spherical masks from annotated nodule centres and diameters. These approximate reference regions are not manually traced nodule boundaries.\nPatch extraction: Extracted 48 × 48 × 48 positive CT patches with corresponding mask patches. Negative patches were sampled away from annotated nodules and paired with empty masks.\nAugmentation and normalization: Explored flips, rotations, zoom, noise and intensity shifts, with patch-level min–max normalization in the model loader.\nSplits and tiny nodules: The baseline records 2,036 training and 509 validation patches. Later experiments oversampled selected small-nodule examples to increase their exposure during training.\nModels Applied\n\nThe segmentation flow is CT patch → encoder → bottleneck → decoder → voxel probability map. Decoder upsampling and encoder-to-decoder skip connections help reconstruct spatial detail.\n\n3D U-Net: Baseline encoder–decoder architecture.\nAttention 3D U-Net: Attention gates weight features passed through skip connections.\nResidual Attention 3D U-Net: Residual convolution blocks combined with attention gates.\nTiny-nodule training: Baseline architecture with modified sampling and augmentation.\n\nRecorded training used binary cross-entropy loss and Adam at 0.0001. A sigmoid produces voxel probabilities, and a 0.5 threshold converts them into binary masks.\n\nResults & Evaluation\n\nSegmentation results depend strongly on the selected patches and the handling of empty masks. The table preserves these separate experimental contexts; all values are notebook-reported summaries.\n\nModel study\tEvaluation context\tPatches\tReported score\n3D U-Net\tFive positives · A\t5\tDice 0.2115\n3D U-Net\tFive positives · B\t5\tDice 0.3127\n3D U-Net\tMixed validation loader\t509\tDice 0.9504\nAttention U-Net\tFive positive patches\t5\tDice 0.1599\nAttention U-Net\tTen mixed patches\t10\tDice 0.9800\nResidual attention\tTen positives · initial\t10\tDice 0.1200\nResidual attention\tTen positives · later\t10\tDice 0.0348\nDSO3 — Baseline 3D U-Net training and validation loss.\n\nThe 0.9504 validation Dice comes from a mixed, augmented loader, where smoothing assigns empty prediction/reference pairs a Dice near 1. The attention model’s mixed-patch evaluator similarly assigns perfect scores to empty pairs. Positive-only samples show the remaining difficulty of recovering small nodule regions.\n\nTiny-nodule augmentation retains saved prediction examples and a final validation binary cross-entropy loss of 0.0446. No Dice, precision, recall or F1 evaluation was recorded for that run; a lower loss is not an overlap score.\n\nRecorded Attention 3D U-Net positive-nodule example — Dice 0.8000, precision 0.8630, recall 0.7456. Single case from the ten-patch mixed evaluation.\n\nEvaluation context: The notebook applies random augmentation to images and masks through separate calls, so their spatial transformations are not guaranteed to match; validation also inherits augmentation. Patch splits do not establish patient-disjoint evaluation. Together with the mixed-versus-positive-only score differences, these limitations keep the segmentation findings exploratory.\n\nDeployment\n\nMy PulmoTrack contribution is hosted on Streamlit Community Cloud, with the GitHub repository as its deployment source. The interface preserves the dark navy and teal medical-imaging identity, sidebar navigation and CT-focused visual presentation.\n\nVisitors can explore model architectures, recorded metrics, training histories, original segmentation predictions, pilot Grad-CAM, research resources and the manuscript viewer. The app presents saved evidence; it requires no CT dataset download or live model execution.\n\nDelivery workflow: Research notebooks → exported figures and result summaries → Streamlit interface → GitHub → Streamlit Community Cloud.\n\nThe website is a completed research showcase, rather than a patient-upload or diagnostic inference service. Repository changes can be reflected in the deployed app through Community Cloud’s GitHub integration.\n\nOpen Live Showcase\n(opens in a new tab)\nView Source on GitHub\n(opens in a new tab)\n\nDeployment reference: Streamlit Community Cloud documentation.\n\nResearch Paper\n\nTitle: PulmoTrack: A Deep Learning Solution for Pulmonary Nodule Segmentation, Detection, and Classification on CT and Chest X-ray Scans\n\nDocument: Team research manuscript · May 2025 · 11 pages.\n\nAuthors: Farah Sayari and co-authors.\n\nThe manuscript covers the broader team project, including CT and chest X-ray work. This portfolio page focuses on the LUNA16 CT contribution.\n\nPaper-reported LUNA16 highlights\n\nThe manuscript reports segmentation Dice 0.95, detection sensitivity 92% at 1.5 false positives per scan, and classification AUC 0.91 (pp. 4–5).\n\nView Paper (PDF)\n(opens in a new tab)\nDownload Paper (PDF)"
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Contact Farah Sayari for software engineering, data science, AI, and collaboration opportunities.",
+        "keywords": "Farah Sayari, contact, software engineer, data science, Tunisia"
+      },
+      "sections": [
+        [
+          "section",
+          "contact"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Contact"
+        },
+        {
+          "tag": "p",
+          "text": "Have an opportunity, project idea, or collaboration in mind? Feel free to reach out."
+        },
+        {
+          "tag": "h3",
+          "text": "Location"
+        },
+        {
+          "tag": "p",
+          "text": "Ariana, Tunisia"
+        },
+        {
+          "tag": "h3",
+          "text": "Email"
+        },
+        {
+          "tag": "p",
+          "text": "farahsayari.dev@gmail.com"
+        },
+        {
+          "tag": "h3",
+          "text": "Phone"
+        },
+        {
+          "tag": "p",
+          "text": "+216 28528390"
+        },
+        {
+          "tag": "h3",
+          "text": "Social Links"
+        },
+        {
+          "tag": "p",
+          "text": "GitHub | LinkedIn"
+        },
+        {
+          "tag": "h3",
+          "text": "Send me a message"
+        },
+        {
+          "tag": "label",
+          "text": "Your Name"
+        },
+        {
+          "tag": "label",
+          "text": "Your Email"
+        },
+        {
+          "tag": "label",
+          "text": "Subject"
+        },
+        {
+          "tag": "label",
+          "text": "Message"
+        },
+        {
+          "tag": "button",
+          "text": "Send Message"
+        },
+        {
+          "tag": "p",
+          "text": "You can also email me directly at farahsayari.dev@gmail.com."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          "active"
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farahsayari.dev@gmail.com"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "farahsayari.dev@gmail.com",
+          "mailto:farahsayari.dev@gmail.com",
+          ""
+        ],
+        [
+          "+216 28528390",
+          "tel:+21628528390",
+          ""
+        ],
+        [
+          "GitHub",
+          "https://github.com/FarahSayari",
+          ""
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248",
+          ""
+        ],
+        [
+          "farahsayari.dev@gmail.com",
+          "mailto:farahsayari.dev@gmail.com",
+          ""
+        ]
+      ],
+      "images": [],
+      "embeds": [
+        [
+          "Map of Ariana, Tunisia",
+          "https://www.google.com/maps?q=Ariana%2C%20Tunisia&output=embed"
+        ]
+      ],
+      "forms": [
+        {
+          "action": "https://formspree.io/f/xgojgjbj",
+          "method": "POST",
+          "id": "contact-form",
+          "controls": [
+            [
+              "Your Name",
+              "name",
+              "text",
+              "Your name",
+              "",
+              "yes",
+              "visible"
+            ],
+            [
+              "Your Email",
+              "email",
+              "email",
+              "your.email@example.com",
+              "",
+              "yes",
+              "visible"
+            ],
+            [
+              "Subject",
+              "subject",
+              "text",
+              "Opportunity / Collaboration / Question",
+              "",
+              "yes",
+              "visible"
+            ],
+            [
+              "Message",
+              "message",
+              "textarea",
+              "Write your message here...",
+              "",
+              "yes",
+              "visible"
+            ],
+            [
+              "",
+              "_subject",
+              "hidden",
+              "",
+              "New portfolio message from Farah Sayari website",
+              "no",
+              "hidden"
+            ],
+            [
+              "Website",
+              "_gotcha",
+              "text",
+              "",
+              "",
+              "no",
+              "hidden"
+            ]
+          ],
+          "messages": [
+            "Loading",
+            "Your message has been sent. Thank you!",
+            "Please complete all fields with a valid email address.",
+            "Message could not be sent. Please email me directly instead."
+          ]
+        }
+      ],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nServices\nPortfolio\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Contact\n\nHave an opportunity, project idea, or collaboration in mind? Feel free to reach out.\n\nLocation\n\nAriana, Tunisia\n\nEmail\n\nfarahsayari.dev@gmail.com\n\nPhone\n\n+216 28528390\n\nSocial Links\n\nGitHub | LinkedIn\n\nSend me a message\nYour Name\nYour Email\nSubject\nMessage\nSend Message\n\nYou can also email me directly at farahsayari.dev@gmail.com."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    },
+    {
+      "file": "starter-page.html",
+      "title": "Starter Page - Kelly Bootstrap Template",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "",
+        "keywords": ""
+      },
+      "sections": [
+        [
+          "section",
+          "starter-section"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "h2",
+          "text": "Starter Section"
+        },
+        {
+          "tag": "p",
+          "text": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"
+        },
+        {
+          "tag": "p",
+          "text": "Use this page as a starter for your own custom pages."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 1",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Deep Dropdown 5",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 2",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 3",
+          "#",
+          ""
+        ],
+        [
+          "Dropdown 4",
+          "#",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "Kelly",
+      "header_social": [
+        [
+          "Icon: bi bi-twitter-x",
+          "#"
+        ],
+        [
+          "Icon: bi bi-facebook",
+          "#"
+        ],
+        [
+          "Icon: bi bi-instagram",
+          "#"
+        ],
+        [
+          "Icon: bi bi-linkedin",
+          "#"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Kelly All Rights Reserved",
+        "credits": "Designed by BootstrapMade Distributed by ThemeWagon",
+        "social": [
+          [
+            "Icon: bi bi-twitter-x",
+            ""
+          ],
+          [
+            "Icon: bi bi-facebook",
+            ""
+          ],
+          [
+            "Icon: bi bi-instagram",
+            ""
+          ],
+          [
+            "Icon: bi bi-linkedin",
+            ""
+          ]
+        ],
+        "credit_links": [
+          [
+            "BootstrapMade",
+            "https://bootstrapmade.com/"
+          ],
+          [
+            "ThemeWagon",
+            "https://themewagon.com"
+          ]
+        ]
+      },
+      "links": [],
+      "images": [],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "KELLY\nHome\nAbout\nResume\nServices\nPortfolio\nDropdown\nContact\n   "
+        },
+        {
+          "region": "main",
+          "text": "Starter Section\n\nNecessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit\n\nUse this page as a starter for your own custom pages."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Kelly All Rights Reserved\n\n\nDesigned by BootstrapMade Distributed by ThemeWagon"
+        }
+      ]
+    }
+  ]
+}

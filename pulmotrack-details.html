@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>PulmoTrack - Farah Sayari</title>
+  <meta name="description" content="Explore Farah Sayari's PulmoTrack LUNA16 CT research: candidate screening, true/false nodule classification, exploratory segmentation, notebook evaluations, and a live Streamlit showcase.">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/portfolio.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">FARAH</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active" aria-current="page">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://github.com/FarahSayari" class="github" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+        <a href="mailto:farahsayari.dev@gmail.com" class="email" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/farah-sayari-060745248" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="portfolio-details" class="portfolio-details section pulmotrack-project">
+      <div class="container section-title" data-aos="fade-up">
+        <a href="portfolio.html" class="project-back"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to Portfolio</a>
+        <h2>PulmoTrack &mdash; Deep Learning for Pulmonary Nodule Analysis</h2>
+        <p><em>Research &middot; Deep Learning &middot; Medical Imaging &middot; Computer Vision</em></p>
+        <p class="project-intro">An academic medical-imaging project using LUNA16 CT scans to study nodule candidate detection, binary classification and exploratory 3D segmentation, presented through an interactive research website.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 gx-lg-5 align-items-start">
+          <div class="col-lg-7">
+            <div id="pulmotrack-gallery" class="carousel slide paper-overview project-gallery" data-bs-interval="false" role="region" aria-roledescription="carousel" aria-label="PulmoTrack project and team images">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#pulmotrack-gallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Show project image"></button>
+                <button type="button" data-bs-target="#pulmotrack-gallery" data-bs-slide-to="1" aria-label="Show team photo"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" role="group" aria-roledescription="slide" aria-label="1 of 2: Project image">
+                  <a href="https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/" target="_blank" rel="noopener" aria-label="Open the live PulmoTrack research showcase (opens in a new tab)">
+                    <img src="assets/img/portfolio/pulmotrack/pulmotrack.png" class="img-fluid paper-cover" width="1448" height="1086" alt="PulmoTrack concept artwork illustrating CT-based nodule detection, segmentation, and classification">
+                  </a>
+                </div>
+                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="2 of 2: Team photo">
+                  <a href="assets/img/portfolio/pulmotrack/team.png" class="glightbox" data-gallery="pulmotrack-team" aria-label="Enlarge the PulmoTrack team photo">
+                    <img src="assets/img/portfolio/pulmotrack/team.png" class="img-fluid paper-cover" width="1086" height="711" alt="PulmoTrack project team standing together">
+                  </a>
+                </div>
+              </div>
+              <button type="button" class="carousel-control-prev" data-bs-target="#pulmotrack-gallery" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous image</span>
+              </button>
+              <button type="button" class="carousel-control-next" data-bs-target="#pulmotrack-gallery" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next image</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <aside class="portfolio-info" aria-labelledby="project-info-title">
+              <h3 id="project-info-title" tabindex="-1">Project Information</h3>
+              <ul>
+                <li><strong>Category:</strong> Research, DL, Medical Imaging, Computer Vision</li>
+                <li><strong>Role:</strong> Data Scientist, Project Manager</li>
+                <li><strong>Methodology:</strong> CRISP-DM</li>
+                <li><strong>Dataset:</strong> LUNA16</li>
+                <li><strong>Status:</strong> Completed</li>
+                <li><strong>Scientific Paper:</strong> Available &middot; Team research manuscript</li>
+              </ul>
+            </aside>
+            <div class="paper-actions">
+                <a href="https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/" class="paper-button" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Open Live Showcase<span class="visually-hidden"> (opens in a new tab)</span></a>
+                <a href="https://github.com/FarahSayari/pulmoTrack-farahsayari-contribution" class="paper-button paper-button-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> View Source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+            </div>
+          </div>
+        </div>
+
+        <article class="project-story">
+          <h2 id="technologies" tabindex="-1">Technologies</h2>
+          <p><strong>Research:</strong> Python, PyTorch, torchvision, NumPy, pandas, SciPy, scikit-learn, SimpleITK.</p>
+          <p><strong>Analysis &amp; delivery:</strong> Jupyter Notebook, Google Colab, Matplotlib, Plotly, Pillow, Streamlit, Git, GitHub and Streamlit Community Cloud.</p>
+
+          <nav class="project-summary" aria-labelledby="project-summary-title">
+            <h2 id="project-summary-title">Project Summary</h2>
+            <p>Jump directly to a section of the project.</p>
+            <ul class="summary-links">
+              <li><a href="#project-info-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> Project Information</a></li>
+              <li><a href="#technologies"><i class="bi bi-chevron-right" aria-hidden="true"></i> Technologies</a></li>
+              <li><a href="#project-overview"><i class="bi bi-chevron-right" aria-hidden="true"></i> Project Overview</a></li>
+              <li><a href="#my-contributions"><i class="bi bi-chevron-right" aria-hidden="true"></i> My Contributions</a></li>
+              <li><a href="#luna16-dataset"><i class="bi bi-chevron-right" aria-hidden="true"></i> LUNA16 Dataset</a></li>
+              <li><a href="#project-methodology"><i class="bi bi-chevron-right" aria-hidden="true"></i> Project Methodology</a></li>
+              <li class="summary-objectives">
+                <a href="#research-objectives"><i class="bi bi-chevron-right" aria-hidden="true"></i> Explore the Three DSOs</a>
+                <ul class="summary-dso-groups">
+                  <li>
+                    <a href="#dso1-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> DSO1 &mdash; Nodule Detection</a>
+                    <ul>
+                      <li><a href="#dso1-data-processing"><i class="bi bi-chevron-right" aria-hidden="true"></i> Data Processing</a></li>
+                      <li><a href="#dso1-models-applied"><i class="bi bi-chevron-right" aria-hidden="true"></i> Models Applied</a></li>
+                      <li><a href="#detection-results-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> Results &amp; Evaluation</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#dso2-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> DSO2 &mdash; Nodule Classification</a>
+                    <ul>
+                      <li><a href="#dso2-data-processing"><i class="bi bi-chevron-right" aria-hidden="true"></i> Data Processing</a></li>
+                      <li><a href="#dso2-models-applied"><i class="bi bi-chevron-right" aria-hidden="true"></i> Models Applied</a></li>
+                      <li><a href="#classification-results-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> Results &amp; Evaluation</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#dso3-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> DSO3 &mdash; Exploratory 3D Segmentation</a>
+                    <ul>
+                      <li><a href="#dso3-data-processing"><i class="bi bi-chevron-right" aria-hidden="true"></i> Data Processing</a></li>
+                      <li><a href="#dso3-models-applied"><i class="bi bi-chevron-right" aria-hidden="true"></i> Models Applied</a></li>
+                      <li><a href="#segmentation-results-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> Results &amp; Evaluation</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#deployment"><i class="bi bi-chevron-right" aria-hidden="true"></i> Deployment</a></li>
+              <li>
+                <a href="#research-paper-title"><i class="bi bi-chevron-right" aria-hidden="true"></i> Research Paper</a>
+                <ul><li><a href="#paper-reported-highlights"><i class="bi bi-chevron-right" aria-hidden="true"></i> Paper-reported LUNA16 highlights</a></li></ul>
+              </li>
+            </ul>
+          </nav>
+
+          <h2 id="project-overview" tabindex="-1">Project Overview</h2>
+          <p>Lung cancer is the leading cause of cancer-related death worldwide and is often diagnosed at an advanced stage, when treatment options are more limited. Earlier identification and appropriate follow-up can improve the opportunity for effective treatment.</p>
+          <p>PulmoTrack explores how deep learning can analyze pulmonary nodules in volumetric CT data. The project connects medical-image preprocessing, three research objectives, model evaluation and a deployed interface that makes the experiments understandable to a portfolio audience.</p>
+          <p>The work is an academic research study. Its recorded models evaluate nodule candidates and masks; they do not establish a clinically validated cancer diagnosis system.</p>
+          <p class="research-reference">Scientific context: <a href="https://www.who.int/news-room/fact-sheets/detail/lung-cancer" target="_blank" rel="noopener">World Health Organization &mdash; Lung cancer</a>.</p>
+
+          <h2 id="my-contributions" tabindex="-1">My Contributions</h2>
+          <ul class="project-features">
+            <li><strong>LUNA16 preprocessing.</strong> Worked on CT resampling, annotation and candidate inspection, world-to-voxel coordinate conversion, intensity normalization and 3D patch preparation.</li>
+            <li><strong>Detection and classification.</strong> Developed and studied 3D candidate-screening and binary classification approaches, comparing their saved training histories, confusion matrices and ROC evaluations.</li>
+            <li><strong>Exploratory segmentation.</strong> Investigated 3D U-Net, attention and residual-attention variants, and tiny-nodule oversampling, documenting both promising summaries and difficult positive-only cases.</li>
+            <li><strong>Results and documentation.</strong> Organized notebook outputs, kept evaluation cohorts and checkpoint results distinct, and contributed to the team research manuscript.</li>
+            <li><strong>Deployment.</strong> Created a Streamlit research showcase with CT visualizations, model overviews, result interpretation, source resources and access to the research paper.</li>
+          </ul>
+
+          <h2 id="luna16-dataset" tabindex="-1">LUNA16 Dataset</h2>
+          <p>LUNA16 (Lung Nodule Analysis 2016) is derived from LIDC-IDRI and contains 888 volumetric chest CT scans. It provides CT volumes, candidate locations and nodule annotations for pulmonary nodule research.</p>
+          <p>The official reference standard includes nodules at least 3 mm in diameter accepted by at least three of four radiologists. Scans with slice thickness greater than 2.5 mm were excluded. The CT collection is approximately 90 GB in scale; the deployed showcase uses saved outputs rather than distributing the dataset.</p>
+          <p>The project prepares different patch collections for different experiments: 64&sup3; voxels for detection/classification and 48&sup3; voxels for the archived segmentation studies.</p>
+          <p class="research-reference">Dataset source and access: <a href="https://luna16.grand-challenge.org/Data/" target="_blank" rel="noopener">LUNA16 official data page</a>.</p>
+
+          <h2 id="project-methodology" tabindex="-1">Project Methodology</h2>
+          <p>PulmoTrack follows the CRISP-DM methodology, from understanding the research problem and preparing LUNA16 CT data to modeling, evaluation, and deployment. This iterative workflow guides the three research objectives and the presentation of their results in the Streamlit showcase.</p>
+          <figure class="research-prediction">
+            <a href="assets/img/portfolio/pulmotrack/methodology.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the PulmoTrack project methodology diagram">
+              <img src="assets/img/portfolio/pulmotrack/methodology.png" class="img-fluid" width="2172" height="724" loading="lazy" alt="PulmoTrack CRISP-DM workflow: business understanding, data understanding, data preparation, modeling, evaluation, and deployment">
+            </a>
+          </figure>
+
+          <h2 id="research-objectives" tabindex="-1">Explore the Three DSOs</h2>
+          <p>Data processing prepares the CT scans for learning; modeling builds and trains networks using that prepared data. Before preparing the task-specific datasets, we resampled CT volumes to <strong>1 &times; 1 &times; 1 mm voxel spacing</strong> and converted annotation coordinates from millimetres to voxel locations using each scan&rsquo;s origin and spacing, accounting for medical-image order <code>(x, y, z)</code> and NumPy array order <code>(z, y, x)</code>.</p>
+          <p>The evaluation tables preserve each saved checkpoint&rsquo;s recorded cohort. Accuracy is calculated from the original confusion matrix, while ROC-AUC comes from the corresponding recorded output.</p>
+
+          <div class="dso-study" role="group" aria-labelledby="dso1-title">
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/Nodule%20detection.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the nodule detection illustration">
+                <img src="assets/img/portfolio/pulmotrack/Nodule%20detection.png" class="img-fluid" width="1916" height="821" loading="lazy" alt="PulmoTrack nodule detection concept illustration showing candidate nodules highlighted on a CT scan">
+              </a>
+            </figure>
+            <h3 id="dso1-title" tabindex="-1">DSO1 &mdash; Nodule Detection</h3>
+            <p>This objective screens <strong>supplied candidate locations</strong>. Each input is a 3D patch around a candidate, and the output is a nodule or non-nodule label.</p>
+
+            <h4 id="dso1-data-processing" tabindex="-1">Data Processing</h4>
+            <ul class="project-features">
+              <li><strong>Candidate matching:</strong> Compared candidates with annotated nodule centres from the same scan. A distance below 5 mm defined the strict positive label for the selected dataset; preparation also explored a looser 10 mm label.</li>
+              <li><strong>Dataset selection:</strong> Retained 1,215 positive candidates and randomly sampled 8,000 negatives, producing 9,215 patches. The larger negative collection exposes the model to varied non-nodule appearances.</li>
+              <li><strong>Patch extraction:</strong> Extracted 64 &times; 64 &times; 64 patches around candidates and padded border patches to preserve the expected dimensions.</li>
+              <li><strong>Normalization and tensors:</strong> Subtracted each patch&rsquo;s mean and divided by its standard deviation, then created one-channel tensors with shape <code>(1, 64, 64, 64)</code>.</li>
+              <li><strong>Dataset split:</strong> Used a seeded random patch split of 6,451 training, 1,843 validation and 921 test examples.</li>
+            </ul>
+
+            <h4 id="dso1-models-applied" tabindex="-1">Models Applied</h4>
+
+            <p>Applied a <strong>U-Net-style 3D encoder classifier</strong> with 32 &rarr; 64 &rarr; 128 &rarr; 256 feature channels. Convolution and pooling build 3D features, followed by global average pooling and a linear head that produces two class scores. This model has no segmentation decoder and predicts a patch label, rather than a boundary or bounding box.</p>
+            <p>Training used <strong>weighted focal loss (&gamma; = 2)</strong>, Adam with learning rate 0.0001, batch size 16 and 20 recorded epochs. Class weights emphasize less frequent positive examples, while focal loss concentrates learning on difficult cases. The lowest validation loss determined the selected checkpoint.</p>
+
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/arch%20detection.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the nodule detection model architecture">
+                <img src="assets/img/portfolio/pulmotrack/arch%20detection.png" class="img-fluid" width="1448" height="732" loading="lazy" alt="Nodule detection architecture: CT preprocessing and patch extraction followed by a 3D encoder, bottleneck, global average pooling, and a nodule/non-nodule classification head">
+              </a>
+            </figure>
+
+          <h4 id="detection-results-title" tabindex="-1">Results &amp; Evaluation</h4>
+          <div class="table-responsive" role="region" aria-labelledby="detection-results-title" tabindex="0">
+            <table class="research-table" aria-labelledby="detection-results-title">
+              <thead><tr><th scope="col">Cohort</th><th scope="col">Patches</th><th scope="col">Accuracy</th><th scope="col">ROC-AUC</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Validation</th><td>1,843</td><td>98.37%</td><td>0.9928</td></tr>
+                <tr><th scope="row">Test</th><td>921</td><td>97.83%</td><td>0.9961</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6">
+            <figure class="research-prediction mb-0">
+              <a href="assets/img/portfolio/pulmotrack/02_dso1_test_confusion_matrix.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge detection test-set confusion matrix with 789 true negatives, 11 false positives, 9 false negatives and 112 true positives">
+                <img src="assets/img/portfolio/pulmotrack/02_dso1_test_confusion_matrix.png" class="img-fluid" width="586" height="453" loading="lazy" alt="Detection test-set confusion matrix with 789 true negatives, 11 false positives, 9 false negatives and 112 true positives">
+              </a>
+              <figcaption>DSO1 &mdash; Test-set confusion matrix.</figcaption>
+            </figure>
+            </div>
+            <div class="col-md-6">
+            <figure class="research-prediction mb-0">
+              <a href="assets/img/portfolio/pulmotrack/03_dso1_test_roc_curve.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge detection test-set ROC curve">
+                <img src="assets/img/portfolio/pulmotrack/03_dso1_test_roc_curve.png" class="img-fluid" width="567" height="453" loading="lazy" alt="Detection test-set ROC curve">
+              </a>
+              <figcaption>DSO1 &mdash; Test-set ROC curve; AUC is rounded in the plot legend.</figcaption>
+            </figure>
+            </div>
+          </div>
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/07_dso1_training_history.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge detection training and validation loss and accuracy across 20 epochs">
+                <img src="assets/img/portfolio/pulmotrack/07_dso1_training_history.png" class="img-fluid" width="1389" height="490" loading="lazy" alt="Detection training and validation loss and accuracy across 20 epochs">
+              </a>
+              <figcaption>DSO1 &mdash; Training and validation history.</figcaption>
+            </figure>
+
+          <p>On the 921-patch test cohort, the saved model correctly identifies 112 of 121 nodule patches (92.56% sensitivity), with 11 false positives and 9 false negatives. These are candidate-level outcomes; they do not establish false positives per full CT scan.</p>
+
+            <p><strong>Interpretation:</strong> The test accuracy of 97.83% and ROC-AUC of 0.9961 show strong separation on the recorded candidate cohort. Sensitivity of 92.56% also makes the remaining nine missed nodule patches visible.</p>
+          </div>
+
+          <div class="dso-study" role="group" aria-labelledby="dso2-title">
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/Nodule%20classification.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the nodule classification illustration">
+                <img src="assets/img/portfolio/pulmotrack/Nodule%20classification.png" class="img-fluid" width="1774" height="887" loading="lazy" alt="PulmoTrack classification concept artwork depicting the broader benign/malignant project goal; the recorded evaluations below use true/false nodule labels">
+              </a>
+            </figure>
+            <h3 id="dso2-title" tabindex="-1">DSO2 &mdash; Nodule Classification</h3>
+            <p>The recorded task classifies a 3D candidate patch as a <strong>true nodule or false nodule</strong>. Although the wider project discusses benign/malignant classification, these implemented evaluations use binary candidate labels.</p>
+
+            <h4 id="dso2-data-processing" tabindex="-1">Data Processing</h4>
+            <ul class="project-features">
+              <li><strong>Separate patch collection:</strong> Prepared this dataset independently of the 9,215 detection examples. The preparation cell filters candidates marked as class 1 and compares their positions with annotation centres using a 6 mm matching threshold.</li>
+              <li><strong>Patch extraction and normalization:</strong> Extracted 64 &times; 64 &times; 64 patches, padded when needed, and applied mean-and-standard-deviation normalization.</li>
+              <li><strong>Labels and storage:</strong> Saved tensors into separate folders, with label 1 for true nodules and 0 for false nodules.</li>
+              <li><strong>Dataset and initial split:</strong> The notebook reports 1,243 true-nodule and 761 false-nodule patches, totalling 2,004. The initial split contains 1,603 training, 200 validation and 201 test patches.</li>
+            </ul>
+
+            <h4 id="dso2-models-applied" tabindex="-1">Models Applied</h4>
+            <ul class="project-features">
+              <li><strong>Improved 3D CNN:</strong> Three convolution blocks followed by adaptive pooling, a dense layer, dropout and a two-class output; 17 recorded epochs.</li>
+              <li><strong>ResNet3D Lite:</strong> Residual blocks combine transformed features with shortcut connections, followed by global pooling and a classification head; 6 recorded epochs.</li>
+              <li><strong>U-Net encoder classifier:</strong> Four encoder stages followed by global pooling and a dense two-class head; 30 recorded epochs.</li>
+            </ul>
+            <p>All three architectures use <strong>cross-entropy loss</strong> and <strong>Adam with an initial learning rate of 0.0001</strong>. Dropout regularizes the CNN and U-Net heads. Validation loss guides checkpoint selection, and saved evaluations are kept separate from final-epoch logs.</p>
+
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/arch%20classification.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the nodule classification model architecture">
+                <img src="assets/img/portfolio/pulmotrack/arch%20classification.png" class="img-fluid" width="1920" height="683" loading="lazy" alt="Improved 3D CNN concept architecture showing CT preprocessing, patch extraction, convolution blocks, pooling and a classification head; the recorded evaluations use true/false nodule labels">
+              </a>
+            </figure>
+
+          <h4 id="classification-results-title" tabindex="-1">Results &amp; Evaluation</h4>
+          <div class="table-responsive" role="region" aria-labelledby="classification-results-title" tabindex="0">
+            <table class="research-table" aria-labelledby="classification-results-title">
+              <thead><tr><th scope="col">Study / cohort</th><th scope="col">Patches</th><th scope="col">Accuracy</th><th scope="col">ROC-AUC</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Improved 3D CNN &middot; validation</th><td>200</td><td>74.50%</td><td>0.8269</td></tr>
+                <tr><th scope="row">Improved 3D CNN &middot; test</th><td>201</td><td>74.63%</td><td>0.8335</td></tr>
+                <tr><th scope="row">ResNet3D Lite &middot; validation</th><td>401</td><td>72.07%</td><td>0.7678</td></tr>
+                <tr><th scope="row">U-Net encoder &middot; validation</th><td>200</td><td>74.00%</td><td>0.8116</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/08_dso2_training_history.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge improved 3D CNN training and validation loss and accuracy across 17 epochs">
+                <img src="assets/img/portfolio/pulmotrack/08_dso2_training_history.png" class="img-fluid" width="1389" height="490" loading="lazy" alt="Improved 3D CNN training and validation loss and accuracy across 17 epochs">
+              </a>
+              <figcaption>DSO2 &mdash; Improved 3D CNN training and validation history.</figcaption>
+            </figure>
+
+          <p>The Improved 3D CNN test evaluation identifies 107 of 123 true-nodule patches, with 35 false positives and 16 false negatives. Its accuracy and AUC describe binary candidate labels, not malignancy diagnosis.</p>
+          <p><strong>How to compare these results.</strong> Each model retains its own recorded cohort. The ResNet matrix contains 401 patches despite an earlier 200-patch validation log. Splitting is by patch, and a patient-disjoint benchmark is not established. These studies support analysis of the recorded runs, not a controlled architecture ranking.</p>
+
+            <p><strong>Interpretation:</strong> The Improved 3D CNN reaches 74.63% test accuracy and ROC-AUC 0.8335 on its 201-patch cohort. Its 35 false positives and 16 false negatives show the remaining classification errors. The differing evaluation cohorts prevent treating these recorded runs as a controlled ranking of the three architectures.</p>
+          </div>
+
+          <div class="dso-study" role="group" aria-labelledby="dso3-title">
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/Exploratory%20segmentation.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the exploratory segmentation illustration">
+                <img src="assets/img/portfolio/pulmotrack/Exploratory%20segmentation.png" class="img-fluid" width="1774" height="887" loading="lazy" alt="PulmoTrack segmentation concept illustration showing a CT patch, reference mask, predicted mask and 3D U-Net; recorded evaluation contexts are detailed below">
+              </a>
+            </figure>
+            <h3 id="dso3-title" tabindex="-1">DSO3 &mdash; Exploratory 3D Segmentation</h3>
+            <p>This objective predicts a <strong>mask identifying nodule voxels</strong> within a 3D CT patch. It is a parallel research exploration, rather than a prerequisite for detection or classification.</p>
+
+            <h4 id="dso3-data-processing" tabindex="-1">Data Processing</h4>
+            <ul class="project-features">
+              <li><strong>Volume preparation:</strong> Prepared lung regions, clipped intensities to &minus;1000 to 400 HU and scaled them to the range [0, 1].</li>
+              <li><strong>Reference masks:</strong> Created spherical masks from annotated nodule centres and diameters. These approximate reference regions are not manually traced nodule boundaries.</li>
+              <li><strong>Patch extraction:</strong> Extracted 48 &times; 48 &times; 48 positive CT patches with corresponding mask patches. Negative patches were sampled away from annotated nodules and paired with empty masks.</li>
+              <li><strong>Augmentation and normalization:</strong> Explored flips, rotations, zoom, noise and intensity shifts, with patch-level min&ndash;max normalization in the model loader.</li>
+              <li><strong>Splits and tiny nodules:</strong> The baseline records 2,036 training and 509 validation patches. Later experiments oversampled selected small-nodule examples to increase their exposure during training.</li>
+            </ul>
+
+            <h4 id="dso3-models-applied" tabindex="-1">Models Applied</h4>
+            <p>The segmentation flow is <strong>CT patch &rarr; encoder &rarr; bottleneck &rarr; decoder &rarr; voxel probability map</strong>. Decoder upsampling and encoder-to-decoder skip connections help reconstruct spatial detail.</p>
+            <ul class="project-features">
+              <li><strong>3D U-Net:</strong> Baseline encoder&ndash;decoder architecture.</li>
+              <li><strong>Attention 3D U-Net:</strong> Attention gates weight features passed through skip connections.</li>
+              <li><strong>Residual Attention 3D U-Net:</strong> Residual convolution blocks combined with attention gates.</li>
+              <li><strong>Tiny-nodule training:</strong> Baseline architecture with modified sampling and augmentation.</li>
+            </ul>
+            <p>Recorded training used <strong>binary cross-entropy loss</strong> and <strong>Adam at 0.0001</strong>. A sigmoid produces voxel probabilities, and a 0.5 threshold converts them into binary masks.</p>
+
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/arch%20segmentation.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the nodule segmentation model architecture">
+                <img src="assets/img/portfolio/pulmotrack/arch%20segmentation.png" class="img-fluid" width="1765" height="891" loading="lazy" alt="3D U-Net segmentation architecture: CT preprocessing, patch extraction, encoder, bottleneck, decoder with skip connections, and output nodule masks">
+              </a>
+            </figure>
+
+          <h4 id="segmentation-results-title" tabindex="-1">Results &amp; Evaluation</h4>
+          <p>Segmentation results depend strongly on the selected patches and the handling of empty masks. The table preserves these separate experimental contexts; all values are notebook-reported summaries.</p>
+          <div class="table-responsive" role="region" aria-labelledby="segmentation-results-title" tabindex="0">
+            <table class="research-table" aria-labelledby="segmentation-results-title">
+              <thead><tr><th scope="col">Model study</th><th scope="col">Evaluation context</th><th scope="col">Patches</th><th scope="col">Reported score</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">3D U-Net</th><td>Five positives &middot; A</td><td>5</td><td>Dice 0.2115</td></tr>
+                <tr><th scope="row">3D U-Net</th><td>Five positives &middot; B</td><td>5</td><td>Dice 0.3127</td></tr>
+                <tr><th scope="row">3D U-Net</th><td>Mixed validation loader</td><td>509</td><td>Dice 0.9504</td></tr>
+                <tr><th scope="row">Attention U-Net</th><td>Five positive patches</td><td>5</td><td>Dice 0.1599</td></tr>
+                <tr><th scope="row">Attention U-Net</th><td>Ten mixed patches</td><td>10</td><td>Dice 0.9800</td></tr>
+                <tr><th scope="row">Residual attention</th><td>Ten positives &middot; initial</td><td>10</td><td>Dice 0.1200</td></tr>
+                <tr><th scope="row">Residual attention</th><td>Ten positives &middot; later</td><td>10</td><td>Dice 0.0348</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+            <figure class="research-prediction">
+              <a href="assets/img/portfolio/pulmotrack/09_dso3_training_loss.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge 3D U-Net training and validation loss across 50 epochs">
+                <img src="assets/img/portfolio/pulmotrack/09_dso3_training_loss.png" class="img-fluid" width="691" height="547" loading="lazy" alt="3D U-Net training and validation loss across 50 epochs">
+              </a>
+              <figcaption>DSO3 &mdash; Baseline 3D U-Net training and validation loss.</figcaption>
+            </figure>
+
+          <p>The 0.9504 validation Dice comes from a mixed, augmented loader, where smoothing assigns empty prediction/reference pairs a Dice near 1. The attention model&rsquo;s mixed-patch evaluator similarly assigns perfect scores to empty pairs. Positive-only samples show the remaining difficulty of recovering small nodule regions.</p>
+          <p>Tiny-nodule augmentation retains saved prediction examples and a final validation binary cross-entropy loss of 0.0446. No Dice, precision, recall or F1 evaluation was recorded for that run; a lower loss is not an overlap score.</p>
+          <figure class="research-prediction">
+            <a href="assets/img/portfolio/pulmotrack/attention-positive-prediction.png" class="glightbox" data-gallery="pulmotrack-research" aria-label="Enlarge the recorded Attention 3D U-Net positive-nodule prediction">
+              <img src="assets/img/portfolio/pulmotrack/attention-positive-prediction.png" class="img-fluid" width="1456" height="887" loading="lazy" alt="Five CT slices with reference and predicted masks from a recorded Attention 3D U-Net positive-nodule case; Dice 0.8000, precision 0.8630, recall 0.7456">
+            </a>
+            <figcaption>Recorded Attention 3D U-Net positive-nodule example &mdash; Dice 0.8000, precision 0.8630, recall 0.7456. Single case from the ten-patch mixed evaluation.</figcaption>
+          </figure>
+
+            <p><strong>Evaluation context:</strong> The notebook applies random augmentation to images and masks through separate calls, so their spatial transformations are not guaranteed to match; validation also inherits augmentation. Patch splits do not establish patient-disjoint evaluation. Together with the mixed-versus-positive-only score differences, these limitations keep the segmentation findings exploratory.</p>
+          </div>
+
+          <h2 id="deployment" tabindex="-1">Deployment</h2>
+          <p>My PulmoTrack contribution is hosted on Streamlit Community Cloud, with the GitHub repository as its deployment source. The interface preserves the dark navy and teal medical-imaging identity, sidebar navigation and CT-focused visual presentation.</p>
+          <p>Visitors can explore model architectures, recorded metrics, training histories, original segmentation predictions, pilot Grad-CAM, research resources and the manuscript viewer. The app presents saved evidence; it requires no CT dataset download or live model execution.</p>
+          <p><strong>Delivery workflow:</strong> Research notebooks &rarr; exported figures and result summaries &rarr; Streamlit interface &rarr; GitHub &rarr; Streamlit Community Cloud.</p>
+          <p>The website is a completed research showcase, rather than a patient-upload or diagnostic inference service. Repository changes can be reflected in the deployed app through Community Cloud&rsquo;s GitHub integration.</p>
+          <div class="paper-actions">
+            <a href="https://pulmotrack-farahsayari-contribution-sef2wgqdo5bzl9wmgfwxry.streamlit.app/" class="paper-button" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Open Live Showcase<span class="visually-hidden"> (opens in a new tab)</span></a>
+            <a href="https://github.com/FarahSayari/pulmoTrack-farahsayari-contribution" class="paper-button paper-button-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> View Source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+          </div>
+          <p class="research-reference">Deployment reference: <a href="https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app" target="_blank" rel="noopener">Streamlit Community Cloud documentation</a>.</p>
+
+          <section id="research-paper" class="research-paper" aria-labelledby="research-paper-title">
+            <h2 id="research-paper-title" tabindex="-1">Research Paper</h2>
+            <p><strong>Title:</strong> <em>PulmoTrack: A Deep Learning Solution for Pulmonary Nodule Segmentation, Detection, and Classification on CT and Chest X-ray Scans</em></p>
+            <p><strong>Document:</strong> Team research manuscript &middot; May 2025 &middot; 11 pages.</p>
+            <p><strong>Authors:</strong> Farah Sayari and co-authors.</p>
+            <p>The manuscript covers the broader team project, including CT and chest X-ray work. This portfolio page focuses on the LUNA16 CT contribution.</p>
+            <h3 id="paper-reported-highlights" tabindex="-1">Paper-reported LUNA16 highlights</h3>
+            <p>The manuscript reports segmentation Dice 0.95, detection sensitivity 92% at 1.5 false positives per scan, and classification AUC 0.91 (pp. 4&ndash;5).</p>
+            <div class="paper-actions">
+              <a href="assets/docs/PulmoTrackPaper.pdf" class="paper-button" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> View Paper (PDF)<span class="visually-hidden"> (opens in a new tab)</span></a>
+              <a href="assets/docs/PulmoTrackPaper.pdf" class="paper-button paper-button-outline" download="PulmoTrackPaper.pdf"><i class="bi bi-download" aria-hidden="true"></i> Download Paper (PDF)</a>
+            </div>
+          </section>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Farah Sayari</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/FarahSayari" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+        <a href="mailto:farahsayari.dev@gmail.com" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/farah-sayari-060745248" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    bootstrap.Carousel.getOrCreateInstance(document.getElementById('pulmotrack-gallery'), {
+      interval: false,
+      ride: false
+    });
+  </script>
+
+</body>
+
+</html>
