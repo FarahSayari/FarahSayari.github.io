@@ -2,8 +2,8 @@
   "snapshot_date": "2026-11-04",
   "algorithm": "SHA-256",
   "files": {
-    "about.html": "72b595256e7875c3031f7be34202ca443730ed7a79a976393d8c8e9e0c20080f",
-    "assets/css/main.css": "28565dc4e030c258239eafc6ca3ffeeb9b0815d4e72961378f7a61a77b37519e",
+    "about.html": "e7acd70d07779355f51639b34434f481457abd69a147a159c00ed831cfe7be70",
+    "assets/css/main.css": "749c3f54789175760944ea44f453b62674e9b2adbd0611785a8ea0dbcc4fdc76",
     "assets/css/portfolio.css": "788b041483d5ffdae13e23ec3008c424057d36434566ef035c2a5d7fa8e26876",
     "assets/css/resume.css": "df331c4c4562c1c8b5b0f61d176d24fc4ea0abc53649d70163c341f444024707",
     "assets/docs/Farah_Sayari_CV2026.pdf": "37299d9b34b1c8ad1d8c5c28a4f56e35195c99d933d7dc446adc60e539021ca2",
@@ -34,16 +34,16 @@
     "assets/img/portfolio/pulmotrack/pulmotrack.png": "8364b4d8f6d928472c4a524b129f1c47f9f5df98ea0673fc86114cf630642e81",
     "assets/img/portfolio/pulmotrack/team.png": "fb0037e486f31e6ff80093d2631570ec8719ac5eed23c3e942eca432199f8bcd",
     "assets/js/main.js": "a164a23ef1cb2ccf1db073cc1218e5dd2b72ee5aaa04f5f6f02798dfd59b11f6",
-    "contact.html": "33f252233b038ce5ea7d7f4d62260a1d08ad770b040cdcd628f1f39ea9852eea",
+    "contact.html": "9eccdb43c266887afc5be4113d72ec58be81c92cf282fef570e7e400c3c9cf81",
     "forms/contact.php": "26b66d564c1d6f2db5be98cd870a235c1f878a4a8372a16dde0d98df2b66a7d8",
     "forms/Readme.txt": "e787abcd260b0259efbf553cc2d9357b84dae8e9cd7ac2b878f78407d783f389",
-    "index.html": "f0f747223ba93657857f9c03cf1b0ed83a42268a634714879926138426122168",
-    "portfolio-details.html": "5c8c613bf1aefdfcb2cb423e7a5940034e7999599a65c3a64b9d7e6dfe0b87a7",
-    "portfolio.html": "d4e347769d2e60643f6cf819583175c1c61218f75575b24cef165455ffd7d13c",
-    "pulmotrack-details.html": "bdb4890f7e9387c259831717b991324c1fc8c0c0ca0bd9eec034bdd37a972c29",
+    "index.html": "9bf1ac9944a32163db33f9a0bc622f316cab2bb89ec6b6a5ef453bb12210b002",
+    "portfolio-details.html": "72846a666dd2f1a5cb5a53af073442df9d9be7a3d03704bde8afd14e6da8127e",
+    "portfolio.html": "570f5c0f978df6d04cff9f6888b67409690c80ac1c72ae41016cadd09deed725",
+    "pulmotrack-details.html": "c815abdf393daef110f3c2f3620203f2ba7b0f3bb4cd9b943ff48627ef2bb35c",
     "Readme.txt": "03fc9f7fa61c1248e6af3524723ab100d398027c0bc29b600c6eb5f237dd0e78",
-    "resume.html": "44720e2ad079bcca49d5ba05b833b77896d2df54fd3f8fe13a0cd3c88db569fb",
-    "services.html": "6f07a8a27ebd477d858cbc3af31c07fbad6e74e3e6b3cbc27d8f6a322620f03b",
-    "starter-page.html": "3b07c1c1a37344d2feca414c7c1f63f457d1d192984cb8824e5486ee673fdaf3"
+    "resume.html": "fd2983439da2349d651eeea3b6a2246b1b6498b132fbe7f6968af193da9a3676",
+    "services.html": "70ba095a252c3a98621a72862c3d07804583b6ce07a4b67f777117f3b9c742f6",
+    "starter-page.html": "4b5371f40e43a53d153816c002af370b79c6cef6d97472e497e6c2fdf8efe76e"
   }
 }

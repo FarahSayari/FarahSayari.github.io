@@ -85,11 +85,17 @@ Use the table below with the exact variants that follow. Each page’s visible b
 
 ### Header social links S1
 
+| Label / icon class | Exact destination |
+| --- | --- |
+| GitHub | https://github.com/FarahSayari |
+| Email | mailto:farahsayari.dev@gmail.com |
+| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
+
 ### Footer F1
 
 > © Copyright Farah Sayari All Rights Reserved
 
-> Designed by BootstrapMade Distributed by ThemeWagon
+> 
 
 | Social label / icon class | Exact destination |
 | --- | --- |
@@ -97,16 +103,11 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | Email | mailto:farah.sayari@esprit.tn |
 | LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
 
-| Attribution label | Exact destination |
-| --- | --- |
-| BootstrapMade | https://bootstrapmade.com/ |
-| ThemeWagon | https://themewagon.com |
-
 ### Footer F2
 
 > © Copyright Farah Sayari All Rights Reserved
 
-> Designed by BootstrapMade Distributed by ThemeWagon
+> 
 
 | Social label / icon class | Exact destination |
 | --- | --- |
@@ -114,16 +115,11 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | Email | mailto:farahsayari.dev@gmail.com |
 | LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
 
-| Attribution label | Exact destination |
-| --- | --- |
-| BootstrapMade | https://bootstrapmade.com/ |
-| ThemeWagon | https://themewagon.com |
-
 ### Footer F3
 
 > © Copyright Kelly All Rights Reserved
 
-> Designed by BootstrapMade Distributed by ThemeWagon
+> 
 
 | Social label / icon class | Exact destination |
 | --- | --- |
@@ -131,11 +127,6 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | Icon: bi bi-facebook | (empty) |
 | Icon: bi bi-instagram | (empty) |
 | Icon: bi bi-linkedin | (empty) |
-
-| Attribution label | Exact destination |
-| --- | --- |
-| BootstrapMade | https://bootstrapmade.com/ |
-| ThemeWagon | https://themewagon.com |
 
 An empty destination is shown as “(empty)”; a destination of # is a fragment placeholder. The starter template contains a malformed ThemeWagon anchor in its source. Its browser-parsed label and destination above are recorded as they currently resolve.
 
@@ -1149,7 +1140,7 @@ The document records the website as it exists. These items are observations for 
 
 | Observation | Pages / current value |
 | --- | --- |
-| Header/footer email destinations | farah.sayari@esprit.tn: about.html, index.html, services.html; farahsayari.dev@gmail.com: contact.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html |
+| Header/footer email destinations | farahsayari.dev@gmail.com: about.html, contact.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html; farah.sayari@esprit.tn: about.html, index.html, services.html |
 | Project entries without descriptions or links | AI Agent Recruiter, TestPilot |
 | Different project naming | The resume calls its career assistant Aura; the portfolio entry is titled AI Agent Recruiter. This reference does not assume that they are the same project. |
 | Retained starter page | starter-page.html. Current brand: FARAH. Its exact content and links are recorded in its section. |
