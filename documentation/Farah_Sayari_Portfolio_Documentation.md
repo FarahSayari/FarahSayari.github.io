@@ -1182,15 +1182,17 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 ### Animated content and alternate states
 
-The project image card contains 5 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.
+The project image card contains 7 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.
 
 | Slide | Image path |
 | --- | --- |
 | 1 | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png |
-| 2 | assets/img/portfolio/testpilot/dashboard%20admin%20final.png |
-| 3 | assets/img/portfolio/testpilot/BA%20dashboard.png |
-| 4 | assets/img/portfolio/testpilot/qa%20engineer.png |
-| 5 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png |
+| 2 | assets/img/portfolio/testpilot/select%20project.png |
+| 3 | assets/img/portfolio/testpilot/admin%20dashboard.png |
+| 4 | assets/img/portfolio/testpilot/BA%20dashboard.png |
+| 5 | assets/img/portfolio/testpilot/record.png |
+| 6 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png |
+| 7 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png |
 
 ### Main-content links and downloads
 
@@ -1198,9 +1200,11 @@ The project image card contains 5 manually switchable images. Previous/next butt
 | --- | --- | --- |
 | Back to Portfolio | portfolio.html | (empty) |
 | Enlarge TestPilot project artwork | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | (empty) |
-| Enlarge Administrator dashboard | assets/img/portfolio/testpilot/dashboard%20admin%20final.png | (empty) |
+| Enlarge Project selection | assets/img/portfolio/testpilot/select%20project.png | (empty) |
+| Enlarge Administrator dashboard | assets/img/portfolio/testpilot/admin%20dashboard.png | (empty) |
 | Enlarge Business Analyst dashboard | assets/img/portfolio/testpilot/BA%20dashboard.png | (empty) |
-| Enlarge QA Engineer dashboard | assets/img/portfolio/testpilot/qa%20engineer.png | (empty) |
+| Enlarge Scenario recording | assets/img/portfolio/testpilot/record.png | (empty) |
+| Enlarge QA Engineer dashboard | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | (empty) |
 | Enlarge QA Manager dashboard | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | (empty) |
 
 ### Main-content images
@@ -1208,9 +1212,11 @@ The project image card contains 5 manually switchable images. Previous/next butt
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
 | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background | (empty) |
-| assets/img/portfolio/testpilot/dashboard%20admin%20final.png | TestPilot administrator dashboard showing users, projects, environments and administrative activity | (empty) |
-| assets/img/portfolio/testpilot/BA%20dashboard.png | TestPilot Business Analyst dashboard showing recorded scenarios, test design progress and review tasks | (empty) |
-| assets/img/portfolio/testpilot/qa%20engineer.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
+| assets/img/portfolio/testpilot/select%20project.png | TestPilot project selection screen showing available workspaces and project-specific user roles | (empty) |
+| assets/img/portfolio/testpilot/admin%20dashboard.png | TestPilot administrator dashboard showing users, projects, environments and administrative activity | (empty) |
+| assets/img/portfolio/testpilot/BA%20dashboard.png | TestPilot Business Analyst dashboard showing scenario totals, test design progress and review tasks | (empty) |
+| assets/img/portfolio/testpilot/record.png | TestPilot scenario recording form with project context, environment selection and scenario details | (empty) |
+| assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
 
 ## 10 · Digital Gallery

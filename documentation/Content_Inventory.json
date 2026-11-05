@@ -3309,8 +3309,13 @@
           ""
         ],
         [
+          "Enlarge Project selection",
+          "assets/img/portfolio/testpilot/select%20project.png",
+          ""
+        ],
+        [
           "Enlarge Administrator dashboard",
-          "assets/img/portfolio/testpilot/dashboard%20admin%20final.png",
+          "assets/img/portfolio/testpilot/admin%20dashboard.png",
           ""
         ],
         [
@@ -3319,8 +3324,13 @@
           ""
         ],
         [
+          "Enlarge Scenario recording",
+          "assets/img/portfolio/testpilot/record.png",
+          ""
+        ],
+        [
           "Enlarge QA Engineer dashboard",
-          "assets/img/portfolio/testpilot/qa%20engineer.png",
+          "assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png",
           ""
         ],
         [
@@ -3336,17 +3346,27 @@
           ""
         ],
         [
-          "assets/img/portfolio/testpilot/dashboard%20admin%20final.png",
+          "assets/img/portfolio/testpilot/select%20project.png",
+          "TestPilot project selection screen showing available workspaces and project-specific user roles",
+          ""
+        ],
+        [
+          "assets/img/portfolio/testpilot/admin%20dashboard.png",
           "TestPilot administrator dashboard showing users, projects, environments and administrative activity",
           ""
         ],
         [
           "assets/img/portfolio/testpilot/BA%20dashboard.png",
-          "TestPilot Business Analyst dashboard showing recorded scenarios, test design progress and review tasks",
+          "TestPilot Business Analyst dashboard showing scenario totals, test design progress and review tasks",
           ""
         ],
         [
-          "assets/img/portfolio/testpilot/qa%20engineer.png",
+          "assets/img/portfolio/testpilot/record.png",
+          "TestPilot scenario recording form with project context, environment selection and scenario details",
+          ""
+        ],
+        [
+          "assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png",
           "TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results",
           ""
         ],
@@ -3363,9 +3383,11 @@
           "type": "image-carousel",
           "values": [
             "assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png",
-            "assets/img/portfolio/testpilot/dashboard%20admin%20final.png",
+            "assets/img/portfolio/testpilot/select%20project.png",
+            "assets/img/portfolio/testpilot/admin%20dashboard.png",
             "assets/img/portfolio/testpilot/BA%20dashboard.png",
-            "assets/img/portfolio/testpilot/qa%20engineer.png",
+            "assets/img/portfolio/testpilot/record.png",
+            "assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png",
             "assets/img/portfolio/testpilot/qa%20manager%20dashboard.png"
           ]
         }

@@ -34,10 +34,12 @@
     "assets/img/portfolio/pulmotrack/Nodule detection.png": "c1133a354c337e64dfeff5dd87295d9492d7bd904f9072894224e3d357af2cd9",
     "assets/img/portfolio/pulmotrack/pulmotrack.png": "8364b4d8f6d928472c4a524b129f1c47f9f5df98ea0673fc86114cf630642e81",
     "assets/img/portfolio/pulmotrack/team.png": "fb0037e486f31e6ff80093d2631570ec8719ac5eed23c3e942eca432199f8bcd",
-    "assets/img/portfolio/testpilot/BA dashboard.png": "af1d488f582ef02fa3f209044ff5c33b7fca9224b6c647ba1241bbf7d7479c02",
-    "assets/img/portfolio/testpilot/dashboard admin final.png": "6175e26e783fa11c7d33cd9fd6a87402244428ee5b99248d2a0a45c34f60acca",
-    "assets/img/portfolio/testpilot/qa engineer.png": "f062033df6343acdf809788fb7f4e57076009966c37bd41f93603c3fa13f616d",
+    "assets/img/portfolio/testpilot/admin dashboard.png": "61a10413f6d6b8c2a12300761ddc1290975c68ea3af44033ce9ca927619c9966",
+    "assets/img/portfolio/testpilot/BA dashboard.png": "0395e9f3bf39ae8a0a4b3f6e731035bd9186cacd9d8531a5f221f27c324c45c8",
+    "assets/img/portfolio/testpilot/QA engineer dashboard.png": "8b13623368e3ae6a6c1241f26080422098aff6871da33e706e81a1fb8dced060",
     "assets/img/portfolio/testpilot/qa manager dashboard.png": "193e9fd2ed3054c0810d93e259b8fbdcdfa8a1f5ec403f9f19fdcc447ad801ce",
+    "assets/img/portfolio/testpilot/record.png": "ef478356102bbf8cbf66c69925e39a6262d62aeb5e1b0af080ea57e102e298b1",
+    "assets/img/portfolio/testpilot/select project.png": "741086c1c2beb31392b080e00c532e77de0d01545e46961facd55552a4e075bc",
     "assets/img/portfolio/testpilot/TESTPILOT AI Automation Platform.png": "c33394cbd4906629543b8d1043ea465fc1ed039af61af502eb67deba87911d1e",
     "assets/js/main.js": "a164a23ef1cb2ccf1db073cc1218e5dd2b72ee5aaa04f5f6f02798dfd59b11f6",
     "certifications.html": "e129ec2ee0f49de4aaf7070abeb9d6e00ec0c073f842619619062a6f1799d536",
@@ -53,6 +55,6 @@
     "resume.html": "f78cf60cfd6c8e6afdd315c82f0a9f3fcfd2eedfaa2e6d13f767bb4ffba496d7",
     "services.html": "db15b336721774d998ef6f9e29ba6066508896328af252a203d299446098420a",
     "starter-page.html": "338f8d56aeb6c961a5204d3dc09adecc53fdb219a723ea6da644070aba4b34ff",
-    "testpilot-details.html": "4e72156d14839547e8aecb7549245e552f44786bfe035fdba5f412584b506b45"
+    "testpilot-details.html": "0f6c77a17816389e09ee4e91b701e50abc1caf4fe0afe7dab61bc9e04f322293"
   }
 }
