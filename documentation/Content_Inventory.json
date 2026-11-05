@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "timezone": "Africa/Tunis",
   "pages": [
     {
@@ -1301,6 +1301,10 @@
           "text": "TestPilot"
         },
         {
+          "tag": "p",
+          "text": "AI-Assisted Test Automation Platform"
+        },
+        {
           "tag": "h4",
           "text": "PulmoTrack"
         },
@@ -1397,6 +1401,11 @@
           ""
         ],
         [
+          "TestPilot project details",
+          "testpilot-details.html",
+          ""
+        ],
+        [
           "PulmoTrack project details",
           "pulmotrack-details.html",
           ""
@@ -1458,11 +1467,16 @@
         },
         {
           "name": "TestPilot",
-          "description": "",
+          "description": "AI-Assisted Test Automation Platform",
           "categories": [
             "filter-app"
           ],
-          "links": [],
+          "links": [
+            [
+              "TestPilot project details",
+              "testpilot-details.html"
+            ]
+          ],
           "image": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
         },
         {
@@ -1519,7 +1533,7 @@
         },
         {
           "region": "main",
-          "text": "Portfolio\n\nA selection of my work in software engineering, Data Science, and AI.\n\nAll App Web\nLollyBooks\n\nPersonalized Digital Library & AI Reading Companion\n\nAI Agent Recruiter\nTestPilot\nPulmoTrack\n\nAI-Powered Pulmonary Nodule Analysis"
+          "text": "Portfolio\n\nA selection of my work in software engineering, Data Science, and AI.\n\nAll App Web\nLollyBooks\n\nPersonalized Digital Library & AI Reading Companion\n\nAI Agent Recruiter\nTestPilot\n\nAI-Assisted Test Automation Platform\n\nPulmoTrack\n\nAI-Powered Pulmonary Nodule Analysis"
         },
         {
           "region": "footer",
@@ -2848,6 +2862,485 @@
         {
           "region": "main",
           "text": "Back to Portfolio\nPulmoTrack — Deep Learning for Pulmonary Nodule Analysis\n\nResearch · Deep Learning · Medical Imaging · Computer Vision\n\nAn academic medical-imaging project using LUNA16 CT scans to study nodule candidate detection, binary classification and exploratory 3D segmentation, presented through an interactive research website.\n\nPrevious image\nNext image\nProject Information\nCategory: Research, DL, Medical Imaging, Computer Vision\nRole: Data Scientist, Project Manager\nMethodology: CRISP-DM\nDataset: LUNA16\nStatus: Completed\nScientific Paper: Available · Team research manuscript\nOpen Live Showcase\n(opens in a new tab)\nView Source on GitHub\n(opens in a new tab)\nTechnologies\n\nResearch: Python, PyTorch, torchvision, NumPy, pandas, SciPy, scikit-learn, SimpleITK.\n\nAnalysis & delivery: Jupyter Notebook, Google Colab, Matplotlib, Plotly, Pillow, Streamlit, Git, GitHub and Streamlit Community Cloud.\n\nProject Summary\n\nJump directly to a section of the project.\n\nProject Information\nTechnologies\nProject Overview\nMy Contributions\nLUNA16 Dataset\nProject Methodology\nExplore the Three DSOs\nDSO1 — Nodule Detection\nData Processing\nModels Applied\nResults & Evaluation\nDSO2 — Nodule Classification\nData Processing\nModels Applied\nResults & Evaluation\nDSO3 — Exploratory 3D Segmentation\nData Processing\nModels Applied\nResults & Evaluation\nDeployment\nResearch Paper\nPaper-reported LUNA16 highlights\nProject Overview\n\nLung cancer is the leading cause of cancer-related death worldwide and is often diagnosed at an advanced stage, when treatment options are more limited. Earlier identification and appropriate follow-up can improve the opportunity for effective treatment.\n\nPulmoTrack explores how deep learning can analyze pulmonary nodules in volumetric CT data. The project connects medical-image preprocessing, three research objectives, model evaluation and a deployed interface that makes the experiments understandable to a portfolio audience.\n\nThe work is an academic research study. Its recorded models evaluate nodule candidates and masks; they do not establish a clinically validated cancer diagnosis system.\n\nScientific context: World Health Organization — Lung cancer.\n\nMy Contributions\nLUNA16 preprocessing. Worked on CT resampling, annotation and candidate inspection, world-to-voxel coordinate conversion, intensity normalization and 3D patch preparation.\nDetection and classification. Developed and studied 3D candidate-screening and binary classification approaches, comparing their saved training histories, confusion matrices and ROC evaluations.\nExploratory segmentation. Investigated 3D U-Net, attention and residual-attention variants, and tiny-nodule oversampling, documenting both promising summaries and difficult positive-only cases.\nResults and documentation. Organized notebook outputs, kept evaluation cohorts and checkpoint results distinct, and contributed to the team research manuscript.\nDeployment. Created a Streamlit research showcase with CT visualizations, model overviews, result interpretation, source resources and access to the research paper.\nLUNA16 Dataset\n\nLUNA16 (Lung Nodule Analysis 2016) is derived from LIDC-IDRI and contains 888 volumetric chest CT scans. It provides CT volumes, candidate locations and nodule annotations for pulmonary nodule research.\n\nThe official reference standard includes nodules at least 3 mm in diameter accepted by at least three of four radiologists. Scans with slice thickness greater than 2.5 mm were excluded. The CT collection is approximately 90 GB in scale; the deployed showcase uses saved outputs rather than distributing the dataset.\n\nThe project prepares different patch collections for different experiments: 64³ voxels for detection/classification and 48³ voxels for the archived segmentation studies.\n\nDataset source and access: LUNA16 official data page.\n\nProject Methodology\n\nPulmoTrack follows the CRISP-DM methodology, from understanding the research problem and preparing LUNA16 CT data to modeling, evaluation, and deployment. This iterative workflow guides the three research objectives and the presentation of their results in the Streamlit showcase.\n\nExplore the Three DSOs\n\nData processing prepares the CT scans for learning; modeling builds and trains networks using that prepared data. Before preparing the task-specific datasets, we resampled CT volumes to 1 × 1 × 1 mm voxel spacing and converted annotation coordinates from millimetres to voxel locations using each scan’s origin and spacing, accounting for medical-image order (x, y, z) and NumPy array order (z, y, x).\n\nThe evaluation tables preserve each saved checkpoint’s recorded cohort. Accuracy is calculated from the original confusion matrix, while ROC-AUC comes from the corresponding recorded output.\n\nDSO1 — Nodule Detection\n\nThis objective screens supplied candidate locations. Each input is a 3D patch around a candidate, and the output is a nodule or non-nodule label.\n\nData Processing\nCandidate matching: Compared candidates with annotated nodule centres from the same scan. A distance below 5 mm defined the strict positive label for the selected dataset; preparation also explored a looser 10 mm label.\nDataset selection: Retained 1,215 positive candidates and randomly sampled 8,000 negatives, producing 9,215 patches. The larger negative collection exposes the model to varied non-nodule appearances.\nPatch extraction: Extracted 64 × 64 × 64 patches around candidates and padded border patches to preserve the expected dimensions.\nNormalization and tensors: Subtracted each patch’s mean and divided by its standard deviation, then created one-channel tensors with shape (1, 64, 64, 64).\nDataset split: Used a seeded random patch split of 6,451 training, 1,843 validation and 921 test examples.\nModels Applied\n\nApplied a U-Net-style 3D encoder classifier with 32 → 64 → 128 → 256 feature channels. Convolution and pooling build 3D features, followed by global average pooling and a linear head that produces two class scores. This model has no segmentation decoder and predicts a patch label, rather than a boundary or bounding box.\n\nTraining used weighted focal loss (γ = 2), Adam with learning rate 0.0001, batch size 16 and 20 recorded epochs. Class weights emphasize less frequent positive examples, while focal loss concentrates learning on difficult cases. The lowest validation loss determined the selected checkpoint.\n\nResults & Evaluation\nCohort\tPatches\tAccuracy\tROC-AUC\nValidation\t1,843\t98.37%\t0.9928\nTest\t921\t97.83%\t0.9961\nDSO1 — Test-set confusion matrix.\nDSO1 — Test-set ROC curve; AUC is rounded in the plot legend.\nDSO1 — Training and validation history.\n\nOn the 921-patch test cohort, the saved model correctly identifies 112 of 121 nodule patches (92.56% sensitivity), with 11 false positives and 9 false negatives. These are candidate-level outcomes; they do not establish false positives per full CT scan.\n\nInterpretation: The test accuracy of 97.83% and ROC-AUC of 0.9961 show strong separation on the recorded candidate cohort. Sensitivity of 92.56% also makes the remaining nine missed nodule patches visible.\n\nDSO2 — Nodule Classification\n\nThe recorded task classifies a 3D candidate patch as a true nodule or false nodule. Although the wider project discusses benign/malignant classification, these implemented evaluations use binary candidate labels.\n\nData Processing\nSeparate patch collection: Prepared this dataset independently of the 9,215 detection examples. The preparation cell filters candidates marked as class 1 and compares their positions with annotation centres using a 6 mm matching threshold.\nPatch extraction and normalization: Extracted 64 × 64 × 64 patches, padded when needed, and applied mean-and-standard-deviation normalization.\nLabels and storage: Saved tensors into separate folders, with label 1 for true nodules and 0 for false nodules.\nDataset and initial split: The notebook reports 1,243 true-nodule and 761 false-nodule patches, totalling 2,004. The initial split contains 1,603 training, 200 validation and 201 test patches.\nModels Applied\nImproved 3D CNN: Three convolution blocks followed by adaptive pooling, a dense layer, dropout and a two-class output; 17 recorded epochs.\nResNet3D Lite: Residual blocks combine transformed features with shortcut connections, followed by global pooling and a classification head; 6 recorded epochs.\nU-Net encoder classifier: Four encoder stages followed by global pooling and a dense two-class head; 30 recorded epochs.\n\nAll three architectures use cross-entropy loss and Adam with an initial learning rate of 0.0001. Dropout regularizes the CNN and U-Net heads. Validation loss guides checkpoint selection, and saved evaluations are kept separate from final-epoch logs.\n\nResults & Evaluation\nStudy / cohort\tPatches\tAccuracy\tROC-AUC\nImproved 3D CNN · validation\t200\t74.50%\t0.8269\nImproved 3D CNN · test\t201\t74.63%\t0.8335\nResNet3D Lite · validation\t401\t72.07%\t0.7678\nU-Net encoder · validation\t200\t74.00%\t0.8116\nDSO2 — Improved 3D CNN training and validation history.\n\nThe Improved 3D CNN test evaluation identifies 107 of 123 true-nodule patches, with 35 false positives and 16 false negatives. Its accuracy and AUC describe binary candidate labels, not malignancy diagnosis.\n\nHow to compare these results. Each model retains its own recorded cohort. The ResNet matrix contains 401 patches despite an earlier 200-patch validation log. Splitting is by patch, and a patient-disjoint benchmark is not established. These studies support analysis of the recorded runs, not a controlled architecture ranking.\n\nInterpretation: The Improved 3D CNN reaches 74.63% test accuracy and ROC-AUC 0.8335 on its 201-patch cohort. Its 35 false positives and 16 false negatives show the remaining classification errors. The differing evaluation cohorts prevent treating these recorded runs as a controlled ranking of the three architectures.\n\nDSO3 — Exploratory 3D Segmentation\n\nThis objective predicts a mask identifying nodule voxels within a 3D CT patch. It is a parallel research exploration, rather than a prerequisite for detection or classification.\n\nData Processing\nVolume preparation: Prepared lung regions, clipped intensities to −1000 to 400 HU and scaled them to the range [0, 1].\nReference masks: Created spherical masks from annotated nodule centres and diameters. These approximate reference regions are not manually traced nodule boundaries.\nPatch extraction: Extracted 48 × 48 × 48 positive CT patches with corresponding mask patches. Negative patches were sampled away from annotated nodules and paired with empty masks.\nAugmentation and normalization: Explored flips, rotations, zoom, noise and intensity shifts, with patch-level min–max normalization in the model loader.\nSplits and tiny nodules: The baseline records 2,036 training and 509 validation patches. Later experiments oversampled selected small-nodule examples to increase their exposure during training.\nModels Applied\n\nThe segmentation flow is CT patch → encoder → bottleneck → decoder → voxel probability map. Decoder upsampling and encoder-to-decoder skip connections help reconstruct spatial detail.\n\n3D U-Net: Baseline encoder–decoder architecture.\nAttention 3D U-Net: Attention gates weight features passed through skip connections.\nResidual Attention 3D U-Net: Residual convolution blocks combined with attention gates.\nTiny-nodule training: Baseline architecture with modified sampling and augmentation.\n\nRecorded training used binary cross-entropy loss and Adam at 0.0001. A sigmoid produces voxel probabilities, and a 0.5 threshold converts them into binary masks.\n\nResults & Evaluation\n\nSegmentation results depend strongly on the selected patches and the handling of empty masks. The table preserves these separate experimental contexts; all values are notebook-reported summaries.\n\nModel study\tEvaluation context\tPatches\tReported score\n3D U-Net\tFive positives · A\t5\tDice 0.2115\n3D U-Net\tFive positives · B\t5\tDice 0.3127\n3D U-Net\tMixed validation loader\t509\tDice 0.9504\nAttention U-Net\tFive positive patches\t5\tDice 0.1599\nAttention U-Net\tTen mixed patches\t10\tDice 0.9800\nResidual attention\tTen positives · initial\t10\tDice 0.1200\nResidual attention\tTen positives · later\t10\tDice 0.0348\nDSO3 — Baseline 3D U-Net training and validation loss.\n\nThe 0.9504 validation Dice comes from a mixed, augmented loader, where smoothing assigns empty prediction/reference pairs a Dice near 1. The attention model’s mixed-patch evaluator similarly assigns perfect scores to empty pairs. Positive-only samples show the remaining difficulty of recovering small nodule regions.\n\nTiny-nodule augmentation retains saved prediction examples and a final validation binary cross-entropy loss of 0.0446. No Dice, precision, recall or F1 evaluation was recorded for that run; a lower loss is not an overlap score.\n\nRecorded Attention 3D U-Net positive-nodule example — Dice 0.8000, precision 0.8630, recall 0.7456. Single case from the ten-patch mixed evaluation.\n\nEvaluation context: The notebook applies random augmentation to images and masks through separate calls, so their spatial transformations are not guaranteed to match; validation also inherits augmentation. Patch splits do not establish patient-disjoint evaluation. Together with the mixed-versus-positive-only score differences, these limitations keep the segmentation findings exploratory.\n\nDeployment\n\nMy PulmoTrack contribution is hosted on Streamlit Community Cloud, with the GitHub repository as its deployment source. The interface preserves the dark navy and teal medical-imaging identity, sidebar navigation and CT-focused visual presentation.\n\nVisitors can explore model architectures, recorded metrics, training histories, original segmentation predictions, pilot Grad-CAM, research resources and the manuscript viewer. The app presents saved evidence; it requires no CT dataset download or live model execution.\n\nDelivery workflow: Research notebooks → exported figures and result summaries → Streamlit interface → GitHub → Streamlit Community Cloud.\n\nThe website is a completed research showcase, rather than a patient-upload or diagnostic inference service. Repository changes can be reflected in the deployed app through Community Cloud’s GitHub integration.\n\nOpen Live Showcase\n(opens in a new tab)\nView Source on GitHub\n(opens in a new tab)\n\nDeployment reference: Streamlit Community Cloud documentation.\n\nResearch Paper\n\nTitle: PulmoTrack: A Deep Learning Solution for Pulmonary Nodule Segmentation, Detection, and Classification on CT and Chest X-ray Scans\n\nDocument: Team research manuscript · May 2025 · 11 pages.\n\nAuthors: Farah Sayari and co-authors.\n\nThe manuscript covers the broader team project, including CT and chest X-ray work. This portfolio page focuses on the LUNA16 CT contribution.\n\nPaper-reported LUNA16 highlights\n\nThe manuscript reports segmentation Dice 0.95, detection sensitivity 92% at 1.5 false positives per scan, and classification AUC 0.91 (pp. 4–5).\n\nView Paper (PDF)\n(opens in a new tab)\nDownload Paper (PDF)"
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n"
+        }
+      ]
+    },
+    {
+      "file": "testpilot-details.html",
+      "title": "TestPilot - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "TestPilot, an AI-assisted test automation platform developed by Farah Sayari during her end-of-studies internship at VERMEG, turns recorded browser interactions into validated Cypress tests."
+      },
+      "sections": [
+        [
+          "section",
+          "portfolio-details"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "a",
+          "text": "Back to Portfolio"
+        },
+        {
+          "tag": "h2",
+          "text": "TestPilot — AI-Assisted Test Automation Platform"
+        },
+        {
+          "tag": "p",
+          "text": "From Recorded User Interactions to Automated Regression Tests"
+        },
+        {
+          "tag": "p",
+          "text": "Full-Stack Engineering · Agentic AI · Test Automation · DevOps"
+        },
+        {
+          "tag": "p",
+          "text": "TestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts."
+        },
+        {
+          "tag": "p",
+          "text": "It brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow."
+        },
+        {
+          "tag": "h3",
+          "text": "Project Information"
+        },
+        {
+          "tag": "li",
+          "text": "Category: Software Engineering · Agentic AI · Test Automation"
+        },
+        {
+          "tag": "li",
+          "text": "Project Type: End-of-Studies Internship (PFE)"
+        },
+        {
+          "tag": "li",
+          "text": "Company: VERMEG"
+        },
+        {
+          "tag": "li",
+          "text": "Role: Full-Stack & AI Software Engineer"
+        },
+        {
+          "tag": "li",
+          "text": "Duration: February – August 2026"
+        },
+        {
+          "tag": "li",
+          "text": "Methodology: Scrumban"
+        },
+        {
+          "tag": "li",
+          "text": "Status: Completed — Functional Prototype"
+        },
+        {
+          "tag": "h2",
+          "text": "Technologies & Tools"
+        },
+        {
+          "tag": "p",
+          "text": "Frontend: Angular · TypeScript · CoreUI"
+        },
+        {
+          "tag": "p",
+          "text": "Backend: Java · Spring Boot · Spring Security · REST APIs"
+        },
+        {
+          "tag": "p",
+          "text": "AI & Agentic Workflows: Python · FastAPI · LangGraph · LLMs · Ollama · Gemma"
+        },
+        {
+          "tag": "p",
+          "text": "Browser Automation: Chrome Extension (Manifest V3) · Cypress · JavaScript"
+        },
+        {
+          "tag": "p",
+          "text": "Database: PostgreSQL"
+        },
+        {
+          "tag": "p",
+          "text": "DevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD"
+        },
+        {
+          "tag": "h2",
+          "text": "The Challenge"
+        },
+        {
+          "tag": "p",
+          "text": "Regression testing is essential for software quality, but creating and maintaining automated tests can be time-consuming."
+        },
+        {
+          "tag": "p",
+          "text": "QA teams frequently translate business scenarios into test scripts manually, manage testing activities across different tools, and investigate execution failures."
+        },
+        {
+          "tag": "p",
+          "text": "Although AI can accelerate test generation, automatically generated scripts are not always reliable."
+        },
+        {
+          "tag": "p",
+          "text": "The challenge was to reduce repetitive testing work while preserving accuracy, traceability, and human control."
+        },
+        {
+          "tag": "h2",
+          "text": "The Solution"
+        },
+        {
+          "tag": "p",
+          "text": "TestPilot provides an integrated environment where Business Analysts and QA Engineers can record real application workflows and transform them into reusable automated tests."
+        },
+        {
+          "tag": "p",
+          "text": "The platform combines browser recording, structured scenario processing, AI-assisted generation, and automated validation."
+        },
+        {
+          "tag": "p",
+          "text": "Generated scripts are reviewed and validated before approval, helping ensure that automation remains controlled and transparent."
+        },
+        {
+          "tag": "h3",
+          "text": "End-to-End Workflow"
+        },
+        {
+          "tag": "li",
+          "text": "Record — Capture user interactions directly from the browser using a custom Chrome extension."
+        },
+        {
+          "tag": "li",
+          "text": "Process — Transform raw actions into structured scenarios with reusable variables and reliable element locators."
+        },
+        {
+          "tag": "li",
+          "text": "Generate — Produce an observed Test Model and a Cypress script through a hybrid agent-based pipeline."
+        },
+        {
+          "tag": "li",
+          "text": "Validate — Execute generated scripts in a controlled environment to verify automation readiness."
+        },
+        {
+          "tag": "li",
+          "text": "Review & Approve — Allow QA teams to inspect and approve validated test assets."
+        },
+        {
+          "tag": "li",
+          "text": "Manage & Execute — Organize Test Cases into Test Plans and Test Cycles, execute regression campaigns, and review reports."
+        },
+        {
+          "tag": "h2",
+          "text": "My Contributions"
+        },
+        {
+          "tag": "p",
+          "text": "I was responsible for designing and developing the platform across its principal components."
+        },
+        {
+          "tag": "h3",
+          "text": "Full-Stack Application Development"
+        },
+        {
+          "tag": "li",
+          "text": "Developed the web application using Angular, Spring Boot, and PostgreSQL."
+        },
+        {
+          "tag": "li",
+          "text": "Implemented REST APIs, authentication, role-based access control, and project management features."
+        },
+        {
+          "tag": "li",
+          "text": "Built interfaces for scenario recording, test management, script validation, and execution reporting."
+        },
+        {
+          "tag": "h3",
+          "text": "Browser Recording & Test Automation"
+        },
+        {
+          "tag": "li",
+          "text": "Developed a Chrome extension using Manifest V3 to capture browser interactions and relevant page observations."
+        },
+        {
+          "tag": "li",
+          "text": "Implemented action processing, locator selection, and variable extraction to reconstruct recorded workflows."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated Cypress for automated test validation and regression execution."
+        },
+        {
+          "tag": "h3",
+          "text": "Agentic AI Pipeline"
+        },
+        {
+          "tag": "li",
+          "text": "Designed a hybrid architecture combining deterministic processing with controlled LLM assistance."
+        },
+        {
+          "tag": "li",
+          "text": "Developed workflows for scenario processing, Test Model generation, and Cypress script generation."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated AI-assisted script improvement with validation feedback and bounded execution controls."
+        },
+        {
+          "tag": "h3",
+          "text": "DevOps & Integration"
+        },
+        {
+          "tag": "li",
+          "text": "Containerized application services using Docker."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated GitHub Actions for CI/CD workflows."
+        },
+        {
+          "tag": "li",
+          "text": "Connected automated regression execution with reporting and traceability mechanisms."
+        },
+        {
+          "tag": "h2",
+          "text": "AI Architecture — Controlled Agentic Automation"
+        },
+        {
+          "tag": "p",
+          "text": "One of TestPilot's central components is its hybrid agentic AI pipeline."
+        },
+        {
+          "tag": "p",
+          "text": "Instead of generating test scripts directly from raw recordings, the platform separates the process into three specialized stages:"
+        },
+        {
+          "tag": "h3",
+          "text": "Agent 1 — Scenario Processing"
+        },
+        {
+          "tag": "p",
+          "text": "Analyzes recorded browser interactions, normalizes actions, extracts variables, and selects suitable element locators."
+        },
+        {
+          "tag": "h3",
+          "text": "Agent 2 — Test Model Generation"
+        },
+        {
+          "tag": "p",
+          "text": "Transforms processed scenarios into structured test models containing steps, preconditions, variables, and proposed assertions."
+        },
+        {
+          "tag": "h3",
+          "text": "Agent 3 — Cypress Script Generation"
+        },
+        {
+          "tag": "p",
+          "text": "Converts structured test models into executable Cypress script drafts."
+        },
+        {
+          "tag": "p",
+          "text": "The architecture combines deterministic processing with optional LLM-assisted enrichment and repair."
+        },
+        {
+          "tag": "p",
+          "text": "Human approval and automated validation remain essential safeguards, ensuring generated scripts are reviewed before becoming approved testing assets."
+        },
+        {
+          "tag": "h2",
+          "text": "Additional Capabilities"
+        },
+        {
+          "tag": "h3",
+          "text": "Test Management"
+        },
+        {
+          "tag": "p",
+          "text": "TestPilot includes a test management module for organizing Test Cases, Test Plans, and Test Cycles, allowing QA teams to manage regression campaigns and follow execution results."
+        },
+        {
+          "tag": "h3",
+          "text": "AI Assistance Chatbot"
+        },
+        {
+          "tag": "p",
+          "text": "An integrated assistant supports users by answering questions about testing workflows, application features, and authorized project information using documentation retrieval and controlled read-only access."
+        },
+        {
+          "tag": "h3",
+          "text": "CI/CD Integration"
+        },
+        {
+          "tag": "p",
+          "text": "GitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting."
+        },
+        {
+          "tag": "h2",
+          "text": "Demonstration & Validation"
+        },
+        {
+          "tag": "p",
+          "text": "TestPilot was evaluated through end-to-end scenarios using a controlled SauceDemo test application."
+        },
+        {
+          "tag": "p",
+          "text": "The demonstration covered several common e-commerce interactions, including authentication, product navigation, cart management, and checkout."
+        },
+        {
+          "tag": "p",
+          "text": "These scenarios were used to validate the complete testing workflow, from browser recording and test generation to script validation and automated execution."
+        },
+        {
+          "tag": "p",
+          "text": "SauceDemo served as an external application under test and was not developed as part of TestPilot."
+        },
+        {
+          "tag": "h2",
+          "text": "Key Takeaways"
+        },
+        {
+          "tag": "p",
+          "text": "Developing TestPilot strengthened my experience in designing full-stack applications, integrating AI workflows with traditional software systems, and building reliable automation pipelines."
+        },
+        {
+          "tag": "p",
+          "text": "The project particularly highlighted the importance of combining AI-generated automation with deterministic processing, validation mechanisms, and human oversight."
+        },
+        {
+          "tag": "p",
+          "text": "It demonstrates how AI can support software quality assurance while maintaining traceability and control."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          "active"
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farahsayari.dev@gmail.com"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": []
+      },
+      "links": [
+        [
+          "Back to Portfolio",
+          "portfolio.html",
+          ""
+        ]
+      ],
+      "images": [],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/portfolio.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Back to Portfolio\nTestPilot — AI-Assisted Test Automation Platform\n\nFrom Recorded User Interactions to Automated Regression Tests\n\nFull-Stack Engineering · Agentic AI · Test Automation · DevOps\n\nTestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts.\n\nIt brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow.\n\nProject Information\nCategory: Software Engineering · Agentic AI · Test Automation\nProject Type: End-of-Studies Internship (PFE)\nCompany: VERMEG\nRole: Full-Stack & AI Software Engineer\nDuration: February – August 2026\nMethodology: Scrumban\nStatus: Completed — Functional Prototype\nTechnologies & Tools\n\nFrontend: Angular · TypeScript · CoreUI\n\nBackend: Java · Spring Boot · Spring Security · REST APIs\n\nAI & Agentic Workflows: Python · FastAPI · LangGraph · LLMs · Ollama · Gemma\n\nBrowser Automation: Chrome Extension (Manifest V3) · Cypress · JavaScript\n\nDatabase: PostgreSQL\n\nDevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD\n\nThe Challenge\n\nRegression testing is essential for software quality, but creating and maintaining automated tests can be time-consuming.\n\nQA teams frequently translate business scenarios into test scripts manually, manage testing activities across different tools, and investigate execution failures.\n\nAlthough AI can accelerate test generation, automatically generated scripts are not always reliable.\n\nThe challenge was to reduce repetitive testing work while preserving accuracy, traceability, and human control.\n\nThe Solution\n\nTestPilot provides an integrated environment where Business Analysts and QA Engineers can record real application workflows and transform them into reusable automated tests.\n\nThe platform combines browser recording, structured scenario processing, AI-assisted generation, and automated validation.\n\nGenerated scripts are reviewed and validated before approval, helping ensure that automation remains controlled and transparent.\n\nEnd-to-End Workflow\nRecord — Capture user interactions directly from the browser using a custom Chrome extension.\nProcess — Transform raw actions into structured scenarios with reusable variables and reliable element locators.\nGenerate — Produce an observed Test Model and a Cypress script through a hybrid agent-based pipeline.\nValidate — Execute generated scripts in a controlled environment to verify automation readiness.\nReview & Approve — Allow QA teams to inspect and approve validated test assets.\nManage & Execute — Organize Test Cases into Test Plans and Test Cycles, execute regression campaigns, and review reports.\nMy Contributions\n\nI was responsible for designing and developing the platform across its principal components.\n\nFull-Stack Application Development\nDeveloped the web application using Angular, Spring Boot, and PostgreSQL.\nImplemented REST APIs, authentication, role-based access control, and project management features.\nBuilt interfaces for scenario recording, test management, script validation, and execution reporting.\nBrowser Recording & Test Automation\nDeveloped a Chrome extension using Manifest V3 to capture browser interactions and relevant page observations.\nImplemented action processing, locator selection, and variable extraction to reconstruct recorded workflows.\nIntegrated Cypress for automated test validation and regression execution.\nAgentic AI Pipeline\nDesigned a hybrid architecture combining deterministic processing with controlled LLM assistance.\nDeveloped workflows for scenario processing, Test Model generation, and Cypress script generation.\nIntegrated AI-assisted script improvement with validation feedback and bounded execution controls.\nDevOps & Integration\nContainerized application services using Docker.\nIntegrated GitHub Actions for CI/CD workflows.\nConnected automated regression execution with reporting and traceability mechanisms.\nAI Architecture — Controlled Agentic Automation\n\nOne of TestPilot's central components is its hybrid agentic AI pipeline.\n\nInstead of generating test scripts directly from raw recordings, the platform separates the process into three specialized stages:\n\nAgent 1 — Scenario Processing\n\nAnalyzes recorded browser interactions, normalizes actions, extracts variables, and selects suitable element locators.\n\nAgent 2 — Test Model Generation\n\nTransforms processed scenarios into structured test models containing steps, preconditions, variables, and proposed assertions.\n\nAgent 3 — Cypress Script Generation\n\nConverts structured test models into executable Cypress script drafts.\n\nThe architecture combines deterministic processing with optional LLM-assisted enrichment and repair.\n\nHuman approval and automated validation remain essential safeguards, ensuring generated scripts are reviewed before becoming approved testing assets.\n\nAdditional Capabilities\nTest Management\n\nTestPilot includes a test management module for organizing Test Cases, Test Plans, and Test Cycles, allowing QA teams to manage regression campaigns and follow execution results.\n\nAI Assistance Chatbot\n\nAn integrated assistant supports users by answering questions about testing workflows, application features, and authorized project information using documentation retrieval and controlled read-only access.\n\nCI/CD Integration\n\nGitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting.\n\nDemonstration & Validation\n\nTestPilot was evaluated through end-to-end scenarios using a controlled SauceDemo test application.\n\nThe demonstration covered several common e-commerce interactions, including authentication, product navigation, cart management, and checkout.\n\nThese scenarios were used to validate the complete testing workflow, from browser recording and test generation to script validation and automated execution.\n\nSauceDemo served as an external application under test and was not developed as part of TestPilot.\n\nKey Takeaways\n\nDeveloping TestPilot strengthened my experience in designing full-stack applications, integrating AI workflows with traditional software systems, and building reliable automation pipelines.\n\nThe project particularly highlighted the importance of combining AI-generated automation with deterministic processing, validation mechanisms, and human oversight.\n\nIt demonstrates how AI can support software quality assurance while maintaining traceability and control."
         },
         {
           "region": "footer",

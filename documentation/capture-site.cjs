@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
 });
 let child, socket;
 const result = [];
-const preferred = ['index.html','about.html','resume.html','certifications.html','services.html','portfolio.html','portfolio-details.html','pulmotrack-details.html','digital-gallery.html','contact.html','starter-page.html'];
+const preferred = ['index.html','about.html','resume.html','certifications.html','services.html','portfolio.html','portfolio-details.html','pulmotrack-details.html','testpilot-details.html','digital-gallery.html','contact.html','starter-page.html'];
 const pages = [...preferred.filter(p => fs.existsSync(path.join(root,p))), ...fs.readdirSync(root).filter(p => p.endsWith('.html') && !preferred.includes(p)).sort()];
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'portfolio-documentation-'));
 const timeout = setTimeout(() => { console.error('Browser capture timed out.'); if (child) child.kill(); process.exit(1); }, 90000);

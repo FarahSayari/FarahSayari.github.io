@@ -1,10 +1,10 @@
 # Farah Sayari
 Portfolio content reference
-04 November 2026 · Africa/Tunis
+05 November 2026 · Africa/Tunis
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-04 · Africa/Tunis · 11 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-05 · Africa/Tunis · 12 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -24,9 +24,10 @@ This is a content reference rather than a screenshot reproduction. Explanatory n
 | 6 | Portfolio | portfolio.html | Main navigation |
 | 7 | LollyBooks project details | portfolio-details.html | Portfolio detail link |
 | 8 | PulmoTrack project details | pulmotrack-details.html | Portfolio detail link |
-| 9 | Digital Gallery | digital-gallery.html | Main navigation |
-| 10 | Contact | contact.html | Main navigation |
-| 11 | Starter template | starter-page.html | Retained template; absent from the main navigation |
+| 9 | TestPilot project details | testpilot-details.html | Portfolio detail link |
+| 10 | Digital Gallery | digital-gallery.html | Main navigation |
+| 11 | Contact | contact.html | Main navigation |
+| 12 | Starter template | starter-page.html | Retained template; absent from the main navigation |
 
 ### How to update this record
 
@@ -54,6 +55,7 @@ Keep ongoing commentary or planned work in documentation/notes.json. Those notes
 | Course certificates / credential links | certifications.html; assets/css/collections.css |
 | Project list / filters / thumbnails | portfolio.html; assets/img/portfolio/ and assets/img/masonry-portfolio/ |
 | LollyBooks case study | portfolio-details.html; assets/img/portfolio/lollybooks/library-art.webp |
+| TestPilot case study | testpilot-details.html; assets/css/portfolio.css |
 | PulmoTrack case study / scientific paper | pulmotrack-details.html; assets/docs/PulmoTrackPaper.pdf; assets/img/portfolio/pulmotrack/paper-preview.png |
 | Contact text / form fields / delivery endpoint | contact.html, including its inline JavaScript |
 | Global header / footer | Repeated in each HTML file; update each affected page |
@@ -74,6 +76,7 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | portfolio.html | FARAH | N1 | S1 | F2 | Portfolio |
 | portfolio-details.html | FARAH | N1 | S1 | F2 | Portfolio |
 | pulmotrack-details.html | FARAH | N1 | S1 | F2 | Portfolio |
+| testpilot-details.html | FARAH | N1 | S1 | F2 | Portfolio |
 | digital-gallery.html | FARAH | N1 | S1 | F1 | Digital Gallery |
 | contact.html | FARAH | N1 | S1 | F2 | Contact |
 | starter-page.html | FARAH | N1 | S1 | F3 | (none) |
@@ -526,6 +529,8 @@ The portfolio uses a masonry grid with project labels in hover overlays. The ima
 
 **TestPilot**
 
+> AI-Assisted Test Automation Platform
+
 **PulmoTrack**
 
 > AI-Powered Pulmonary Nodule Analysis
@@ -536,7 +541,7 @@ The portfolio uses a masonry grid with project labels in hover overlays. The ima
 | --- | --- | --- | --- |
 | LollyBooks | Personalized Digital Library & AI Reading Companion | App, Web | portfolio-details.html |
 | AI Agent Recruiter | (empty) | App | (none) |
-| TestPilot | (empty) | App | (none) |
+| TestPilot | AI-Assisted Test Automation Platform | App | testpilot-details.html |
 | PulmoTrack | AI-Powered Pulmonary Nodule Analysis | Web | pulmotrack-details.html |
 
 The default filter is All. Filter membership and every existing detail destination are listed in the table above. Project image preview links open the lightbox. Entries without detail links remain unlinked. The filter controls also support Enter and Space in the current inline script.
@@ -547,6 +552,7 @@ The default filter is All. Filter membership and every existing detail destinati
 | --- | --- | --- |
 | Preview LollyBooks artwork | assets/img/portfolio/lollybooks/library-art.jpg | (empty) |
 | LollyBooks project details | portfolio-details.html | (empty) |
+| TestPilot project details | testpilot-details.html | (empty) |
 | PulmoTrack project details | pulmotrack-details.html | (empty) |
 
 ### Main-content images
@@ -993,7 +999,190 @@ The project image card contains 2 manually switchable images. Previous/next butt
 | assets/img/portfolio/pulmotrack/09_dso3_training_loss.png | 3D U-Net training and validation loss across 50 epochs | (empty) |
 | assets/img/portfolio/pulmotrack/attention-positive-prediction.png | Five CT slices with reference and predicted masks from a recorded Attention 3D U-Net positive-nodule case; Dice 0.8000, precision 0.8630, recall 0.7456 | (empty) |
 
-## 09 · Digital Gallery
+## 09 · TestPilot project details
+
+| Page attribute | Exact value |
+| --- | --- |
+| Source file | testpilot-details.html |
+| Browser title | TestPilot - Farah Sayari |
+| Language | en |
+| Description meta tag | TestPilot, an AI-assisted test automation platform developed by Farah Sayari during her end-of-studies internship at VERMEG, turns recorded browser interactions into validated Cypress tests. |
+| Keywords meta tag | (absent) |
+| Main section IDs | portfolio-details |
+
+### Exact page content
+
+> Back to Portfolio
+
+**TestPilot — AI-Assisted Test Automation Platform**
+
+> From Recorded User Interactions to Automated Regression Tests
+
+> Full-Stack Engineering · Agentic AI · Test Automation · DevOps
+
+> TestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts.
+
+> It brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow.
+
+**Project Information**
+
+> • Category: Software Engineering · Agentic AI · Test Automation
+
+> • Project Type: End-of-Studies Internship (PFE)
+
+> • Company: VERMEG
+
+> • Role: Full-Stack & AI Software Engineer
+
+> • Duration: February – August 2026
+
+> • Methodology: Scrumban
+
+> • Status: Completed — Functional Prototype
+
+**Technologies & Tools**
+
+> Frontend: Angular · TypeScript · CoreUI
+
+> Backend: Java · Spring Boot · Spring Security · REST APIs
+
+> AI & Agentic Workflows: Python · FastAPI · LangGraph · LLMs · Ollama · Gemma
+
+> Browser Automation: Chrome Extension (Manifest V3) · Cypress · JavaScript
+
+> Database: PostgreSQL
+
+> DevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD
+
+**The Challenge**
+
+> Regression testing is essential for software quality, but creating and maintaining automated tests can be time-consuming.
+
+> QA teams frequently translate business scenarios into test scripts manually, manage testing activities across different tools, and investigate execution failures.
+
+> Although AI can accelerate test generation, automatically generated scripts are not always reliable.
+
+> The challenge was to reduce repetitive testing work while preserving accuracy, traceability, and human control.
+
+**The Solution**
+
+> TestPilot provides an integrated environment where Business Analysts and QA Engineers can record real application workflows and transform them into reusable automated tests.
+
+> The platform combines browser recording, structured scenario processing, AI-assisted generation, and automated validation.
+
+> Generated scripts are reviewed and validated before approval, helping ensure that automation remains controlled and transparent.
+
+**End-to-End Workflow**
+
+> • Record — Capture user interactions directly from the browser using a custom Chrome extension.
+
+> • Process — Transform raw actions into structured scenarios with reusable variables and reliable element locators.
+
+> • Generate — Produce an observed Test Model and a Cypress script through a hybrid agent-based pipeline.
+
+> • Validate — Execute generated scripts in a controlled environment to verify automation readiness.
+
+> • Review & Approve — Allow QA teams to inspect and approve validated test assets.
+
+> • Manage & Execute — Organize Test Cases into Test Plans and Test Cycles, execute regression campaigns, and review reports.
+
+**My Contributions**
+
+> I was responsible for designing and developing the platform across its principal components.
+
+**Full-Stack Application Development**
+
+> • Developed the web application using Angular, Spring Boot, and PostgreSQL.
+
+> • Implemented REST APIs, authentication, role-based access control, and project management features.
+
+> • Built interfaces for scenario recording, test management, script validation, and execution reporting.
+
+**Browser Recording & Test Automation**
+
+> • Developed a Chrome extension using Manifest V3 to capture browser interactions and relevant page observations.
+
+> • Implemented action processing, locator selection, and variable extraction to reconstruct recorded workflows.
+
+> • Integrated Cypress for automated test validation and regression execution.
+
+**Agentic AI Pipeline**
+
+> • Designed a hybrid architecture combining deterministic processing with controlled LLM assistance.
+
+> • Developed workflows for scenario processing, Test Model generation, and Cypress script generation.
+
+> • Integrated AI-assisted script improvement with validation feedback and bounded execution controls.
+
+**DevOps & Integration**
+
+> • Containerized application services using Docker.
+
+> • Integrated GitHub Actions for CI/CD workflows.
+
+> • Connected automated regression execution with reporting and traceability mechanisms.
+
+**AI Architecture — Controlled Agentic Automation**
+
+> One of TestPilot's central components is its hybrid agentic AI pipeline.
+
+> Instead of generating test scripts directly from raw recordings, the platform separates the process into three specialized stages:
+
+**Agent 1 — Scenario Processing**
+
+> Analyzes recorded browser interactions, normalizes actions, extracts variables, and selects suitable element locators.
+
+**Agent 2 — Test Model Generation**
+
+> Transforms processed scenarios into structured test models containing steps, preconditions, variables, and proposed assertions.
+
+**Agent 3 — Cypress Script Generation**
+
+> Converts structured test models into executable Cypress script drafts.
+
+> The architecture combines deterministic processing with optional LLM-assisted enrichment and repair.
+
+> Human approval and automated validation remain essential safeguards, ensuring generated scripts are reviewed before becoming approved testing assets.
+
+**Additional Capabilities**
+
+**Test Management**
+
+> TestPilot includes a test management module for organizing Test Cases, Test Plans, and Test Cycles, allowing QA teams to manage regression campaigns and follow execution results.
+
+**AI Assistance Chatbot**
+
+> An integrated assistant supports users by answering questions about testing workflows, application features, and authorized project information using documentation retrieval and controlled read-only access.
+
+**CI/CD Integration**
+
+> GitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting.
+
+**Demonstration & Validation**
+
+> TestPilot was evaluated through end-to-end scenarios using a controlled SauceDemo test application.
+
+> The demonstration covered several common e-commerce interactions, including authentication, product navigation, cart management, and checkout.
+
+> These scenarios were used to validate the complete testing workflow, from browser recording and test generation to script validation and automated execution.
+
+> SauceDemo served as an external application under test and was not developed as part of TestPilot.
+
+**Key Takeaways**
+
+> Developing TestPilot strengthened my experience in designing full-stack applications, integrating AI workflows with traditional software systems, and building reliable automation pipelines.
+
+> The project particularly highlighted the importance of combining AI-generated automation with deterministic processing, validation mechanisms, and human oversight.
+
+> It demonstrates how AI can support software quality assurance while maintaining traceability and control.
+
+### Main-content links and downloads
+
+| Exact label / accessible label | Exact destination | Download filename |
+| --- | --- | --- |
+| Back to Portfolio | portfolio.html | (empty) |
+
+## 10 · Digital Gallery
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1024,7 +1213,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 | --- | --- | --- |
 | assets/img/gallery/spidey.png | Spidey digital drawing of a Spider-Man character and a girl above a city skyline, with hearts and sparkles on a purple background | (empty) |
 
-## 10 · Contact
+## 11 · Contact
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1173,7 +1362,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 The browser validates required fields and the email format. On submission the inline script posts FormData to the configured action with Accept: application/json, shows a loading state, and disables the submit button. A successful response resets the form and shows the success message. An invalid form or unsuccessful request shows the corresponding message above. The _gotcha field is the hidden honeypot; the _subject field supplies the notification subject.
 
-## 11 · Starter template
+## 12 · Starter template
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1202,8 +1391,8 @@ The document records the website as it exists. These items are observations for 
 
 | Observation | Pages / current value |
 | --- | --- |
-| Header/footer email destinations | farahsayari.dev@gmail.com: about.html, certifications.html, contact.html, digital-gallery.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html; farah.sayari@esprit.tn: about.html, certifications.html, digital-gallery.html, index.html, services.html |
-| Project entries without descriptions or links | AI Agent Recruiter, TestPilot |
+| Header/footer email destinations | farahsayari.dev@gmail.com: about.html, certifications.html, contact.html, digital-gallery.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html, testpilot-details.html; farah.sayari@esprit.tn: about.html, certifications.html, digital-gallery.html, index.html, services.html |
+| Project entries without descriptions or links | AI Agent Recruiter |
 | Different project naming | The resume calls its career assistant Aura; the portfolio entry is titled AI Agent Recruiter. This reference does not assume that they are the same project. |
 | Retained starter page | starter-page.html. Current brand: FARAH. Its exact content and links are recorded in its section. |
 | Residual contact template backend | forms/contact.php remains present. Configured receiving address: contact@example.com. Current HTML form actions: https://formspree.io/f/xgojgjbj |
@@ -1212,26 +1401,26 @@ The document records the website as it exists. These items are observations for 
 
 | Reference | Used by |
 | --- | --- |
-| https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap/css/bootstrap.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap-icons/bootstrap-icons.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/aos/aos.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/css/main.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, starter-page.html |
-| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/js/main.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, digital-gallery.html, contact.html, starter-page.html |
+| https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap/css/bootstrap.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap-icons/bootstrap-icons.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/aos/aos.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/css/main.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, starter-page.html |
+| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/js/main.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/css/resume.css | resume.html |
 | assets/css/collections.css | certifications.html, digital-gallery.html |
-| assets/css/portfolio.css | portfolio.html, portfolio-details.html, pulmotrack-details.html |
+| assets/css/portfolio.css | portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html |
 
 ### Favicons
 
@@ -1253,6 +1442,8 @@ The document records the website as it exists. These items are observations for 
 | portfolio-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | pulmotrack-details.html | icon | assets/img/favicon.png |
 | pulmotrack-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
+| testpilot-details.html | icon | assets/img/favicon.png |
+| testpilot-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | digital-gallery.html | icon | assets/img/favicon.png |
 | digital-gallery.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | contact.html | icon | assets/img/favicon.png |
