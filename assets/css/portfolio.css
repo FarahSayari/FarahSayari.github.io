@@ -82,6 +82,24 @@
   line-height: 1.5;
 }
 
+.testpilot-project .project-demo {
+  margin: 24px 0 40px;
+}
+
+.testpilot-project .project-demo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #111;
+}
+
+.testpilot-project .project-demo figcaption {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 :is(.lollybooks-project, .pulmotrack-project, .testpilot-project) .project-story {
   max-width: 860px;
   margin: 56px auto 0;

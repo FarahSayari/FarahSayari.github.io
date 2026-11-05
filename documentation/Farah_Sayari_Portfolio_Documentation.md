@@ -1172,6 +1172,12 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > SauceDemo served as an external application under test and was not developed as part of TestPilot.
 
+**Scenario Recording & AI Generation Demo**
+
+> Your browser does not support embedded video. Watch the scenario recording demo (MP4).
+
+> Record a scenario, then navigate through its recorded actions, processed actions, generated Test Model, generated Cypress script, and validation.
+
 **Key Takeaways**
 
 > Developing TestPilot strengthened my experience in designing full-stack applications, integrating AI workflows with traditional software systems, and building reliable automation pipelines.
@@ -1206,6 +1212,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Enlarge Scenario recording | assets/img/portfolio/testpilot/record.png | (empty) |
 | Enlarge QA Engineer dashboard | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | (empty) |
 | Enlarge QA Manager dashboard | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | (empty) |
+| Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
 
 ### Main-content images
 
@@ -1218,6 +1225,22 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | assets/img/portfolio/testpilot/record.png | TestPilot scenario recording form with project context, environment selection and scenario details | (empty) |
 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
+
+### Demonstration videos
+
+#### Scenario Recording & AI Generation Demo
+
+| Source file | Media type |
+| --- | --- |
+| assets/videos/testpilot-recorded-scenario.mp4 | video/mp4 |
+
+| Playback attribute | Value |
+| --- | --- |
+| Poster image | assets/img/portfolio/testpilot/record.png |
+| Controls | True |
+| Autoplay | False |
+| Inline playback | True |
+| Preload | none |
 
 ## 10 · Digital Gallery
 

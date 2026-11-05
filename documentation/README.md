@@ -23,10 +23,10 @@ Generated Word, HTML, Markdown, JSON, PDF, and snapshot archive files are replac
 - `Farah_Sayari_Portfolio_Documentation.docx`: editable Word reference. The binary document appendices remain in the PDF and source archive.
 - `Farah_Sayari_Portfolio_Documentation.html`: styled source that you can also open and print in a browser.
 - `Farah_Sayari_Portfolio_Documentation.md`: plain-text editable copy.
-- `Content_Inventory.json`: exact extracted text blocks, metadata, links, assets, fields, and dynamic states for every root HTML page.
+- `Content_Inventory.json`: exact extracted text blocks, metadata, links, assets, fields, video sources and playback settings, and dynamic states for every root HTML page.
 - `Browser_Capture.json`: browser-parsed HTML and rendered text for each page, captured with external requests blocked.
 - `Source_Manifest.json`: SHA-256 checksums for captured source files.
-- `Content_Source_Snapshot.zip`: original HTML, custom CSS/JS, referenced images and CV, plus residual form/readme files. Vendor libraries are referenced rather than archived.
+- `Content_Source_Snapshot.zip`: original HTML, custom CSS/JS, referenced images, PDFs and demonstration videos, plus residual form/readme files. Vendor libraries are referenced rather than archived.
 
 The documentation records all root-level HTML pages, including the retained starter template. HTML entities are decoded and whitespace normalized; visible wording is preserved. Hidden form messages and animated alternatives are documented separately. Source order is preserved for multi-column pages. Explanatory behavior notes reflect the current implementation and should be reviewed if interactions or page structures change substantially.
 

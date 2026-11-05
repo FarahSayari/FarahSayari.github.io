@@ -145,13 +145,24 @@ def build_inventory(captures):
             'links':[link_row(n) for n in main.walk() if n.tag=='a'],
             'images':[[n.attrs.get('src',''),n.attrs.get('alt',''),n.attrs.get('role','')] for n in main.walk() if n.tag=='img'],
             'embeds':[[n.attrs.get('title',''),n.attrs.get('src','')] for n in main.walk() if n.tag=='iframe'],
-            'forms':[], 'dynamic':[], 'projects':[],
+            'forms':[], 'dynamic':[], 'projects':[], 'videos':[],
             'stylesheets':[n.attrs.get('href','') for n in root.walk() if n.tag=='link' and n.attrs.get('rel')=='stylesheet'],
             'scripts':[n.attrs['src'] for n in root.walk() if n.tag=='script' and n.attrs.get('src')],
             'icons':[[n.attrs.get('rel',''),n.attrs.get('href','')] for n in root.walk() if n.tag=='link' and 'icon' in n.attrs.get('rel','')],
             'rendered_text':capture['renderedText'],
         }
         for node in main.walk():
+            if node.tag == 'video':
+                title = root.find(id=node.attrs.get('aria-labelledby','')) if node.attrs.get('aria-labelledby') else None
+                sources = [{'src':n.attrs['src'], 'type':n.attrs.get('type','')} for n in node.walk() if n.tag=='source' and n.attrs.get('src')]
+                if node.attrs.get('src'):
+                    sources.insert(0, {'src':node.attrs['src'], 'type':node.attrs.get('type','')})
+                page['videos'].append({
+                    'label':node.attrs.get('aria-label') or (title.text() if title else node.attrs.get('title','')),
+                    'sources':sources, 'poster':node.attrs.get('poster',''),
+                    'controls':'controls' in node.attrs, 'autoplay':'autoplay' in node.attrs,
+                    'playsinline':'playsinline' in node.attrs, 'preload':node.attrs.get('preload','auto'),
+                })
             if node.attrs.get('data-words'):
                 words = json.loads(node.attrs['data-words'])
                 page['dynamic'].append({'type':'typewriter','values':words})
@@ -312,6 +323,16 @@ def make_report(pages, date, notes):
         if page['images']:
             add('h2','Main-content images')
             report.table(['Image path','Exact alternate text','Role'],page['images'])
+        if page['videos']:
+            add('h2','Demonstration videos')
+            for video in page['videos']:
+                add('h3',video['label'] or 'Video')
+                report.table(['Source file','Media type'],[[source['src'],source['type']] for source in video['sources']])
+                report.table(['Playback attribute','Value'],[
+                    ['Poster image',video['poster']], ['Controls',str(video['controls'])],
+                    ['Autoplay',str(video['autoplay'])], ['Inline playback',str(video['playsinline'])],
+                    ['Preload',video['preload']],
+                ])
         if page['embeds']:
             add('h2','Embedded content')
             report.table(['Exact title','Exact embed URL'],page['embeds'])
@@ -528,7 +549,7 @@ def linked_pdfs(pages):
 
 def collect_source_files(pages=None):
     paths=set(ROOT.glob('*.html'))
-    for relative in ['assets/css','assets/js','forms']:
+    for relative in ['assets/css','assets/js','assets/videos','forms']:
         paths.update(p for p in (ROOT/relative).rglob('*') if p.is_file())
     paths.update(p for p in [ROOT/'Readme.txt'] if p.exists())
     paths.update(p for p in (ROOT/'assets/docs').rglob('*') if p.is_file())
@@ -536,6 +557,11 @@ def collect_source_files(pages=None):
         for page in pages:
             paths.update(ROOT/unquote(urlsplit(row[0]).path) for row in page['images'])
             paths.update(ROOT/unquote(urlsplit(row[1]).path) for row in page['icons'])
+            for video in page['videos']:
+                for value in [video['poster'], *[source['src'] for source in video['sources']]]:
+                    uri=urlsplit(value)
+                    if uri.path and not uri.scheme and not uri.netloc:
+                        paths.add(ROOT/unquote(uri.path))
     else:
         paths.update(p for p in (ROOT/'assets/img').rglob('*') if p.is_file())
     return sorted(p for p in paths if p.is_file())
