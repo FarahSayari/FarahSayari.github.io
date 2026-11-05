@@ -1423,9 +1423,9 @@
           "presentation"
         ],
         [
-          "assets/img/masonry-portfolio/masonry-portfolio-3.jpg",
-          "",
-          "presentation"
+          "assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png",
+          "TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background",
+          ""
         ],
         [
           "assets/img/portfolio/pulmotrack/pulmotrack.png",
@@ -1477,7 +1477,7 @@
               "testpilot-details.html"
             ]
           ],
-          "image": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
+          "image": "assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png"
         },
         {
           "name": "PulmoTrack",
@@ -2901,14 +2901,6 @@
           "text": "Full-Stack Engineering · Agentic AI · Test Automation · DevOps"
         },
         {
-          "tag": "p",
-          "text": "TestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts."
-        },
-        {
-          "tag": "p",
-          "text": "It brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow."
-        },
-        {
           "tag": "h3",
           "text": "Project Information"
         },
@@ -2939,6 +2931,14 @@
         {
           "tag": "li",
           "text": "Status: Completed — Functional Prototype"
+        },
+        {
+          "tag": "p",
+          "text": "TestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts."
+        },
+        {
+          "tag": "p",
+          "text": "It brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow."
         },
         {
           "tag": "h2",
@@ -3294,9 +3294,20 @@
           "Back to Portfolio",
           "portfolio.html",
           ""
+        ],
+        [
+          "Enlarge TestPilot project image",
+          "assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png",
+          ""
         ]
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png",
+          "TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background",
+          ""
+        ]
+      ],
       "embeds": [],
       "forms": [],
       "dynamic": [],
@@ -3340,7 +3351,7 @@
         },
         {
           "region": "main",
-          "text": "Back to Portfolio\nTestPilot — AI-Assisted Test Automation Platform\n\nFrom Recorded User Interactions to Automated Regression Tests\n\nFull-Stack Engineering · Agentic AI · Test Automation · DevOps\n\nTestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts.\n\nIt brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow.\n\nProject Information\nCategory: Software Engineering · Agentic AI · Test Automation\nProject Type: End-of-Studies Internship (PFE)\nCompany: VERMEG\nRole: Full-Stack & AI Software Engineer\nDuration: February – August 2026\nMethodology: Scrumban\nStatus: Completed — Functional Prototype\nTechnologies & Tools\n\nFrontend: Angular · TypeScript · CoreUI\n\nBackend: Java · Spring Boot · Spring Security · REST APIs\n\nAI & Agentic Workflows: Python · FastAPI · LangGraph · LLMs · Ollama · Gemma\n\nBrowser Automation: Chrome Extension (Manifest V3) · Cypress · JavaScript\n\nDatabase: PostgreSQL\n\nDevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD\n\nThe Challenge\n\nRegression testing is essential for software quality, but creating and maintaining automated tests can be time-consuming.\n\nQA teams frequently translate business scenarios into test scripts manually, manage testing activities across different tools, and investigate execution failures.\n\nAlthough AI can accelerate test generation, automatically generated scripts are not always reliable.\n\nThe challenge was to reduce repetitive testing work while preserving accuracy, traceability, and human control.\n\nThe Solution\n\nTestPilot provides an integrated environment where Business Analysts and QA Engineers can record real application workflows and transform them into reusable automated tests.\n\nThe platform combines browser recording, structured scenario processing, AI-assisted generation, and automated validation.\n\nGenerated scripts are reviewed and validated before approval, helping ensure that automation remains controlled and transparent.\n\nEnd-to-End Workflow\nRecord — Capture user interactions directly from the browser using a custom Chrome extension.\nProcess — Transform raw actions into structured scenarios with reusable variables and reliable element locators.\nGenerate — Produce an observed Test Model and a Cypress script through a hybrid agent-based pipeline.\nValidate — Execute generated scripts in a controlled environment to verify automation readiness.\nReview & Approve — Allow QA teams to inspect and approve validated test assets.\nManage & Execute — Organize Test Cases into Test Plans and Test Cycles, execute regression campaigns, and review reports.\nMy Contributions\n\nI was responsible for designing and developing the platform across its principal components.\n\nFull-Stack Application Development\nDeveloped the web application using Angular, Spring Boot, and PostgreSQL.\nImplemented REST APIs, authentication, role-based access control, and project management features.\nBuilt interfaces for scenario recording, test management, script validation, and execution reporting.\nBrowser Recording & Test Automation\nDeveloped a Chrome extension using Manifest V3 to capture browser interactions and relevant page observations.\nImplemented action processing, locator selection, and variable extraction to reconstruct recorded workflows.\nIntegrated Cypress for automated test validation and regression execution.\nAgentic AI Pipeline\nDesigned a hybrid architecture combining deterministic processing with controlled LLM assistance.\nDeveloped workflows for scenario processing, Test Model generation, and Cypress script generation.\nIntegrated AI-assisted script improvement with validation feedback and bounded execution controls.\nDevOps & Integration\nContainerized application services using Docker.\nIntegrated GitHub Actions for CI/CD workflows.\nConnected automated regression execution with reporting and traceability mechanisms.\nAI Architecture — Controlled Agentic Automation\n\nOne of TestPilot's central components is its hybrid agentic AI pipeline.\n\nInstead of generating test scripts directly from raw recordings, the platform separates the process into three specialized stages:\n\nAgent 1 — Scenario Processing\n\nAnalyzes recorded browser interactions, normalizes actions, extracts variables, and selects suitable element locators.\n\nAgent 2 — Test Model Generation\n\nTransforms processed scenarios into structured test models containing steps, preconditions, variables, and proposed assertions.\n\nAgent 3 — Cypress Script Generation\n\nConverts structured test models into executable Cypress script drafts.\n\nThe architecture combines deterministic processing with optional LLM-assisted enrichment and repair.\n\nHuman approval and automated validation remain essential safeguards, ensuring generated scripts are reviewed before becoming approved testing assets.\n\nAdditional Capabilities\nTest Management\n\nTestPilot includes a test management module for organizing Test Cases, Test Plans, and Test Cycles, allowing QA teams to manage regression campaigns and follow execution results.\n\nAI Assistance Chatbot\n\nAn integrated assistant supports users by answering questions about testing workflows, application features, and authorized project information using documentation retrieval and controlled read-only access.\n\nCI/CD Integration\n\nGitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting.\n\nDemonstration & Validation\n\nTestPilot was evaluated through end-to-end scenarios using a controlled SauceDemo test application.\n\nThe demonstration covered several common e-commerce interactions, including authentication, product navigation, cart management, and checkout.\n\nThese scenarios were used to validate the complete testing workflow, from browser recording and test generation to script validation and automated execution.\n\nSauceDemo served as an external application under test and was not developed as part of TestPilot.\n\nKey Takeaways\n\nDeveloping TestPilot strengthened my experience in designing full-stack applications, integrating AI workflows with traditional software systems, and building reliable automation pipelines.\n\nThe project particularly highlighted the importance of combining AI-generated automation with deterministic processing, validation mechanisms, and human oversight.\n\nIt demonstrates how AI can support software quality assurance while maintaining traceability and control."
+          "text": "Back to Portfolio\nTestPilot — AI-Assisted Test Automation Platform\n\nFrom Recorded User Interactions to Automated Regression Tests\n\nFull-Stack Engineering · Agentic AI · Test Automation · DevOps\n\nProject Information\nCategory: Software Engineering · Agentic AI · Test Automation\nProject Type: End-of-Studies Internship (PFE)\nCompany: VERMEG\nRole: Full-Stack & AI Software Engineer\nDuration: February – August 2026\nMethodology: Scrumban\nStatus: Completed — Functional Prototype\n\nTestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts.\n\nIt brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow.\n\nTechnologies & Tools\n\nFrontend: Angular · TypeScript · CoreUI\n\nBackend: Java · Spring Boot · Spring Security · REST APIs\n\nAI & Agentic Workflows: Python · FastAPI · LangGraph · LLMs · Ollama · Gemma\n\nBrowser Automation: Chrome Extension (Manifest V3) · Cypress · JavaScript\n\nDatabase: PostgreSQL\n\nDevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD\n\nThe Challenge\n\nRegression testing is essential for software quality, but creating and maintaining automated tests can be time-consuming.\n\nQA teams frequently translate business scenarios into test scripts manually, manage testing activities across different tools, and investigate execution failures.\n\nAlthough AI can accelerate test generation, automatically generated scripts are not always reliable.\n\nThe challenge was to reduce repetitive testing work while preserving accuracy, traceability, and human control.\n\nThe Solution\n\nTestPilot provides an integrated environment where Business Analysts and QA Engineers can record real application workflows and transform them into reusable automated tests.\n\nThe platform combines browser recording, structured scenario processing, AI-assisted generation, and automated validation.\n\nGenerated scripts are reviewed and validated before approval, helping ensure that automation remains controlled and transparent.\n\nEnd-to-End Workflow\nRecord — Capture user interactions directly from the browser using a custom Chrome extension.\nProcess — Transform raw actions into structured scenarios with reusable variables and reliable element locators.\nGenerate — Produce an observed Test Model and a Cypress script through a hybrid agent-based pipeline.\nValidate — Execute generated scripts in a controlled environment to verify automation readiness.\nReview & Approve — Allow QA teams to inspect and approve validated test assets.\nManage & Execute — Organize Test Cases into Test Plans and Test Cycles, execute regression campaigns, and review reports.\nMy Contributions\n\nI was responsible for designing and developing the platform across its principal components.\n\nFull-Stack Application Development\nDeveloped the web application using Angular, Spring Boot, and PostgreSQL.\nImplemented REST APIs, authentication, role-based access control, and project management features.\nBuilt interfaces for scenario recording, test management, script validation, and execution reporting.\nBrowser Recording & Test Automation\nDeveloped a Chrome extension using Manifest V3 to capture browser interactions and relevant page observations.\nImplemented action processing, locator selection, and variable extraction to reconstruct recorded workflows.\nIntegrated Cypress for automated test validation and regression execution.\nAgentic AI Pipeline\nDesigned a hybrid architecture combining deterministic processing with controlled LLM assistance.\nDeveloped workflows for scenario processing, Test Model generation, and Cypress script generation.\nIntegrated AI-assisted script improvement with validation feedback and bounded execution controls.\nDevOps & Integration\nContainerized application services using Docker.\nIntegrated GitHub Actions for CI/CD workflows.\nConnected automated regression execution with reporting and traceability mechanisms.\nAI Architecture — Controlled Agentic Automation\n\nOne of TestPilot's central components is its hybrid agentic AI pipeline.\n\nInstead of generating test scripts directly from raw recordings, the platform separates the process into three specialized stages:\n\nAgent 1 — Scenario Processing\n\nAnalyzes recorded browser interactions, normalizes actions, extracts variables, and selects suitable element locators.\n\nAgent 2 — Test Model Generation\n\nTransforms processed scenarios into structured test models containing steps, preconditions, variables, and proposed assertions.\n\nAgent 3 — Cypress Script Generation\n\nConverts structured test models into executable Cypress script drafts.\n\nThe architecture combines deterministic processing with optional LLM-assisted enrichment and repair.\n\nHuman approval and automated validation remain essential safeguards, ensuring generated scripts are reviewed before becoming approved testing assets.\n\nAdditional Capabilities\nTest Management\n\nTestPilot includes a test management module for organizing Test Cases, Test Plans, and Test Cycles, allowing QA teams to manage regression campaigns and follow execution results.\n\nAI Assistance Chatbot\n\nAn integrated assistant supports users by answering questions about testing workflows, application features, and authorized project information using documentation retrieval and controlled read-only access.\n\nCI/CD Integration\n\nGitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting.\n\nDemonstration & Validation\n\nTestPilot was evaluated through end-to-end scenarios using a controlled SauceDemo test application.\n\nThe demonstration covered several common e-commerce interactions, including authentication, product navigation, cart management, and checkout.\n\nThese scenarios were used to validate the complete testing workflow, from browser recording and test generation to script validation and automated execution.\n\nSauceDemo served as an external application under test and was not developed as part of TestPilot.\n\nKey Takeaways\n\nDeveloping TestPilot strengthened my experience in designing full-stack applications, integrating AI workflows with traditional software systems, and building reliable automation pipelines.\n\nThe project particularly highlighted the importance of combining AI-generated automation with deterministic processing, validation mechanisms, and human oversight.\n\nIt demonstrates how AI can support software quality assurance while maintaining traceability and control."
         },
         {
           "region": "footer",

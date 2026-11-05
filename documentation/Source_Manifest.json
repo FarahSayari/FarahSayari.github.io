@@ -14,7 +14,6 @@
     "assets/img/gallery/spidey.png": "e63ff7ec152e69d29766d2ee24574a517d5865a3d75a9f94300f91d9fe1e00a6",
     "assets/img/hero-bg.jpg": "22571916dc4ccc16e9ac1a066dc3138b0558b0b10881445c09e48236cca450ed",
     "assets/img/masonry-portfolio/masonry-portfolio-2.jpg": "779eeaa03942b6b335475cedff6a14a08c483f065de0881d7658def2f6d4c00d",
-    "assets/img/masonry-portfolio/masonry-portfolio-3.jpg": "4bc20ac4ee95a4ca6b147e1878be514123389c007acdf3f7e984c843edb656ee",
     "assets/img/me11.png": "f9b83199d843f3c237a7826a5ce9db4de8bf35d5cd10fbb8ea0414e018738a76",
     "assets/img/me22.png": "6235ec81d9ac6625bfadbb25804b9ddaaf61157ba007859bbf71455f22845ca7",
     "assets/img/me33.png": "ce52cd4a4105125525b34b2c83cba8a5755964ce808fce9e0badc18b90a7a8ba",
@@ -35,6 +34,7 @@
     "assets/img/portfolio/pulmotrack/Nodule detection.png": "c1133a354c337e64dfeff5dd87295d9492d7bd904f9072894224e3d357af2cd9",
     "assets/img/portfolio/pulmotrack/pulmotrack.png": "8364b4d8f6d928472c4a524b129f1c47f9f5df98ea0673fc86114cf630642e81",
     "assets/img/portfolio/pulmotrack/team.png": "fb0037e486f31e6ff80093d2631570ec8719ac5eed23c3e942eca432199f8bcd",
+    "assets/img/portfolio/testpilot/TESTPILOT AI Automation Platform.png": "c33394cbd4906629543b8d1043ea465fc1ed039af61af502eb67deba87911d1e",
     "assets/js/main.js": "a164a23ef1cb2ccf1db073cc1218e5dd2b72ee5aaa04f5f6f02798dfd59b11f6",
     "certifications.html": "e129ec2ee0f49de4aaf7070abeb9d6e00ec0c073f842619619062a6f1799d536",
     "contact.html": "7d28385c6e2701ec01256a7d54ed6116385be3bf6f49c90dc8387f81b343ae23",
@@ -43,12 +43,12 @@
     "forms/Readme.txt": "e787abcd260b0259efbf553cc2d9357b84dae8e9cd7ac2b878f78407d783f389",
     "index.html": "3618e3171b8071e79a5858b2d3c274c1660c04984f6fb2805b6054a568df2857",
     "portfolio-details.html": "87a97d155ca37d3fffe14d61328d5a3537ff50425d39999fa48349dc7dadb8e3",
-    "portfolio.html": "9ba6c0a73a8f44855356f5687c5b358a49ade57e2a29da6d31ee3e8c423a0c45",
+    "portfolio.html": "78f27df76eef964475f6c291789a69809e6cfa2c414aa0a1833d465efec93034",
     "pulmotrack-details.html": "6df7ea88c24e26318af7ecd8358498a73ea6cdea98800d0c9aab5544dce211f2",
     "Readme.txt": "4959a705338f8cc71fd15ed88eb8aa4a98e63671a17486457ef4a6b22e585115",
     "resume.html": "f78cf60cfd6c8e6afdd315c82f0a9f3fcfd2eedfaa2e6d13f767bb4ffba496d7",
     "services.html": "db15b336721774d998ef6f9e29ba6066508896328af252a203d299446098420a",
     "starter-page.html": "338f8d56aeb6c961a5204d3dc09adecc53fdb219a723ea6da644070aba4b34ff",
-    "testpilot-details.html": "483f86f0fa332d4dd7f2b8360928160acdcb56c6b7b5041713d43a28fac24b9f"
+    "testpilot-details.html": "a208345d37fa96a33067bc31c80798373a0cda1ca48ebbcbeff3c300a09ae5c5"
   }
 }

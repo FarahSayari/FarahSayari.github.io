@@ -561,7 +561,7 @@ The default filter is All. Filter membership and every existing detail destinati
 | --- | --- | --- |
 | assets/img/portfolio/lollybooks/library-art.jpg | Cozy pink bookshelves with string lights and a My Reading Library neon sign | (empty) |
 | assets/img/masonry-portfolio/masonry-portfolio-2.jpg | (empty) | presentation |
-| assets/img/masonry-portfolio/masonry-portfolio-3.jpg | (empty) | presentation |
+| assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background | (empty) |
 | assets/img/portfolio/pulmotrack/pulmotrack.png | PulmoTrack project artwork illustrating CT-based nodule detection, segmentation, and classification | (empty) |
 
 ## 07 · LollyBooks project details
@@ -1020,10 +1020,6 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > Full-Stack Engineering · Agentic AI · Test Automation · DevOps
 
-> TestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts.
-
-> It brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow.
-
 **Project Information**
 
 > • Category: Software Engineering · Agentic AI · Test Automation
@@ -1039,6 +1035,10 @@ The project image card contains 2 manually switchable images. Previous/next butt
 > • Methodology: Scrumban
 
 > • Status: Completed — Functional Prototype
+
+> TestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts.
+
+> It brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow.
 
 **Technologies & Tools**
 
@@ -1181,6 +1181,13 @@ The project image card contains 2 manually switchable images. Previous/next butt
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
 | Back to Portfolio | portfolio.html | (empty) |
+| Enlarge TestPilot project image | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | (empty) |
+
+### Main-content images
+
+| Image path | Exact alternate text | Role |
+| --- | --- | --- |
+| assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background | (empty) |
 
 ## 10 · Digital Gallery
 
