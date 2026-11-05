@@ -5,7 +5,7 @@
     "about.html": "4dad02863090d66f6cb72eae56aa18b50c98a7f68c491302fac6c9ae83411acc",
     "assets/css/collections.css": "a8c06ad18618abdfb89c831e73153530c0b4adb8d6b73da758694abc4d6ec083",
     "assets/css/main.css": "749c3f54789175760944ea44f453b62674e9b2adbd0611785a8ea0dbcc4fdc76",
-    "assets/css/portfolio.css": "1502120eb47ced4d18d637186bb6d51400cf8d135109e5fc9012626903d2c84c",
+    "assets/css/portfolio.css": "52b065cbd7314f09257f8b4501a1a90cfb00016bf8d3aa0f48b4d17f3243969b",
     "assets/css/resume.css": "df331c4c4562c1c8b5b0f61d176d24fc4ea0abc53649d70163c341f444024707",
     "assets/docs/Farah_Sayari_CV2026.pdf": "37299d9b34b1c8ad1d8c5c28a4f56e35195c99d933d7dc446adc60e539021ca2",
     "assets/docs/PulmoTrackPaper.pdf": "a819b151f81c87a21a2d7bd49a01a9cb335d3f1ec2d7fdd6a0eb407b3cd8e07e",
@@ -34,6 +34,10 @@
     "assets/img/portfolio/pulmotrack/Nodule detection.png": "c1133a354c337e64dfeff5dd87295d9492d7bd904f9072894224e3d357af2cd9",
     "assets/img/portfolio/pulmotrack/pulmotrack.png": "8364b4d8f6d928472c4a524b129f1c47f9f5df98ea0673fc86114cf630642e81",
     "assets/img/portfolio/pulmotrack/team.png": "fb0037e486f31e6ff80093d2631570ec8719ac5eed23c3e942eca432199f8bcd",
+    "assets/img/portfolio/testpilot/BA dashboard.png": "af1d488f582ef02fa3f209044ff5c33b7fca9224b6c647ba1241bbf7d7479c02",
+    "assets/img/portfolio/testpilot/dashboard admin final.png": "6175e26e783fa11c7d33cd9fd6a87402244428ee5b99248d2a0a45c34f60acca",
+    "assets/img/portfolio/testpilot/qa engineer.png": "f062033df6343acdf809788fb7f4e57076009966c37bd41f93603c3fa13f616d",
+    "assets/img/portfolio/testpilot/qa manager dashboard.png": "193e9fd2ed3054c0810d93e259b8fbdcdfa8a1f5ec403f9f19fdcc447ad801ce",
     "assets/img/portfolio/testpilot/TESTPILOT AI Automation Platform.png": "c33394cbd4906629543b8d1043ea465fc1ed039af61af502eb67deba87911d1e",
     "assets/js/main.js": "a164a23ef1cb2ccf1db073cc1218e5dd2b72ee5aaa04f5f6f02798dfd59b11f6",
     "certifications.html": "e129ec2ee0f49de4aaf7070abeb9d6e00ec0c073f842619619062a6f1799d536",
@@ -49,6 +53,6 @@
     "resume.html": "f78cf60cfd6c8e6afdd315c82f0a9f3fcfd2eedfaa2e6d13f767bb4ffba496d7",
     "services.html": "db15b336721774d998ef6f9e29ba6066508896328af252a203d299446098420a",
     "starter-page.html": "338f8d56aeb6c961a5204d3dc09adecc53fdb219a723ea6da644070aba4b34ff",
-    "testpilot-details.html": "a208345d37fa96a33067bc31c80798373a0cda1ca48ebbcbeff3c300a09ae5c5"
+    "testpilot-details.html": "4e72156d14839547e8aecb7549245e552f44786bfe035fdba5f412584b506b45"
   }
 }

@@ -920,7 +920,7 @@ The default filter is All. Filter membership and every existing detail destinati
 
 ### Animated content and alternate states
 
-The project image card contains 2 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select the project artwork or team photo. Automatic rotation is disabled; the project artwork is initially selected.
+The project image card contains 2 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.
 
 | Slide | Image path |
 | --- | --- |
@@ -1019,6 +1019,10 @@ The project image card contains 2 manually switchable images. Previous/next butt
 > From Recorded User Interactions to Automated Regression Tests
 
 > Full-Stack Engineering · Agentic AI · Test Automation · DevOps
+
+> Previous image
+
+> Next image
 
 **Project Information**
 
@@ -1176,18 +1180,38 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > It demonstrates how AI can support software quality assurance while maintaining traceability and control.
 
+### Animated content and alternate states
+
+The project image card contains 5 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.
+
+| Slide | Image path |
+| --- | --- |
+| 1 | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png |
+| 2 | assets/img/portfolio/testpilot/dashboard%20admin%20final.png |
+| 3 | assets/img/portfolio/testpilot/BA%20dashboard.png |
+| 4 | assets/img/portfolio/testpilot/qa%20engineer.png |
+| 5 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png |
+
 ### Main-content links and downloads
 
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
 | Back to Portfolio | portfolio.html | (empty) |
-| Enlarge TestPilot project image | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | (empty) |
+| Enlarge TestPilot project artwork | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | (empty) |
+| Enlarge Administrator dashboard | assets/img/portfolio/testpilot/dashboard%20admin%20final.png | (empty) |
+| Enlarge Business Analyst dashboard | assets/img/portfolio/testpilot/BA%20dashboard.png | (empty) |
+| Enlarge QA Engineer dashboard | assets/img/portfolio/testpilot/qa%20engineer.png | (empty) |
+| Enlarge QA Manager dashboard | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | (empty) |
 
 ### Main-content images
 
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
 | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background | (empty) |
+| assets/img/portfolio/testpilot/dashboard%20admin%20final.png | TestPilot administrator dashboard showing users, projects, environments and administrative activity | (empty) |
+| assets/img/portfolio/testpilot/BA%20dashboard.png | TestPilot Business Analyst dashboard showing recorded scenarios, test design progress and review tasks | (empty) |
+| assets/img/portfolio/testpilot/qa%20engineer.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
+| assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
 
 ## 10 · Digital Gallery
 

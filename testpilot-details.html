@@ -80,9 +80,50 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 gx-lg-5 align-items-start">
           <div class="col-lg-7">
-            <a href="assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png" class="glightbox" data-gallery="testpilot-project" data-title="TestPilot — AI-Assisted Test Automation Platform" aria-label="Enlarge TestPilot project image">
-              <img src="assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png" class="img-fluid project-artwork" width="1447" height="1086" alt="TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background">
-            </a>
+            <div id="testpilot-gallery" class="carousel slide project-gallery" data-bs-interval="false" role="region" aria-roledescription="carousel" aria-label="TestPilot project images">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testpilot-gallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Show TestPilot project artwork"></button>
+                <button type="button" data-bs-target="#testpilot-gallery" data-bs-slide-to="1" aria-label="Show Administrator dashboard"></button>
+                <button type="button" data-bs-target="#testpilot-gallery" data-bs-slide-to="2" aria-label="Show Business Analyst dashboard"></button>
+                <button type="button" data-bs-target="#testpilot-gallery" data-bs-slide-to="3" aria-label="Show QA Engineer dashboard"></button>
+                <button type="button" data-bs-target="#testpilot-gallery" data-bs-slide-to="4" aria-label="Show QA Manager dashboard"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png" class="glightbox" data-gallery="testpilot-project" data-title="TestPilot project artwork" aria-label="Enlarge TestPilot project artwork">
+                    <img src="assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png" class="img-fluid project-artwork" width="1447" height="1086" alt="TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="assets/img/portfolio/testpilot/dashboard%20admin%20final.png" class="glightbox" data-gallery="testpilot-project" data-title="Administrator dashboard" aria-label="Enlarge Administrator dashboard">
+                    <img src="assets/img/portfolio/testpilot/dashboard%20admin%20final.png" class="img-fluid project-artwork" width="1920" height="1080" alt="TestPilot administrator dashboard showing users, projects, environments and administrative activity">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="assets/img/portfolio/testpilot/BA%20dashboard.png" class="glightbox" data-gallery="testpilot-project" data-title="Business Analyst dashboard" aria-label="Enlarge Business Analyst dashboard">
+                    <img src="assets/img/portfolio/testpilot/BA%20dashboard.png" class="img-fluid project-artwork" width="1920" height="1080" alt="TestPilot Business Analyst dashboard showing recorded scenarios, test design progress and review tasks">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="assets/img/portfolio/testpilot/qa%20engineer.png" class="glightbox" data-gallery="testpilot-project" data-title="QA Engineer dashboard" aria-label="Enlarge QA Engineer dashboard">
+                    <img src="assets/img/portfolio/testpilot/qa%20engineer.png" class="img-fluid project-artwork" width="1920" height="1080" alt="TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="assets/img/portfolio/testpilot/qa%20manager%20dashboard.png" class="glightbox" data-gallery="testpilot-project" data-title="QA Manager dashboard" aria-label="Enlarge QA Manager dashboard">
+                    <img src="assets/img/portfolio/testpilot/qa%20manager%20dashboard.png" class="img-fluid project-artwork" width="1920" height="1080" alt="TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results">
+                  </a>
+                </div>
+              </div>
+              <button type="button" class="carousel-control-prev" data-bs-target="#testpilot-gallery" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
+                <span class="visually-hidden">Previous image</span>
+              </button>
+              <button type="button" class="carousel-control-next" data-bs-target="#testpilot-gallery" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
+                <span class="visually-hidden">Next image</span>
+              </button>
+            </div>
           </div>
           <div class="col-lg-5">
             <aside class="portfolio-info" aria-labelledby="project-info-title">
@@ -240,6 +281,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    bootstrap.Carousel.getOrCreateInstance(document.getElementById('testpilot-gallery'), {
+      interval: false,
+      ride: false
+    });
+  </script>
 
 </body>
 

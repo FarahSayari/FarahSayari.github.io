@@ -130,12 +130,12 @@
   max-height: none;
 }
 
-.pulmotrack-project .project-gallery .carousel-item > a {
+:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-item > a {
   display: block;
 }
 
-.pulmotrack-project .project-gallery .carousel-control-prev-icon,
-.pulmotrack-project .project-gallery .carousel-control-next-icon {
+:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-control-prev-icon,
+:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-control-next-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -143,7 +143,7 @@
   background-size: 55%;
 }
 
-.pulmotrack-project .project-gallery .carousel-indicators {
+:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-indicators {
   margin-bottom: 12px;
   padding: 4px 12px;
   border-radius: 20px;
@@ -151,6 +151,33 @@
   width: max-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.testpilot-project .project-gallery {
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--surface-color);
+}
+
+.testpilot-project .project-gallery .carousel-item {
+  aspect-ratio: 1447 / 1086;
+}
+
+.testpilot-project .project-gallery .carousel-item > a {
+  height: 100%;
+}
+
+.testpilot-project .project-gallery .project-artwork {
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+.testpilot-project .project-gallery :is(.carousel-control-prev-icon, .carousel-control-next-icon) {
+  display: grid;
+  place-items: center;
+  background-image: none;
+  color: #fff;
 }
 
 .pulmotrack-project figcaption {

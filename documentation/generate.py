@@ -300,7 +300,7 @@ def make_report(pages, date, notes):
                     interval=timing.group(1)+' ms' if timing else '(see shared JavaScript)'
                     add('p',f'The {len(dynamic["values"])} profile images alternate in a continuous loop. Current switch interval: {interval}. Image paths and exact alternate text are in the image inventory below.')
                 elif dynamic['type']=='image-carousel':
-                    add('p',f'The project image card contains {len(dynamic["values"])} manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select the project artwork or team photo. Automatic rotation is disabled; the project artwork is initially selected.')
+                    add('p',f'The project image card contains {len(dynamic["values"])} manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.')
                     report.table(['Slide','Image path'],[[str(i),value] for i,value in enumerate(dynamic['values'],1)])
         if page['projects']:
             add('h2','Project entries and filter membership')
