@@ -1268,6 +1268,8 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > This illustrates how TestPilot can integrate regression testing into a continuous delivery workflow without requiring manual execution of every test campaign.
 
+> Your browser does not support embedded video. Watch the CI/CD regression testing demo (MP4).
+
 > Video: Automated Regression Testing with GitHub Actions
 
 **Demonstration Application — SauceDemo**
@@ -1342,6 +1344,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Enlarge the TestPilot AI architecture diagram | assets/img/portfolio/testpilot/ai%20arch.png | (empty) |
 | Enlarge the TestPilot AI Assistance Showcase | assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
+| Watch the CI/CD regression testing demo (MP4) | assets/videos/testpilot-ci-cd-demo.mp4 | (empty) |
 | SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
 
 ### Main-content images
@@ -1370,6 +1373,20 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Playback attribute | Value |
 | --- | --- |
 | Poster image | assets/img/portfolio/testpilot/record.png |
+| Controls | True |
+| Autoplay | False |
+| Inline playback | True |
+| Preload | none |
+
+#### Demo 2 — CI/CD-Triggered Regression Testing
+
+| Source file | Media type |
+| --- | --- |
+| assets/videos/testpilot-ci-cd-demo.mp4 | video/mp4 |
+
+| Playback attribute | Value |
+| --- | --- |
+| Poster image | assets/img/portfolio/testpilot/ci-cd-demo-poster.jpg |
 | Controls | True |
 | Autoplay | False |
 | Inline playback | True |

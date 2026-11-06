@@ -549,7 +549,7 @@ def linked_pdfs(pages):
 
 def collect_source_files(pages=None):
     paths=set(ROOT.glob('*.html'))
-    for relative in ['assets/css','assets/js','assets/videos','forms']:
+    for relative in ['assets/css','assets/js','.github/workflows','forms']:
         paths.update(p for p in (ROOT/relative).rglob('*') if p.is_file())
     paths.update(p for p in [ROOT/'Readme.txt'] if p.exists())
     paths.update(p for p in (ROOT/'assets/docs').rglob('*') if p.is_file())
@@ -564,6 +564,7 @@ def collect_source_files(pages=None):
                         paths.add(ROOT/unquote(uri.path))
     else:
         paths.update(p for p in (ROOT/'assets/img').rglob('*') if p.is_file())
+        paths.update(p for p in (ROOT/'assets/videos').rglob('*') if p.is_file())
     return sorted(p for p in paths if p.is_file())
 
 

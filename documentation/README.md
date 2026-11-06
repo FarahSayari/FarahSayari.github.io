@@ -31,3 +31,9 @@ Generated Word, HTML, Markdown, JSON, PDF, and snapshot archive files are replac
 The documentation records all root-level HTML pages, including the retained starter template. HTML entities are decoded and whitespace normalized; visible wording is preserved. Hidden form messages and animated alternatives are documented separately. Source order is preserved for multi-column pages. Explanatory behavior notes reflect the current implementation and should be reviewed if interactions or page structures change substantially.
 
 To keep a dated history, copy this documentation folder before regenerating. `notes.json` is never overwritten when it already exists.
+
+## Publishing the website
+
+Push website changes to `main` in `FarahSayari/FarahSayari.github.io`. The workflow in `.github/workflows/deploy-pages.yml` packages the static HTML, tracked assets, and readable documentation files, then deploys them to GitHub Pages. The Pages publishing source must be set to **GitHub Actions**.
+
+The source snapshot ZIP, browser capture, JSON inventories, and documentation generator stay in the repository and are excluded from the published site artifact. The website's downloadable CV, scientific paper, and demonstration videos remain included. A successful Git push saves the changes in the repository; a successful Pages deployment is required before they appear on the live website.
