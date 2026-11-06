@@ -295,8 +295,13 @@
           </ul>
 
           <h2 id="ai-architecture-controlled-agentic-automation" tabindex="-1">AI Architecture — Controlled Agentic Automation</h2>
-          <p>At the core of TestPilot is a <strong>hybrid agentic AI pipeline</strong> designed to transform recorded browser interactions into automated tests.</p>
-          <p>The architecture separates the generation process into three specialized stages:</p>
+          <p>At the core of TestPilot is a <strong>hybrid agentic AI pipeline</strong>, built using the <strong>LangGraph framework</strong> and powered by a <strong>locally hosted LLM (Gemma via Ollama)</strong>.</p>
+          <p>The architecture combines deterministic processing with controlled LLM assistance to transform recorded browser interactions into automated tests through three specialized agents:</p>
+          <figure class="architecture-figure my-4">
+            <a href="assets/img/portfolio/testpilot/ai%20arch.png" class="glightbox" data-gallery="testpilot-explanations" data-title="AI Architecture — Controlled Agentic Automation" aria-label="Enlarge the TestPilot AI architecture diagram">
+              <img src="assets/img/portfolio/testpilot/ai%20arch.png" class="img-fluid project-artwork" width="1920" height="720" loading="lazy" alt="Diagram of TestPilot's three LangGraph agents with Spring Boot orchestration, local Gemma through Ollama, and automated validation and human review">
+            </a>
+          </figure>
 
           <h3 id="agent-1-scenario-processing" tabindex="-1">Agent 1 — Scenario Processing</h3>
           <p>Cleans and structures recorded interactions, extracts variables, and identifies suitable element locators.</p>
@@ -306,8 +311,9 @@
 
           <h3 id="agent-3-cypress-script-generation" tabindex="-1">Agent 3 — Cypress Script Generation</h3>
           <p>Converts the Test Model into an executable Cypress test script draft.</p>
-          <p>The pipeline combines <strong>deterministic processing with controlled LLM assistance</strong>, allowing AI to support generation and improvement without independently approving tests.</p>
-          <p>Generated scripts undergo automated validation and human review before being approved for official test execution.</p>
+          <p>All three agents are orchestrated using <strong>LangGraph</strong>, while the local LLM provides assistance for generation, enrichment, and improvement when needed.</p>
+          <p>Rather than relying entirely on LLM-generated outputs, TestPilot follows a <strong>hybrid approach</strong> that combines deterministic logic with AI assistance to improve consistency and reliability.</p>
+          <p>Generated scripts undergo <strong>automated validation and human review</strong> before being approved for official test execution, ensuring that AI supports the testing process without replacing human control.</p>
 
           <h2 id="additional-capabilities" tabindex="-1">Additional Capabilities</h2>
           <h3 id="test-management" tabindex="-1">Test Management</h3>

@@ -1184,9 +1184,9 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **AI Architecture — Controlled Agentic Automation**
 
-> At the core of TestPilot is a hybrid agentic AI pipeline designed to transform recorded browser interactions into automated tests.
+> At the core of TestPilot is a hybrid agentic AI pipeline, built using the LangGraph framework and powered by a locally hosted LLM (Gemma via Ollama).
 
-> The architecture separates the generation process into three specialized stages:
+> The architecture combines deterministic processing with controlled LLM assistance to transform recorded browser interactions into automated tests through three specialized agents:
 
 **Agent 1 — Scenario Processing**
 
@@ -1200,9 +1200,11 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > Converts the Test Model into an executable Cypress test script draft.
 
-> The pipeline combines deterministic processing with controlled LLM assistance, allowing AI to support generation and improvement without independently approving tests.
+> All three agents are orchestrated using LangGraph, while the local LLM provides assistance for generation, enrichment, and improvement when needed.
 
-> Generated scripts undergo automated validation and human review before being approved for official test execution.
+> Rather than relying entirely on LLM-generated outputs, TestPilot follows a hybrid approach that combines deterministic logic with AI assistance to improve consistency and reliability.
+
+> Generated scripts undergo automated validation and human review before being approved for official test execution, ensuring that AI supports the testing process without replacing human control.
 
 **Additional Capabilities**
 
@@ -1325,6 +1327,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Demonstration Application — SauceDemo | #demonstration-application-saucedemo | (empty) |
 | Key Takeaways | #key-takeaways | (empty) |
 | Enlarge the AI-Powered Regression Testing Workflow illustration | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | (empty) |
+| Enlarge the TestPilot AI architecture diagram | assets/img/portfolio/testpilot/ai%20arch.png | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
 | SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
 
@@ -1340,6 +1343,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
 | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | Illustration of manual test-script maintenance, campaign management and results analysis, with AI-generated scripts awaiting human review | (empty) |
+| assets/img/portfolio/testpilot/ai%20arch.png | Diagram of TestPilot's three LangGraph agents with Spring Boot orchestration, local Gemma through Ollama, and automated validation and human review | (empty) |
 
 ### Demonstration videos
 
