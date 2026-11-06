@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-05",
+  "snapshot_date": "2026-11-06",
   "algorithm": "SHA-256",
   "files": {
     "about.html": "4dad02863090d66f6cb72eae56aa18b50c98a7f68c491302fac6c9ae83411acc",
@@ -56,6 +56,6 @@
     "resume.html": "f78cf60cfd6c8e6afdd315c82f0a9f3fcfd2eedfaa2e6d13f767bb4ffba496d7",
     "services.html": "db15b336721774d998ef6f9e29ba6066508896328af252a203d299446098420a",
     "starter-page.html": "338f8d56aeb6c961a5204d3dc09adecc53fdb219a723ea6da644070aba4b34ff",
-    "testpilot-details.html": "8007c2fa196da0a98f1ef1418cf0940f4c5d0c2cd1da372a51bdb8ba6da96a73"
+    "testpilot-details.html": "258415d00f2bef4f3dc41f160dff81f226a73c6bf14b9f05af104078f9b786c9"
   }
 }

@@ -1,10 +1,10 @@
 # Farah Sayari
 Portfolio content reference
-05 November 2026 · Africa/Tunis
+06 November 2026 · Africa/Tunis
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-05 · Africa/Tunis · 12 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-06 · Africa/Tunis · 12 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -1016,9 +1016,9 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **TestPilot — AI-Assisted Test Automation Platform**
 
-> From Recorded User Interactions to Automated Regression Tests
-
 > Full-Stack Engineering · Agentic AI · Test Automation · DevOps
+
+> Developed during my end-of-studies internship (PFE) at VERMEG, TestPilot is an AI-assisted regression testing platform that transforms recorded browser interactions into structured test scenarios and automated Cypress tests, integrating AI-powered generation, human validation, and test management.
 
 > Previous image
 
@@ -1040,13 +1040,9 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Status: Completed — Functional Prototype
 
-> TestPilot is an AI-assisted platform designed to simplify regression testing by transforming recorded browser interactions into structured test scenarios and executable Cypress scripts.
-
-> It brings together scenario recording, AI-assisted test generation, human validation, test management, and automated execution in a unified workflow.
-
 **Technologies & Tools**
 
-> Frontend: Angular · TypeScript · CoreUI
+> Frontend: Angular
 
 > Backend: Java · Spring Boot · Spring Security · REST APIs
 
@@ -1057,6 +1053,18 @@ The project image card contains 2 manually switchable images. Previous/next butt
 > Database: PostgreSQL
 
 > DevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD
+
+**Project Overview**
+
+> TestPilot was developed to simplify and streamline regression testing by bringing together the main stages of test automation within a unified platform.
+
+> The solution enables Business Analysts and QA Engineers to record application workflows through a custom Chrome extension. These interactions are then processed through a hybrid agentic AI pipeline, which generates structured test models and executable Cypress scripts.
+
+> Beyond test generation, TestPilot integrates test management, automated validation, human review, and execution reporting, allowing teams to organize regression campaigns and track results.
+
+> The platform also incorporates CI/CD integration using GitHub Actions, enabling automated regression testing within software delivery pipelines. Its Docker-based architecture supports consistent deployment and integration across application services.
+
+> By combining AI-assisted automation, continuous testing, and human oversight, TestPilot aims to reduce repetitive testing tasks while improving consistency, traceability, and software reliability.
 
 **The Challenge**
 
