@@ -320,7 +320,20 @@
           <p>TestPilot includes a test management module for organizing Test Cases, Test Plans, and Test Cycles, allowing QA teams to manage regression campaigns and follow execution results.</p>
 
           <h3 id="ai-assistance-chatbot" tabindex="-1">AI Assistance Chatbot</h3>
-          <p>An integrated assistant supports users by answering questions about testing workflows, application features, and authorized project information using documentation retrieval and controlled read-only access.</p>
+          <p>TestPilot features an intelligent assistant powered by a <strong>locally hosted Gemma LLM</strong>, designed to help users navigate the platform, understand testing workflows, and access relevant project information.</p>
+          <p>Built with <strong>LangGraph and Retrieval-Augmented Generation (RAG)</strong>, the chatbot combines application documentation with real-time project data retrieved through secure, read-only tools.</p>
+          <p>To improve reliability and reduce AI hallucinations, I implemented several safeguards:</p>
+          <ul class="project-features">
+            <li><strong>Evidence-grounded responses:</strong> The assistant retrieves relevant information before answering and provides validated supporting sources.</li>
+            <li><strong>Hallucination reduction:</strong> When information is missing or insufficient, it acknowledges its limitations rather than generating unsupported answers.</li>
+            <li><strong>Role-based access:</strong> Project information is retrieved according to the user's permissions, preventing unauthorized access.</li>
+            <li><strong>Controlled AI behavior:</strong> The assistant operates within predefined tools and execution limits, without modifying data or performing sensitive actions.</li>
+          </ul>
+          <figure class="chatbot-figure my-4">
+            <a href="assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png" class="glightbox" data-gallery="testpilot-explanations" data-title="TestPilot AI Assistance Showcase" aria-label="Enlarge the TestPilot AI Assistance Showcase">
+              <img src="assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png" class="img-fluid project-artwork" width="1672" height="941" loading="lazy" alt="TestPilot AI assistance showcase with example chatbot responses, documentation sources, role-based read-only access and bounded AI behavior">
+            </a>
+          </figure>
 
           <h3 id="ci-cd-integration" tabindex="-1">CI/CD Integration</h3>
           <p>GitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting.</p>

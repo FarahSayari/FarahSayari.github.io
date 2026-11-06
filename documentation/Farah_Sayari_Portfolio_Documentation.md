@@ -1214,7 +1214,19 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **AI Assistance Chatbot**
 
-> An integrated assistant supports users by answering questions about testing workflows, application features, and authorized project information using documentation retrieval and controlled read-only access.
+> TestPilot features an intelligent assistant powered by a locally hosted Gemma LLM, designed to help users navigate the platform, understand testing workflows, and access relevant project information.
+
+> Built with LangGraph and Retrieval-Augmented Generation (RAG), the chatbot combines application documentation with real-time project data retrieved through secure, read-only tools.
+
+> To improve reliability and reduce AI hallucinations, I implemented several safeguards:
+
+> • Evidence-grounded responses: The assistant retrieves relevant information before answering and provides validated supporting sources.
+
+> • Hallucination reduction: When information is missing or insufficient, it acknowledges its limitations rather than generating unsupported answers.
+
+> • Role-based access: Project information is retrieved according to the user's permissions, preventing unauthorized access.
+
+> • Controlled AI behavior: The assistant operates within predefined tools and execution limits, without modifying data or performing sensitive actions.
 
 **CI/CD Integration**
 
@@ -1328,6 +1340,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Key Takeaways | #key-takeaways | (empty) |
 | Enlarge the AI-Powered Regression Testing Workflow illustration | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | (empty) |
 | Enlarge the TestPilot AI architecture diagram | assets/img/portfolio/testpilot/ai%20arch.png | (empty) |
+| Enlarge the TestPilot AI Assistance Showcase | assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
 | SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
 
@@ -1344,6 +1357,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
 | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | Illustration of manual test-script maintenance, campaign management and results analysis, with AI-generated scripts awaiting human review | (empty) |
 | assets/img/portfolio/testpilot/ai%20arch.png | Diagram of TestPilot's three LangGraph agents with Spring Boot orchestration, local Gemma through Ollama, and automated validation and human review | (empty) |
+| assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png | TestPilot AI assistance showcase with example chatbot responses, documentation sources, role-based read-only access and bounded AI behavior | (empty) |
 
 ### Demonstration videos
 
