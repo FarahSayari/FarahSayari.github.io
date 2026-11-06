@@ -1094,13 +1094,13 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **The Challenge**
 
-> Regression testing plays an essential role in software quality, but creating, maintaining, and executing automated tests often requires significant manual effort.
+> In complex software environments, frequent updates make regression testing essential to ensure applications remain stable and reliable.
 
-> QA teams must translate business scenarios into scripts, manage test campaigns, and analyze execution results, often across disconnected tools.
+> Although test automation tools already exist, creating and maintaining test scripts still requires significant manual effort. QA teams must write scripts, update them as applications evolve, and manage test executions.
 
-> While AI can accelerate test generation, generated scripts still require verification to ensure their reliability.
+> This repetitive work takes time, increases the risk of human errors, and can slow down software delivery. AI can help automate these tasks, but generated tests still need to be reviewed and validated.
 
-> The challenge was to automate repetitive testing activities without sacrificing accuracy, traceability, or human control.
+> The challenge: How can we reduce the manual effort of creating and maintaining automated regression tests while ensuring their reliability and keeping human control?
 
 **The Solution**
 
@@ -1311,6 +1311,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Demo 2 — CI/CD-Triggered Regression Testing | #cicd-demo-title | (empty) |
 | Demonstration Application — SauceDemo | #demonstration-application-saucedemo | (empty) |
 | Key Takeaways | #key-takeaways | (empty) |
+| Enlarge the AI-Powered Regression Testing Workflow illustration | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
 | SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
 
@@ -1325,6 +1326,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | assets/img/portfolio/testpilot/record.png | TestPilot scenario recording form with project context, environment selection and scenario details | (empty) |
 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
+| assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | Illustration of manual test-script maintenance, campaign management and results analysis, with AI-generated scripts awaiting human review | (empty) |
 
 ### Demonstration videos
 
