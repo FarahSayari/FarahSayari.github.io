@@ -1040,6 +1040,8 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Status: Completed — Functional Prototype
 
+> View Source on GitHub (opens in a new tab)
+
 **Technologies & Tools**
 
 > Frontend: Angular
@@ -1220,6 +1222,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Enlarge Scenario recording | assets/img/portfolio/testpilot/record.png | (empty) |
 | Enlarge QA Engineer dashboard | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | (empty) |
 | Enlarge QA Manager dashboard | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | (empty) |
+| View Source on GitHub (opens in a new tab) | https://github.com/FarahSayari/ai-test-automation-platform | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
 
 ### Main-content images

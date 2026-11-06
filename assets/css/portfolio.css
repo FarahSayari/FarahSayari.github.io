@@ -230,14 +230,14 @@
   overflow: visible;
 }
 
-.pulmotrack-project .paper-actions {
+:is(.pulmotrack-project, .testpilot-project) .paper-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
   margin-top: 24px;
 }
 
-.pulmotrack-project .paper-button {
+:is(.pulmotrack-project, .testpilot-project) .paper-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -251,11 +251,11 @@
   line-height: 1.6;
 }
 
-.pulmotrack-project .paper-button-outline {
+:is(.pulmotrack-project, .testpilot-project) .paper-button-outline {
   background: transparent;
 }
 
-.pulmotrack-project .paper-button:hover {
+:is(.pulmotrack-project, .testpilot-project) .paper-button:hover {
   background: color-mix(in srgb, var(--accent-color), white 25%);
 }
 
