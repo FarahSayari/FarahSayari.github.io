@@ -1066,7 +1066,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • The Challenge
 
-> • The Solution End-to-End Workflow
+> • The Solution End-to-End Workflow Execution Modes
 
 > • Development Methodology — Scrumban
 
@@ -1104,9 +1104,11 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **The Solution**
 
-> TestPilot connects the different stages of regression testing in a single platform, combining browser recording, AI-assisted generation, controlled validation, and automated execution.
+> TestPilot brings the different stages of regression testing into a single platform, combining browser recording, AI-assisted test generation, automated validation, test management, and execution.
 
-> Rather than relying entirely on AI-generated code, the solution follows a structured process in which test assets are progressively generated, validated, and reviewed.
+> The platform supports four user roles — Admin, Business Analyst (BA), QA Engineer, and QA Manager — each with responsibilities and permissions tailored to the testing workflow.
+
+> Rather than relying entirely on AI-generated code, TestPilot follows a structured process where test assets are progressively generated, validated, and reviewed before execution.
 
 **End-to-End Workflow**
 
@@ -1122,7 +1124,17 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Manage & Execute: Organize regression campaigns through Test Plans and Test Cycles, then analyze execution results.
 
-> This workflow helps bridge the gap between business requirements and executable automated tests while maintaining human control over the final testing process.
+**Execution Modes**
+
+> TestPilot supports three ways to execute regression test cycles:
+
+> • Manual Execution: Launch a test cycle directly from the platform.
+
+> • Scheduled Execution: Automatically run test cycles at predefined times.
+
+> • CI/CD-Triggered Execution: Automatically trigger regression cycles through GitHub Actions as part of a software delivery pipeline.
+
+> By combining AI-assisted automation, role-based collaboration, and flexible execution modes, TestPilot simplifies regression testing while maintaining traceability, reliability, and human control.
 
 **Development Methodology — Scrumban**
 
@@ -1292,6 +1304,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | The Challenge | #the-challenge | (empty) |
 | The Solution | #the-solution | (empty) |
 | End-to-End Workflow | #end-to-end-workflow | (empty) |
+| Execution Modes | #execution-modes | (empty) |
 | Development Methodology — Scrumban | #development-methodology-scrumban | (empty) |
 | My Contributions | #my-contributions | (empty) |
 | Full-Stack Application Development | #full-stack-application-development | (empty) |
