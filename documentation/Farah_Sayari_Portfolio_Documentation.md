@@ -1058,47 +1058,57 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **Project Overview**
 
-> TestPilot was developed to simplify and streamline regression testing by bringing together the main stages of test automation within a unified platform.
+> Developed during my end-of-studies internship at VERMEG, TestPilot is a full-stack, AI-assisted platform designed to streamline regression testing.
 
-> The solution enables Business Analysts and QA Engineers to record application workflows through a custom Chrome extension. These interactions are then processed through a hybrid agentic AI pipeline, which generates structured test models and executable Cypress scripts.
+> It enables Business Analysts and QA Engineers to record application workflows, transform them into structured test models, and generate automated Cypress scripts through a hybrid agentic AI pipeline.
 
-> Beyond test generation, TestPilot integrates test management, automated validation, human review, and execution reporting, allowing teams to organize regression campaigns and track results.
+> The platform goes beyond test generation by integrating test management, script validation, human approval, automated execution, and reporting.
 
-> The platform also incorporates CI/CD integration using GitHub Actions, enabling automated regression testing within software delivery pipelines. Its Docker-based architecture supports consistent deployment and integration across application services.
+> Through Docker and GitHub Actions, TestPilot also supports continuous testing within CI/CD workflows, connecting test automation to the software delivery process.
 
-> By combining AI-assisted automation, continuous testing, and human oversight, TestPilot aims to reduce repetitive testing tasks while improving consistency, traceability, and software reliability.
+> The objective is to make regression testing more efficient, reliable, and traceable while keeping human oversight at the center of the process.
 
 **The Challenge**
 
-> Regression testing is essential for software quality, but creating and maintaining automated tests can be time-consuming.
+> Regression testing plays an essential role in software quality, but creating, maintaining, and executing automated tests often requires significant manual effort.
 
-> QA teams frequently translate business scenarios into test scripts manually, manage testing activities across different tools, and investigate execution failures.
+> QA teams must translate business scenarios into scripts, manage test campaigns, and analyze execution results, often across disconnected tools.
 
-> Although AI can accelerate test generation, automatically generated scripts are not always reliable.
+> While AI can accelerate test generation, generated scripts still require verification to ensure their reliability.
 
-> The challenge was to reduce repetitive testing work while preserving accuracy, traceability, and human control.
+> The challenge was to automate repetitive testing activities without sacrificing accuracy, traceability, or human control.
 
 **The Solution**
 
-> TestPilot provides an integrated environment where Business Analysts and QA Engineers can record real application workflows and transform them into reusable automated tests.
+> TestPilot connects the different stages of regression testing in a single platform, combining browser recording, AI-assisted generation, controlled validation, and automated execution.
 
-> The platform combines browser recording, structured scenario processing, AI-assisted generation, and automated validation.
-
-> Generated scripts are reviewed and validated before approval, helping ensure that automation remains controlled and transparent.
+> Rather than relying entirely on AI-generated code, the solution follows a structured process in which test assets are progressively generated, validated, and reviewed.
 
 **End-to-End Workflow**
 
-> • Record — Capture user interactions directly from the browser using a custom Chrome extension.
+> • Record: Capture real user interactions through a custom Chrome extension.
 
-> • Process — Transform raw actions into structured scenarios with reusable variables and reliable element locators.
+> • Process: Transform recorded actions into structured scenarios, variables, and reliable locators.
 
-> • Generate — Produce an observed Test Model and a Cypress script through a hybrid agent-based pipeline.
+> • Generate: Produce a Test Model and an executable Cypress script draft.
 
-> • Validate — Execute generated scripts in a controlled environment to verify automation readiness.
+> • Validate: Verify the generated script through automated execution.
 
-> • Review & Approve — Allow QA teams to inspect and approve validated test assets.
+> • Review & Approve: Allow QA teams to inspect and approve validated scripts.
 
-> • Manage & Execute — Organize Test Cases into Test Plans and Test Cycles, execute regression campaigns, and review reports.
+> • Manage & Execute: Organize regression campaigns through Test Plans and Test Cycles, then analyze execution results.
+
+> This workflow helps bridge the gap between business requirements and executable automated tests while maintaining human control over the final testing process.
+
+**Development Methodology — Scrumban**
+
+> TestPilot was developed using Scrumban, combining the iterative approach of Scrum with the flexibility of Kanban.
+
+> Development was organized around a prioritized backlog, incremental feature delivery, and regular progress reviews.
+
+> The project evolved through successive stages, from the full-stack foundation and browser recording extension to the AI generation pipeline, test management, validation, and CI/CD integration.
+
+> This approach allowed me to continuously test new features, address technical challenges, and refine the platform based on feedback throughout the internship.
 
 **My Contributions**
 
@@ -1138,25 +1148,25 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **AI Architecture — Controlled Agentic Automation**
 
-> One of TestPilot's central components is its hybrid agentic AI pipeline.
+> At the core of TestPilot is a hybrid agentic AI pipeline designed to transform recorded browser interactions into automated tests.
 
-> Instead of generating test scripts directly from raw recordings, the platform separates the process into three specialized stages:
+> The architecture separates the generation process into three specialized stages:
 
 **Agent 1 — Scenario Processing**
 
-> Analyzes recorded browser interactions, normalizes actions, extracts variables, and selects suitable element locators.
+> Cleans and structures recorded interactions, extracts variables, and identifies suitable element locators.
 
 **Agent 2 — Test Model Generation**
 
-> Transforms processed scenarios into structured test models containing steps, preconditions, variables, and proposed assertions.
+> Transforms processed actions into a structured Test Model containing test steps, preconditions, variables, and proposed assertions.
 
 **Agent 3 — Cypress Script Generation**
 
-> Converts structured test models into executable Cypress script drafts.
+> Converts the Test Model into an executable Cypress test script draft.
 
-> The architecture combines deterministic processing with optional LLM-assisted enrichment and repair.
+> The pipeline combines deterministic processing with controlled LLM assistance, allowing AI to support generation and improvement without independently approving tests.
 
-> Human approval and automated validation remain essential safeguards, ensuring generated scripts are reviewed before becoming approved testing assets.
+> Generated scripts undergo automated validation and human review before being approved for official test execution.
 
 **Additional Capabilities**
 
@@ -1172,29 +1182,59 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > GitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting.
 
-**Demonstration & Validation**
+**Demonstrations & Validation**
 
-> TestPilot was evaluated through end-to-end scenarios using a controlled SauceDemo test application.
+> To demonstrate TestPilot's capabilities, I used SauceDemo, an external sample e-commerce application, as a controlled testing environment.
 
-> The demonstration covered several common e-commerce interactions, including authentication, product navigation, cart management, and checkout.
+> The demonstrations cover the complete testing workflow, from recording user interactions and generating automated tests to triggering regression campaigns through CI/CD.
 
-> These scenarios were used to validate the complete testing workflow, from browser recording and test generation to script validation and automated execution.
+**Demo 1 — From Scenario Recording to Automated Testing**
 
-> SauceDemo served as an external application under test and was not developed as part of TestPilot.
+> This demonstration illustrates how TestPilot transforms a recorded business scenario into an executable automated test.
 
-**Scenario Recording & AI Generation Demo**
+> It covers:
+
+> • Recording browser interactions using the Chrome extension.
+
+> • Processing the recorded actions.
+
+> • Generating the structured Test Model.
+
+> • Generating the Cypress script.
+
+> • Validating the generated script.
 
 > Your browser does not support embedded video. Watch the scenario recording demo (MP4).
 
-> Record a scenario, then navigate through its recorded actions, processed actions, generated Test Model, generated Cypress script, and validation.
+> Video: Scenario Recording & AI Generation Demo
+
+**Demo 2 — CI/CD-Triggered Regression Testing**
+
+> This demonstration showcases TestPilot's integration with GitHub Actions.
+
+> A code change is pushed to the separate SauceDemo application repository, triggering an automated CI/CD workflow.
+
+> The workflow deploys the updated test application in the controlled demonstration environment, starts a TestPilot regression cycle, and retrieves its execution results.
+
+> This illustrates how TestPilot can integrate regression testing into a continuous delivery workflow without requiring manual execution of every test campaign.
+
+> Video: Automated Regression Testing with GitHub Actions
+
+**Demonstration Application — SauceDemo**
+
+> Both demonstrations use SauceDemo, a publicly available sample e-commerce application developed by Sauce Labs.
+
+> SauceDemo was used exclusively as an external application under test and is not part of TestPilot's original development.
+
+> Credits: SauceDemo — Sauce Labs (opens in a new tab)
 
 **Key Takeaways**
 
-> Developing TestPilot strengthened my experience in designing full-stack applications, integrating AI workflows with traditional software systems, and building reliable automation pipelines.
+> Developing TestPilot gave me hands-on experience in building a complete software engineering solution that combines full-stack development, agentic AI, browser automation, and DevOps.
 
-> The project particularly highlighted the importance of combining AI-generated automation with deterministic processing, validation mechanisms, and human oversight.
+> One of the most important lessons was that reliable AI-assisted automation requires more than generating code. It also depends on structured processing, validation, traceability, and human oversight.
 
-> It demonstrates how AI can support software quality assurance while maintaining traceability and control.
+> This project strengthened my ability to design interconnected services, solve integration challenges, and build practical AI-powered tools that support real software engineering workflows.
 
 ### Animated content and alternate states
 
@@ -1224,6 +1264,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Enlarge QA Manager dashboard | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | (empty) |
 | View Source on GitHub (opens in a new tab) | https://github.com/FarahSayari/ai-test-automation-platform | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
+| SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
 
 ### Main-content images
 
@@ -1239,7 +1280,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 
 ### Demonstration videos
 
-#### Scenario Recording & AI Generation Demo
+#### Demo 1 — From Scenario Recording to Automated Testing
 
 | Source file | Media type |
 | --- | --- |
