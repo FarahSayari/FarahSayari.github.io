@@ -1324,17 +1324,19 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 ### Animated content and alternate states
 
-The project image card contains 7 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.
+The project image card contains 9 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.
 
 | Slide | Image path |
 | --- | --- |
 | 1 | assets/img/portfolio/testpilot/testpilot%20first%20pict.png |
-| 2 | assets/img/portfolio/testpilot/select%20project.png |
-| 3 | assets/img/portfolio/testpilot/admin%20dashboard.png |
-| 4 | assets/img/portfolio/testpilot/BA%20dashboard.png |
-| 5 | assets/img/portfolio/testpilot/record.png |
-| 6 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png |
-| 7 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png |
+| 2 | assets/img/portfolio/testpilot/admin%20dashboard.png |
+| 3 | assets/img/portfolio/testpilot/BA%20dashboard.png |
+| 4 | assets/img/portfolio/testpilot/record.png |
+| 5 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png |
+| 6 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png |
+| 7 | assets/img/portfolio/testpilot/test%20case%20detail2.png |
+| 8 | assets/img/portfolio/testpilot/test%20cycle%20interface.png |
+| 9 | assets/img/portfolio/testpilot/test%20cycle%20detail.png |
 
 ### Main-content links and downloads
 
@@ -1342,12 +1344,14 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | --- | --- | --- |
 | Back to Portfolio | portfolio.html | (empty) |
 | Enlarge TestPilot project artwork | assets/img/portfolio/testpilot/testpilot%20first%20pict.png | (empty) |
-| Enlarge Project selection | assets/img/portfolio/testpilot/select%20project.png | (empty) |
 | Enlarge Administrator dashboard | assets/img/portfolio/testpilot/admin%20dashboard.png | (empty) |
 | Enlarge Business Analyst dashboard | assets/img/portfolio/testpilot/BA%20dashboard.png | (empty) |
 | Enlarge Scenario recording | assets/img/portfolio/testpilot/record.png | (empty) |
 | Enlarge QA Engineer dashboard | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | (empty) |
 | Enlarge QA Manager dashboard | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | (empty) |
+| Enlarge Test Case details | assets/img/portfolio/testpilot/test%20case%20detail2.png | (empty) |
+| Enlarge Test Cycles overview | assets/img/portfolio/testpilot/test%20cycle%20interface.png | (empty) |
+| Enlarge Test Cycle details | assets/img/portfolio/testpilot/test%20cycle%20detail.png | (empty) |
 | Project Information | #project-info-title | (empty) |
 | Technologies & Tools | #technologies-tools | (empty) |
 | Project Overview | #project-overview | (empty) |
@@ -1389,12 +1393,14 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
 | assets/img/portfolio/testpilot/testpilot%20first%20pict.png | TestPilot project artwork showing its AI-assisted test automation dashboard and recording-to-execution workflow | (empty) |
-| assets/img/portfolio/testpilot/select%20project.png | TestPilot project selection screen showing available workspaces and project-specific user roles | (empty) |
 | assets/img/portfolio/testpilot/admin%20dashboard.png | TestPilot administrator dashboard showing users, projects, environments and administrative activity | (empty) |
 | assets/img/portfolio/testpilot/BA%20dashboard.png | TestPilot Business Analyst dashboard showing scenario totals, test design progress and review tasks | (empty) |
 | assets/img/portfolio/testpilot/record.png | TestPilot scenario recording form with project context, environment selection and scenario details | (empty) |
 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
+| assets/img/portfolio/testpilot/test%20case%20detail2.png | TestPilot Test Case detail view showing the linked scenario, priority, status, ordered test steps and expected results | (empty) |
+| assets/img/portfolio/testpilot/test%20cycle%20interface.png | TestPilot Test Cycles overview showing planned cycles and their selected test cases with automation readiness statuses | (empty) |
+| assets/img/portfolio/testpilot/test%20cycle%20detail.png | TestPilot Test Cycle detail view showing cycle readiness, selected cases, missing scripts and approval statuses | (empty) |
 | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | Illustration of manual test-script maintenance, campaign management and results analysis, with AI-generated scripts awaiting human review | (empty) |
 | assets/img/portfolio/testpilot/Scrumban%20Neon%20Venn%20Diagram%20Banner.png | Neon Venn diagram showing Scrumban as the overlap of Scrum and Kanban, combining iterative delivery with visual workflow management | (empty) |
 | assets/img/portfolio/testpilot/ai%20arch.png | Diagram of TestPilot's three LangGraph agents with Spring Boot orchestration, local Gemma through Ollama, and automated validation and human review | (empty) |

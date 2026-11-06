@@ -428,6 +428,10 @@
 }
 
 @media (max-width: 575px) {
+  .testpilot-project .project-gallery .carousel-indicators [data-bs-target] {
+    width: 20px;
+  }
+
   :is(.pulmotrack-project, .testpilot-project) .project-summary {
     padding: 20px;
   }

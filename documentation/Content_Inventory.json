@@ -3601,11 +3601,6 @@
           ""
         ],
         [
-          "Enlarge Project selection",
-          "assets/img/portfolio/testpilot/select%20project.png",
-          ""
-        ],
-        [
           "Enlarge Administrator dashboard",
           "assets/img/portfolio/testpilot/admin%20dashboard.png",
           ""
@@ -3628,6 +3623,21 @@
         [
           "Enlarge QA Manager dashboard",
           "assets/img/portfolio/testpilot/qa%20manager%20dashboard.png",
+          ""
+        ],
+        [
+          "Enlarge Test Case details",
+          "assets/img/portfolio/testpilot/test%20case%20detail2.png",
+          ""
+        ],
+        [
+          "Enlarge Test Cycles overview",
+          "assets/img/portfolio/testpilot/test%20cycle%20interface.png",
+          ""
+        ],
+        [
+          "Enlarge Test Cycle details",
+          "assets/img/portfolio/testpilot/test%20cycle%20detail.png",
           ""
         ],
         [
@@ -3813,11 +3823,6 @@
           ""
         ],
         [
-          "assets/img/portfolio/testpilot/select%20project.png",
-          "TestPilot project selection screen showing available workspaces and project-specific user roles",
-          ""
-        ],
-        [
           "assets/img/portfolio/testpilot/admin%20dashboard.png",
           "TestPilot administrator dashboard showing users, projects, environments and administrative activity",
           ""
@@ -3840,6 +3845,21 @@
         [
           "assets/img/portfolio/testpilot/qa%20manager%20dashboard.png",
           "TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results",
+          ""
+        ],
+        [
+          "assets/img/portfolio/testpilot/test%20case%20detail2.png",
+          "TestPilot Test Case detail view showing the linked scenario, priority, status, ordered test steps and expected results",
+          ""
+        ],
+        [
+          "assets/img/portfolio/testpilot/test%20cycle%20interface.png",
+          "TestPilot Test Cycles overview showing planned cycles and their selected test cases with automation readiness statuses",
+          ""
+        ],
+        [
+          "assets/img/portfolio/testpilot/test%20cycle%20detail.png",
+          "TestPilot Test Cycle detail view showing cycle readiness, selected cases, missing scripts and approval statuses",
           ""
         ],
         [
@@ -3870,12 +3890,14 @@
           "type": "image-carousel",
           "values": [
             "assets/img/portfolio/testpilot/testpilot%20first%20pict.png",
-            "assets/img/portfolio/testpilot/select%20project.png",
             "assets/img/portfolio/testpilot/admin%20dashboard.png",
             "assets/img/portfolio/testpilot/BA%20dashboard.png",
             "assets/img/portfolio/testpilot/record.png",
             "assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png",
-            "assets/img/portfolio/testpilot/qa%20manager%20dashboard.png"
+            "assets/img/portfolio/testpilot/qa%20manager%20dashboard.png",
+            "assets/img/portfolio/testpilot/test%20case%20detail2.png",
+            "assets/img/portfolio/testpilot/test%20cycle%20interface.png",
+            "assets/img/portfolio/testpilot/test%20cycle%20detail.png"
           ]
         }
       ],
