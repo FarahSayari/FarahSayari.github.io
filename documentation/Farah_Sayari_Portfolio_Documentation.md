@@ -1040,8 +1040,6 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Status: Completed — Functional Prototype
 
-> View Source on GitHub (opens in a new tab)
-
 **Technologies & Tools**
 
 > Frontend: Angular
@@ -1055,6 +1053,32 @@ The project image card contains 2 manually switchable images. Previous/next butt
 > Database: PostgreSQL
 
 > DevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD
+
+**Project Summary**
+
+> Jump directly to a section of the project.
+
+> • Project Information
+
+> • Technologies & Tools
+
+> • Project Overview
+
+> • The Challenge
+
+> • The Solution End-to-End Workflow
+
+> • Development Methodology — Scrumban
+
+> • My Contributions Full-Stack Application Development Browser Recording & Test Automation Agentic AI Pipeline DevOps & Integration
+
+> • AI Architecture — Controlled Agentic Automation Agent 1 — Scenario Processing Agent 2 — Test Model Generation Agent 3 — Cypress Script Generation
+
+> • Additional Capabilities Test Management AI Assistance Chatbot CI/CD Integration
+
+> • Demonstrations & Validation Demo 1 — From Scenario Recording to Automated Testing Demo 2 — CI/CD-Triggered Regression Testing Demonstration Application — SauceDemo
+
+> • Key Takeaways
 
 **Project Overview**
 
@@ -1242,7 +1266,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 
 | Slide | Image path |
 | --- | --- |
-| 1 | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png |
+| 1 | assets/img/portfolio/testpilot/testpilot%20first%20pict.png |
 | 2 | assets/img/portfolio/testpilot/select%20project.png |
 | 3 | assets/img/portfolio/testpilot/admin%20dashboard.png |
 | 4 | assets/img/portfolio/testpilot/BA%20dashboard.png |
@@ -1255,14 +1279,38 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
 | Back to Portfolio | portfolio.html | (empty) |
-| Enlarge TestPilot project artwork | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | (empty) |
+| Enlarge TestPilot project artwork | assets/img/portfolio/testpilot/testpilot%20first%20pict.png | (empty) |
 | Enlarge Project selection | assets/img/portfolio/testpilot/select%20project.png | (empty) |
 | Enlarge Administrator dashboard | assets/img/portfolio/testpilot/admin%20dashboard.png | (empty) |
 | Enlarge Business Analyst dashboard | assets/img/portfolio/testpilot/BA%20dashboard.png | (empty) |
 | Enlarge Scenario recording | assets/img/portfolio/testpilot/record.png | (empty) |
 | Enlarge QA Engineer dashboard | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | (empty) |
 | Enlarge QA Manager dashboard | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | (empty) |
-| View Source on GitHub (opens in a new tab) | https://github.com/FarahSayari/ai-test-automation-platform | (empty) |
+| Project Information | #project-info-title | (empty) |
+| Technologies & Tools | #technologies-tools | (empty) |
+| Project Overview | #project-overview | (empty) |
+| The Challenge | #the-challenge | (empty) |
+| The Solution | #the-solution | (empty) |
+| End-to-End Workflow | #end-to-end-workflow | (empty) |
+| Development Methodology — Scrumban | #development-methodology-scrumban | (empty) |
+| My Contributions | #my-contributions | (empty) |
+| Full-Stack Application Development | #full-stack-application-development | (empty) |
+| Browser Recording & Test Automation | #browser-recording-test-automation | (empty) |
+| Agentic AI Pipeline | #agentic-ai-pipeline | (empty) |
+| DevOps & Integration | #devops-integration | (empty) |
+| AI Architecture — Controlled Agentic Automation | #ai-architecture-controlled-agentic-automation | (empty) |
+| Agent 1 — Scenario Processing | #agent-1-scenario-processing | (empty) |
+| Agent 2 — Test Model Generation | #agent-2-test-model-generation | (empty) |
+| Agent 3 — Cypress Script Generation | #agent-3-cypress-script-generation | (empty) |
+| Additional Capabilities | #additional-capabilities | (empty) |
+| Test Management | #test-management | (empty) |
+| AI Assistance Chatbot | #ai-assistance-chatbot | (empty) |
+| CI/CD Integration | #ci-cd-integration | (empty) |
+| Demonstrations & Validation | #demonstrations-validation | (empty) |
+| Demo 1 — From Scenario Recording to Automated Testing | #scenario-demo-title | (empty) |
+| Demo 2 — CI/CD-Triggered Regression Testing | #cicd-demo-title | (empty) |
+| Demonstration Application — SauceDemo | #demonstration-application-saucedemo | (empty) |
+| Key Takeaways | #key-takeaways | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
 | SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
 
@@ -1270,7 +1318,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
-| assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background | (empty) |
+| assets/img/portfolio/testpilot/testpilot%20first%20pict.png | TestPilot project artwork showing its AI-assisted test automation dashboard and recording-to-execution workflow | (empty) |
 | assets/img/portfolio/testpilot/select%20project.png | TestPilot project selection screen showing available workspaces and project-specific user roles | (empty) |
 | assets/img/portfolio/testpilot/admin%20dashboard.png | TestPilot administrator dashboard showing users, projects, environments and administrative activity | (empty) |
 | assets/img/portfolio/testpilot/BA%20dashboard.png | TestPilot Business Analyst dashboard showing scenario totals, test design progress and review tasks | (empty) |
