@@ -1341,6 +1341,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | Demonstration Application — SauceDemo | #demonstration-application-saucedemo | (empty) |
 | Key Takeaways | #key-takeaways | (empty) |
 | Enlarge the AI-Powered Regression Testing Workflow illustration | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | (empty) |
+| Enlarge the Scrumban methodology diagram | assets/img/portfolio/testpilot/Scrumban%20Neon%20Venn%20Diagram%20Banner.png | (empty) |
 | Enlarge the TestPilot AI architecture diagram | assets/img/portfolio/testpilot/ai%20arch.png | (empty) |
 | Enlarge the TestPilot AI Assistance Showcase | assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
@@ -1359,6 +1360,7 @@ The project image card contains 7 manually switchable images. Previous/next butt
 | assets/img/portfolio/testpilot/QA%20engineer%20dashboard.png | TestPilot QA Engineer dashboard showing automation validation tasks, ready test cases and execution results | (empty) |
 | assets/img/portfolio/testpilot/qa%20manager%20dashboard.png | TestPilot QA Manager dashboard showing test plans, scheduled executions, cycle readiness and campaign results | (empty) |
 | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | Illustration of manual test-script maintenance, campaign management and results analysis, with AI-generated scripts awaiting human review | (empty) |
+| assets/img/portfolio/testpilot/Scrumban%20Neon%20Venn%20Diagram%20Banner.png | Neon Venn diagram showing Scrumban as the overlap of Scrum and Kanban, combining iterative delivery with visual workflow management | (empty) |
 | assets/img/portfolio/testpilot/ai%20arch.png | Diagram of TestPilot's three LangGraph agents with Spring Boot orchestration, local Gemma through Ollama, and automated validation and human review | (empty) |
 | assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png | TestPilot AI assistance showcase with example chatbot responses, documentation sources, role-based read-only access and bounded AI behavior | (empty) |
 
