@@ -188,11 +188,13 @@
                 </ul>
               </li>
               <li>
-                <a href="#ai-architecture-controlled-agentic-automation"><i class="bi bi-chevron-right" aria-hidden="true"></i> AI Architecture — Controlled Agentic Automation</a>
+                <a href="#ai-architecture-controlled-agentic-automation"><i class="bi bi-chevron-right" aria-hidden="true"></i> AI Architecture — Hybrid &amp; Bounded Agentic Automation</a>
                 <ul>
                   <li><a href="#agent-1-scenario-processing"><i class="bi bi-chevron-right" aria-hidden="true"></i> Agent 1 — Scenario Processing</a></li>
                   <li><a href="#agent-2-test-model-generation"><i class="bi bi-chevron-right" aria-hidden="true"></i> Agent 2 — Test Model Generation</a></li>
-                  <li><a href="#agent-3-cypress-script-generation"><i class="bi bi-chevron-right" aria-hidden="true"></i> Agent 3 — Cypress Script Generation</a></li>
+                  <li><a href="#agent-3-cypress-script-generation"><i class="bi bi-chevron-right" aria-hidden="true"></i> Agent 3 — Cypress Script Generation &amp; Repair</a></li>
+                  <li><a href="#prompt-engineering-llm-control"><i class="bi bi-chevron-right" aria-hidden="true"></i> Prompt Engineering &amp; LLM Control</a></li>
+                  <li><a href="#controlled-orchestration-human-validation"><i class="bi bi-chevron-right" aria-hidden="true"></i> Controlled Orchestration &amp; Human Validation</a></li>
                 </ul>
               </li>
               <li>
@@ -299,26 +301,47 @@
             <li>Connected automated regression execution with reporting and traceability mechanisms.</li>
           </ul>
 
-          <h2 id="ai-architecture-controlled-agentic-automation" tabindex="-1">AI Architecture — Controlled Agentic Automation</h2>
-          <p>At the core of TestPilot is a <strong>hybrid agentic AI pipeline</strong>, built using the <strong>LangGraph framework</strong> and powered by a <strong>locally hosted LLM (Gemma via Ollama)</strong>.</p>
-          <p>The architecture combines deterministic processing with controlled LLM assistance to transform recorded browser interactions into automated tests through three specialized agents:</p>
+          <h2 id="ai-architecture-controlled-agentic-automation" tabindex="-1">AI Architecture — Hybrid &amp; Bounded Agentic Automation</h2>
+          <p>At the core of TestPilot is a <strong>hybrid and bounded agentic AI system</strong> that transforms recorded browser interactions into automated Cypress tests.</p>
+          <p>The architecture combines <strong>deterministic processing, LangGraph workflows, and a locally hosted LLM (Gemma via Ollama)</strong> to support reliable test generation and controlled script repair.</p>
+          <p>The pipeline consists of three specialized agents, each implemented as an independent LangGraph workflow and coordinated by the <strong>Spring Boot backend</strong>.</p>
           <figure class="architecture-figure my-4">
-            <a href="assets/img/portfolio/testpilot/ai%20arch.png" class="glightbox" data-gallery="testpilot-explanations" data-title="AI Architecture — Controlled Agentic Automation" aria-label="Enlarge the TestPilot AI architecture diagram">
+            <a href="assets/img/portfolio/testpilot/ai%20arch.png" class="glightbox" data-gallery="testpilot-explanations" data-title="AI Architecture — Hybrid &amp; Bounded Agentic Automation" aria-label="Enlarge the TestPilot AI architecture diagram">
               <img src="assets/img/portfolio/testpilot/ai%20arch.png" class="img-fluid project-artwork" width="1920" height="720" loading="lazy" alt="Diagram of TestPilot's three LangGraph agents with Spring Boot orchestration, local Gemma through Ollama, and automated validation and human review">
             </a>
           </figure>
 
           <h3 id="agent-1-scenario-processing" tabindex="-1">Agent 1 — Scenario Processing</h3>
-          <p>Cleans and structures recorded interactions, extracts variables, and identifies suitable element locators.</p>
+          <p>A fully <strong>deterministic agent</strong> that cleans and structures recorded interactions, extracts reusable variables, selects reliable element locators, and preserves traceability to the original recording.</p>
+          <p>It uses predefined processing rules without relying on an LLM, ensuring consistent and reproducible results.</p>
 
           <h3 id="agent-2-test-model-generation" tabindex="-1">Agent 2 — Test Model Generation</h3>
-          <p>Transforms processed actions into a structured Test Model containing test steps, preconditions, variables, and proposed assertions.</p>
+          <p>A <strong>hybrid agent</strong> that transforms processed scenarios into structured Test Models containing steps, preconditions, variables, expected results, and proposed automation checks.</p>
+          <p>It first generates a deterministic baseline, then optionally uses <strong>Gemma</strong> to analyze recorded evidence, enrich test descriptions, and suggest relevant assertions.</p>
+          <p>AI-generated checks must be supported by recorded evidence and remain subject to human review before approval.</p>
 
-          <h3 id="agent-3-cypress-script-generation" tabindex="-1">Agent 3 — Cypress Script Generation</h3>
-          <p>Converts the Test Model into an executable Cypress test script draft.</p>
-          <p>All three agents are orchestrated using <strong>LangGraph</strong>, while the local LLM provides assistance for generation, enrichment, and improvement when needed.</p>
-          <p>Rather than relying entirely on LLM-generated outputs, TestPilot follows a <strong>hybrid approach</strong> that combines deterministic logic with AI assistance to improve consistency and reliability.</p>
-          <p>Generated scripts undergo <strong>automated validation and human review</strong> before being approved for official test execution, ensuring that AI supports the testing process without replacing human control.</p>
+          <h3 id="agent-3-cypress-script-generation" tabindex="-1">Agent 3 — Cypress Script Generation &amp; Repair</h3>
+          <p>A <strong>hybrid agent</strong> responsible for generating Cypress test scripts and assisting with script repair.</p>
+          <p>Initial scripts are generated deterministically from structured Test Models, ensuring that recorded actions and approved assertions are preserved.</p>
+          <p>When script validation fails, the agent can optionally use <strong>Gemma to analyze failure diagnostics and propose targeted repairs</strong>, such as correcting element locators or synchronization issues.</p>
+          <p>AI-assisted repairs are restricted to evidence-supported changes. Repaired scripts must pass validation again before they can be approved for execution.</p>
+
+          <h3 id="prompt-engineering-llm-control" tabindex="-1">Prompt Engineering &amp; LLM Control</h3>
+          <p>To improve the reliability of AI-generated outputs, I applied several prompt engineering techniques:</p>
+          <ul class="project-features">
+            <li><strong>Zero-shot prompting:</strong> Provides clear instructions, constraints, and expected output formats without relying on worked examples.</li>
+            <li><strong>Role prompting:</strong> Defines each LLM-assisted task's responsibilities and limits, keeping generation focused on the intended objective.</li>
+            <li><strong>Tool-augmented prompting:</strong> Allows the LLM to retrieve relevant scenario evidence through restricted, read-only tools rather than relying on assumptions.</li>
+            <li><strong>Prompt-injection defense:</strong> Treats recorded application content as untrusted data, preventing it from overriding the defined workflow instructions.</li>
+          </ul>
+          <p>These techniques are combined with <strong>structured output validation, bounded retries, and deterministic fallbacks</strong> to reduce unsupported generation and maintain predictable behavior.</p>
+
+          <h3 id="controlled-orchestration-human-validation" tabindex="-1">Controlled Orchestration &amp; Human Validation</h3>
+          <p><strong>LangGraph</strong> manages the internal workflow of each agent, including processing steps, conditional decisions, validation, and optional LLM intervention.</p>
+          <p><strong>Spring Boot</strong> orchestrates the complete pipeline, triggering each agent separately and managing the generated artifacts. The agents do not communicate directly or autonomously delegate tasks to one another.</p>
+          <p>LLM assistance is limited to predefined operations, with controlled access to evidence, restricted modifications, and execution limits.</p>
+          <p>Finally, generated scripts undergo <strong>automated validation and human approval</strong> before becoming executable testing assets.</p>
+          <p>This <strong>hybrid and bounded approach</strong> combines the flexibility of AI with the predictability of deterministic automation, while maintaining reliability, traceability, and human control.</p>
 
           <h2 id="additional-capabilities" tabindex="-1">Additional Capabilities</h2>
           <h3 id="test-management" tabindex="-1">Test Management</h3>
