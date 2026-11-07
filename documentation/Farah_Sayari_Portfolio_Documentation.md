@@ -1462,6 +1462,10 @@ The project image card contains 9 manually switchable images. Previous/next butt
 
 > Aura 1.0 is an AI-powered recruitment assistant designed to help recruiters identify, rank, and understand suitable candidates using semantic search, Retrieval-Augmented Generation (RAG), Large Language Models, and automated recruitment workflows.
 
+> Previous image
+
+> Next image
+
 **Project Information**
 
 > • Category: Artificial Intelligence · NLP · RAG · Agentic AI
@@ -1590,6 +1594,8 @@ The project image card contains 9 manually switchable images. Previous/next butt
 
 > When a recruiter submits a job description, Aura generates its embedding and uses cosine similarity to retrieve and rank the most relevant candidates.
 
+> Visualization of the cvs collection in Qdrant, showing stored candidate vectors and their associated metadata, including candidate identifiers and resume text.
+
 **Retrieval-Augmented Generation (RAG)**
 
 > Aura uses RAG to connect semantic retrieval with LLM-powered explanations.
@@ -1710,12 +1716,26 @@ The project image card contains 9 manually switchable images. Previous/next butt
 
 > The project also gave me practical experience integrating AI models, backend services, and user-facing interfaces to support a real-world recruitment use case.
 
+### Animated content and alternate states
+
+The project image card contains 4 manually switchable images. Previous/next buttons, slide indicators, keyboard navigation, and touch swipes select an image. Automatic rotation is disabled; the first image is initially selected.
+
+| Slide | Image path |
+| --- | --- |
+| 1 | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Dashboard%20(1).png |
+| 2 | assets/img/portfolio/aura%201.0/aura_newChat.png |
+| 3 | assets/img/portfolio/aura%201.0/1113.png |
+| 4 | assets/img/portfolio/aura%201.0/1113(1).png |
+
 ### Main-content links and downloads
 
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
 | Back to Portfolio | portfolio.html | (empty) |
-| Enlarge Aura 1.0 project artwork | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | (empty) |
+| Enlarge Aura 1.0 recruiter dashboard artwork | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Dashboard%20(1).png | (empty) |
+| Enlarge Aura new chat interface | assets/img/portfolio/aura%201.0/aura_newChat.png | (empty) |
+| Enlarge recruitment assistant FAQs | assets/img/portfolio/aura%201.0/1113.png | (empty) |
+| Enlarge candidate matching and interview requests | assets/img/portfolio/aura%201.0/1113(1).png | (empty) |
 | View Source on GitHub (opens in a new tab) | https://github.com/FarahSayari/ai-recruiter-agent | (empty) |
 | Overview | #project-overview | (empty) |
 | Challenge | #the-challenge | (empty) |
@@ -1730,16 +1750,21 @@ The project image card contains 9 manually switchable images. Previous/next butt
 | Enlarge the Aura 1.0 recruiting challenge illustration | assets/img/portfolio/aura%201.0/Aura%201.0_%20The%20Recruiting%20Challenge.png | (empty) |
 | Enlarge the Aura 1.0 methodology infographic | assets/img/portfolio/aura%201.0/Aura%201.0%20Methodology%20Infographic.png | (empty) |
 | Enlarge the Aura 1.0 AI architecture diagram | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Architecture.png | (empty) |
+| Enlarge the Qdrant cvs collection visualization | assets/img/portfolio/aura%201.0/qdrant.png | (empty) |
 | Watch the Aura 1.0 demo (MP4) | assets/videos/Aura.mp4 | (empty) |
 
 ### Main-content images
 
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
-| assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | Aura 1.0 AI Recruiter Agent artwork with a candidate profile and recruitment search illustration | (empty) |
+| assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Dashboard%20(1).png | Aura 1.0 dashboard artwork showing semantic search, RAG, candidate recommendations, and recruitment actions | (empty) |
+| assets/img/portfolio/aura%201.0/aura_newChat.png | Aura Streamlit interface with a new chat, message input, and PDF upload area | (empty) |
+| assets/img/portfolio/aura%201.0/1113.png | Aura chat answering questions about its recruitment capabilities and candidate ranking | (empty) |
+| assets/img/portfolio/aura%201.0/1113(1).png | Aura chat showing ranked candidates, matching explanations, and a response to interview scheduling and email requests | (empty) |
 | assets/img/portfolio/aura%201.0/Aura%201.0_%20The%20Recruiting%20Challenge.png | Aura 1.0 recruitment challenges: numerous resumes, keyword filtering limits, manual screening, and candidate communication | (empty) |
 | assets/img/portfolio/aura%201.0/Aura%201.0%20Methodology%20Infographic.png | Aura 1.0 methodology infographic showing TDSP stages alongside Design Thinking: empathize, define, ideate, prototype and test | (empty) |
 | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Architecture.png | Aura 1.0 architecture connecting resume processing, BERT embeddings, Qdrant semantic search, RAG, LangGraph stages, and Phi-3 through Ollama to ranked candidate explanations | (empty) |
+| assets/img/portfolio/aura%201.0/qdrant.png | Qdrant cvs collection visualization showing candidate vectors and selected metadata, including candidate identifiers and resume text | (empty) |
 
 ### Demonstration videos
 

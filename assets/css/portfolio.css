@@ -94,6 +94,7 @@
   background: #111;
 }
 
+.aura-project .qdrant-figure figcaption,
 :is(.testpilot-project, .aura-project) .project-demo figcaption {
   margin-top: 14px;
   font-size: 14px;
@@ -148,12 +149,12 @@
   max-height: none;
 }
 
-:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-item > a {
+:is(.pulmotrack-project, .testpilot-project, .aura-project) .project-gallery .carousel-item > a {
   display: block;
 }
 
-:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-control-prev-icon,
-:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-control-next-icon {
+:is(.pulmotrack-project, .testpilot-project, .aura-project) .project-gallery .carousel-control-prev-icon,
+:is(.pulmotrack-project, .testpilot-project, .aura-project) .project-gallery .carousel-control-next-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -161,7 +162,7 @@
   background-size: 55%;
 }
 
-:is(.pulmotrack-project, .testpilot-project) .project-gallery .carousel-indicators {
+:is(.pulmotrack-project, .testpilot-project, .aura-project) .project-gallery .carousel-indicators {
   margin-bottom: 12px;
   padding: 4px 12px;
   border-radius: 20px;
@@ -171,27 +172,31 @@
   margin-right: auto;
 }
 
-.testpilot-project .project-gallery {
+:is(.testpilot-project, .aura-project) .project-gallery {
   overflow: hidden;
   border-radius: 12px;
   background: var(--surface-color);
 }
 
-.testpilot-project .project-gallery .carousel-item {
+:is(.testpilot-project, .aura-project) .project-gallery .carousel-item {
   aspect-ratio: 1448 / 1086;
 }
 
-.testpilot-project .project-gallery .carousel-item > a {
+.aura-project .project-gallery .carousel-item {
+  aspect-ratio: 1672 / 941;
+}
+
+:is(.testpilot-project, .aura-project) .project-gallery .carousel-item > a {
   height: 100%;
 }
 
-.testpilot-project .project-gallery .project-artwork {
+:is(.testpilot-project, .aura-project) .project-gallery .project-artwork {
   height: 100%;
   object-fit: contain;
   border-radius: 0;
 }
 
-.testpilot-project .project-gallery :is(.carousel-control-prev-icon, .carousel-control-next-icon) {
+:is(.testpilot-project, .aura-project) .project-gallery :is(.carousel-control-prev-icon, .carousel-control-next-icon) {
   display: grid;
   place-items: center;
   background-image: none;
@@ -428,7 +433,7 @@
 }
 
 @media (max-width: 575px) {
-  .testpilot-project .project-gallery .carousel-indicators [data-bs-target] {
+  :is(.testpilot-project, .aura-project) .project-gallery .carousel-indicators [data-bs-target] {
     width: 20px;
   }
 

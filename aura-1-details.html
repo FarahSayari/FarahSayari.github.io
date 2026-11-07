@@ -80,9 +80,44 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 gx-lg-5 align-items-start">
           <div class="col-lg-7">
-            <a href="assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png" class="glightbox" data-gallery="aura-project" data-title="Aura 1.0 — AI Recruiter Agent" aria-label="Enlarge Aura 1.0 project artwork">
-              <img src="assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png" class="img-fluid project-artwork" width="1671" height="941" alt="Aura 1.0 AI Recruiter Agent artwork with a candidate profile and recruitment search illustration">
-            </a>
+            <div id="aura-gallery" class="carousel slide project-gallery" data-bs-interval="false" role="region" aria-roledescription="carousel" aria-label="Aura 1.0 project images">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#aura-gallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Show Aura 1.0 recruiter dashboard artwork"></button>
+                <button type="button" data-bs-target="#aura-gallery" data-bs-slide-to="1" aria-label="Show Aura new chat interface"></button>
+                <button type="button" data-bs-target="#aura-gallery" data-bs-slide-to="2" aria-label="Show recruitment assistant FAQs"></button>
+                <button type="button" data-bs-target="#aura-gallery" data-bs-slide-to="3" aria-label="Show candidate matching and interview requests"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Dashboard%20(1).png" class="glightbox" data-gallery="aura-project" data-title="Aura 1.0 recruiter dashboard artwork" aria-label="Enlarge Aura 1.0 recruiter dashboard artwork">
+                    <img src="assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Dashboard%20(1).png" class="img-fluid project-artwork" width="1672" height="941" alt="Aura 1.0 dashboard artwork showing semantic search, RAG, candidate recommendations, and recruitment actions">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="assets/img/portfolio/aura%201.0/aura_newChat.png" class="glightbox" data-gallery="aura-project" data-title="Aura new chat interface" aria-label="Enlarge Aura new chat interface">
+                    <img src="assets/img/portfolio/aura%201.0/aura_newChat.png" class="img-fluid project-artwork" width="1913" height="888" alt="Aura Streamlit interface with a new chat, message input, and PDF upload area">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="assets/img/portfolio/aura%201.0/1113.png" class="glightbox" data-gallery="aura-project" data-title="Recruitment assistant FAQs" aria-label="Enlarge recruitment assistant FAQs">
+                    <img src="assets/img/portfolio/aura%201.0/1113.png" class="img-fluid project-artwork" width="4578" height="2160" alt="Aura chat answering questions about its recruitment capabilities and candidate ranking">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="assets/img/portfolio/aura%201.0/1113(1).png" class="glightbox" data-gallery="aura-project" data-title="Candidate matching and interview requests" aria-label="Enlarge candidate matching and interview requests">
+                    <img src="assets/img/portfolio/aura%201.0/1113(1).png" class="img-fluid project-artwork" width="4578" height="2160" alt="Aura chat showing ranked candidates, matching explanations, and a response to interview scheduling and email requests">
+                  </a>
+                </div>
+              </div>
+              <button type="button" class="carousel-control-prev" data-bs-target="#aura-gallery" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
+                <span class="visually-hidden">Previous image</span>
+              </button>
+              <button type="button" class="carousel-control-next" data-bs-target="#aura-gallery" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
+                <span class="visually-hidden">Next image</span>
+              </button>
+            </div>
           </div>
           <div class="col-lg-5">
             <aside class="portfolio-info" aria-labelledby="project-info-title">
@@ -186,6 +221,12 @@
           <h3 id="qdrant-search" tabindex="-1">Semantic Search with Qdrant</h3>
           <p>Candidate embeddings are stored in <strong>Qdrant</strong>, a vector database that enables efficient semantic retrieval.</p>
           <p>When a recruiter submits a job description, Aura generates its embedding and uses <strong>cosine similarity</strong> to retrieve and rank the most relevant candidates.</p>
+          <figure class="qdrant-figure my-4">
+            <a href="assets/img/portfolio/aura%201.0/qdrant.png" class="glightbox" data-gallery="aura-explanations" data-title="Candidate vectors and metadata in Qdrant" aria-label="Enlarge the Qdrant cvs collection visualization">
+              <img src="assets/img/portfolio/aura%201.0/qdrant.png" class="img-fluid project-artwork" width="1898" height="906" loading="lazy" alt="Qdrant cvs collection visualization showing candidate vectors and selected metadata, including candidate identifiers and resume text">
+            </a>
+            <figcaption><em>Visualization of the <code>cvs</code> collection in Qdrant, showing stored candidate vectors and their associated metadata, including candidate identifiers and resume text.</em></figcaption>
+          </figure>
           <h3 id="retrieval-augmented-generation" tabindex="-1">Retrieval-Augmented Generation (RAG)</h3>
           <p>Aura uses <strong>RAG</strong> to connect semantic retrieval with LLM-powered explanations.</p>
           <p>Instead of relying only on the LLM's pretrained knowledge, the system provides the retrieved candidate information and job requirements as context for generating responses.</p>
@@ -305,6 +346,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    bootstrap.Carousel.getOrCreateInstance(document.getElementById('aura-gallery'), {
+      interval: false,
+      ride: false
+    });
+  </script>
 
 </body>
 
