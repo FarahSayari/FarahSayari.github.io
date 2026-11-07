@@ -525,7 +525,9 @@ The portfolio uses a masonry grid with project labels in hover overlays. The ima
 
 > Personalized Digital Library & AI Reading Companion
 
-**AI Agent Recruiter**
+**Aura 2.0**
+
+> Agentic AI Career Assistant
 
 **TestPilot**
 
@@ -535,14 +537,24 @@ The portfolio uses a masonry grid with project labels in hover overlays. The ima
 
 > AI-Powered Pulmonary Nodule Analysis
 
+**Aura 1.0**
+
+> AI Recruiter Agent
+
+**QuizMaster**
+
+> Clustering Algorithms for Heterogeneous Student Groups
+
 ### Project entries and filter membership
 
 | Project | Description | Filters | Detail destination |
 | --- | --- | --- | --- |
 | LollyBooks | Personalized Digital Library & AI Reading Companion | App, Web | portfolio-details.html |
-| AI Agent Recruiter | (empty) | App | (none) |
+| Aura 2.0 | Agentic AI Career Assistant | App | (none) |
 | TestPilot | AI-Assisted Test Automation Platform | App | testpilot-details.html |
 | PulmoTrack | AI-Powered Pulmonary Nodule Analysis | Web | pulmotrack-details.html |
+| Aura 1.0 | AI Recruiter Agent | App | (none) |
+| QuizMaster | Clustering Algorithms for Heterogeneous Student Groups | App | (none) |
 
 The default filter is All. Filter membership and every existing detail destination are listed in the table above. Project image preview links open the lightbox. Entries without detail links remain unlinked. The filter controls also support Enter and Space in the current inline script.
 
@@ -550,19 +562,24 @@ The default filter is All. Filter membership and every existing detail destinati
 
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
-| Preview LollyBooks artwork | assets/img/portfolio/lollybooks/library-art.jpg | (empty) |
+| Preview LollyBooks artwork | assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png | (empty) |
 | LollyBooks project details | portfolio-details.html | (empty) |
+| Preview Aura 2.0 artwork | assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png | (empty) |
 | TestPilot project details | testpilot-details.html | (empty) |
 | PulmoTrack project details | pulmotrack-details.html | (empty) |
+| Preview Aura 1.0 artwork | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | (empty) |
+| Preview QuizMaster artwork | assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png | (empty) |
 
 ### Main-content images
 
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
-| assets/img/portfolio/lollybooks/library-art.jpg | Cozy pink bookshelves with string lights and a My Reading Library neon sign | (empty) |
-| assets/img/masonry-portfolio/masonry-portfolio-2.jpg | (empty) | presentation |
+| assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png | Cozy pink bookshelves with string lights and a My Reading Library neon sign | (empty) |
+| assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png | Aura 2.0 Agentic AI Career Assistant artwork with a digital assistant and career progress illustration | (empty) |
 | assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png | TestPilot logo and AI-Assisted Test Automation Platform title on a purple gradient background | (empty) |
-| assets/img/portfolio/pulmotrack/pulmotrack.png | PulmoTrack project artwork illustrating CT-based nodule detection, segmentation, and classification | (empty) |
+| assets/img/portfolio/pulmotrack/PulmoTrack_ AI Lung Analysis.png | PulmoTrack project artwork illustrating CT-based nodule detection, segmentation, and classification | (empty) |
+| assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | Aura 1.0 AI Recruiter Agent artwork with a candidate profile and recruitment search illustration | (empty) |
+| assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png | QuizMaster artwork illustrating student groups, a quiz checklist, and learning progress | (empty) |
 
 ## 07 · LollyBooks project details
 
@@ -1630,8 +1647,6 @@ The document records the website as it exists. These items are observations for 
 | Observation | Pages / current value |
 | --- | --- |
 | Header/footer email destinations | farahsayari.dev@gmail.com: about.html, certifications.html, contact.html, digital-gallery.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html, testpilot-details.html; farah.sayari@esprit.tn: about.html, certifications.html, digital-gallery.html, index.html, services.html |
-| Project entries without descriptions or links | AI Agent Recruiter |
-| Different project naming | The resume calls its career assistant Aura; the portfolio entry is titled AI Agent Recruiter. This reference does not assume that they are the same project. |
 | Retained starter page | starter-page.html. Current brand: FARAH. Its exact content and links are recorded in its section. |
 | Residual contact template backend | forms/contact.php remains present. Configured receiving address: contact@example.com. Current HTML form actions: https://formspree.io/f/xgojgjbj |
 

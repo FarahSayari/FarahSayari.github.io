@@ -1299,7 +1299,11 @@
         },
         {
           "tag": "h4",
-          "text": "AI Agent Recruiter"
+          "text": "Aura 2.0"
+        },
+        {
+          "tag": "p",
+          "text": "Agentic AI Career Assistant"
         },
         {
           "tag": "h4",
@@ -1316,6 +1320,22 @@
         {
           "tag": "p",
           "text": "AI-Powered Pulmonary Nodule Analysis"
+        },
+        {
+          "tag": "h4",
+          "text": "Aura 1.0"
+        },
+        {
+          "tag": "p",
+          "text": "AI Recruiter Agent"
+        },
+        {
+          "tag": "h4",
+          "text": "QuizMaster"
+        },
+        {
+          "tag": "p",
+          "text": "Clustering Algorithms for Heterogeneous Student Groups"
         }
       ],
       "navigation": [
@@ -1397,12 +1417,17 @@
       "links": [
         [
           "Preview LollyBooks artwork",
-          "assets/img/portfolio/lollybooks/library-art.jpg",
+          "assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png",
           ""
         ],
         [
           "LollyBooks project details",
           "portfolio-details.html",
+          ""
+        ],
+        [
+          "Preview Aura 2.0 artwork",
+          "assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png",
           ""
         ],
         [
@@ -1414,18 +1439,28 @@
           "PulmoTrack project details",
           "pulmotrack-details.html",
           ""
+        ],
+        [
+          "Preview Aura 1.0 artwork",
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png",
+          ""
+        ],
+        [
+          "Preview QuizMaster artwork",
+          "assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png",
+          ""
         ]
       ],
       "images": [
         [
-          "assets/img/portfolio/lollybooks/library-art.jpg",
+          "assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png",
           "Cozy pink bookshelves with string lights and a My Reading Library neon sign",
           ""
         ],
         [
-          "assets/img/masonry-portfolio/masonry-portfolio-2.jpg",
-          "",
-          "presentation"
+          "assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png",
+          "Aura 2.0 Agentic AI Career Assistant artwork with a digital assistant and career progress illustration",
+          ""
         ],
         [
           "assets/img/portfolio/testpilot/TESTPILOT%20AI%20Automation%20Platform.png",
@@ -1433,8 +1468,18 @@
           ""
         ],
         [
-          "assets/img/portfolio/pulmotrack/pulmotrack.png",
+          "assets/img/portfolio/pulmotrack/PulmoTrack_ AI Lung Analysis.png",
           "PulmoTrack project artwork illustrating CT-based nodule detection, segmentation, and classification",
+          ""
+        ],
+        [
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png",
+          "Aura 1.0 AI Recruiter Agent artwork with a candidate profile and recruitment search illustration",
+          ""
+        ],
+        [
+          "assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png",
+          "QuizMaster artwork illustrating student groups, a quiz checklist, and learning progress",
           ""
         ]
       ],
@@ -1452,23 +1497,28 @@
           "links": [
             [
               "Preview LollyBooks artwork",
-              "assets/img/portfolio/lollybooks/library-art.jpg"
+              "assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png"
             ],
             [
               "LollyBooks project details",
               "portfolio-details.html"
             ]
           ],
-          "image": "assets/img/portfolio/lollybooks/library-art.jpg"
+          "image": "assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png"
         },
         {
-          "name": "AI Agent Recruiter",
-          "description": "",
+          "name": "Aura 2.0",
+          "description": "Agentic AI Career Assistant",
           "categories": [
             "filter-app"
           ],
-          "links": [],
-          "image": "assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
+          "links": [
+            [
+              "Preview Aura 2.0 artwork",
+              "assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png"
+            ]
+          ],
+          "image": "assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png"
         },
         {
           "name": "TestPilot",
@@ -1496,7 +1546,35 @@
               "pulmotrack-details.html"
             ]
           ],
-          "image": "assets/img/portfolio/pulmotrack/pulmotrack.png"
+          "image": "assets/img/portfolio/pulmotrack/PulmoTrack_ AI Lung Analysis.png"
+        },
+        {
+          "name": "Aura 1.0",
+          "description": "AI Recruiter Agent",
+          "categories": [
+            "filter-app"
+          ],
+          "links": [
+            [
+              "Preview Aura 1.0 artwork",
+              "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png"
+            ]
+          ],
+          "image": "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png"
+        },
+        {
+          "name": "QuizMaster",
+          "description": "Clustering Algorithms for Heterogeneous Student Groups",
+          "categories": [
+            "filter-app"
+          ],
+          "links": [
+            [
+              "Preview QuizMaster artwork",
+              "assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png"
+            ]
+          ],
+          "image": "assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png"
         }
       ],
       "videos": [],
@@ -1539,7 +1617,7 @@
         },
         {
           "region": "main",
-          "text": "Portfolio\n\nA selection of my work in software engineering, Data Science, and AI.\n\nAll App Web\nLollyBooks\n\nPersonalized Digital Library & AI Reading Companion\n\nAI Agent Recruiter\nTestPilot\n\nAI-Assisted Test Automation Platform\n\nPulmoTrack\n\nAI-Powered Pulmonary Nodule Analysis"
+          "text": "Portfolio\n\nA selection of my work in software engineering, Data Science, and AI.\n\nAll App Web\nLollyBooks\n\nPersonalized Digital Library & AI Reading Companion\n\nAura 2.0\n\nAgentic AI Career Assistant\n\nTestPilot\n\nAI-Assisted Test Automation Platform\n\nPulmoTrack\n\nAI-Powered Pulmonary Nodule Analysis\n\nAura 1.0\n\nAI Recruiter Agent\n\nQuizMaster\n\nClustering Algorithms for Heterogeneous Student Groups"
         },
         {
           "region": "footer",
