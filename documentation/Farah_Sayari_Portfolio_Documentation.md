@@ -1582,6 +1582,12 @@ The project image card contains 9 manually switchable images. Previous/next butt
 
 > The architecture separates candidate matching from language generation, using semantic search to identify relevant profiles and an LLM to provide meaningful explanations.
 
+**Dataset & Data Preparation**
+
+> Aura 1.0 uses the AI Recruitment Pipeline Dataset, available on Kaggle, as a source of candidate recruitment data.
+
+> Dataset source: AI Recruitment Pipeline Dataset — Kaggle (opens in a new tab)
+
 **Resume Processing & BERT Embeddings**
 
 > Candidate resumes are extracted and preprocessed before being converted into numerical representations using the pretrained BERT base uncased model.
@@ -1750,6 +1756,7 @@ The project image card contains 4 manually switchable images. Previous/next butt
 | Enlarge the Aura 1.0 recruiting challenge illustration | assets/img/portfolio/aura%201.0/Aura%201.0_%20The%20Recruiting%20Challenge.png | (empty) |
 | Enlarge the Aura 1.0 methodology infographic | assets/img/portfolio/aura%201.0/Aura%201.0%20Methodology%20Infographic.png | (empty) |
 | Enlarge the Aura 1.0 AI architecture diagram | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Architecture.png | (empty) |
+| AI Recruitment Pipeline Dataset — Kaggle (opens in a new tab) | https://www.kaggle.com/datasets/yaswanthkumary/ai-recruitment-pipeline-dataset | (empty) |
 | Enlarge the Qdrant cvs collection visualization | assets/img/portfolio/aura%201.0/qdrant.png | (empty) |
 | Watch the Aura 1.0 demo (MP4) | assets/videos/Aura.mp4 | (empty) |
 
