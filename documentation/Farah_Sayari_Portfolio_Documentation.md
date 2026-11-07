@@ -1,10 +1,10 @@
 # Farah Sayari
 Portfolio content reference
-06 November 2026 · Africa/Tunis
+07 November 2026 · Africa/Tunis
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-06 · Africa/Tunis · 12 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-07 · Africa/Tunis · 12 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -1018,7 +1018,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > Full-Stack Engineering · Agentic AI · Test Automation · DevOps
 
-> Developed during my end-of-studies internship (PFE) at VERMEG, TestPilot is an AI-assisted regression testing platform that transforms recorded browser interactions into structured test scenarios and automated Cypress tests, integrating AI-powered generation, human validation, and test management.
+> TestPilot is a full-stack, AI-assisted regression testing platform developed during my end-of-studies internship at VERMEG.
 
 > Previous image
 
@@ -1040,6 +1040,8 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Status: Completed — Functional Prototype
 
+> Watch Demo
+
 **Technologies & Tools**
 
 > Frontend: Angular
@@ -1058,39 +1060,33 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > Jump directly to a section of the project.
 
-> • Project Information
+> • Overview
 
-> • Technologies & Tools
+> • Challenge
 
-> • Project Overview
+> • Solution
 
-> • The Challenge
+> • Methodology
 
-> • The Solution End-to-End Workflow Execution Modes
+> • Contributions
 
-> • Development Methodology — Scrumban
+> • AI Architecture
 
-> • My Contributions Full-Stack Application Development Browser Recording & Test Automation Agentic AI Pipeline DevOps & Integration
+> • Additional Capabilities
 
-> • AI Architecture — Hybrid & Bounded Agentic Automation Agent 1 — Scenario Processing Agent 2 — Test Model Generation Agent 3 — Cypress Script Generation & Repair Prompt Engineering & LLM Control Controlled Orchestration & Human Validation
+> • Demonstrations
 
-> • Additional Capabilities Test Management AI Assistance Chatbot CI/CD Integration
-
-> • Demonstrations & Validation Demo 1 — From Scenario Recording to Automated Testing Demo 2 — CI/CD-Triggered Regression Testing Demonstration Application — SauceDemo
+> • Results & Achievements
 
 > • Key Takeaways
 
 **Project Overview**
 
-> Developed during my end-of-studies internship at VERMEG, TestPilot is a full-stack, AI-assisted platform designed to streamline regression testing.
+> TestPilot is a web-based platform that connects the main stages of regression testing, from recording business scenarios and generating automated tests to managing test campaigns and analyzing execution results.
 
-> It enables Business Analysts and QA Engineers to record application workflows, transform them into structured test models, and generate automated Cypress scripts through a hybrid agentic AI pipeline.
+> It combines an Angular web application, a custom Chrome recording extension, a controlled agentic AI pipeline, and Cypress-based automation in a unified workspace.
 
-> The platform goes beyond test generation by integrating test management, script validation, human approval, automated execution, and reporting.
-
-> Through Docker and GitHub Actions, TestPilot also supports continuous testing within CI/CD workflows, connecting test automation to the software delivery process.
-
-> The objective is to make regression testing more efficient, reliable, and traceable while keeping human oversight at the center of the process.
+> The platform supports four user roles — Admin, Business Analyst, QA Engineer, and QA Manager — with dedicated interfaces and permissions. Regression tests can be executed manually, on a schedule, or through CI/CD pipelines.
 
 **The Challenge**
 
@@ -1104,11 +1100,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **The Solution**
 
-> TestPilot brings the different stages of regression testing into a single platform, combining browser recording, AI-assisted test generation, automated validation, test management, and execution.
-
-> The platform supports four user roles — Admin, Business Analyst (BA), QA Engineer, and QA Manager — each with responsibilities and permissions tailored to the testing workflow.
-
-> Rather than relying entirely on AI-generated code, TestPilot follows a structured process where test assets are progressively generated, validated, and reviewed before execution.
+> TestPilot turns recorded browser workflows into validated testing assets through the end-to-end workflow below. Teams then organize approved tests into regression campaigns and choose how to execute them.
 
 **End-to-End Workflow**
 
@@ -1133,8 +1125,6 @@ The project image card contains 2 manually switchable images. Previous/next butt
 > • Scheduled Execution: Automatically run test cycles at predefined times.
 
 > • CI/CD-Triggered Execution: Automatically trigger regression cycles through GitHub Actions as part of a software delivery pipeline.
-
-> By combining AI-assisted automation, role-based collaboration, and flexible execution modes, TestPilot simplifies regression testing while maintaining traceability, reliability, and human control.
 
 **Development Methodology — Scrumban**
 
@@ -1184,11 +1174,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **AI Architecture — Hybrid & Bounded Agentic Automation**
 
-> At the core of TestPilot is a hybrid and bounded agentic AI system that transforms recorded browser interactions into automated Cypress tests.
-
-> The architecture combines deterministic processing, LangGraph workflows, and a locally hosted LLM (Gemma via Ollama) to support reliable test generation and controlled script repair.
-
-> The pipeline consists of three specialized agents, each implemented as an independent LangGraph workflow and coordinated by the Spring Boot backend.
+> TestPilot's architecture prioritizes predictable outputs and explicit execution boundaries. Deterministic logic handles the baseline, while optional LLM assistance is restricted to evidence-supported enrichment and repair.
 
 **Agent 1 — Scenario Processing**
 
@@ -1238,8 +1224,6 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > Finally, generated scripts undergo automated validation and human approval before becoming executable testing assets.
 
-> This hybrid and bounded approach combines the flexibility of AI with the predictability of deterministic automation, while maintaining reliability, traceability, and human control.
-
 **Additional Capabilities**
 
 **Test Management**
@@ -1264,7 +1248,9 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **CI/CD Integration**
 
-> GitHub Actions integration demonstrates how regression campaigns can be triggered within a software delivery workflow, with execution results retrieved for reporting.
+> TestPilot connects regression testing to software delivery through GitHub Actions. In the demonstration, a code push triggers a workflow that deploys the updated demo application, starts a TestPilot regression cycle, and retrieves its results for reporting.
+
+> Watch the CI/CD demonstration
 
 **Demonstrations & Validation**
 
@@ -1314,6 +1300,20 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > Credits: SauceDemo — Sauce Labs (opens in a new tab)
 
+**Results & Achievements**
+
+> TestPilot was validated through end-to-end demonstrations covering test generation, script validation, and automated regression execution.
+
+> • End-to-end test generation: Successfully demonstrated the transformation of recorded browser interactions into structured Test Models and Cypress scripts.
+
+> • Controlled validation: Implemented automated script validation, evidence-based repair mechanisms, and human approval before official execution.
+
+> • Regression execution: Demonstrated the execution of regression test cycles with recorded results and supporting evidence.
+
+> • CI/CD integration: Connected an application code push to an automated GitHub Actions workflow that triggers a TestPilot regression cycle and retrieves its results.
+
+> These demonstrations validate the platform's core workflow, showing how AI-assisted test generation can be integrated with controlled execution and continuous testing.
+
 **Key Takeaways**
 
 > Developing TestPilot gave me hands-on experience in building a complete software engineering solution that combines full-stack development, agentic AI, browser automation, and DevOps.
@@ -1352,38 +1352,22 @@ The project image card contains 9 manually switchable images. Previous/next butt
 | Enlarge Test Case details | assets/img/portfolio/testpilot/test%20case%20detail2.png | (empty) |
 | Enlarge Test Cycles overview | assets/img/portfolio/testpilot/test%20cycle%20interface.png | (empty) |
 | Enlarge Test Cycle details | assets/img/portfolio/testpilot/test%20cycle%20detail.png | (empty) |
-| Project Information | #project-info-title | (empty) |
-| Technologies & Tools | #technologies-tools | (empty) |
-| Project Overview | #project-overview | (empty) |
-| The Challenge | #the-challenge | (empty) |
-| The Solution | #the-solution | (empty) |
-| End-to-End Workflow | #end-to-end-workflow | (empty) |
-| Execution Modes | #execution-modes | (empty) |
-| Development Methodology — Scrumban | #development-methodology-scrumban | (empty) |
-| My Contributions | #my-contributions | (empty) |
-| Full-Stack Application Development | #full-stack-application-development | (empty) |
-| Browser Recording & Test Automation | #browser-recording-test-automation | (empty) |
-| Agentic AI Pipeline | #agentic-ai-pipeline | (empty) |
-| DevOps & Integration | #devops-integration | (empty) |
-| AI Architecture — Hybrid & Bounded Agentic Automation | #ai-architecture-controlled-agentic-automation | (empty) |
-| Agent 1 — Scenario Processing | #agent-1-scenario-processing | (empty) |
-| Agent 2 — Test Model Generation | #agent-2-test-model-generation | (empty) |
-| Agent 3 — Cypress Script Generation & Repair | #agent-3-cypress-script-generation | (empty) |
-| Prompt Engineering & LLM Control | #prompt-engineering-llm-control | (empty) |
-| Controlled Orchestration & Human Validation | #controlled-orchestration-human-validation | (empty) |
+| Watch Demo | #demonstrations-validation | (empty) |
+| Overview | #project-overview | (empty) |
+| Challenge | #the-challenge | (empty) |
+| Solution | #the-solution | (empty) |
+| Methodology | #development-methodology-scrumban | (empty) |
+| Contributions | #my-contributions | (empty) |
+| AI Architecture | #ai-architecture-controlled-agentic-automation | (empty) |
 | Additional Capabilities | #additional-capabilities | (empty) |
-| Test Management | #test-management | (empty) |
-| AI Assistance Chatbot | #ai-assistance-chatbot | (empty) |
-| CI/CD Integration | #ci-cd-integration | (empty) |
-| Demonstrations & Validation | #demonstrations-validation | (empty) |
-| Demo 1 — From Scenario Recording to Automated Testing | #scenario-demo-title | (empty) |
-| Demo 2 — CI/CD-Triggered Regression Testing | #cicd-demo-title | (empty) |
-| Demonstration Application — SauceDemo | #demonstration-application-saucedemo | (empty) |
+| Demonstrations | #demonstrations-validation | (empty) |
+| Results & Achievements | #results-achievements | (empty) |
 | Key Takeaways | #key-takeaways | (empty) |
 | Enlarge the AI-Powered Regression Testing Workflow illustration | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | (empty) |
 | Enlarge the Scrumban methodology diagram | assets/img/portfolio/testpilot/Scrumban%20Neon%20Venn%20Diagram%20Banner.png | (empty) |
 | Enlarge the TestPilot AI architecture diagram | assets/img/portfolio/testpilot/ai%20arch.png | (empty) |
 | Enlarge the TestPilot AI Assistance Showcase | assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png | (empty) |
+| Watch the CI/CD demonstration | #cicd-demo-title | (empty) |
 | Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
 | Watch the CI/CD regression testing demo (MP4) | assets/videos/testpilot-ci-cd-demo.mp4 | (empty) |
 | SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
