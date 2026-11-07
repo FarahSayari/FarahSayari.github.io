@@ -450,11 +450,37 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 > Courses and certifications from my learning journey.
 
-**Always learning.**
+> AWS Academy
 
-> A place to share the certificates I earn through courses and continued learning.
+**AWS Academy Graduate — Cloud Foundations — Training Badge**
 
-> My course certificates are coming soon.
+> Issued 14 November 2025 · 20 course hours
+
+> View credential on Credly (opens in a new tab)
+
+> 365 Data Science
+
+**Machine Learning in Python**
+
+> Issued 19 November 2024
+
+> View credential on 365 Data Science (opens in a new tab)
+
+### Main-content links and downloads
+
+| Exact label / accessible label | Exact destination | Download filename |
+| --- | --- | --- |
+| Enlarge AWS Academy Cloud Foundations certificate | assets/certifs/AWS.png | (empty) |
+| View credential on Credly (opens in a new tab) | https://www.credly.com/go/xGdC1GXZ | (empty) |
+| Enlarge Machine Learning in Python certificate | assets/certifs/Certificate%20of%20Achievement%20in%20Machine%20Learning%20in%20Python.jpg | (empty) |
+| View credential on 365 Data Science (opens in a new tab) | https://learn.365datascience.com/c/6c1179834d/ | (empty) |
+
+### Main-content images
+
+| Image path | Exact alternate text | Role |
+| --- | --- | --- |
+| assets/certifs/AWS.png | Farah Sayari's AWS Academy Graduate Cloud Foundations training certificate, issued 14 November 2025 after completing 20 course hours | (empty) |
+| assets/certifs/Certificate%20of%20Achievement%20in%20Machine%20Learning%20in%20Python.jpg | Farah Sayari's certificate of achievement in Machine Learning in Python from 365 Data Science, dated 19 November 2024 | (empty) |
 
 ## 05 · Services
 
