@@ -1446,6 +1446,11 @@
           ""
         ],
         [
+          "Aura 1.0 project details",
+          "aura-1-details.html",
+          ""
+        ],
+        [
           "Preview QuizMaster artwork",
           "assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png",
           ""
@@ -1558,6 +1563,10 @@
             [
               "Preview Aura 1.0 artwork",
               "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png"
+            ],
+            [
+              "Aura 1.0 project details",
+              "aura-1-details.html"
             ]
           ],
           "image": "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png"
@@ -3970,6 +3979,786 @@
         {
           "region": "main",
           "text": "Back to Portfolio\nTestPilot — AI-Assisted Test Automation Platform\n\nFull-Stack Engineering · Agentic AI · Test Automation · DevOps\n\nTestPilot is a full-stack, AI-assisted regression testing platform developed during my end-of-studies internship at VERMEG.\n\nPrevious image\nNext image\nProject Information\nCategory: Software Engineering · Agentic AI · Test Automation\nProject Type: End-of-Studies Internship (PFE)\nCompany: VERMEG\nRole: Full-Stack & AI Software Engineer\nDuration: February – August 2026\nMethodology: Scrumban\nStatus: Completed — Functional Prototype\nWatch Demo\nTechnologies & Tools\n\nFrontend: Angular\n\nBackend: Java · Spring Boot · Spring Security · REST APIs\n\nAI & Agentic Workflows: Python · FastAPI · LangGraph · LLMs · Ollama · Gemma\n\nBrowser Automation: Chrome Extension (Manifest V3) · Cypress · JavaScript\n\nDatabase: PostgreSQL\n\nDevOps & Infrastructure: Docker · Nginx · GitHub Actions · CI/CD\n\nProject Summary\n\nJump directly to a section of the project.\n\nOverview\nChallenge\nSolution\nMethodology\nContributions\nAI Architecture\nAdditional Capabilities\nDemonstrations\nResults & Achievements\nKey Takeaways\nProject Overview\n\nTestPilot is a web-based platform that connects the main stages of regression testing, from recording business scenarios and generating automated tests to managing test campaigns and analyzing execution results.\n\nIt combines an Angular web application, a custom Chrome recording extension, a controlled agentic AI pipeline, and Cypress-based automation in a unified workspace.\n\nThe platform supports four user roles — Admin, Business Analyst, QA Engineer, and QA Manager — with dedicated interfaces and permissions. Regression tests can be executed manually, on a schedule, or through CI/CD pipelines.\n\nThe Challenge\n\nIn complex software environments, frequent updates make regression testing essential to ensure applications remain stable and reliable.\n\nAlthough test automation tools already exist, creating and maintaining test scripts still requires significant manual effort. QA teams must write scripts, update them as applications evolve, and manage test executions.\n\nThis repetitive work takes time, increases the risk of human errors, and can slow down software delivery. AI can help automate these tasks, but generated tests still need to be reviewed and validated.\n\nThe challenge: How can we reduce the manual effort of creating and maintaining automated regression tests while ensuring their reliability and keeping human control?\n\nThe Solution\n\nTestPilot turns recorded browser workflows into validated testing assets through the end-to-end workflow below. Teams then organize approved tests into regression campaigns and choose how to execute them.\n\nEnd-to-End Workflow\nRecord: Capture real user interactions through a custom Chrome extension.\nProcess: Transform recorded actions into structured scenarios, variables, and reliable locators.\nGenerate: Produce a Test Model and an executable Cypress script draft.\nValidate: Verify the generated script through automated execution.\nReview & Approve: Allow QA teams to inspect and approve validated scripts.\nManage & Execute: Organize regression campaigns through Test Plans and Test Cycles, then analyze execution results.\nExecution Modes\n\nTestPilot supports three ways to execute regression test cycles:\n\nManual Execution: Launch a test cycle directly from the platform.\nScheduled Execution: Automatically run test cycles at predefined times.\nCI/CD-Triggered Execution: Automatically trigger regression cycles through GitHub Actions as part of a software delivery pipeline.\nDevelopment Methodology — Scrumban\n\nTestPilot was developed using Scrumban, combining the iterative approach of Scrum with the flexibility of Kanban.\n\nDevelopment was organized around a prioritized backlog, incremental feature delivery, and regular progress reviews.\n\nThe project evolved through successive stages, from the full-stack foundation and browser recording extension to the AI generation pipeline, test management, validation, and CI/CD integration.\n\nThis approach allowed me to continuously test new features, address technical challenges, and refine the platform based on feedback throughout the internship.\n\nMy Contributions\n\nI was responsible for designing and developing the platform across its principal components.\n\nFull-Stack Application Development\nDeveloped the web application using Angular, Spring Boot, and PostgreSQL.\nImplemented REST APIs, authentication, role-based access control, and project management features.\nBuilt interfaces for scenario recording, test management, script validation, and execution reporting.\nBrowser Recording & Test Automation\nDeveloped a Chrome extension using Manifest V3 to capture browser interactions and relevant page observations.\nImplemented action processing, locator selection, and variable extraction to reconstruct recorded workflows.\nIntegrated Cypress for automated test validation and regression execution.\nAgentic AI Pipeline\nDesigned a hybrid architecture combining deterministic processing with controlled LLM assistance.\nDeveloped workflows for scenario processing, Test Model generation, and Cypress script generation.\nIntegrated AI-assisted script improvement with validation feedback and bounded execution controls.\nDevOps & Integration\nContainerized application services using Docker.\nIntegrated GitHub Actions for CI/CD workflows.\nConnected automated regression execution with reporting and traceability mechanisms.\nAI Architecture — Hybrid & Bounded Agentic Automation\n\nTestPilot's architecture prioritizes predictable outputs and explicit execution boundaries. Deterministic logic handles the baseline, while optional LLM assistance is restricted to evidence-supported enrichment and repair.\n\nAgent 1 — Scenario Processing\n\nA fully deterministic agent that cleans and structures recorded interactions, extracts reusable variables, selects reliable element locators, and preserves traceability to the original recording.\n\nIt uses predefined processing rules without relying on an LLM, ensuring consistent and reproducible results.\n\nAgent 2 — Test Model Generation\n\nA hybrid agent that transforms processed scenarios into structured Test Models containing steps, preconditions, variables, expected results, and proposed automation checks.\n\nIt first generates a deterministic baseline, then optionally uses Gemma to analyze recorded evidence, enrich test descriptions, and suggest relevant assertions.\n\nAI-generated checks must be supported by recorded evidence and remain subject to human review before approval.\n\nAgent 3 — Cypress Script Generation & Repair\n\nA hybrid agent responsible for generating Cypress test scripts and assisting with script repair.\n\nInitial scripts are generated deterministically from structured Test Models, ensuring that recorded actions and approved assertions are preserved.\n\nWhen script validation fails, the agent can optionally use Gemma to analyze failure diagnostics and propose targeted repairs, such as correcting element locators or synchronization issues.\n\nAI-assisted repairs are restricted to evidence-supported changes. Repaired scripts must pass validation again before they can be approved for execution.\n\nPrompt Engineering & LLM Control\n\nTo improve the reliability of AI-generated outputs, I applied several prompt engineering techniques:\n\nZero-shot prompting: Provides clear instructions, constraints, and expected output formats without relying on worked examples.\nRole prompting: Defines each LLM-assisted task's responsibilities and limits, keeping generation focused on the intended objective.\nTool-augmented prompting: Allows the LLM to retrieve relevant scenario evidence through restricted, read-only tools rather than relying on assumptions.\nPrompt-injection defense: Treats recorded application content as untrusted data, preventing it from overriding the defined workflow instructions.\n\nThese techniques are combined with structured output validation, bounded retries, and deterministic fallbacks to reduce unsupported generation and maintain predictable behavior.\n\nControlled Orchestration & Human Validation\n\nLangGraph manages the internal workflow of each agent, including processing steps, conditional decisions, validation, and optional LLM intervention.\n\nSpring Boot orchestrates the complete pipeline, triggering each agent separately and managing the generated artifacts. The agents do not communicate directly or autonomously delegate tasks to one another.\n\nLLM assistance is limited to predefined operations, with controlled access to evidence, restricted modifications, and execution limits.\n\nFinally, generated scripts undergo automated validation and human approval before becoming executable testing assets.\n\nAdditional Capabilities\nTest Management\n\nTestPilot includes a test management module for organizing Test Cases, Test Plans, and Test Cycles, allowing QA teams to manage regression campaigns and follow execution results.\n\nAI Assistance Chatbot\n\nTestPilot features an intelligent assistant powered by a locally hosted Gemma LLM, designed to help users navigate the platform, understand testing workflows, and access relevant project information.\n\nBuilt with LangGraph and Retrieval-Augmented Generation (RAG), the chatbot combines application documentation with real-time project data retrieved through secure, read-only tools.\n\nTo improve reliability and reduce AI hallucinations, I implemented several safeguards:\n\nEvidence-grounded responses: The assistant retrieves relevant information before answering and provides validated supporting sources.\nHallucination reduction: When information is missing or insufficient, it acknowledges its limitations rather than generating unsupported answers.\nRole-based access: Project information is retrieved according to the user's permissions, preventing unauthorized access.\nControlled AI behavior: The assistant operates within predefined tools and execution limits, without modifying data or performing sensitive actions.\nCI/CD Integration\n\nTestPilot connects regression testing to software delivery through GitHub Actions. In the demonstration, a code push triggers a workflow that deploys the updated demo application, starts a TestPilot regression cycle, and retrieves its results for reporting.\n\nWatch the CI/CD demonstration \n\nDemonstrations & Validation\n\nTo demonstrate TestPilot's capabilities, I used SauceDemo, an external sample e-commerce application, as a controlled testing environment.\n\nThe demonstrations cover the complete testing workflow, from recording user interactions and generating automated tests to triggering regression campaigns through CI/CD.\n\nDemo 1 — From Scenario Recording to Automated Testing\n\nThis demonstration illustrates how TestPilot transforms a recorded business scenario into an executable automated test.\n\nIt covers:\n\nRecording browser interactions using the Chrome extension.\nProcessing the recorded actions.\nGenerating the structured Test Model.\nGenerating the Cypress script.\nValidating the generated script.\nVideo: Scenario Recording & AI Generation Demo\nDemo 2 — CI/CD-Triggered Regression Testing\n\nThis demonstration showcases TestPilot's integration with GitHub Actions.\n\nA code change is pushed to the separate SauceDemo application repository, triggering an automated CI/CD workflow.\n\nThe workflow deploys the updated test application in the controlled demonstration environment, starts a TestPilot regression cycle, and retrieves its execution results.\n\nThis illustrates how TestPilot can integrate regression testing into a continuous delivery workflow without requiring manual execution of every test campaign.\n\nVideo: Automated Regression Testing with GitHub Actions\nDemonstration Application — SauceDemo\n\nBoth demonstrations use SauceDemo, a publicly available sample e-commerce application developed by Sauce Labs.\n\nSauceDemo was used exclusively as an external application under test and is not part of TestPilot's original development.\n\nCredits: SauceDemo — Sauce Labs\n(opens in a new tab)\n\nResults & Achievements\n\nTestPilot was validated through end-to-end demonstrations covering test generation, script validation, and automated regression execution.\n\nEnd-to-end test generation: Successfully demonstrated the transformation of recorded browser interactions into structured Test Models and Cypress scripts.\nControlled validation: Implemented automated script validation, evidence-based repair mechanisms, and human approval before official execution.\nRegression execution: Demonstrated the execution of regression test cycles with recorded results and supporting evidence.\nCI/CD integration: Connected an application code push to an automated GitHub Actions workflow that triggers a TestPilot regression cycle and retrieves its results.\n\nThese demonstrations validate the platform's core workflow, showing how AI-assisted test generation can be integrated with controlled execution and continuous testing.\n\nKey Takeaways\n\nDeveloping TestPilot gave me hands-on experience in building a complete software engineering solution that combines full-stack development, agentic AI, browser automation, and DevOps.\n\nOne of the most important lessons was that reliable AI-assisted automation requires more than generating code. It also depends on structured processing, validation, traceability, and human oversight.\n\nThis project strengthened my ability to design interconnected services, solve integration challenges, and build practical AI-powered tools that support real software engineering workflows."
+        },
+        {
+          "region": "footer",
+          "text": "© Copyright Farah Sayari All Rights Reserved\n"
+        }
+      ]
+    },
+    {
+      "file": "aura-1-details.html",
+      "title": "Aura 1.0 - Farah Sayari",
+      "language": "en",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Aura 1.0, an AI-powered recruitment assistant by Farah Sayari, combines BERT embeddings, Qdrant semantic search, LangGraph workflows, and local LLM explanations."
+      },
+      "sections": [
+        [
+          "section",
+          "portfolio-details"
+        ]
+      ],
+      "copy": [
+        {
+          "tag": "a",
+          "text": "Back to Portfolio"
+        },
+        {
+          "tag": "h2",
+          "text": "Aura 1.0 — AI Recruiter Agent"
+        },
+        {
+          "tag": "p",
+          "text": "Artificial Intelligence · NLP · RAG · Agentic AI · Semantic Search"
+        },
+        {
+          "tag": "p",
+          "text": "Aura 1.0 is an AI-powered recruitment assistant designed to help recruiters identify, rank, and understand suitable candidates using semantic search, Retrieval-Augmented Generation (RAG), Large Language Models, and automated recruitment workflows."
+        },
+        {
+          "tag": "h3",
+          "text": "Project Information"
+        },
+        {
+          "tag": "li",
+          "text": "Category: Artificial Intelligence · NLP · RAG · Agentic AI"
+        },
+        {
+          "tag": "li",
+          "text": "Project Type: Academic Project"
+        },
+        {
+          "tag": "li",
+          "text": "Role: AI Engineer"
+        },
+        {
+          "tag": "li",
+          "text": "Methodologies: TDSP · Design Thinking"
+        },
+        {
+          "tag": "li",
+          "text": "Status: Completed"
+        },
+        {
+          "tag": "a",
+          "text": "View Source on GitHub (opens in a new tab)"
+        },
+        {
+          "tag": "h2",
+          "text": "Technologies & Tools"
+        },
+        {
+          "tag": "p",
+          "text": "Programming: Python"
+        },
+        {
+          "tag": "p",
+          "text": "AI & NLP: BERT · Transformers · PyTorch · Large Language Models"
+        },
+        {
+          "tag": "p",
+          "text": "Agentic AI: LangGraph · LangChain · Ollama · Phi-3"
+        },
+        {
+          "tag": "p",
+          "text": "Semantic Search: Qdrant · Vector Embeddings · Cosine Similarity"
+        },
+        {
+          "tag": "p",
+          "text": "Backend: FastAPI · REST APIs"
+        },
+        {
+          "tag": "p",
+          "text": "Frontend: Streamlit"
+        },
+        {
+          "tag": "p",
+          "text": "Data Processing: Pandas · NumPy · Scikit-learn"
+        },
+        {
+          "tag": "h2",
+          "text": "Project Summary"
+        },
+        {
+          "tag": "p",
+          "text": "Jump directly to a section of the project."
+        },
+        {
+          "tag": "li",
+          "text": "Overview"
+        },
+        {
+          "tag": "li",
+          "text": "Challenge"
+        },
+        {
+          "tag": "li",
+          "text": "Solution"
+        },
+        {
+          "tag": "li",
+          "text": "Methodology"
+        },
+        {
+          "tag": "li",
+          "text": "AI Architecture"
+        },
+        {
+          "tag": "li",
+          "text": "Contributions"
+        },
+        {
+          "tag": "li",
+          "text": "Additional Capabilities"
+        },
+        {
+          "tag": "li",
+          "text": "Demonstration"
+        },
+        {
+          "tag": "li",
+          "text": "Results & Achievements"
+        },
+        {
+          "tag": "li",
+          "text": "Key Takeaways"
+        },
+        {
+          "tag": "h2",
+          "text": "Project Overview"
+        },
+        {
+          "tag": "p",
+          "text": "Aura 1.0 is an academic AI project that marked my first experience building AI agents and exploring agentic workflows."
+        },
+        {
+          "tag": "p",
+          "text": "It was an opportunity to challenge myself, discover new technologies, and experiment with TDSP and Design Thinking methodologies."
+        },
+        {
+          "tag": "p",
+          "text": "To better understand how AI agents work, I followed the Hugging Face AI Agents Course, which gave me a strong foundation in agent concepts, tool usage, and frameworks such as LangGraph. I then applied what I learned throughout the development of Aura."
+        },
+        {
+          "tag": "p",
+          "text": "Another interesting challenge was making the assistant multimodal, allowing it to handle resumes in different formats, including PDFs, text, and images."
+        },
+        {
+          "tag": "p",
+          "text": "Aura uses BERT embeddings and Qdrant to match candidate profiles with job descriptions through semantic search. A locally hosted LLM generates explanations of candidate suitability, while LangGraph coordinates the different stages of the recruitment workflow."
+        },
+        {
+          "tag": "p",
+          "text": "The result is a functional prototype that brings together NLP, semantic search, LLMs, and agentic AI to help recruiters identify suitable candidates and simplify recruitment tasks."
+        },
+        {
+          "tag": "h2",
+          "text": "The Challenge"
+        },
+        {
+          "tag": "p",
+          "text": "Recruiters often review numerous resumes to identify candidates whose qualifications match a job description."
+        },
+        {
+          "tag": "p",
+          "text": "Traditional keyword-based filtering can overlook relevant candidates when their skills and experience are expressed differently from the job requirements."
+        },
+        {
+          "tag": "p",
+          "text": "Manual screening and candidate communication also require significant time and effort."
+        },
+        {
+          "tag": "p",
+          "text": "The challenge was to make candidate screening more efficient and meaningful by combining semantic matching, explainable recommendations, and recruitment automation."
+        },
+        {
+          "tag": "h2",
+          "text": "The Solution"
+        },
+        {
+          "tag": "p",
+          "text": "Aura 1.0 combines Natural Language Processing, semantic search, and agent-based workflows to support the recruitment process."
+        },
+        {
+          "tag": "p",
+          "text": "Rather than relying only on exact keyword matches, the system represents resumes and job descriptions as numerical embeddings to compare their semantic content."
+        },
+        {
+          "tag": "p",
+          "text": "It then retrieves suitable candidates, ranks their profiles, and generates human-readable explanations of their compatibility with the position."
+        },
+        {
+          "tag": "h3",
+          "text": "End-to-End Recruitment Workflow"
+        },
+        {
+          "tag": "li",
+          "text": "Process CVs: Extract and preprocess candidate information from resumes."
+        },
+        {
+          "tag": "li",
+          "text": "Generate Embeddings: Convert resume content into BERT-based vector representations."
+        },
+        {
+          "tag": "li",
+          "text": "Store Profiles: Index candidate embeddings in Qdrant for semantic retrieval."
+        },
+        {
+          "tag": "li",
+          "text": "Match Candidates: Compare job descriptions with stored candidate profiles."
+        },
+        {
+          "tag": "li",
+          "text": "Rank & Explain: Return the most relevant candidates with similarity scores and AI-generated explanations."
+        },
+        {
+          "tag": "li",
+          "text": "Assist Recruitment: Support interview invitation emails and scheduling through conversational requests."
+        },
+        {
+          "tag": "p",
+          "text": "This workflow connects candidate discovery, matching, explanation, and communication in a single assistant."
+        },
+        {
+          "tag": "h2",
+          "text": "Project Methodology — TDSP & Design Thinking"
+        },
+        {
+          "tag": "p",
+          "text": "Aura 1.0 was developed using two complementary methodologies: TDSP (Team Data Science Process) and Design Thinking."
+        },
+        {
+          "tag": "p",
+          "text": "Design Thinking provided a framework for understanding recruiter needs, defining the recruitment challenge, exploring solutions, and iterating on the assistant through prototyping and testing."
+        },
+        {
+          "tag": "p",
+          "text": "TDSP structured the data science workflow, from understanding the recruitment problem and preparing resume data to developing semantic matching and integrating the models into the application prototype."
+        },
+        {
+          "tag": "h2",
+          "text": "AI Architecture — Semantic Search, RAG & Agentic Workflows"
+        },
+        {
+          "tag": "p",
+          "text": "Aura 1.0 combines BERT embeddings, Qdrant, Retrieval-Augmented Generation (RAG), LangGraph, and a locally hosted LLM to build an intelligent recruitment assistant."
+        },
+        {
+          "tag": "p",
+          "text": "The architecture separates candidate matching from language generation, using semantic search to identify relevant profiles and an LLM to provide meaningful explanations."
+        },
+        {
+          "tag": "h3",
+          "text": "Resume Processing & BERT Embeddings"
+        },
+        {
+          "tag": "p",
+          "text": "Candidate resumes are extracted and preprocessed before being converted into numerical representations using the pretrained BERT base uncased model."
+        },
+        {
+          "tag": "p",
+          "text": "These embeddings capture contextual information from resumes and job descriptions, allowing the system to identify similarities beyond exact keyword matches."
+        },
+        {
+          "tag": "h3",
+          "text": "Semantic Search with Qdrant"
+        },
+        {
+          "tag": "p",
+          "text": "Candidate embeddings are stored in Qdrant, a vector database that enables efficient semantic retrieval."
+        },
+        {
+          "tag": "p",
+          "text": "When a recruiter submits a job description, Aura generates its embedding and uses cosine similarity to retrieve and rank the most relevant candidates."
+        },
+        {
+          "tag": "h3",
+          "text": "Retrieval-Augmented Generation (RAG)"
+        },
+        {
+          "tag": "p",
+          "text": "Aura uses RAG to connect semantic retrieval with LLM-powered explanations."
+        },
+        {
+          "tag": "p",
+          "text": "Instead of relying only on the LLM's pretrained knowledge, the system provides the retrieved candidate information and job requirements as context for generating responses."
+        },
+        {
+          "tag": "p",
+          "text": "This helps produce more relevant, contextual, and evidence-grounded recommendations."
+        },
+        {
+          "tag": "h3",
+          "text": "LangGraph Recruitment Workflow"
+        },
+        {
+          "tag": "p",
+          "text": "The recruitment process is organized into a LangGraph workflow with five main stages:"
+        },
+        {
+          "tag": "li",
+          "text": "Retrieval: Find relevant candidate profiles from Qdrant."
+        },
+        {
+          "tag": "li",
+          "text": "Analysis: Examine the retrieved resume information."
+        },
+        {
+          "tag": "li",
+          "text": "Skill Extraction: Identify relevant skills and qualifications."
+        },
+        {
+          "tag": "li",
+          "text": "Ranking: Organize candidates based on their semantic similarity to the job description."
+        },
+        {
+          "tag": "li",
+          "text": "Explanation: Generate concise descriptions of candidate suitability."
+        },
+        {
+          "tag": "p",
+          "text": "LangGraph connects these stages into a structured workflow, combining semantic matching with LLM-assisted analysis."
+        },
+        {
+          "tag": "h3",
+          "text": "Local LLM Integration"
+        },
+        {
+          "tag": "p",
+          "text": "Aura integrates Phi-3 through Ollama to generate natural-language explanations of candidate recommendations."
+        },
+        {
+          "tag": "p",
+          "text": "By using the retrieved resumes and job requirements as context, the LLM helps recruiters understand why particular candidates may be suitable for a position."
+        },
+        {
+          "tag": "p",
+          "text": "The generated explanations support human decision-making, while similarity scores indicate semantic relevance rather than guaranteed hiring suitability."
+        },
+        {
+          "tag": "p",
+          "text": "This architecture demonstrates how NLP, vector databases, RAG, and agentic workflows can work together to support a more intelligent and explainable recruitment process."
+        },
+        {
+          "tag": "h2",
+          "text": "My Contributions"
+        },
+        {
+          "tag": "h3",
+          "text": "NLP & Semantic Matching"
+        },
+        {
+          "tag": "li",
+          "text": "Implemented resume preprocessing and BERT-based embedding generation."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated Qdrant for storing and retrieving candidate vector representations."
+        },
+        {
+          "tag": "li",
+          "text": "Developed semantic similarity and ranking logic for matching candidates with job descriptions."
+        },
+        {
+          "tag": "h3",
+          "text": "Agentic AI Development"
+        },
+        {
+          "tag": "li",
+          "text": "Built a LangGraph-based workflow for candidate retrieval, analysis, ranking, and explanation."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated a local LLM to generate concise candidate-matching explanations."
+        },
+        {
+          "tag": "li",
+          "text": "Developed conversational request handling for candidate search and recruitment assistance."
+        },
+        {
+          "tag": "h3",
+          "text": "Application Development"
+        },
+        {
+          "tag": "li",
+          "text": "Developed a Streamlit conversational interface for recruiter interactions."
+        },
+        {
+          "tag": "li",
+          "text": "Integrated backend functionality through FastAPI endpoints."
+        },
+        {
+          "tag": "li",
+          "text": "Implemented workflows supporting candidate search, PDF job descriptions, and interview-related communication."
+        },
+        {
+          "tag": "h2",
+          "text": "Additional Capabilities"
+        },
+        {
+          "tag": "h3",
+          "text": "Conversational Recruitment Assistant"
+        },
+        {
+          "tag": "p",
+          "text": "Aura provides a chat-based interface where recruiters can describe their hiring needs in natural language."
+        },
+        {
+          "tag": "p",
+          "text": "For example, a recruiter can request the top three candidates matching a particular job description and receive a ranked list with explanations."
+        },
+        {
+          "tag": "h3",
+          "text": "Explainable Candidate Recommendations"
+        },
+        {
+          "tag": "p",
+          "text": "Beyond similarity scores, the assistant generates short explanations linking candidate experience and qualifications to job requirements."
+        },
+        {
+          "tag": "p",
+          "text": "This makes the recommendations easier to interpret and review."
+        },
+        {
+          "tag": "h3",
+          "text": "Interview Scheduling & Email Assistance"
+        },
+        {
+          "tag": "p",
+          "text": "Aura includes functionality for generating proposed interview time slots and preparing or sending invitation emails through a configurable SMTP integration."
+        },
+        {
+          "tag": "p",
+          "text": "These workflows extend the assistant beyond candidate matching into recruitment coordination."
+        },
+        {
+          "tag": "h2",
+          "text": "Demonstration"
+        },
+        {
+          "tag": "p",
+          "text": "A typical Aura 1.0 workflow begins with a recruiter submitting a job description through the Streamlit interface."
+        },
+        {
+          "tag": "p",
+          "text": "The system retrieves suitable candidates from Qdrant, ranks their profiles, and displays the most relevant results with similarity scores and explanations."
+        },
+        {
+          "tag": "p",
+          "text": "The recruiter can then request interview invitations or scheduling assistance."
+        },
+        {
+          "tag": "p",
+          "text": "The project is designed as a local prototype, with the application interface and API running on the developer's machine."
+        },
+        {
+          "tag": "p",
+          "text": "Your browser does not support embedded video. Watch the Aura 1.0 demo (MP4)."
+        },
+        {
+          "tag": "figcaption",
+          "text": "Video: Aura 1.0 — Recruitment Assistant Demo"
+        },
+        {
+          "tag": "h2",
+          "text": "Results & Achievements"
+        },
+        {
+          "tag": "p",
+          "text": "Aura 1.0 resulted in an integrated AI recruitment prototype combining:"
+        },
+        {
+          "tag": "li",
+          "text": "Semantic candidate retrieval using BERT embeddings and Qdrant."
+        },
+        {
+          "tag": "li",
+          "text": "Candidate ranking based on vector similarity."
+        },
+        {
+          "tag": "li",
+          "text": "Explainable recommendations generated by a local LLM."
+        },
+        {
+          "tag": "li",
+          "text": "Agent-based recruitment workflows implemented with LangGraph."
+        },
+        {
+          "tag": "li",
+          "text": "Conversational interaction through Streamlit and FastAPI."
+        },
+        {
+          "tag": "li",
+          "text": "Interview coordination features for proposed appointments and email invitations."
+        },
+        {
+          "tag": "p",
+          "text": "The repository demonstrates the implementation of these capabilities. Quantitative improvements in screening speed, ranking accuracy, or recruiter productivity have not been established."
+        },
+        {
+          "tag": "h2",
+          "text": "Key Takeaways"
+        },
+        {
+          "tag": "p",
+          "text": "Developing Aura 1.0 strengthened my understanding of Natural Language Processing, semantic search, vector databases, and LLM-based agent workflows."
+        },
+        {
+          "tag": "p",
+          "text": "One of the main lessons was how to combine traditional machine learning techniques with generative AI to create a more complete intelligent application."
+        },
+        {
+          "tag": "p",
+          "text": "The project also gave me practical experience integrating AI models, backend services, and user-facing interfaces to support a real-world recruitment use case."
+        }
+      ],
+      "navigation": [
+        [
+          "Home",
+          "index.html",
+          ""
+        ],
+        [
+          "About",
+          "about.html",
+          ""
+        ],
+        [
+          "Resume",
+          "resume.html",
+          ""
+        ],
+        [
+          "Certifications",
+          "certifications.html",
+          ""
+        ],
+        [
+          "Services",
+          "services.html",
+          ""
+        ],
+        [
+          "Portfolio",
+          "portfolio.html",
+          "active"
+        ],
+        [
+          "Digital Gallery",
+          "digital-gallery.html",
+          ""
+        ],
+        [
+          "Contact",
+          "contact.html",
+          ""
+        ]
+      ],
+      "brand": "FARAH",
+      "header_social": [
+        [
+          "GitHub",
+          "https://github.com/FarahSayari"
+        ],
+        [
+          "Email",
+          "mailto:farahsayari.dev@gmail.com"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/farah-sayari-060745248"
+        ]
+      ],
+      "footer": {
+        "copyright": "© Copyright Farah Sayari All Rights Reserved",
+        "credits": "",
+        "social": [
+          [
+            "GitHub",
+            "https://github.com/FarahSayari"
+          ],
+          [
+            "Email",
+            "mailto:farahsayari.dev@gmail.com"
+          ],
+          [
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari-060745248"
+          ]
+        ],
+        "credit_links": []
+      },
+      "links": [
+        [
+          "Back to Portfolio",
+          "portfolio.html",
+          ""
+        ],
+        [
+          "Enlarge Aura 1.0 project artwork",
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png",
+          ""
+        ],
+        [
+          "View Source on GitHub (opens in a new tab)",
+          "https://github.com/FarahSayari/ai-recruiter-agent",
+          ""
+        ],
+        [
+          "Overview",
+          "#project-overview",
+          ""
+        ],
+        [
+          "Challenge",
+          "#the-challenge",
+          ""
+        ],
+        [
+          "Solution",
+          "#the-solution",
+          ""
+        ],
+        [
+          "Methodology",
+          "#project-methodology",
+          ""
+        ],
+        [
+          "AI Architecture",
+          "#ai-architecture",
+          ""
+        ],
+        [
+          "Contributions",
+          "#my-contributions",
+          ""
+        ],
+        [
+          "Additional Capabilities",
+          "#additional-capabilities",
+          ""
+        ],
+        [
+          "Demonstration",
+          "#demonstration",
+          ""
+        ],
+        [
+          "Results & Achievements",
+          "#results-achievements",
+          ""
+        ],
+        [
+          "Key Takeaways",
+          "#key-takeaways",
+          ""
+        ],
+        [
+          "Enlarge the Aura 1.0 recruiting challenge illustration",
+          "assets/img/portfolio/aura%201.0/Aura%201.0_%20The%20Recruiting%20Challenge.png",
+          ""
+        ],
+        [
+          "Enlarge the Aura 1.0 methodology infographic",
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20Methodology%20Infographic.png",
+          ""
+        ],
+        [
+          "Enlarge the Aura 1.0 AI architecture diagram",
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Architecture.png",
+          ""
+        ],
+        [
+          "Watch the Aura 1.0 demo (MP4)",
+          "assets/videos/Aura.mp4",
+          ""
+        ]
+      ],
+      "images": [
+        [
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png",
+          "Aura 1.0 AI Recruiter Agent artwork with a candidate profile and recruitment search illustration",
+          ""
+        ],
+        [
+          "assets/img/portfolio/aura%201.0/Aura%201.0_%20The%20Recruiting%20Challenge.png",
+          "Aura 1.0 recruitment challenges: numerous resumes, keyword filtering limits, manual screening, and candidate communication",
+          ""
+        ],
+        [
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20Methodology%20Infographic.png",
+          "Aura 1.0 methodology infographic showing TDSP stages alongside Design Thinking: empathize, define, ideate, prototype and test",
+          ""
+        ],
+        [
+          "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Architecture.png",
+          "Aura 1.0 architecture connecting resume processing, BERT embeddings, Qdrant semantic search, RAG, LangGraph stages, and Phi-3 through Ollama to ranked candidate explanations",
+          ""
+        ]
+      ],
+      "embeds": [],
+      "forms": [],
+      "dynamic": [],
+      "projects": [],
+      "videos": [
+        {
+          "label": "Demonstration",
+          "sources": [
+            {
+              "src": "assets/videos/Aura.mp4",
+              "type": "video/mp4"
+            }
+          ],
+          "poster": "assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png",
+          "controls": true,
+          "autoplay": false,
+          "playsinline": true,
+          "preload": "none"
+        }
+      ],
+      "stylesheets": [
+        "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "assets/vendor/bootstrap/css/bootstrap.min.css",
+        "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+        "assets/vendor/aos/aos.css",
+        "assets/vendor/swiper/swiper-bundle.min.css",
+        "assets/vendor/glightbox/css/glightbox.min.css",
+        "assets/css/main.css",
+        "assets/css/portfolio.css"
+      ],
+      "scripts": [
+        "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "assets/vendor/php-email-form/validate.js",
+        "assets/vendor/aos/aos.js",
+        "assets/vendor/waypoints/noframework.waypoints.js",
+        "assets/vendor/purecounter/purecounter_vanilla.js",
+        "assets/vendor/swiper/swiper-bundle.min.js",
+        "assets/vendor/glightbox/js/glightbox.min.js",
+        "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+        "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "assets/js/main.js"
+      ],
+      "icons": [
+        [
+          "icon",
+          "assets/img/favicon.png"
+        ],
+        [
+          "apple-touch-icon",
+          "assets/img/apple-touch-icon.png"
+        ]
+      ],
+      "rendered_text": [
+        {
+          "region": "header",
+          "text": "FARAH\nHome\nAbout\nResume\nCertifications\nServices\nPortfolio\nDigital Gallery\nContact\n  "
+        },
+        {
+          "region": "main",
+          "text": "Back to Portfolio\nAura 1.0 — AI Recruiter Agent\n\nArtificial Intelligence · NLP · RAG · Agentic AI · Semantic Search\n\nAura 1.0 is an AI-powered recruitment assistant designed to help recruiters identify, rank, and understand suitable candidates using semantic search, Retrieval-Augmented Generation (RAG), Large Language Models, and automated recruitment workflows.\n\nProject Information\nCategory: Artificial Intelligence · NLP · RAG · Agentic AI\nProject Type: Academic Project\nRole: AI Engineer\nMethodologies: TDSP · Design Thinking\nStatus: Completed\nView Source on GitHub\n(opens in a new tab)\nTechnologies & Tools\n\nProgramming: Python\n\nAI & NLP: BERT · Transformers · PyTorch · Large Language Models\n\nAgentic AI: LangGraph · LangChain · Ollama · Phi-3\n\nSemantic Search: Qdrant · Vector Embeddings · Cosine Similarity\n\nBackend: FastAPI · REST APIs\n\nFrontend: Streamlit\n\nData Processing: Pandas · NumPy · Scikit-learn\n\nProject Summary\n\nJump directly to a section of the project.\n\nOverview\nChallenge\nSolution\nMethodology\nAI Architecture\nContributions\nAdditional Capabilities\nDemonstration\nResults & Achievements\nKey Takeaways\nProject Overview\n\nAura 1.0 is an academic AI project that marked my first experience building AI agents and exploring agentic workflows.\n\nIt was an opportunity to challenge myself, discover new technologies, and experiment with TDSP and Design Thinking methodologies.\n\nTo better understand how AI agents work, I followed the Hugging Face AI Agents Course, which gave me a strong foundation in agent concepts, tool usage, and frameworks such as LangGraph. I then applied what I learned throughout the development of Aura.\n\nAnother interesting challenge was making the assistant multimodal, allowing it to handle resumes in different formats, including PDFs, text, and images.\n\nAura uses BERT embeddings and Qdrant to match candidate profiles with job descriptions through semantic search. A locally hosted LLM generates explanations of candidate suitability, while LangGraph coordinates the different stages of the recruitment workflow.\n\nThe result is a functional prototype that brings together NLP, semantic search, LLMs, and agentic AI to help recruiters identify suitable candidates and simplify recruitment tasks.\n\nThe Challenge\n\nRecruiters often review numerous resumes to identify candidates whose qualifications match a job description.\n\nTraditional keyword-based filtering can overlook relevant candidates when their skills and experience are expressed differently from the job requirements.\n\nManual screening and candidate communication also require significant time and effort.\n\nThe challenge was to make candidate screening more efficient and meaningful by combining semantic matching, explainable recommendations, and recruitment automation.\n\nThe Solution\n\nAura 1.0 combines Natural Language Processing, semantic search, and agent-based workflows to support the recruitment process.\n\nRather than relying only on exact keyword matches, the system represents resumes and job descriptions as numerical embeddings to compare their semantic content.\n\nIt then retrieves suitable candidates, ranks their profiles, and generates human-readable explanations of their compatibility with the position.\n\nEnd-to-End Recruitment Workflow\nProcess CVs: Extract and preprocess candidate information from resumes.\nGenerate Embeddings: Convert resume content into BERT-based vector representations.\nStore Profiles: Index candidate embeddings in Qdrant for semantic retrieval.\nMatch Candidates: Compare job descriptions with stored candidate profiles.\nRank & Explain: Return the most relevant candidates with similarity scores and AI-generated explanations.\nAssist Recruitment: Support interview invitation emails and scheduling through conversational requests.\n\nThis workflow connects candidate discovery, matching, explanation, and communication in a single assistant.\n\nProject Methodology — TDSP & Design Thinking\n\nAura 1.0 was developed using two complementary methodologies: TDSP (Team Data Science Process) and Design Thinking.\n\nDesign Thinking provided a framework for understanding recruiter needs, defining the recruitment challenge, exploring solutions, and iterating on the assistant through prototyping and testing.\n\nTDSP structured the data science workflow, from understanding the recruitment problem and preparing resume data to developing semantic matching and integrating the models into the application prototype.\n\nAI Architecture — Semantic Search, RAG & Agentic Workflows\n\nAura 1.0 combines BERT embeddings, Qdrant, Retrieval-Augmented Generation (RAG), LangGraph, and a locally hosted LLM to build an intelligent recruitment assistant.\n\nThe architecture separates candidate matching from language generation, using semantic search to identify relevant profiles and an LLM to provide meaningful explanations.\n\nResume Processing & BERT Embeddings\n\nCandidate resumes are extracted and preprocessed before being converted into numerical representations using the pretrained BERT base uncased model.\n\nThese embeddings capture contextual information from resumes and job descriptions, allowing the system to identify similarities beyond exact keyword matches.\n\nSemantic Search with Qdrant\n\nCandidate embeddings are stored in Qdrant, a vector database that enables efficient semantic retrieval.\n\nWhen a recruiter submits a job description, Aura generates its embedding and uses cosine similarity to retrieve and rank the most relevant candidates.\n\nRetrieval-Augmented Generation (RAG)\n\nAura uses RAG to connect semantic retrieval with LLM-powered explanations.\n\nInstead of relying only on the LLM's pretrained knowledge, the system provides the retrieved candidate information and job requirements as context for generating responses.\n\nThis helps produce more relevant, contextual, and evidence-grounded recommendations.\n\nLangGraph Recruitment Workflow\n\nThe recruitment process is organized into a LangGraph workflow with five main stages:\n\nRetrieval: Find relevant candidate profiles from Qdrant.\nAnalysis: Examine the retrieved resume information.\nSkill Extraction: Identify relevant skills and qualifications.\nRanking: Organize candidates based on their semantic similarity to the job description.\nExplanation: Generate concise descriptions of candidate suitability.\n\nLangGraph connects these stages into a structured workflow, combining semantic matching with LLM-assisted analysis.\n\nLocal LLM Integration\n\nAura integrates Phi-3 through Ollama to generate natural-language explanations of candidate recommendations.\n\nBy using the retrieved resumes and job requirements as context, the LLM helps recruiters understand why particular candidates may be suitable for a position.\n\nThe generated explanations support human decision-making, while similarity scores indicate semantic relevance rather than guaranteed hiring suitability.\n\nThis architecture demonstrates how NLP, vector databases, RAG, and agentic workflows can work together to support a more intelligent and explainable recruitment process.\n\nMy Contributions\nNLP & Semantic Matching\nImplemented resume preprocessing and BERT-based embedding generation.\nIntegrated Qdrant for storing and retrieving candidate vector representations.\nDeveloped semantic similarity and ranking logic for matching candidates with job descriptions.\nAgentic AI Development\nBuilt a LangGraph-based workflow for candidate retrieval, analysis, ranking, and explanation.\nIntegrated a local LLM to generate concise candidate-matching explanations.\nDeveloped conversational request handling for candidate search and recruitment assistance.\nApplication Development\nDeveloped a Streamlit conversational interface for recruiter interactions.\nIntegrated backend functionality through FastAPI endpoints.\nImplemented workflows supporting candidate search, PDF job descriptions, and interview-related communication.\nAdditional Capabilities\nConversational Recruitment Assistant\n\nAura provides a chat-based interface where recruiters can describe their hiring needs in natural language.\n\nFor example, a recruiter can request the top three candidates matching a particular job description and receive a ranked list with explanations.\n\nExplainable Candidate Recommendations\n\nBeyond similarity scores, the assistant generates short explanations linking candidate experience and qualifications to job requirements.\n\nThis makes the recommendations easier to interpret and review.\n\nInterview Scheduling & Email Assistance\n\nAura includes functionality for generating proposed interview time slots and preparing or sending invitation emails through a configurable SMTP integration.\n\nThese workflows extend the assistant beyond candidate matching into recruitment coordination.\n\nDemonstration\n\nA typical Aura 1.0 workflow begins with a recruiter submitting a job description through the Streamlit interface.\n\nThe system retrieves suitable candidates from Qdrant, ranks their profiles, and displays the most relevant results with similarity scores and explanations.\n\nThe recruiter can then request interview invitations or scheduling assistance.\n\nThe project is designed as a local prototype, with the application interface and API running on the developer's machine.\n\nVideo: Aura 1.0 — Recruitment Assistant Demo\nResults & Achievements\n\nAura 1.0 resulted in an integrated AI recruitment prototype combining:\n\nSemantic candidate retrieval using BERT embeddings and Qdrant.\nCandidate ranking based on vector similarity.\nExplainable recommendations generated by a local LLM.\nAgent-based recruitment workflows implemented with LangGraph.\nConversational interaction through Streamlit and FastAPI.\nInterview coordination features for proposed appointments and email invitations.\n\nThe repository demonstrates the implementation of these capabilities. Quantitative improvements in screening speed, ranking accuracy, or recruiter productivity have not been established.\n\nKey Takeaways\n\nDeveloping Aura 1.0 strengthened my understanding of Natural Language Processing, semantic search, vector databases, and LLM-based agent workflows.\n\nOne of the main lessons was how to combine traditional machine learning techniques with generative AI to create a more complete intelligent application.\n\nThe project also gave me practical experience integrating AI models, backend services, and user-facing interfaces to support a real-world recruitment use case."
         },
         {
           "region": "footer",

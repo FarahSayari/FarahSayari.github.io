@@ -4,7 +4,7 @@ Portfolio content reference
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-07 · Africa/Tunis · 12 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-07 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -25,9 +25,10 @@ This is a content reference rather than a screenshot reproduction. Explanatory n
 | 7 | LollyBooks project details | portfolio-details.html | Portfolio detail link |
 | 8 | PulmoTrack project details | pulmotrack-details.html | Portfolio detail link |
 | 9 | TestPilot project details | testpilot-details.html | Portfolio detail link |
-| 10 | Digital Gallery | digital-gallery.html | Main navigation |
-| 11 | Contact | contact.html | Main navigation |
-| 12 | Starter template | starter-page.html | Retained template; absent from the main navigation |
+| 10 | Aura 1.0 project details | aura-1-details.html | Portfolio detail link |
+| 11 | Digital Gallery | digital-gallery.html | Main navigation |
+| 12 | Contact | contact.html | Main navigation |
+| 13 | Starter template | starter-page.html | Retained template; absent from the main navigation |
 
 ### How to update this record
 
@@ -56,6 +57,7 @@ Keep ongoing commentary or planned work in documentation/notes.json. Those notes
 | Project list / filters / thumbnails | portfolio.html; assets/img/portfolio/ and assets/img/masonry-portfolio/ |
 | LollyBooks case study | portfolio-details.html; assets/img/portfolio/lollybooks/library-art.webp |
 | TestPilot case study | testpilot-details.html; assets/css/portfolio.css |
+| Aura 1.0 case study | aura-1-details.html; assets/img/portfolio/aura 1.0/; assets/css/portfolio.css |
 | PulmoTrack case study / scientific paper | pulmotrack-details.html; assets/docs/PulmoTrackPaper.pdf; assets/img/portfolio/pulmotrack/paper-preview.png |
 | Contact text / form fields / delivery endpoint | contact.html, including its inline JavaScript |
 | Global header / footer | Repeated in each HTML file; update each affected page |
@@ -77,6 +79,7 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | portfolio-details.html | FARAH | N1 | S1 | F2 | Portfolio |
 | pulmotrack-details.html | FARAH | N1 | S1 | F2 | Portfolio |
 | testpilot-details.html | FARAH | N1 | S1 | F2 | Portfolio |
+| aura-1-details.html | FARAH | N1 | S1 | F2 | Portfolio |
 | digital-gallery.html | FARAH | N1 | S1 | F1 | Digital Gallery |
 | contact.html | FARAH | N1 | S1 | F2 | Contact |
 | starter-page.html | FARAH | N1 | S1 | F3 | (none) |
@@ -553,7 +556,7 @@ The portfolio uses a masonry grid with project labels in hover overlays. The ima
 | Aura 2.0 | Agentic AI Career Assistant | App | (none) |
 | TestPilot | AI-Assisted Test Automation Platform | App | testpilot-details.html |
 | PulmoTrack | AI-Powered Pulmonary Nodule Analysis | Web | pulmotrack-details.html |
-| Aura 1.0 | AI Recruiter Agent | App | (none) |
+| Aura 1.0 | AI Recruiter Agent | App | aura-1-details.html |
 | QuizMaster | Clustering Algorithms for Heterogeneous Student Groups | App | (none) |
 
 The default filter is All. Filter membership and every existing detail destination are listed in the table above. Project image preview links open the lightbox. Entries without detail links remain unlinked. The filter controls also support Enter and Space in the current inline script.
@@ -568,6 +571,7 @@ The default filter is All. Filter membership and every existing detail destinati
 | TestPilot project details | testpilot-details.html | (empty) |
 | PulmoTrack project details | pulmotrack-details.html | (empty) |
 | Preview Aura 1.0 artwork | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | (empty) |
+| Aura 1.0 project details | aura-1-details.html | (empty) |
 | Preview QuizMaster artwork | assets/img/portfolio/quizmaster/QuizMaster%20Neon%20Learning%20Banner.png | (empty) |
 
 ### Main-content images
@@ -1437,7 +1441,323 @@ The project image card contains 9 manually switchable images. Previous/next butt
 | Inline playback | True |
 | Preload | none |
 
-## 10 · Digital Gallery
+## 10 · Aura 1.0 project details
+
+| Page attribute | Exact value |
+| --- | --- |
+| Source file | aura-1-details.html |
+| Browser title | Aura 1.0 - Farah Sayari |
+| Language | en |
+| Description meta tag | Aura 1.0, an AI-powered recruitment assistant by Farah Sayari, combines BERT embeddings, Qdrant semantic search, LangGraph workflows, and local LLM explanations. |
+| Keywords meta tag | (absent) |
+| Main section IDs | portfolio-details |
+
+### Exact page content
+
+> Back to Portfolio
+
+**Aura 1.0 — AI Recruiter Agent**
+
+> Artificial Intelligence · NLP · RAG · Agentic AI · Semantic Search
+
+> Aura 1.0 is an AI-powered recruitment assistant designed to help recruiters identify, rank, and understand suitable candidates using semantic search, Retrieval-Augmented Generation (RAG), Large Language Models, and automated recruitment workflows.
+
+**Project Information**
+
+> • Category: Artificial Intelligence · NLP · RAG · Agentic AI
+
+> • Project Type: Academic Project
+
+> • Role: AI Engineer
+
+> • Methodologies: TDSP · Design Thinking
+
+> • Status: Completed
+
+> View Source on GitHub (opens in a new tab)
+
+**Technologies & Tools**
+
+> Programming: Python
+
+> AI & NLP: BERT · Transformers · PyTorch · Large Language Models
+
+> Agentic AI: LangGraph · LangChain · Ollama · Phi-3
+
+> Semantic Search: Qdrant · Vector Embeddings · Cosine Similarity
+
+> Backend: FastAPI · REST APIs
+
+> Frontend: Streamlit
+
+> Data Processing: Pandas · NumPy · Scikit-learn
+
+**Project Summary**
+
+> Jump directly to a section of the project.
+
+> • Overview
+
+> • Challenge
+
+> • Solution
+
+> • Methodology
+
+> • AI Architecture
+
+> • Contributions
+
+> • Additional Capabilities
+
+> • Demonstration
+
+> • Results & Achievements
+
+> • Key Takeaways
+
+**Project Overview**
+
+> Aura 1.0 is an academic AI project that marked my first experience building AI agents and exploring agentic workflows.
+
+> It was an opportunity to challenge myself, discover new technologies, and experiment with TDSP and Design Thinking methodologies.
+
+> To better understand how AI agents work, I followed the Hugging Face AI Agents Course, which gave me a strong foundation in agent concepts, tool usage, and frameworks such as LangGraph. I then applied what I learned throughout the development of Aura.
+
+> Another interesting challenge was making the assistant multimodal, allowing it to handle resumes in different formats, including PDFs, text, and images.
+
+> Aura uses BERT embeddings and Qdrant to match candidate profiles with job descriptions through semantic search. A locally hosted LLM generates explanations of candidate suitability, while LangGraph coordinates the different stages of the recruitment workflow.
+
+> The result is a functional prototype that brings together NLP, semantic search, LLMs, and agentic AI to help recruiters identify suitable candidates and simplify recruitment tasks.
+
+**The Challenge**
+
+> Recruiters often review numerous resumes to identify candidates whose qualifications match a job description.
+
+> Traditional keyword-based filtering can overlook relevant candidates when their skills and experience are expressed differently from the job requirements.
+
+> Manual screening and candidate communication also require significant time and effort.
+
+> The challenge was to make candidate screening more efficient and meaningful by combining semantic matching, explainable recommendations, and recruitment automation.
+
+**The Solution**
+
+> Aura 1.0 combines Natural Language Processing, semantic search, and agent-based workflows to support the recruitment process.
+
+> Rather than relying only on exact keyword matches, the system represents resumes and job descriptions as numerical embeddings to compare their semantic content.
+
+> It then retrieves suitable candidates, ranks their profiles, and generates human-readable explanations of their compatibility with the position.
+
+**End-to-End Recruitment Workflow**
+
+> • Process CVs: Extract and preprocess candidate information from resumes.
+
+> • Generate Embeddings: Convert resume content into BERT-based vector representations.
+
+> • Store Profiles: Index candidate embeddings in Qdrant for semantic retrieval.
+
+> • Match Candidates: Compare job descriptions with stored candidate profiles.
+
+> • Rank & Explain: Return the most relevant candidates with similarity scores and AI-generated explanations.
+
+> • Assist Recruitment: Support interview invitation emails and scheduling through conversational requests.
+
+> This workflow connects candidate discovery, matching, explanation, and communication in a single assistant.
+
+**Project Methodology — TDSP & Design Thinking**
+
+> Aura 1.0 was developed using two complementary methodologies: TDSP (Team Data Science Process) and Design Thinking.
+
+> Design Thinking provided a framework for understanding recruiter needs, defining the recruitment challenge, exploring solutions, and iterating on the assistant through prototyping and testing.
+
+> TDSP structured the data science workflow, from understanding the recruitment problem and preparing resume data to developing semantic matching and integrating the models into the application prototype.
+
+**AI Architecture — Semantic Search, RAG & Agentic Workflows**
+
+> Aura 1.0 combines BERT embeddings, Qdrant, Retrieval-Augmented Generation (RAG), LangGraph, and a locally hosted LLM to build an intelligent recruitment assistant.
+
+> The architecture separates candidate matching from language generation, using semantic search to identify relevant profiles and an LLM to provide meaningful explanations.
+
+**Resume Processing & BERT Embeddings**
+
+> Candidate resumes are extracted and preprocessed before being converted into numerical representations using the pretrained BERT base uncased model.
+
+> These embeddings capture contextual information from resumes and job descriptions, allowing the system to identify similarities beyond exact keyword matches.
+
+**Semantic Search with Qdrant**
+
+> Candidate embeddings are stored in Qdrant, a vector database that enables efficient semantic retrieval.
+
+> When a recruiter submits a job description, Aura generates its embedding and uses cosine similarity to retrieve and rank the most relevant candidates.
+
+**Retrieval-Augmented Generation (RAG)**
+
+> Aura uses RAG to connect semantic retrieval with LLM-powered explanations.
+
+> Instead of relying only on the LLM's pretrained knowledge, the system provides the retrieved candidate information and job requirements as context for generating responses.
+
+> This helps produce more relevant, contextual, and evidence-grounded recommendations.
+
+**LangGraph Recruitment Workflow**
+
+> The recruitment process is organized into a LangGraph workflow with five main stages:
+
+> • Retrieval: Find relevant candidate profiles from Qdrant.
+
+> • Analysis: Examine the retrieved resume information.
+
+> • Skill Extraction: Identify relevant skills and qualifications.
+
+> • Ranking: Organize candidates based on their semantic similarity to the job description.
+
+> • Explanation: Generate concise descriptions of candidate suitability.
+
+> LangGraph connects these stages into a structured workflow, combining semantic matching with LLM-assisted analysis.
+
+**Local LLM Integration**
+
+> Aura integrates Phi-3 through Ollama to generate natural-language explanations of candidate recommendations.
+
+> By using the retrieved resumes and job requirements as context, the LLM helps recruiters understand why particular candidates may be suitable for a position.
+
+> The generated explanations support human decision-making, while similarity scores indicate semantic relevance rather than guaranteed hiring suitability.
+
+> This architecture demonstrates how NLP, vector databases, RAG, and agentic workflows can work together to support a more intelligent and explainable recruitment process.
+
+**My Contributions**
+
+**NLP & Semantic Matching**
+
+> • Implemented resume preprocessing and BERT-based embedding generation.
+
+> • Integrated Qdrant for storing and retrieving candidate vector representations.
+
+> • Developed semantic similarity and ranking logic for matching candidates with job descriptions.
+
+**Agentic AI Development**
+
+> • Built a LangGraph-based workflow for candidate retrieval, analysis, ranking, and explanation.
+
+> • Integrated a local LLM to generate concise candidate-matching explanations.
+
+> • Developed conversational request handling for candidate search and recruitment assistance.
+
+**Application Development**
+
+> • Developed a Streamlit conversational interface for recruiter interactions.
+
+> • Integrated backend functionality through FastAPI endpoints.
+
+> • Implemented workflows supporting candidate search, PDF job descriptions, and interview-related communication.
+
+**Additional Capabilities**
+
+**Conversational Recruitment Assistant**
+
+> Aura provides a chat-based interface where recruiters can describe their hiring needs in natural language.
+
+> For example, a recruiter can request the top three candidates matching a particular job description and receive a ranked list with explanations.
+
+**Explainable Candidate Recommendations**
+
+> Beyond similarity scores, the assistant generates short explanations linking candidate experience and qualifications to job requirements.
+
+> This makes the recommendations easier to interpret and review.
+
+**Interview Scheduling & Email Assistance**
+
+> Aura includes functionality for generating proposed interview time slots and preparing or sending invitation emails through a configurable SMTP integration.
+
+> These workflows extend the assistant beyond candidate matching into recruitment coordination.
+
+**Demonstration**
+
+> A typical Aura 1.0 workflow begins with a recruiter submitting a job description through the Streamlit interface.
+
+> The system retrieves suitable candidates from Qdrant, ranks their profiles, and displays the most relevant results with similarity scores and explanations.
+
+> The recruiter can then request interview invitations or scheduling assistance.
+
+> The project is designed as a local prototype, with the application interface and API running on the developer's machine.
+
+> Your browser does not support embedded video. Watch the Aura 1.0 demo (MP4).
+
+> Video: Aura 1.0 — Recruitment Assistant Demo
+
+**Results & Achievements**
+
+> Aura 1.0 resulted in an integrated AI recruitment prototype combining:
+
+> • Semantic candidate retrieval using BERT embeddings and Qdrant.
+
+> • Candidate ranking based on vector similarity.
+
+> • Explainable recommendations generated by a local LLM.
+
+> • Agent-based recruitment workflows implemented with LangGraph.
+
+> • Conversational interaction through Streamlit and FastAPI.
+
+> • Interview coordination features for proposed appointments and email invitations.
+
+> The repository demonstrates the implementation of these capabilities. Quantitative improvements in screening speed, ranking accuracy, or recruiter productivity have not been established.
+
+**Key Takeaways**
+
+> Developing Aura 1.0 strengthened my understanding of Natural Language Processing, semantic search, vector databases, and LLM-based agent workflows.
+
+> One of the main lessons was how to combine traditional machine learning techniques with generative AI to create a more complete intelligent application.
+
+> The project also gave me practical experience integrating AI models, backend services, and user-facing interfaces to support a real-world recruitment use case.
+
+### Main-content links and downloads
+
+| Exact label / accessible label | Exact destination | Download filename |
+| --- | --- | --- |
+| Back to Portfolio | portfolio.html | (empty) |
+| Enlarge Aura 1.0 project artwork | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | (empty) |
+| View Source on GitHub (opens in a new tab) | https://github.com/FarahSayari/ai-recruiter-agent | (empty) |
+| Overview | #project-overview | (empty) |
+| Challenge | #the-challenge | (empty) |
+| Solution | #the-solution | (empty) |
+| Methodology | #project-methodology | (empty) |
+| AI Architecture | #ai-architecture | (empty) |
+| Contributions | #my-contributions | (empty) |
+| Additional Capabilities | #additional-capabilities | (empty) |
+| Demonstration | #demonstration | (empty) |
+| Results & Achievements | #results-achievements | (empty) |
+| Key Takeaways | #key-takeaways | (empty) |
+| Enlarge the Aura 1.0 recruiting challenge illustration | assets/img/portfolio/aura%201.0/Aura%201.0_%20The%20Recruiting%20Challenge.png | (empty) |
+| Enlarge the Aura 1.0 methodology infographic | assets/img/portfolio/aura%201.0/Aura%201.0%20Methodology%20Infographic.png | (empty) |
+| Enlarge the Aura 1.0 AI architecture diagram | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Architecture.png | (empty) |
+| Watch the Aura 1.0 demo (MP4) | assets/videos/Aura.mp4 | (empty) |
+
+### Main-content images
+
+| Image path | Exact alternate text | Role |
+| --- | --- | --- |
+| assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | Aura 1.0 AI Recruiter Agent artwork with a candidate profile and recruitment search illustration | (empty) |
+| assets/img/portfolio/aura%201.0/Aura%201.0_%20The%20Recruiting%20Challenge.png | Aura 1.0 recruitment challenges: numerous resumes, keyword filtering limits, manual screening, and candidate communication | (empty) |
+| assets/img/portfolio/aura%201.0/Aura%201.0%20Methodology%20Infographic.png | Aura 1.0 methodology infographic showing TDSP stages alongside Design Thinking: empathize, define, ideate, prototype and test | (empty) |
+| assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Architecture.png | Aura 1.0 architecture connecting resume processing, BERT embeddings, Qdrant semantic search, RAG, LangGraph stages, and Phi-3 through Ollama to ranked candidate explanations | (empty) |
+
+### Demonstration videos
+
+#### Demonstration
+
+| Source file | Media type |
+| --- | --- |
+| assets/videos/Aura.mp4 | video/mp4 |
+
+| Playback attribute | Value |
+| --- | --- |
+| Poster image | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png |
+| Controls | True |
+| Autoplay | False |
+| Inline playback | True |
+| Preload | none |
+
+## 11 · Digital Gallery
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1468,7 +1788,7 @@ The project image card contains 9 manually switchable images. Previous/next butt
 | --- | --- | --- |
 | assets/img/gallery/spidey.png | Spidey digital drawing of a Spider-Man character and a girl above a city skyline, with hearts and sparkles on a purple background | (empty) |
 
-## 11 · Contact
+## 12 · Contact
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1617,7 +1937,7 @@ The project image card contains 9 manually switchable images. Previous/next butt
 
 The browser validates required fields and the email format. On submission the inline script posts FormData to the configured action with Accept: application/json, shows a loading state, and disables the submit button. A successful response resets the form and shows the success message. An invalid form or unsuccessful request shows the corresponding message above. The _gotcha field is the hidden honeypot; the _subject field supplies the notification subject.
 
-## 12 · Starter template
+## 13 · Starter template
 
 | Page attribute | Exact value |
 | --- | --- |
@@ -1646,7 +1966,7 @@ The document records the website as it exists. These items are observations for 
 
 | Observation | Pages / current value |
 | --- | --- |
-| Header/footer email destinations | farahsayari.dev@gmail.com: about.html, certifications.html, contact.html, digital-gallery.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html, testpilot-details.html; farah.sayari@esprit.tn: about.html, certifications.html, digital-gallery.html, index.html, services.html |
+| Header/footer email destinations | farahsayari.dev@gmail.com: about.html, aura-1-details.html, certifications.html, contact.html, digital-gallery.html, index.html, portfolio-details.html, portfolio.html, pulmotrack-details.html, resume.html, services.html, starter-page.html, testpilot-details.html; farah.sayari@esprit.tn: about.html, certifications.html, digital-gallery.html, index.html, services.html |
 | Retained starter page | starter-page.html. Current brand: FARAH. Its exact content and links are recorded in its section. |
 | Residual contact template backend | forms/contact.php remains present. Configured receiving address: contact@example.com. Current HTML form actions: https://formspree.io/f/xgojgjbj |
 
@@ -1654,26 +1974,26 @@ The document records the website as it exists. These items are observations for 
 
 | Reference | Used by |
 | --- | --- |
-| https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap/css/bootstrap.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap-icons/bootstrap-icons.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/aos/aos.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/css/main.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, starter-page.html |
-| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/js/main.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, digital-gallery.html, contact.html, starter-page.html |
+| https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap/css/bootstrap.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap-icons/bootstrap-icons.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/aos/aos.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/css/main.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, starter-page.html |
+| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/js/main.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/css/resume.css | resume.html |
 | assets/css/collections.css | certifications.html, digital-gallery.html |
-| assets/css/portfolio.css | portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html |
+| assets/css/portfolio.css | portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html |
 
 ### Favicons
 
@@ -1697,6 +2017,8 @@ The document records the website as it exists. These items are observations for 
 | pulmotrack-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | testpilot-details.html | icon | assets/img/favicon.png |
 | testpilot-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
+| aura-1-details.html | icon | assets/img/favicon.png |
+| aura-1-details.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | digital-gallery.html | icon | assets/img/favicon.png |
 | digital-gallery.html | apple-touch-icon | assets/img/apple-touch-icon.png |
 | contact.html | icon | assets/img/favicon.png |
