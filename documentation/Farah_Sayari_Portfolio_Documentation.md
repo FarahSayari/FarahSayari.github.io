@@ -1,10 +1,10 @@
 # Farah Sayari
 Portfolio content reference
-07 November 2026 · Africa/Tunis
+12 November 2026 · Africa/Tunis
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-07 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-12 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -450,6 +450,14 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 > Courses and certifications from my learning journey.
 
+> 365 Data Science
+
+**AI Agents in Practice**
+
+> Issued 12 November 2026 · 4 CPE credits
+
+> View credential on 365 Data Science (opens in a new tab)
+
 > AWS Academy
 
 **AWS Academy Graduate — Cloud Foundations — Training Badge**
@@ -470,6 +478,8 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
+| Enlarge AI Agents in Practice certificate | assets/certifs/Certificate%20of%20Achievement%20in%20AI%20Agents%20in%20Practice.jpg | (empty) |
+| View credential on 365 Data Science (opens in a new tab) | https://learn.365datascience.com/c/28dd3d2618/ | (empty) |
 | Enlarge AWS Academy Cloud Foundations certificate | assets/certifs/AWS.png | (empty) |
 | View credential on Credly (opens in a new tab) | https://www.credly.com/go/xGdC1GXZ | (empty) |
 | Enlarge Machine Learning in Python certificate | assets/certifs/Certificate%20of%20Achievement%20in%20Machine%20Learning%20in%20Python.jpg | (empty) |
@@ -479,6 +489,7 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
+| assets/certifs/Certificate%20of%20Achievement%20in%20AI%20Agents%20in%20Practice.jpg | Farah Sayari's certificate of achievement in AI Agents in Practice from 365 Data Science, issued 12 November 2026 | (empty) |
 | assets/certifs/AWS.png | Farah Sayari's AWS Academy Graduate Cloud Foundations training certificate, issued 14 November 2025 after completing 20 course hours | (empty) |
 | assets/certifs/Certificate%20of%20Achievement%20in%20Machine%20Learning%20in%20Python.jpg | Farah Sayari's certificate of achievement in Machine Learning in Python from 365 Data Science, dated 19 November 2024 | (empty) |
 

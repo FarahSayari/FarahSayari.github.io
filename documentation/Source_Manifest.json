@@ -1,10 +1,11 @@
 {
-  "snapshot_date": "2026-11-07",
+  "snapshot_date": "2026-11-12",
   "algorithm": "SHA-256",
   "files": {
     ".github/workflows/deploy-pages.yml": "45622b42814f0c00195197f4fca8e2b8480cce9461256f0eaaa09609ddc8bcbb",
     "about.html": "4dad02863090d66f6cb72eae56aa18b50c98a7f68c491302fac6c9ae83411acc",
     "assets/certifs/AWS.png": "a0c4ce90d45ebc75ef7f49f076b2e35665d0770b55cae967213b3ec9126969d9",
+    "assets/certifs/Certificate of Achievement in AI Agents in Practice.jpg": "25f82a759714deaa4be9c8dbc3a531bdd8f04232480aa90da17f33bd0ec52bf6",
     "assets/certifs/Certificate of Achievement in Machine Learning in Python.jpg": "053a0e351c6a3a81848181937d3cca9c3702a645149464910ce4e19c1500b56c",
     "assets/css/collections.css": "e3d9c8d4ed521ecbe26faba4a01e3611add53c6af82cae40f4f3a20ca9156075",
     "assets/css/main.css": "749c3f54789175760944ea44f453b62674e9b2adbd0611785a8ea0dbcc4fdc76",
@@ -68,7 +69,7 @@
     "assets/videos/testpilot-ci-cd-demo.mp4": "1f845e704d525530526b0fab04a08f701c222cff7de1f538ee64519b87c2a8cf",
     "assets/videos/testpilot-recorded-scenario.mp4": "1cf0f0672e0c61ad9ad9ccee85abb80dd747e12a3ed2c3bd6cc0a5bf375cfc12",
     "aura-1-details.html": "6bbcbbae95747a9272e414b9be170137806ceb541a4029914a8f205028d54ced",
-    "certifications.html": "ef1047d7dfdb15045185ad44c5d3071b453191c00bff8851e68339de1b4f2bfb",
+    "certifications.html": "08f3d4af1ed4bb57a35f3707f48be864e2b4617c4efe5a1604057efdf19d03a5",
     "contact.html": "7d28385c6e2701ec01256a7d54ed6116385be3bf6f49c90dc8387f81b343ae23",
     "digital-gallery.html": "ec9a9f040a84bf0f16df3f9d80f4409e89609bff2ba0e61c51662f6e5c2952e0",
     "forms/contact.php": "26b66d564c1d6f2db5be98cd870a235c1f878a4a8372a16dde0d98df2b66a7d8",

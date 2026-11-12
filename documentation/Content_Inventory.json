@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-07",
+  "snapshot_date": "2026-11-12",
   "timezone": "Africa/Tunis",
   "pages": [
     {
@@ -907,6 +907,22 @@
         },
         {
           "tag": "p",
+          "text": "365 Data Science"
+        },
+        {
+          "tag": "h3",
+          "text": "AI Agents in Practice"
+        },
+        {
+          "tag": "p",
+          "text": "Issued 12 November 2026 · 4 CPE credits"
+        },
+        {
+          "tag": "a",
+          "text": "View credential on 365 Data Science (opens in a new tab)"
+        },
+        {
+          "tag": "p",
           "text": "AWS Academy"
         },
         {
@@ -1016,6 +1032,16 @@
       },
       "links": [
         [
+          "Enlarge AI Agents in Practice certificate",
+          "assets/certifs/Certificate%20of%20Achievement%20in%20AI%20Agents%20in%20Practice.jpg",
+          ""
+        ],
+        [
+          "View credential on 365 Data Science (opens in a new tab)",
+          "https://learn.365datascience.com/c/28dd3d2618/",
+          ""
+        ],
+        [
           "Enlarge AWS Academy Cloud Foundations certificate",
           "assets/certifs/AWS.png",
           ""
@@ -1037,6 +1063,11 @@
         ]
       ],
       "images": [
+        [
+          "assets/certifs/Certificate%20of%20Achievement%20in%20AI%20Agents%20in%20Practice.jpg",
+          "Farah Sayari's certificate of achievement in AI Agents in Practice from 365 Data Science, issued 12 November 2026",
+          ""
+        ],
         [
           "assets/certifs/AWS.png",
           "Farah Sayari's AWS Academy Graduate Cloud Foundations training certificate, issued 14 November 2025 after completing 20 course hours",
@@ -1092,7 +1123,7 @@
         },
         {
           "region": "main",
-          "text": "Certifications\n\nCourses and certifications from my learning journey.\n\nAWS Academy\n\nAWS Academy Graduate — Cloud Foundations — Training Badge\n\nIssued 14 November 2025 · 20 course hours\n\nView credential on Credly\n(opens in a new tab)\n\n365 Data Science\n\nMachine Learning in Python\n\nIssued 19 November 2024\n\nView credential on 365 Data Science\n(opens in a new tab)"
+          "text": "Certifications\n\nCourses and certifications from my learning journey.\n\n365 Data Science\n\nAI Agents in Practice\n\nIssued 12 November 2026 · 4 CPE credits\n\nView credential on 365 Data Science\n(opens in a new tab)\n\nAWS Academy\n\nAWS Academy Graduate — Cloud Foundations — Training Badge\n\nIssued 14 November 2025 · 20 course hours\n\nView credential on Credly\n(opens in a new tab)\n\n365 Data Science\n\nMachine Learning in Python\n\nIssued 19 November 2024\n\nView credential on 365 Data Science\n(opens in a new tab)"
         },
         {
           "region": "footer",
