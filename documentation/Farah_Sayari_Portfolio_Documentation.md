@@ -1,10 +1,10 @@
 # Farah Sayari
 Portfolio content reference
-12 November 2026 · Africa/Tunis
+20 November 2026 · Africa/Tunis
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-12 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-20 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -1098,7 +1098,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Status: Completed — Functional Prototype
 
-> Watch Demo
+> Watch Full Demo
 
 **Technologies & Tools**
 
@@ -1132,7 +1132,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Additional Capabilities
 
-> • Demonstrations
+> • Demonstration
 
 > • Results & Achievements
 
@@ -1306,53 +1306,47 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **CI/CD Integration**
 
-> TestPilot connects regression testing to software delivery through GitHub Actions. In the demonstration, a code push triggers a workflow that deploys the updated demo application, starts a TestPilot regression cycle, and retrieves its results for reporting.
+> TestPilot connects regression testing to software delivery through GitHub Actions. A push to the separate SauceDemo repository triggers a workflow that deploys the updated demo application, requests a TestPilot regression cycle, and retrieves its execution results. The results can then be reviewed in both GitHub and TestPilot.
 
-> Watch the CI/CD demonstration
+> Watch the CI/CD workflow in the full demo
 
-**Demonstrations & Validation**
+**Demonstration & Validation**
 
-> To demonstrate TestPilot's capabilities, I used SauceDemo, an external sample e-commerce application, as a controlled testing environment.
+> This full demonstration follows TestPilot's workflow across its four roles — Administrator, Business Analyst, QA Engineer, and QA Manager — using SauceDemo as the application under test.
 
-> The demonstrations cover the complete testing workflow, from recording user interactions and generating automated tests to triggering regression campaigns through CI/CD.
+> It covers project setup, scenario recording, AI-assisted test generation, validation and approval, manual regression execution, CI/CD integration, and the permission-aware assistant.
 
-**Demo 1 — From Scenario Recording to Automated Testing**
+**Full Demo — From Recording to Regression Results**
 
-> This demonstration illustrates how TestPilot transforms a recorded business scenario into an executable automated test.
+> Your browser does not support embedded video. Watch the full TestPilot demo (MP4).
 
-> It covers:
+> Video: TestPilot Full Workflow — Four Roles, Test Generation, Validation, Regression Execution & CI/CD
 
-> • Recording browser interactions using the Chrome extension.
+**Demo Walkthrough**
 
-> • Processing the recorded actions.
+> • Administrator dashboard: Manage users, projects, and test environments.
 
-> • Generating the structured Test Model.
+> • Project assignments: Assign team members and the available testing environments to a project.
 
-> • Generating the Cypress script.
+> • Business Analyst dashboard & recording: Record a successful SauceDemo login scenario using the browser extension.
 
-> • Validating the generated script.
+> • Processed scenario & Test Model: Review the cleaned scenario and its Test Model, including steps, variables, expected results, and proposed checks, then create a Test Case.
 
-> Your browser does not support embedded video. Watch the scenario recording demo (MP4).
+> • QA Engineer dashboard: Find the recorded scenario awaiting script generation.
 
-> Video: Scenario Recording & AI Generation Demo
+> • Script generation, validation & approval: Generate the Cypress script, validate it against SauceDemo, review the result, and approve the validated version.
 
-**Demo 2 — CI/CD-Triggered Regression Testing**
+> • QA Manager & test management: Organize Test Cases into Test Plans and execution cycles.
 
-> This demonstration showcases TestPilot's integration with GitHub Actions.
+> • Manual execution & report: Start a cycle manually and inspect its status, execution details, and evidence.
 
-> A code change is pushed to the separate SauceDemo application repository, triggering an automated CI/CD workflow.
+> • GitHub Actions after a push: Push a change to SauceDemo to trigger a workflow that deploys the updated demo application and requests a TestPilot regression cycle.
 
-> The workflow deploys the updated test application in the controlled demonstration environment, starts a TestPilot regression cycle, and retrieves its execution results.
-
-> This illustrates how TestPilot can integrate regression testing into a continuous delivery workflow without requiring manual execution of every test campaign.
-
-> Your browser does not support embedded video. Watch the CI/CD regression testing demo (MP4).
-
-> Video: Automated Regression Testing with GitHub Actions
+> • Results & assistant: Review results in GitHub and TestPilot, then use the chatbot for source-supported guidance within the user's permissions.
 
 **Demonstration Application — SauceDemo**
 
-> Both demonstrations use SauceDemo, a publicly available sample e-commerce application developed by Sauce Labs.
+> The demonstration uses SauceDemo, a publicly available sample e-commerce application developed by Sauce Labs.
 
 > SauceDemo was used exclusively as an external application under test and is not part of TestPilot's original development.
 
@@ -1360,17 +1354,21 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 **Results & Achievements**
 
-> TestPilot was validated through end-to-end demonstrations covering test generation, script validation, and automated regression execution.
+> The full demonstration brings together TestPilot's core workflow, from project setup and scenario recording to validated tests and regression results.
+
+> • Four-role collaboration: Demonstrated the handoffs between Administrator, Business Analyst, QA Engineer, and QA Manager, from project assignments to regression campaign management.
 
 > • End-to-end test generation: Successfully demonstrated the transformation of recorded browser interactions into structured Test Models and Cypress scripts.
 
-> • Controlled validation: Implemented automated script validation, evidence-based repair mechanisms, and human approval before official execution.
+> • Controlled validation: Demonstrated automated Cypress script validation, result review, and human approval before official execution.
 
 > • Regression execution: Demonstrated the execution of regression test cycles with recorded results and supporting evidence.
 
 > • CI/CD integration: Connected an application code push to an automated GitHub Actions workflow that triggers a TestPilot regression cycle and retrieves its results.
 
-> These demonstrations validate the platform's core workflow, showing how AI-assisted test generation can be integrated with controlled execution and continuous testing.
+> • Permission-aware assistance: Demonstrated source-supported chatbot guidance within the user's access permissions.
+
+> This demonstration shows how AI-assisted test generation connects with role-based collaboration, controlled execution, and continuous testing in a single platform.
 
 **Key Takeaways**
 
@@ -1410,7 +1408,7 @@ The project image card contains 9 manually switchable images. Previous/next butt
 | Enlarge Test Case details | assets/img/portfolio/testpilot/test%20case%20detail2.png | (empty) |
 | Enlarge Test Cycles overview | assets/img/portfolio/testpilot/test%20cycle%20interface.png | (empty) |
 | Enlarge Test Cycle details | assets/img/portfolio/testpilot/test%20cycle%20detail.png | (empty) |
-| Watch Demo | #demonstrations-validation | (empty) |
+| Watch Full Demo | #full-demo-title | (empty) |
 | Overview | #project-overview | (empty) |
 | Challenge | #the-challenge | (empty) |
 | Solution | #the-solution | (empty) |
@@ -1418,16 +1416,15 @@ The project image card contains 9 manually switchable images. Previous/next butt
 | Contributions | #my-contributions | (empty) |
 | AI Architecture | #ai-architecture-controlled-agentic-automation | (empty) |
 | Additional Capabilities | #additional-capabilities | (empty) |
-| Demonstrations | #demonstrations-validation | (empty) |
+| Demonstration | #demonstrations-validation | (empty) |
 | Results & Achievements | #results-achievements | (empty) |
 | Key Takeaways | #key-takeaways | (empty) |
 | Enlarge the AI-Powered Regression Testing Workflow illustration | assets/img/portfolio/testpilot/AI-Powered%20Regression%20Testing%20Workflow.png | (empty) |
 | Enlarge the Scrumban methodology diagram | assets/img/portfolio/testpilot/Scrumban%20Neon%20Venn%20Diagram%20Banner.png | (empty) |
 | Enlarge the TestPilot AI architecture diagram | assets/img/portfolio/testpilot/ai%20arch.png | (empty) |
 | Enlarge the TestPilot AI Assistance Showcase | assets/img/portfolio/testpilot/TestPilot%20AI%20Assistance%20Showcase.png | (empty) |
-| Watch the CI/CD demonstration | #cicd-demo-title | (empty) |
-| Watch the scenario recording demo (MP4) | assets/videos/testpilot-recorded-scenario.mp4 | (empty) |
-| Watch the CI/CD regression testing demo (MP4) | assets/videos/testpilot-ci-cd-demo.mp4 | (empty) |
+| Watch the CI/CD workflow in the full demo | #full-demo-title | (empty) |
+| Watch the full TestPilot demo (MP4) | assets/videos/testpilot-full-demo.mp4 | (empty) |
 | SauceDemo — Sauce Labs (opens in a new tab) | https://www.saucedemo.com/ | (empty) |
 
 ### Main-content images
@@ -1450,29 +1447,15 @@ The project image card contains 9 manually switchable images. Previous/next butt
 
 ### Demonstration videos
 
-#### Demo 1 — From Scenario Recording to Automated Testing
+#### Full Demo — From Recording to Regression Results
 
 | Source file | Media type |
 | --- | --- |
-| assets/videos/testpilot-recorded-scenario.mp4 | video/mp4 |
+| assets/videos/testpilot-full-demo.mp4 | video/mp4 |
 
 | Playback attribute | Value |
 | --- | --- |
-| Poster image | assets/img/portfolio/testpilot/record.png |
-| Controls | True |
-| Autoplay | False |
-| Inline playback | True |
-| Preload | none |
-
-#### Demo 2 — CI/CD-Triggered Regression Testing
-
-| Source file | Media type |
-| --- | --- |
-| assets/videos/testpilot-ci-cd-demo.mp4 | video/mp4 |
-
-| Playback attribute | Value |
-| --- | --- |
-| Poster image | assets/img/portfolio/testpilot/ci-cd-demo-poster.jpg |
+| Poster image | assets/img/portfolio/testpilot/full-demo-poster.jpg |
 | Controls | True |
 | Autoplay | False |
 | Inline playback | True |

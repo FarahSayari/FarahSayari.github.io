@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-12",
+  "snapshot_date": "2026-11-20",
   "algorithm": "SHA-256",
   "files": {
     ".github/workflows/deploy-pages.yml": "45622b42814f0c00195197f4fca8e2b8480cce9461256f0eaaa09609ddc8bcbb",
@@ -53,7 +53,7 @@
     "assets/img/portfolio/testpilot/ai arch.png": "0bcf96eaf0b2311c6836835284252fabacc38ff13619d381d4ec5c7c0fdbedfb",
     "assets/img/portfolio/testpilot/AI-Powered Regression Testing Workflow.png": "3bddef3a56c81e1f9766b98adafb218ecde531a946044f46f1577b792d6874b2",
     "assets/img/portfolio/testpilot/BA dashboard.png": "0395e9f3bf39ae8a0a4b3f6e731035bd9186cacd9d8531a5f221f27c324c45c8",
-    "assets/img/portfolio/testpilot/ci-cd-demo-poster.jpg": "1f388e83744e293ee03c98286bf122db031e09fdad2eb3ec0f5b45c8bc0e5683",
+    "assets/img/portfolio/testpilot/full-demo-poster.jpg": "52b65c1ced7b1f7f2e831fcbbff6a7350046ac797f93339ef0e41f9194a90f13",
     "assets/img/portfolio/testpilot/QA engineer dashboard.png": "8b13623368e3ae6a6c1241f26080422098aff6871da33e706e81a1fb8dced060",
     "assets/img/portfolio/testpilot/qa manager dashboard.png": "193e9fd2ed3054c0810d93e259b8fbdcdfa8a1f5ec403f9f19fdcc447ad801ce",
     "assets/img/portfolio/testpilot/record.png": "ef478356102bbf8cbf66c69925e39a6262d62aeb5e1b0af080ea57e102e298b1",
@@ -66,8 +66,7 @@
     "assets/img/portfolio/testpilot/testpilot first pict.png": "4cc465edfd1fe26463b047b10819eabb7bc0fc2fb93c6e1651fa90cc018946db",
     "assets/js/main.js": "a164a23ef1cb2ccf1db073cc1218e5dd2b72ee5aaa04f5f6f02798dfd59b11f6",
     "assets/videos/Aura.mp4": "54ad43c4e29c3d1b3968409df9777a8b9f9db26f73e20e2f4292a6ae3786dc36",
-    "assets/videos/testpilot-ci-cd-demo.mp4": "1f845e704d525530526b0fab04a08f701c222cff7de1f538ee64519b87c2a8cf",
-    "assets/videos/testpilot-recorded-scenario.mp4": "1cf0f0672e0c61ad9ad9ccee85abb80dd747e12a3ed2c3bd6cc0a5bf375cfc12",
+    "assets/videos/testpilot-full-demo.mp4": "7ad9b4ea84d694d1df7af80af3c57bc9ea7d017cd2194323869c44b63319741e",
     "aura-1-details.html": "6bbcbbae95747a9272e414b9be170137806ceb541a4029914a8f205028d54ced",
     "certifications.html": "08f3d4af1ed4bb57a35f3707f48be864e2b4617c4efe5a1604057efdf19d03a5",
     "contact.html": "7d28385c6e2701ec01256a7d54ed6116385be3bf6f49c90dc8387f81b343ae23",
@@ -82,6 +81,6 @@
     "resume.html": "f78cf60cfd6c8e6afdd315c82f0a9f3fcfd2eedfaa2e6d13f767bb4ffba496d7",
     "services.html": "db15b336721774d998ef6f9e29ba6066508896328af252a203d299446098420a",
     "starter-page.html": "338f8d56aeb6c961a5204d3dc09adecc53fdb219a723ea6da644070aba4b34ff",
-    "testpilot-details.html": "5c25ddb6f57ac4a5dbf2cce730e3b6ae78096ec19068a5aec8c3f31f33597992"
+    "testpilot-details.html": "6ae306d183018e97def98a3d7053197afcd1206b2ce43a4d1d9a51130a9bdeef"
   }
 }

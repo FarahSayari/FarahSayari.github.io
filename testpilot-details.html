@@ -163,7 +163,7 @@
               </ul>
             </aside>
             <div class="paper-actions">
-              <a href="#demonstrations-validation" class="paper-button"><i class="bi bi-play-circle" aria-hidden="true"></i> Watch Demo</a>
+              <a href="#full-demo-title" class="paper-button"><i class="bi bi-play-circle" aria-hidden="true"></i> Watch Full Demo</a>
             </div>
           </div>
         </div>
@@ -188,7 +188,7 @@
               <li><a href="#my-contributions"><i class="bi bi-chevron-right" aria-hidden="true"></i> Contributions</a></li>
               <li><a href="#ai-architecture-controlled-agentic-automation"><i class="bi bi-chevron-right" aria-hidden="true"></i> AI Architecture</a></li>
               <li><a href="#additional-capabilities"><i class="bi bi-chevron-right" aria-hidden="true"></i> Additional Capabilities</a></li>
-              <li><a href="#demonstrations-validation"><i class="bi bi-chevron-right" aria-hidden="true"></i> Demonstrations</a></li>
+              <li><a href="#demonstrations-validation"><i class="bi bi-chevron-right" aria-hidden="true"></i> Demonstration</a></li>
               <li><a href="#results-achievements"><i class="bi bi-chevron-right" aria-hidden="true"></i> Results &amp; Achievements</a></li>
               <li><a href="#key-takeaways"><i class="bi bi-chevron-right" aria-hidden="true"></i> Key Takeaways</a></li>
             </ul>
@@ -333,58 +333,52 @@
           </figure>
 
           <h3 id="ci-cd-integration" tabindex="-1">CI/CD Integration</h3>
-          <p>TestPilot connects regression testing to software delivery through GitHub Actions. In the demonstration, a code push triggers a workflow that deploys the updated demo application, starts a TestPilot regression cycle, and retrieves its results for reporting.</p>
-          <p><a href="#cicd-demo-title">Watch the CI/CD demonstration <i class="bi bi-arrow-right" aria-hidden="true"></i></a></p>
+          <p>TestPilot connects regression testing to software delivery through GitHub Actions. A push to the separate SauceDemo repository triggers a workflow that deploys the updated demo application, requests a TestPilot regression cycle, and retrieves its execution results. The results can then be reviewed in both GitHub and TestPilot.</p>
+          <p><a href="#full-demo-title">Watch the CI/CD workflow in the full demo <i class="bi bi-arrow-right" aria-hidden="true"></i></a></p>
 
-          <h2 id="demonstrations-validation" tabindex="-1">Demonstrations &amp; Validation</h2>
-          <p>To demonstrate TestPilot's capabilities, I used <strong>SauceDemo</strong>, an external sample e-commerce application, as a controlled testing environment.</p>
-          <p>The demonstrations cover the complete testing workflow, from recording user interactions and generating automated tests to triggering regression campaigns through CI/CD.</p>
+          <h2 id="demonstrations-validation" tabindex="-1">Demonstration &amp; Validation</h2>
+          <p>This full demonstration follows TestPilot's workflow across its four roles — <strong>Administrator, Business Analyst, QA Engineer, and QA Manager</strong> — using <strong>SauceDemo</strong> as the application under test.</p>
+          <p>It covers project setup, scenario recording, AI-assisted test generation, validation and approval, manual regression execution, CI/CD integration, and the permission-aware assistant.</p>
 
-          <h3 id="scenario-demo-title" tabindex="-1">Demo 1 — From Scenario Recording to Automated Testing</h3>
-          <p>This demonstration illustrates how TestPilot transforms a recorded business scenario into an executable automated test.</p>
-          <p>It covers:</p>
+          <h3 id="full-demo-title" tabindex="-1">Full Demo — From Recording to Regression Results</h3>
+          <figure class="project-demo">
+            <video controls playsinline preload="none" width="1920" height="1080" poster="assets/img/portfolio/testpilot/full-demo-poster.jpg" aria-labelledby="full-demo-title" aria-describedby="full-demo-caption">
+              <source src="assets/videos/testpilot-full-demo.mp4" type="video/mp4">
+              <p>Your browser does not support embedded video. <a href="assets/videos/testpilot-full-demo.mp4">Watch the full TestPilot demo (MP4)</a>.</p>
+            </video>
+            <figcaption id="full-demo-caption"><strong>Video:</strong> TestPilot Full Workflow — Four Roles, Test Generation, Validation, Regression Execution &amp; CI/CD</figcaption>
+          </figure>
+
+          <h3 id="full-demo-walkthrough" tabindex="-1">Demo Walkthrough</h3>
           <ol class="project-features">
-            <li>Recording browser interactions using the Chrome extension.</li>
-            <li>Processing the recorded actions.</li>
-            <li>Generating the structured Test Model.</li>
-            <li>Generating the Cypress script.</li>
-            <li>Validating the generated script.</li>
+            <li><strong>Administrator dashboard:</strong> Manage users, projects, and test environments.</li>
+            <li><strong>Project assignments:</strong> Assign team members and the available testing environments to a project.</li>
+            <li><strong>Business Analyst dashboard &amp; recording:</strong> Record a successful SauceDemo login scenario using the browser extension.</li>
+            <li><strong>Processed scenario &amp; Test Model:</strong> Review the cleaned scenario and its Test Model, including steps, variables, expected results, and proposed checks, then create a Test Case.</li>
+            <li><strong>QA Engineer dashboard:</strong> Find the recorded scenario awaiting script generation.</li>
+            <li><strong>Script generation, validation &amp; approval:</strong> Generate the Cypress script, validate it against SauceDemo, review the result, and approve the validated version.</li>
+            <li><strong>QA Manager &amp; test management:</strong> Organize Test Cases into Test Plans and execution cycles.</li>
+            <li><strong>Manual execution &amp; report:</strong> Start a cycle manually and inspect its status, execution details, and evidence.</li>
+            <li><strong>GitHub Actions after a push:</strong> Push a change to SauceDemo to trigger a workflow that deploys the updated demo application and requests a TestPilot regression cycle.</li>
+            <li><strong>Results &amp; assistant:</strong> Review results in GitHub and TestPilot, then use the chatbot for source-supported guidance within the user's permissions.</li>
           </ol>
-          <figure class="project-demo">
-            <video controls playsinline preload="none" width="1920" height="1080" poster="assets/img/portfolio/testpilot/record.png" aria-labelledby="scenario-demo-title" aria-describedby="scenario-demo-caption">
-              <source src="assets/videos/testpilot-recorded-scenario.mp4" type="video/mp4">
-              <p>Your browser does not support embedded video. <a href="assets/videos/testpilot-recorded-scenario.mp4">Watch the scenario recording demo (MP4)</a>.</p>
-            </video>
-            <figcaption id="scenario-demo-caption"><strong>Video:</strong> Scenario Recording &amp; AI Generation Demo</figcaption>
-          </figure>
-
-          <h3 id="cicd-demo-title" tabindex="-1">Demo 2 — CI/CD-Triggered Regression Testing</h3>
-          <p>This demonstration showcases TestPilot's integration with <strong>GitHub Actions</strong>.</p>
-          <p>A code change is pushed to the separate SauceDemo application repository, triggering an automated CI/CD workflow.</p>
-          <p>The workflow deploys the updated test application in the controlled demonstration environment, starts a TestPilot regression cycle, and retrieves its execution results.</p>
-          <p>This illustrates how TestPilot can integrate regression testing into a continuous delivery workflow without requiring manual execution of every test campaign.</p>
-          <figure class="project-demo">
-            <video controls playsinline preload="none" width="1920" height="1080" poster="assets/img/portfolio/testpilot/ci-cd-demo-poster.jpg" aria-labelledby="cicd-demo-title" aria-describedby="cicd-demo-caption">
-              <source src="assets/videos/testpilot-ci-cd-demo.mp4" type="video/mp4">
-              <p>Your browser does not support embedded video. <a href="assets/videos/testpilot-ci-cd-demo.mp4">Watch the CI/CD regression testing demo (MP4)</a>.</p>
-            </video>
-            <figcaption id="cicd-demo-caption"><strong>Video:</strong> Automated Regression Testing with GitHub Actions</figcaption>
-          </figure>
 
           <h3 id="demonstration-application-saucedemo" tabindex="-1">Demonstration Application — SauceDemo</h3>
-          <p>Both demonstrations use <strong>SauceDemo</strong>, a publicly available sample e-commerce application developed by <strong>Sauce Labs</strong>.</p>
+          <p>The demonstration uses <strong>SauceDemo</strong>, a publicly available sample e-commerce application developed by <strong>Sauce Labs</strong>.</p>
           <p>SauceDemo was used exclusively as an external application under test and is not part of TestPilot's original development.</p>
           <p><strong>Credits:</strong> <a href="https://www.saucedemo.com/" target="_blank" rel="noopener">SauceDemo — Sauce Labs<span class="visually-hidden"> (opens in a new tab)</span></a></p>
 
           <h2 id="results-achievements" tabindex="-1">Results &amp; Achievements</h2>
-          <p>TestPilot was validated through end-to-end demonstrations covering test generation, script validation, and automated regression execution.</p>
+          <p>The full demonstration brings together TestPilot's core workflow, from project setup and scenario recording to validated tests and regression results.</p>
           <ul class="project-features">
+            <li><strong>Four-role collaboration:</strong> Demonstrated the handoffs between Administrator, Business Analyst, QA Engineer, and QA Manager, from project assignments to regression campaign management.</li>
             <li><strong>End-to-end test generation:</strong> Successfully demonstrated the transformation of recorded browser interactions into structured Test Models and Cypress scripts.</li>
-            <li><strong>Controlled validation:</strong> Implemented automated script validation, evidence-based repair mechanisms, and human approval before official execution.</li>
+            <li><strong>Controlled validation:</strong> Demonstrated automated Cypress script validation, result review, and human approval before official execution.</li>
             <li><strong>Regression execution:</strong> Demonstrated the execution of regression test cycles with recorded results and supporting evidence.</li>
             <li><strong>CI/CD integration:</strong> Connected an application code push to an automated GitHub Actions workflow that triggers a TestPilot regression cycle and retrieves its results.</li>
+            <li><strong>Permission-aware assistance:</strong> Demonstrated source-supported chatbot guidance within the user's access permissions.</li>
           </ul>
-          <p>These demonstrations validate the platform's core workflow, showing how AI-assisted test generation can be integrated with controlled execution and continuous testing.</p>
+          <p>This demonstration shows how AI-assisted test generation connects with role-based collaboration, controlled execution, and continuous testing in a single platform.</p>
 
           <h2 id="key-takeaways" tabindex="-1">Key Takeaways</h2>
           <p>Developing TestPilot gave me hands-on experience in building a complete software engineering solution that combines <strong>full-stack development, agentic AI, browser automation, and DevOps</strong>.</p>
