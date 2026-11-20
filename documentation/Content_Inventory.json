@@ -1137,7 +1137,7 @@
       "language": "en",
       "metadata": {
         "viewport": "width=device-width, initial-scale=1.0",
-        "description": "",
+        "description": "AI applications, web development, e-commerce, machine learning, workflow automation, data dashboards, and project guidance by Farah Sayari.",
         "keywords": ""
       },
       "sections": [
@@ -1152,16 +1152,52 @@
           "text": "Services"
         },
         {
+          "tag": "h2",
+          "text": "Turning Ideas into Intelligent Digital Solutions"
+        },
+        {
           "tag": "p",
-          "text": "Here are the areas where I enjoy building, experimenting, and creating digital solutions."
+          "text": "As an AI Engineer and Data Scientist with a Software Engineering background, I turn ideas into intelligent, practical, and user-friendly digital solutions."
         },
         {
           "tag": "h3",
-          "text": "Data Science & AI"
+          "text": "AI Applications & Intelligent Solutions"
         },
         {
           "tag": "p",
-          "text": "Building intelligent solutions with machine learning, deep learning, data analysis, and AI-powered workflows."
+          "text": "Building conversational assistants, document analysis tools, and personalized recommendations with LLMs, RAG, and AI."
+        },
+        {
+          "tag": "h3",
+          "text": "Data Science & Machine Learning"
+        },
+        {
+          "tag": "p",
+          "text": "Preparing data and building prediction, classification, forecasting, and recommendation models using Machine Learning, Deep Learning, and statistics."
+        },
+        {
+          "tag": "h3",
+          "text": "AI Agents & Workflow Automation"
+        },
+        {
+          "tag": "p",
+          "text": "Automating information retrieval, document processing, and multi-step tasks with AI agents, API-connected assistants, and practical workflows."
+        },
+        {
+          "tag": "h3",
+          "text": "Data Analytics & Interactive Dashboards"
+        },
+        {
+          "tag": "p",
+          "text": "Turning raw data into clear insights and interactive dashboards through data cleaning, exploratory analysis, reporting, and meaningful visualizations."
+        },
+        {
+          "tag": "h3",
+          "text": "AI & Data Project Guidance"
+        },
+        {
+          "tag": "p",
+          "text": "Helping individuals and small businesses explore AI, Data Science, and automation, choose suitable technologies, assess feasibility, and plan practical prototypes."
         },
         {
           "tag": "h3",
@@ -1169,43 +1205,27 @@
         },
         {
           "tag": "p",
-          "text": "Creating practical and user-friendly web applications using modern frontend and backend technologies."
+          "text": "Creating modern, responsive websites and web applications, from portfolios and business sites to online stores, with clean design and reliable functionality."
+        },
+        {
+          "tag": "h2",
+          "text": "Beyond the Code"
+        },
+        {
+          "tag": "p",
+          "text": "I combine analytical thinking, creativity, and thoughtful design to make technology intelligent, approachable, and enjoyable to use."
         },
         {
           "tag": "h3",
-          "text": "AI Agents & Automation"
+          "text": "Have a Project in Mind?"
         },
         {
           "tag": "p",
-          "text": "Designing smart agents, RAG pipelines, and automated workflows that help reduce manual tasks and improve decision-making."
+          "text": "Have a website, AI idea, or data project in mind? I'd love to hear about it."
         },
         {
-          "tag": "h3",
-          "text": "Test Automation & QA"
-        },
-        {
-          "tag": "p",
-          "text": "Working on automated testing workflows, test generation, execution, and reporting to improve software reliability."
-        },
-        {
-          "tag": "h3",
-          "text": "Data Analytics & BI"
-        },
-        {
-          "tag": "p",
-          "text": "Transforming raw data into clear insights using dashboards, reporting tools, statistics, and business intelligence techniques."
-        },
-        {
-          "tag": "h3",
-          "text": "Creative Digital Work"
-        },
-        {
-          "tag": "p",
-          "text": "Exploring digital art, visual design, and friendly UI ideas to make technology feel more human and engaging."
-        },
-        {
-          "tag": "p",
-          "text": "I like combining logic, data, creativity, and usability to build solutions that are both smart and pleasant to use."
+          "tag": "a",
+          "text": "Let's turn your idea into something real!"
         }
       ],
       "navigation": [
@@ -1284,7 +1304,13 @@
         ],
         "credit_links": []
       },
-      "links": [],
+      "links": [
+        [
+          "Let's turn your idea into something real!",
+          "contact.html",
+          ""
+        ]
+      ],
       "images": [],
       "embeds": [],
       "forms": [],
@@ -1329,7 +1355,7 @@
         },
         {
           "region": "main",
-          "text": "Services\n\nHere are the areas where I enjoy building, experimenting, and creating digital solutions.\n\nData Science & AI\n\nBuilding intelligent solutions with machine learning, deep learning, data analysis, and AI-powered workflows.\n\nWeb Development\n\nCreating practical and user-friendly web applications using modern frontend and backend technologies.\n\nAI Agents & Automation\n\nDesigning smart agents, RAG pipelines, and automated workflows that help reduce manual tasks and improve decision-making.\n\nTest Automation & QA\n\nWorking on automated testing workflows, test generation, execution, and reporting to improve software reliability.\n\nData Analytics & BI\n\nTransforming raw data into clear insights using dashboards, reporting tools, statistics, and business intelligence techniques.\n\nCreative Digital Work\n\nExploring digital art, visual design, and friendly UI ideas to make technology feel more human and engaging.\n\nI like combining logic, data, creativity, and usability to build solutions that are both smart and pleasant to use."
+          "text": "Services\nTurning Ideas into Intelligent Digital Solutions\n\nAs an AI Engineer and Data Scientist with a Software Engineering background, I turn ideas into intelligent, practical, and user-friendly digital solutions.\n\nAI Applications & Intelligent Solutions\n\nBuilding conversational assistants, document analysis tools, and personalized recommendations with LLMs, RAG, and AI.\n\nData Science & Machine Learning\n\nPreparing data and building prediction, classification, forecasting, and recommendation models using Machine Learning, Deep Learning, and statistics.\n\nAI Agents & Workflow Automation\n\nAutomating information retrieval, document processing, and multi-step tasks with AI agents, API-connected assistants, and practical workflows.\n\nData Analytics & Interactive Dashboards\n\nTurning raw data into clear insights and interactive dashboards through data cleaning, exploratory analysis, reporting, and meaningful visualizations.\n\nAI & Data Project Guidance\n\nHelping individuals and small businesses explore AI, Data Science, and automation, choose suitable technologies, assess feasibility, and plan practical prototypes.\n\nWeb Development\n\nCreating modern, responsive websites and web applications, from portfolios and business sites to online stores, with clean design and reliable functionality.\n\nBeyond the Code\n\nI combine analytical thinking, creativity, and thoughtful design to make technology intelligent, approachable, and enjoyable to use.\n\nHave a Project in Mind?\n\nHave a website, AI idea, or data project in mind? I'd love to hear about it.\n\nLet's turn your idea into something real!"
         },
         {
           "region": "footer",

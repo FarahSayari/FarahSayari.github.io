@@ -500,7 +500,7 @@ The source has two columns: summary, education, skills, languages, and activitie
 | Source file | services.html |
 | Browser title | Services - Farah Sayari |
 | Language | en |
-| Description meta tag | (empty) |
+| Description meta tag | AI applications, web development, e-commerce, machine learning, workflow automation, data dashboards, and project guidance by Farah Sayari. |
 | Keywords meta tag | (empty) |
 | Main section IDs | services |
 
@@ -508,33 +508,49 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 **Services**
 
-> Here are the areas where I enjoy building, experimenting, and creating digital solutions.
+**Turning Ideas into Intelligent Digital Solutions**
 
-**Data Science & AI**
+> As an AI Engineer and Data Scientist with a Software Engineering background, I turn ideas into intelligent, practical, and user-friendly digital solutions.
 
-> Building intelligent solutions with machine learning, deep learning, data analysis, and AI-powered workflows.
+**AI Applications & Intelligent Solutions**
+
+> Building conversational assistants, document analysis tools, and personalized recommendations with LLMs, RAG, and AI.
+
+**Data Science & Machine Learning**
+
+> Preparing data and building prediction, classification, forecasting, and recommendation models using Machine Learning, Deep Learning, and statistics.
+
+**AI Agents & Workflow Automation**
+
+> Automating information retrieval, document processing, and multi-step tasks with AI agents, API-connected assistants, and practical workflows.
+
+**Data Analytics & Interactive Dashboards**
+
+> Turning raw data into clear insights and interactive dashboards through data cleaning, exploratory analysis, reporting, and meaningful visualizations.
+
+**AI & Data Project Guidance**
+
+> Helping individuals and small businesses explore AI, Data Science, and automation, choose suitable technologies, assess feasibility, and plan practical prototypes.
 
 **Web Development**
 
-> Creating practical and user-friendly web applications using modern frontend and backend technologies.
+> Creating modern, responsive websites and web applications, from portfolios and business sites to online stores, with clean design and reliable functionality.
 
-**AI Agents & Automation**
+**Beyond the Code**
 
-> Designing smart agents, RAG pipelines, and automated workflows that help reduce manual tasks and improve decision-making.
+> I combine analytical thinking, creativity, and thoughtful design to make technology intelligent, approachable, and enjoyable to use.
 
-**Test Automation & QA**
+**Have a Project in Mind?**
 
-> Working on automated testing workflows, test generation, execution, and reporting to improve software reliability.
+> Have a website, AI idea, or data project in mind? I'd love to hear about it.
 
-**Data Analytics & BI**
+> Let's turn your idea into something real!
 
-> Transforming raw data into clear insights using dashboards, reporting tools, statistics, and business intelligence techniques.
+### Main-content links and downloads
 
-**Creative Digital Work**
-
-> Exploring digital art, visual design, and friendly UI ideas to make technology feel more human and engaging.
-
-> I like combining logic, data, creativity, and usability to build solutions that are both smart and pleasant to use.
+| Exact label / accessible label | Exact destination | Download filename |
+| --- | --- | --- |
+| Let's turn your idea into something real! | contact.html | (empty) |
 
 ## 06 · Portfolio
 

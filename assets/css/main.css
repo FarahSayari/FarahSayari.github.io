@@ -1268,6 +1268,42 @@ section,
   fill: #f3268c;
 }
 
+.services .services-intro,
+.services .services-closing {
+  max-width: 900px;
+}
+
+.services .services-closing {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.services .services-contact {
+  margin-top: 36px;
+}
+
+.services .services-contact-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  border-radius: 50px;
+  background: var(--accent-color);
+  color: #123c36;
+  transition: background-color 0.3s;
+}
+
+.services .services-contact-link:hover {
+  background: color-mix(in srgb, var(--accent-color), white 15%);
+}
+
+.services .services-contact-link:focus-visible {
+  outline: 3px solid var(--heading-color);
+  outline-offset: 4px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
