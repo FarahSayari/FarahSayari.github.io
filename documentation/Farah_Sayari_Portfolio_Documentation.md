@@ -452,6 +452,14 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 > 365 Data Science
 
+**Build Chat Applications with OpenAI and LangChain**
+
+> Issued 20 November 2026 · 8 CPE credits
+
+> View credential on 365 Data Science (opens in a new tab)
+
+> 365 Data Science
+
 **AI Agents in Practice**
 
 > Issued 12 November 2026 · 4 CPE credits
@@ -478,6 +486,8 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
+| Enlarge Build Chat Applications with OpenAI and LangChain certificate | assets/certifs/Certificate%20of%20Achievement%20in%20Build%20Chat%20Applications%20with%20OpenAI%20and%20LangChain.jpg | (empty) |
+| View credential on 365 Data Science (opens in a new tab) | https://learn.365datascience.com/c/9aafde9b0f/ | (empty) |
 | Enlarge AI Agents in Practice certificate | assets/certifs/Certificate%20of%20Achievement%20in%20AI%20Agents%20in%20Practice.jpg | (empty) |
 | View credential on 365 Data Science (opens in a new tab) | https://learn.365datascience.com/c/28dd3d2618/ | (empty) |
 | Enlarge AWS Academy Cloud Foundations certificate | assets/certifs/AWS.png | (empty) |
@@ -489,6 +499,7 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
+| assets/certifs/Certificate%20of%20Achievement%20in%20Build%20Chat%20Applications%20with%20OpenAI%20and%20LangChain.jpg | Farah Sayari's certificate of achievement in Build Chat Applications with OpenAI and LangChain from 365 Data Science, issued 20 November 2026 | (empty) |
 | assets/certifs/Certificate%20of%20Achievement%20in%20AI%20Agents%20in%20Practice.jpg | Farah Sayari's certificate of achievement in AI Agents in Practice from 365 Data Science, issued 12 November 2026 | (empty) |
 | assets/certifs/AWS.png | Farah Sayari's AWS Academy Graduate Cloud Foundations training certificate, issued 14 November 2025 after completing 20 course hours | (empty) |
 | assets/certifs/Certificate%20of%20Achievement%20in%20Machine%20Learning%20in%20Python.jpg | Farah Sayari's certificate of achievement in Machine Learning in Python from 365 Data Science, dated 19 November 2024 | (empty) |
@@ -2048,15 +2059,15 @@ The document records the website as it exists. These items are observations for 
 | assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/css/main.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, starter-page.html |
-| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/js/main.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, starter-page.html |
+| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/js/main.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/css/resume.css | resume.html |
 | assets/css/collections.css | certifications.html, digital-gallery.html |
 | assets/css/portfolio.css | portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html |
