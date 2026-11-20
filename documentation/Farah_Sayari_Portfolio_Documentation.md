@@ -1080,7 +1080,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 | Source file | testpilot-details.html |
 | Browser title | TestPilot - Farah Sayari |
 | Language | en |
-| Description meta tag | TestPilot, an AI-assisted test automation platform developed by Farah Sayari during her end-of-studies internship at VERMEG, turns recorded browser interactions into validated Cypress tests. |
+| Description meta tag | TestPilot, an AI-assisted test automation platform developed by Farah Sayari as an end-of-studies project (PFE), turns recorded browser interactions into validated Cypress tests. |
 | Keywords meta tag | (absent) |
 | Main section IDs | portfolio-details |
 
@@ -1092,7 +1092,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > Full-Stack Engineering · Agentic AI · Test Automation · DevOps
 
-> TestPilot is a full-stack, AI-assisted regression testing platform developed during my end-of-studies internship at VERMEG.
+> TestPilot is a full-stack, AI-assisted regression testing platform developed as my end-of-studies project (PFE).
 
 > Previous image
 
@@ -1102,9 +1102,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > • Category: Software Engineering · Agentic AI · Test Automation
 
-> • Project Type: End-of-Studies Internship (PFE)
-
-> • Company: VERMEG
+> • Project Type: End-of-Studies Project (PFE)
 
 > • Role: Full-Stack & AI Software Engineer
 
@@ -1208,7 +1206,7 @@ The project image card contains 2 manually switchable images. Previous/next butt
 
 > The project evolved through successive stages, from the full-stack foundation and browser recording extension to the AI generation pipeline, test management, validation, and CI/CD integration.
 
-> This approach allowed me to continuously test new features, address technical challenges, and refine the platform based on feedback throughout the internship.
+> This approach allowed me to continuously test new features, address technical challenges, and refine the platform based on feedback throughout the project.
 
 **My Contributions**
 
