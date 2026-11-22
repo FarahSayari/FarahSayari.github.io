@@ -1,10 +1,10 @@
 # Farah Sayari
 Portfolio content reference
-20 November 2026 · Africa/Tunis
+22 November 2026 · Africa/Tunis
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-20 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-22 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -248,10 +248,6 @@ The fixed introduction is “I'm a”. The animated span cycles through these ex
 
 > I’m open to junior opportunities in Software Engineering, Data Science, and AI.
 
-### Animated content and alternate states
-
-The 3 profile images alternate in a continuous loop. Current switch interval: 500 ms. Image paths and exact alternate text are in the image inventory below.
-
 ### Main-content links and downloads
 
 | Exact label / accessible label | Exact destination | Download filename |
@@ -264,9 +260,7 @@ The 3 profile images alternate in a continuous loop. Current switch interval: 50
 
 | Image path | Exact alternate text | Role |
 | --- | --- | --- |
-| assets/img/me11.png | Farah Sayari profile photo 1 | (empty) |
-| assets/img/me22.png | Farah Sayari profile photo 2 | (empty) |
-| assets/img/me33.png | Farah Sayari profile photo 3 | (empty) |
+| assets/img/professional%20image.png | Professional portrait of Farah Sayari | (empty) |
 
 ## 03 · Resume
 
@@ -2059,15 +2053,15 @@ The document records the website as it exists. These items are observations for 
 | assets/vendor/glightbox/css/glightbox.min.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/css/main.css | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/vendor/bootstrap/js/bootstrap.bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, starter-page.html |
-| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
-| assets/js/main.js | index.html, about.html, resume.html, certifications.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/php-email-form/validate.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, starter-page.html |
+| assets/vendor/aos/aos.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/waypoints/noframework.waypoints.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/purecounter/purecounter_vanilla.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/swiper/swiper-bundle.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/glightbox/js/glightbox.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/imagesloaded/imagesloaded.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/vendor/isotope-layout/isotope.pkgd.min.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
+| assets/js/main.js | index.html, about.html, resume.html, certifications.html, services.html, portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html, digital-gallery.html, contact.html, starter-page.html |
 | assets/css/resume.css | resume.html |
 | assets/css/collections.css | certifications.html, digital-gallery.html |
 | assets/css/portfolio.css | portfolio.html, portfolio-details.html, pulmotrack-details.html, testpilot-details.html, aura-1-details.html |

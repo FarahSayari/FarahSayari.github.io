@@ -136,23 +136,6 @@
     window.setTimeout(animateTypewriter, 500);
   }
 
-  /**
-   * Alternate the about page photos in a continuous loop.
-   */
-  const aboutImageLoop = document.querySelector('.about-image-loop');
-  if (aboutImageLoop) {
-    const loopImages = aboutImageLoop.querySelectorAll('.about-loop-image');
-    if (loopImages.length > 1) {
-      let activeIndex = 0;
-
-      window.setInterval(() => {
-        loopImages[activeIndex].classList.remove('is-visible');
-        activeIndex = (activeIndex + 1) % loopImages.length;
-        loopImages[activeIndex].classList.add('is-visible');
-      }, 500);
-    }
-  }
-
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);
 
