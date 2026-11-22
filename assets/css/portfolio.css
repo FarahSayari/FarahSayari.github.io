@@ -1,4 +1,75 @@
 /* The portfolio grid uses the original Kelly styles from main.css. */
+.portfolio-page .project-status-card {
+  display: block;
+  color: inherit;
+}
+
+.portfolio-page .project-status-card:focus-visible {
+  outline-offset: -3px;
+}
+
+.project-coming-soon-modal .modal-content {
+  border: 0;
+  border-radius: 16px;
+  background: var(--surface-color);
+  box-shadow: 0 18px 60px rgb(0 0 0 / 18%);
+}
+
+.project-coming-soon-modal .btn-close {
+  display: grid;
+  place-items: center;
+  background: none;
+  color: var(--heading-color);
+}
+
+.project-coming-soon-modal .btn-close:focus-visible {
+  box-shadow: none;
+  outline: 2px solid var(--heading-color);
+  outline-offset: 2px;
+}
+
+.project-coming-soon-modal .project-status-icon {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  color: #207c71;
+  font-size: 28px;
+}
+
+.project-coming-soon-modal .project-status-label {
+  margin-bottom: 8px;
+  color: #207c71;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project-coming-soon-modal .modal-body > p:last-of-type {
+  line-height: 1.8;
+}
+
+.project-coming-soon-modal .project-status-dismiss {
+  margin-top: 8px;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 50px;
+  background: var(--accent-color);
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+.project-coming-soon-modal .project-status-dismiss:hover {
+  background: color-mix(in srgb, var(--accent-color), white 15%);
+}
+
+.project-coming-soon-modal .project-status-dismiss:focus-visible {
+  outline: 2px solid var(--heading-color);
+  outline-offset: 4px;
+}
+
 .portfolio-details-page .project-back {
   display: inline-flex;
   align-items: center;

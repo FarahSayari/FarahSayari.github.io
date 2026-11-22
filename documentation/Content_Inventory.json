@@ -93,7 +93,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -110,7 +110,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -240,7 +240,7 @@
         },
         {
           "tag": "li",
-          "text": "Linkedin: linkedin.com/in/farah-sayari-060745248"
+          "text": "Linkedin: linkedin.com/in/farah-sayari"
         },
         {
           "tag": "li",
@@ -313,7 +313,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -330,7 +330,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -342,8 +342,8 @@
           ""
         ],
         [
-          "linkedin.com/in/farah-sayari-060745248",
-          "https://www.linkedin.com/in/farah-sayari-060745248",
+          "linkedin.com/in/farah-sayari",
+          "https://www.linkedin.com/in/farah-sayari/",
           ""
         ],
         [
@@ -402,7 +402,7 @@
         },
         {
           "region": "main",
-          "text": "About\n\nGet to know me, my background, and the kind of digital solutions I enjoy building.\n\nJunior Software Engineer specialized in Data Science\n\nHi, I’m Farah Sayari. I’m a Software Engineer specialized in Data Science, a book lover, and a creative soul with a passion for digital art.\n\nI build smart, practical, and user-friendly solutions using AI, Machine Learning, Deep Learning, automation, and full-stack development. Logic helps me build. Imagination helps me create.\n\nEmail:\nfarahsayari.dev@gmail.com\nPhone:\n+216 28528390\nLinkedin:\nlinkedin.com/in/farah-sayari-060745248\nDegree:\nSoftware Engineering – Data Science\nGithub:\ngithub.com/FarahSayari\nFreelance:\nOpen to opportunities\n\nI’m open to junior opportunities in Software Engineering, Data Science, and AI."
+          "text": "About\n\nGet to know me, my background, and the kind of digital solutions I enjoy building.\n\nJunior Software Engineer specialized in Data Science\n\nHi, I’m Farah Sayari. I’m a Software Engineer specialized in Data Science, a book lover, and a creative soul with a passion for digital art.\n\nI build smart, practical, and user-friendly solutions using AI, Machine Learning, Deep Learning, automation, and full-stack development. Logic helps me build. Imagination helps me create.\n\nEmail:\nfarahsayari.dev@gmail.com\nPhone:\n+216 28528390\nLinkedin:\nlinkedin.com/in/farah-sayari\nDegree:\nSoftware Engineering – Data Science\nGithub:\ngithub.com/FarahSayari\nFreelance:\nOpen to opportunities\n\nI’m open to junior opportunities in Software Engineering, Data Science, and AI."
         },
         {
           "region": "footer",
@@ -760,7 +760,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -777,7 +777,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -805,7 +805,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248",
+          "https://www.linkedin.com/in/farah-sayari/",
           ""
         ]
       ],
@@ -1005,7 +1005,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -1022,7 +1022,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -1294,7 +1294,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -1311,7 +1311,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -1411,20 +1411,12 @@
           "text": "Web"
         },
         {
-          "tag": "h4",
-          "text": "LollyBooks"
+          "tag": "a",
+          "text": "LollyBooks Personalized Digital Library & AI Reading Companion"
         },
         {
-          "tag": "p",
-          "text": "Personalized Digital Library & AI Reading Companion"
-        },
-        {
-          "tag": "h4",
-          "text": "Aura 2.0"
-        },
-        {
-          "tag": "p",
-          "text": "Agentic AI Career Assistant"
+          "tag": "a",
+          "text": "Aura 2.0 Agentic AI Career Assistant"
         },
         {
           "tag": "h4",
@@ -1457,6 +1449,38 @@
         {
           "tag": "p",
           "text": "Clustering Algorithms for Heterogeneous Student Groups"
+        },
+        {
+          "tag": "p",
+          "text": "Coming Soon"
+        },
+        {
+          "tag": "h2",
+          "text": "LollyBooks"
+        },
+        {
+          "tag": "p",
+          "text": "This project is currently in development. The first version will be available soon. Thank you for your interest!"
+        },
+        {
+          "tag": "button",
+          "text": "Back to portfolio"
+        },
+        {
+          "tag": "p",
+          "text": "Coming Soon"
+        },
+        {
+          "tag": "h2",
+          "text": "Aura 2.0"
+        },
+        {
+          "tag": "p",
+          "text": "This project is currently in development. The first version will be available soon. Thank you for your interest!"
+        },
+        {
+          "tag": "button",
+          "text": "Back to portfolio"
         }
       ],
       "navigation": [
@@ -1513,7 +1537,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -1530,25 +1554,20 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
       },
       "links": [
         [
-          "Preview LollyBooks artwork",
-          "assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png",
+          "LollyBooks Personalized Digital Library & AI Reading Companion",
+          "#lollybooks-coming-soon",
           ""
         ],
         [
-          "LollyBooks project details",
-          "portfolio-details.html",
-          ""
-        ],
-        [
-          "Preview Aura 2.0 artwork",
-          "assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png",
+          "Aura 2.0 Agentic AI Career Assistant",
+          "#aura-2-coming-soon",
           ""
         ],
         [
@@ -1622,12 +1641,8 @@
           ],
           "links": [
             [
-              "Preview LollyBooks artwork",
-              "assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png"
-            ],
-            [
-              "LollyBooks project details",
-              "portfolio-details.html"
+              "LollyBooks Personalized Digital Library & AI Reading Companion",
+              "#lollybooks-coming-soon"
             ]
           ],
           "image": "assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png"
@@ -1640,8 +1655,8 @@
           ],
           "links": [
             [
-              "Preview Aura 2.0 artwork",
-              "assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png"
+              "Aura 2.0 Agentic AI Career Assistant",
+              "#aura-2-coming-soon"
             ]
           ],
           "image": "assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png"
@@ -1921,7 +1936,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -1938,7 +1953,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -2689,7 +2704,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -2706,7 +2721,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -3767,7 +3782,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -3784,7 +3799,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -4686,7 +4701,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -4703,7 +4718,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -5022,7 +5037,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -5039,7 +5054,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -5249,7 +5264,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -5266,7 +5281,7 @@
           ],
           [
             "LinkedIn",
-            "https://www.linkedin.com/in/farah-sayari-060745248"
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []
@@ -5289,7 +5304,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248",
+          "https://www.linkedin.com/in/farah-sayari/",
           ""
         ],
         [
@@ -5505,7 +5520,7 @@
         ],
         [
           "LinkedIn",
-          "https://www.linkedin.com/in/farah-sayari-060745248"
+          "https://www.linkedin.com/in/farah-sayari/"
         ]
       ],
       "footer": {
@@ -5525,8 +5540,8 @@
             ""
           ],
           [
-            "Icon: bi bi-linkedin",
-            ""
+            "LinkedIn",
+            "https://www.linkedin.com/in/farah-sayari/"
           ]
         ],
         "credit_links": []

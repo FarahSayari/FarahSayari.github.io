@@ -103,7 +103,7 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | --- | --- |
 | GitHub | https://github.com/FarahSayari |
 | Email | mailto:farahsayari.dev@gmail.com |
-| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
+| LinkedIn | https://www.linkedin.com/in/farah-sayari/ |
 
 ### Footer F1
 
@@ -115,7 +115,7 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | --- | --- |
 | GitHub | https://github.com/FarahSayari |
 | Email | mailto:farah.sayari@esprit.tn |
-| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
+| LinkedIn | https://www.linkedin.com/in/farah-sayari/ |
 
 ### Footer F2
 
@@ -127,7 +127,7 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | --- | --- |
 | GitHub | https://github.com/FarahSayari |
 | Email | mailto:farahsayari.dev@gmail.com |
-| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 |
+| LinkedIn | https://www.linkedin.com/in/farah-sayari/ |
 
 ### Footer F3
 
@@ -140,7 +140,7 @@ Use the table below with the exact variants that follow. Each page’s visible b
 | Icon: bi bi-twitter-x | (empty) |
 | Icon: bi bi-facebook | (empty) |
 | Icon: bi bi-instagram | (empty) |
-| Icon: bi bi-linkedin | (empty) |
+| LinkedIn | https://www.linkedin.com/in/farah-sayari/ |
 
 An empty destination is shown as “(empty)”; a destination of # is a fragment placeholder. The starter template contains a malformed ThemeWagon anchor in its source. Its browser-parsed label and destination above are recorded as they currently resolve.
 
@@ -238,7 +238,7 @@ The fixed introduction is “I'm a”. The animated span cycles through these ex
 
 > • Phone: +216 28528390
 
-> • Linkedin: linkedin.com/in/farah-sayari-060745248
+> • Linkedin: linkedin.com/in/farah-sayari
 
 > • Degree: Software Engineering – Data Science
 
@@ -253,7 +253,7 @@ The fixed introduction is “I'm a”. The animated span cycles through these ex
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
 | farahsayari.dev@gmail.com | mailto:farahsayari.dev@gmail.com | (empty) |
-| linkedin.com/in/farah-sayari-060745248 | https://www.linkedin.com/in/farah-sayari-060745248 | (empty) |
+| linkedin.com/in/farah-sayari | https://www.linkedin.com/in/farah-sayari/ | (empty) |
 | github.com/FarahSayari | https://github.com/FarahSayari | (empty) |
 
 ### Main-content images
@@ -425,7 +425,7 @@ The source has two columns: summary, education, skills, languages, and activitie
 | +216 28 528 390 | tel:+21628528390 | (empty) |
 | farahsayari.dev@gmail.com | mailto:farahsayari.dev@gmail.com | (empty) |
 | GitHub | https://github.com/FarahSayari | (empty) |
-| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 | (empty) |
+| LinkedIn | https://www.linkedin.com/in/farah-sayari/ | (empty) |
 
 ## 04 · Certifications
 
@@ -582,13 +582,9 @@ The portfolio uses a masonry grid with project labels in hover overlays. The ima
 
 > • Web
 
-**LollyBooks**
+> LollyBooks Personalized Digital Library & AI Reading Companion
 
-> Personalized Digital Library & AI Reading Companion
-
-**Aura 2.0**
-
-> Agentic AI Career Assistant
+> Aura 2.0 Agentic AI Career Assistant
 
 **TestPilot**
 
@@ -606,11 +602,27 @@ The portfolio uses a masonry grid with project labels in hover overlays. The ima
 
 > Clustering Algorithms for Heterogeneous Student Groups
 
+> Coming Soon
+
+**LollyBooks**
+
+> This project is currently in development. The first version will be available soon. Thank you for your interest!
+
+> Back to portfolio
+
+> Coming Soon
+
+**Aura 2.0**
+
+> This project is currently in development. The first version will be available soon. Thank you for your interest!
+
+> Back to portfolio
+
 ### Project entries and filter membership
 
 | Project | Description | Filters | Detail destination |
 | --- | --- | --- | --- |
-| LollyBooks | Personalized Digital Library & AI Reading Companion | App, Web | portfolio-details.html |
+| LollyBooks | Personalized Digital Library & AI Reading Companion | App, Web | (none) |
 | Aura 2.0 | Agentic AI Career Assistant | App | (none) |
 | TestPilot | AI-Assisted Test Automation Platform | App | testpilot-details.html |
 | PulmoTrack | AI-Powered Pulmonary Nodule Analysis | Web | pulmotrack-details.html |
@@ -623,9 +635,8 @@ The default filter is All. Filter membership and every existing detail destinati
 
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
-| Preview LollyBooks artwork | assets/img/portfolio/lollybooks/LollyBooks Neon Reading Companion.png | (empty) |
-| LollyBooks project details | portfolio-details.html | (empty) |
-| Preview Aura 2.0 artwork | assets/img/portfolio/aura%202.0/Aura%202.0%20Career%20Assistant%20Banner.png | (empty) |
+| LollyBooks Personalized Digital Library & AI Reading Companion | #lollybooks-coming-soon | (empty) |
+| Aura 2.0 Agentic AI Career Assistant | #aura-2-coming-soon | (empty) |
 | TestPilot project details | testpilot-details.html | (empty) |
 | PulmoTrack project details | pulmotrack-details.html | (empty) |
 | Preview Aura 1.0 artwork | assets/img/portfolio/aura%201.0/Aura%201.0%20AI%20Recruiter%20Agent.png | (empty) |
@@ -1913,7 +1924,7 @@ The project image card contains 4 manually switchable images. Previous/next butt
 | farahsayari.dev@gmail.com | mailto:farahsayari.dev@gmail.com | (empty) |
 | +216 28528390 | tel:+21628528390 | (empty) |
 | GitHub | https://github.com/FarahSayari | (empty) |
-| LinkedIn | https://www.linkedin.com/in/farah-sayari-060745248 | (empty) |
+| LinkedIn | https://www.linkedin.com/in/farah-sayari/ | (empty) |
 | farahsayari.dev@gmail.com | mailto:farahsayari.dev@gmail.com | (empty) |
 
 ### Embedded content
