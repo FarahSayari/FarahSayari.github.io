@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-22",
+  "snapshot_date": "2026-11-25",
   "algorithm": "SHA-256",
   "files": {
     ".github/workflows/deploy-pages.yml": "45622b42814f0c00195197f4fca8e2b8480cce9461256f0eaaa09609ddc8bcbb",
@@ -12,7 +12,7 @@
     "assets/css/main.css": "fa99896541475d372e8c2a706daa233ed5b860c4009c267ab575b8852125e0c7",
     "assets/css/portfolio.css": "b87b638b12d2504a96a0b00f1dd98f83cc79d31dde4ecafce5ff8d2f74ce22c8",
     "assets/css/resume.css": "df331c4c4562c1c8b5b0f61d176d24fc4ea0abc53649d70163c341f444024707",
-    "assets/docs/Farah_Sayari_CV2026.pdf": "37299d9b34b1c8ad1d8c5c28a4f56e35195c99d933d7dc446adc60e539021ca2",
+    "assets/docs/Farah_Sayari_CV2026.pdf": "3ac99f3a801c72d61a82e1458470d1d92682159b6f26fc2a593d911f4932c261",
     "assets/docs/PulmoTrackPaper.pdf": "a819b151f81c87a21a2d7bd49a01a9cb335d3f1ec2d7fdd6a0eb407b3cd8e07e",
     "assets/img/apple-touch-icon.png": "b2156d87c51068306f9258d9501c6769148f070b5581113a8dff14cfffa2eeb4",
     "assets/img/favicon.png": "de9aec12f7077e8cc2b9222ffcc3d466f4795e50bbe8ea50eb130d3756afa1b7",
@@ -77,7 +77,7 @@
     "portfolio.html": "ec9605ac16ad7b45993c1c51e9a15fd4a700459e9566fa0d96435218ec0e3e8e",
     "pulmotrack-details.html": "8bc2002b3ab25a281b10fc87edaec2eb2b94e56721b3091c3d7f0b1111108906",
     "Readme.txt": "4959a705338f8cc71fd15ed88eb8aa4a98e63671a17486457ef4a6b22e585115",
-    "resume.html": "c9585d356bea4c2a3b28e0782f369b12466cd54859dab4f72156307ab7200c05",
+    "resume.html": "94341e3a794b33e1033bcae9492fece91a80cb25f83db986fbc822fe319c3975",
     "services.html": "4fd60753c064ab77fdee966ce2857467c4674b4eda5074af6af42cfbd69da92f",
     "starter-page.html": "73d1dd1217862e772dd768b97705a454ae787e976ed379a010ad651b80962de2",
     "testpilot-details.html": "5ce3293287839be6561f24662dd5b62a5b76172083db96c80e3c979dce359084"

@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-22",
+  "snapshot_date": "2026-11-25",
   "timezone": "Africa/Tunis",
   "pages": [
     {
@@ -655,11 +655,11 @@
         },
         {
           "tag": "p",
-          "text": "Oct – Present · Ongoing"
+          "text": "Oct 2026 – Present"
         },
         {
           "tag": "p",
-          "text": "Co-Founder & Software Engineer"
+          "text": "AI & Software Engineer · Ongoing Project"
         },
         {
           "tag": "p",
@@ -667,15 +667,15 @@
         },
         {
           "tag": "li",
-          "text": "Co-designed and developed an interactive digital library featuring customizable bookshelves, reading analytics, and goal tracking."
+          "text": "Co-designed and developed an interactive digital library with customizable bookshelves, reading analytics, and goal tracking, enabling users to organize collections and monitor reading progress."
         },
         {
           "tag": "li",
-          "text": "Integrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports."
+          "text": "Integrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports, reducing manual data entry."
         },
         {
           "tag": "li",
-          "text": "Prototyped recommendations based on reading preferences and mood, and designed an LLM-powered reading companion for conversational book discovery."
+          "text": "Prototyped a personalized book recommendation system using reading preferences and mood to suggest relevant books, and designed an LLM-powered reading companion to enable future conversational book discovery."
         },
         {
           "tag": "h4",
@@ -683,11 +683,11 @@
         },
         {
           "tag": "p",
-          "text": "Oct – Present · Ongoing"
+          "text": "Oct 2026 – Present"
         },
         {
           "tag": "p",
-          "text": "AI & Software Engineer"
+          "text": "AI Engineer · Ongoing Project"
         },
         {
           "tag": "p",
@@ -695,15 +695,15 @@
         },
         {
           "tag": "li",
-          "text": "Redesigning a local, agentic AI assistant to automate job discovery and match job descriptions with personal skills and experience."
+          "text": "Developed an agentic career assistant using Python, LangGraph, and OpenAI to streamline job searching through personalized CV analysis, job matching, and career recommendations."
         },
         {
           "tag": "li",
-          "text": "Developing an LLM-powered application assistant to generate tailored cover letters, analyze CV compatibility, and recommend targeted resume improvements."
+          "text": "Implemented a ReAct-based agent architecture with specialized tools for CV extraction and job posting analysis, enabling dynamic tool selection and evidence-based skill gap assessments."
         },
         {
           "tag": "li",
-          "text": "Adapting RAG, semantic search, and agent orchestration using LangChain, LangGraph, and Qdrant to support personalized job search and application workflows."
+          "text": "Integrated LangSmith observability to trace agent workflows, monitor tool execution, and evaluate response quality, improving the visibility and debugging of agent behavior."
         }
       ],
       "navigation": [
@@ -785,7 +785,7 @@
       "links": [
         [
           "Download CV (PDF)",
-          "assets/docs/Farah_Sayari_CV2026.pdf",
+          "assets/docs/Farah_Sayari_CV2026.pdf?v=20261125",
           "Farah_Sayari_CV2026.pdf"
         ],
         [
@@ -854,7 +854,7 @@
         },
         {
           "region": "main",
-          "text": "Resume\n\nAI & Software Engineer specializing in Data Science, agentic AI, and full-stack development.\n\nDownload CV (PDF)\nSummary\nFarah Sayari\n\nSoftware Engineer specializing in Data Science, with hands-on experience in Machine Learning, Deep Learning, agentic AI, and full-stack development. I build intelligent, data-driven applications and am seeking a full-time opportunity in AI, Data Science, or Software Engineering.\n\nAriana, Tunisia\n+216 28 528 390\nfarahsayari.dev@gmail.com\nGitHub · LinkedIn\nEducation\nEngineering Cycle in Computer Science – Data Science\n\nSep 2023 – Nov 2026\n\nESPRIT – Private Higher School of Engineering and Technology\n\nBachelor’s Degree in Computer Systems Engineering – Embedded Systems & IoT\n\nSep 2020 – Jun 2023\n\nFaculty of Sciences of Bizerte\n\nTechnical Skills\nProgramming\nPython, Java, JavaScript, R, C\nAI & Machine Learning\nScikit-learn, TensorFlow, Keras, PyTorch, MLflow, Deep Learning, NLP, Recommendation Systems\nGenerative AI & Agents\nLLMs, RAG, LangChain, LangGraph, Qdrant, Ollama, Prompt Engineering\nBackend & Frontend\nSpring Boot, FastAPI, Flask, Angular, React, REST APIs\nData Engineering & Analytics\nSQL, PostgreSQL, Hadoop, Talend, Data Warehousing, Power BI, Time Series Analysis\nDevOps & Tools\nGit, Docker, GitHub Actions, Jenkins, Linux, Cypress, Kubernetes\nLanguages\nArabic\nNative\nFrench\nC2\nEnglish\nC1\nActivities & Awards\nIEEE Computational Intelligence Society (CIS) — ESPRIT Chapter, 2025.\nBal des Projets — ESPRIT (2024 & 2025) — Academic projects pre-selected for both editions.\nIEEEXtreme 17.0 & 18.0 — Participant.\nUniversity English Competition (2024) — 3rd Place.\n\nInterests: Reading & Literature, Digital Art & Illustration.\n\nProfessional Experience\nAI & Full-Stack Software Engineer Intern\n\nFeb – Aug 2026\n\nVERMEG · PFE Internship\n\nTestPilot — AI-Assisted Test Automation Platform\n\nDesigned and developed a full-stack test automation platform using Angular, Spring Boot, FastAPI, and PostgreSQL, enabling QA teams to manage, generate, and execute automated tests.\nEngineered a hybrid agentic AI pipeline using Python, LangGraph, and LLMs to transform recorded user interactions into structured test models and executable Cypress scripts.\nDeveloped a Chrome extension (Manifest V3) to capture browser interactions and implemented LLM-assisted script repair with validation and controlled retries.\nIntegrated Cypress test execution, automated reporting, GitHub Actions CI/CD, and Docker to support continuous testing and deployment.\nData Scientist Intern\n\nJul – Aug 2025\n\nEsprit-Tech · Summer Internship\n\nClustering Algorithms for Heterogeneous Student Groups\n\nImplemented and compared multiple clustering algorithms, achieving a 0.72 Silhouette Score, and built an interactive Streamlit dashboard to visualize and evaluate results.\nDeveloped an automated group formation pipeline integrated into the backend, supporting teachers in forming balanced and diverse student teams.\nProjects\nLollyBooks\n\nOct – Present · Ongoing\n\nCo-Founder & Software Engineer\n\nPersonalized Digital Library & AI Reading Companion\n\nCo-designed and developed an interactive digital library featuring customizable bookshelves, reading analytics, and goal tracking.\nIntegrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports.\nPrototyped recommendations based on reading preferences and mood, and designed an LLM-powered reading companion for conversational book discovery.\nAura\n\nOct – Present · Ongoing\n\nAI & Software Engineer\n\nAgentic AI Career Assistant\n\nRedesigning a local, agentic AI assistant to automate job discovery and match job descriptions with personal skills and experience.\nDeveloping an LLM-powered application assistant to generate tailored cover letters, analyze CV compatibility, and recommend targeted resume improvements.\nAdapting RAG, semantic search, and agent orchestration using LangChain, LangGraph, and Qdrant to support personalized job search and application workflows."
+          "text": "Resume\n\nAI & Software Engineer specializing in Data Science, agentic AI, and full-stack development.\n\nDownload CV (PDF)\nSummary\nFarah Sayari\n\nSoftware Engineer specializing in Data Science, with hands-on experience in Machine Learning, Deep Learning, agentic AI, and full-stack development. I build intelligent, data-driven applications and am seeking a full-time opportunity in AI, Data Science, or Software Engineering.\n\nAriana, Tunisia\n+216 28 528 390\nfarahsayari.dev@gmail.com\nGitHub · LinkedIn\nEducation\nEngineering Cycle in Computer Science – Data Science\n\nSep 2023 – Nov 2026\n\nESPRIT – Private Higher School of Engineering and Technology\n\nBachelor’s Degree in Computer Systems Engineering – Embedded Systems & IoT\n\nSep 2020 – Jun 2023\n\nFaculty of Sciences of Bizerte\n\nTechnical Skills\nProgramming\nPython, Java, JavaScript, R, C\nAI & Machine Learning\nScikit-learn, TensorFlow, Keras, PyTorch, MLflow, Deep Learning, NLP, Recommendation Systems\nGenerative AI & Agents\nLLMs, RAG, LangChain, LangGraph, Qdrant, Ollama, Prompt Engineering\nBackend & Frontend\nSpring Boot, FastAPI, Flask, Angular, React, REST APIs\nData Engineering & Analytics\nSQL, PostgreSQL, Hadoop, Talend, Data Warehousing, Power BI, Time Series Analysis\nDevOps & Tools\nGit, Docker, GitHub Actions, Jenkins, Linux, Cypress, Kubernetes\nLanguages\nArabic\nNative\nFrench\nC2\nEnglish\nC1\nActivities & Awards\nIEEE Computational Intelligence Society (CIS) — ESPRIT Chapter, 2025.\nBal des Projets — ESPRIT (2024 & 2025) — Academic projects pre-selected for both editions.\nIEEEXtreme 17.0 & 18.0 — Participant.\nUniversity English Competition (2024) — 3rd Place.\n\nInterests: Reading & Literature, Digital Art & Illustration.\n\nProfessional Experience\nAI & Full-Stack Software Engineer Intern\n\nFeb – Aug 2026\n\nVERMEG · PFE Internship\n\nTestPilot — AI-Assisted Test Automation Platform\n\nDesigned and developed a full-stack test automation platform using Angular, Spring Boot, FastAPI, and PostgreSQL, enabling QA teams to manage, generate, and execute automated tests.\nEngineered a hybrid agentic AI pipeline using Python, LangGraph, and LLMs to transform recorded user interactions into structured test models and executable Cypress scripts.\nDeveloped a Chrome extension (Manifest V3) to capture browser interactions and implemented LLM-assisted script repair with validation and controlled retries.\nIntegrated Cypress test execution, automated reporting, GitHub Actions CI/CD, and Docker to support continuous testing and deployment.\nData Scientist Intern\n\nJul – Aug 2025\n\nEsprit-Tech · Summer Internship\n\nClustering Algorithms for Heterogeneous Student Groups\n\nImplemented and compared multiple clustering algorithms, achieving a 0.72 Silhouette Score, and built an interactive Streamlit dashboard to visualize and evaluate results.\nDeveloped an automated group formation pipeline integrated into the backend, supporting teachers in forming balanced and diverse student teams.\nProjects\nLollyBooks\n\nOct 2026 – Present\n\nAI & Software Engineer · Ongoing Project\n\nPersonalized Digital Library & AI Reading Companion\n\nCo-designed and developed an interactive digital library with customizable bookshelves, reading analytics, and goal tracking, enabling users to organize collections and monitor reading progress.\nIntegrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports, reducing manual data entry.\nPrototyped a personalized book recommendation system using reading preferences and mood to suggest relevant books, and designed an LLM-powered reading companion to enable future conversational book discovery.\nAura\n\nOct 2026 – Present\n\nAI Engineer · Ongoing Project\n\nAgentic AI Career Assistant\n\nDeveloped an agentic career assistant using Python, LangGraph, and OpenAI to streamline job searching through personalized CV analysis, job matching, and career recommendations.\nImplemented a ReAct-based agent architecture with specialized tools for CV extraction and job posting analysis, enabling dynamic tool selection and evidence-based skill gap assessments.\nIntegrated LangSmith observability to trace agent workflows, monitor tool execution, and evaluate response quality, improving the visibility and debugging of agent behavior."
         },
         {
           "region": "footer",

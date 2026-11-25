@@ -1,10 +1,10 @@
 # Farah Sayari
 Portfolio content reference
-22 November 2026 · Africa/Tunis
+25 November 2026 · Africa/Tunis
 
 An exact content record of the local portfolio: every HTML page, its text, navigation, project entries, links, images, form fields, and dynamic text states.
 
-Snapshot: 2026-11-22 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
+Snapshot: 2026-11-25 · Africa/Tunis · 13 HTML pages. The source files are the authority for this record.
 
 ## Document guide
 
@@ -391,37 +391,37 @@ The source has two columns: summary, education, skills, languages, and activitie
 
 **LollyBooks**
 
-> Oct – Present · Ongoing
+> Oct 2026 – Present
 
-> Co-Founder & Software Engineer
+> AI & Software Engineer · Ongoing Project
 
 > Personalized Digital Library & AI Reading Companion
 
-> • Co-designed and developed an interactive digital library featuring customizable bookshelves, reading analytics, and goal tracking.
+> • Co-designed and developed an interactive digital library with customizable bookshelves, reading analytics, and goal tracking, enabling users to organize collections and monitor reading progress.
 
-> • Integrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports.
+> • Integrated the Open Library REST API and Goodreads CSV processing to automate book metadata retrieval and reading history imports, reducing manual data entry.
 
-> • Prototyped recommendations based on reading preferences and mood, and designed an LLM-powered reading companion for conversational book discovery.
+> • Prototyped a personalized book recommendation system using reading preferences and mood to suggest relevant books, and designed an LLM-powered reading companion to enable future conversational book discovery.
 
 **Aura**
 
-> Oct – Present · Ongoing
+> Oct 2026 – Present
 
-> AI & Software Engineer
+> AI Engineer · Ongoing Project
 
 > Agentic AI Career Assistant
 
-> • Redesigning a local, agentic AI assistant to automate job discovery and match job descriptions with personal skills and experience.
+> • Developed an agentic career assistant using Python, LangGraph, and OpenAI to streamline job searching through personalized CV analysis, job matching, and career recommendations.
 
-> • Developing an LLM-powered application assistant to generate tailored cover letters, analyze CV compatibility, and recommend targeted resume improvements.
+> • Implemented a ReAct-based agent architecture with specialized tools for CV extraction and job posting analysis, enabling dynamic tool selection and evidence-based skill gap assessments.
 
-> • Adapting RAG, semantic search, and agent orchestration using LangChain, LangGraph, and Qdrant to support personalized job search and application workflows.
+> • Integrated LangSmith observability to trace agent workflows, monitor tool execution, and evaluate response quality, improving the visibility and debugging of agent behavior.
 
 ### Main-content links and downloads
 
 | Exact label / accessible label | Exact destination | Download filename |
 | --- | --- | --- |
-| Download CV (PDF) | assets/docs/Farah_Sayari_CV2026.pdf | Farah_Sayari_CV2026.pdf |
+| Download CV (PDF) | assets/docs/Farah_Sayari_CV2026.pdf?v=20261125 | Farah_Sayari_CV2026.pdf |
 | +216 28 528 390 | tel:+21628528390 | (empty) |
 | farahsayari.dev@gmail.com | mailto:farahsayari.dev@gmail.com | (empty) |
 | GitHub | https://github.com/FarahSayari | (empty) |
